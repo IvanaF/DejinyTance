@@ -75,6 +75,11 @@
         "correct": 1
       }
     ]
-  }
+  },
+  "mindmap": {
+    "description": "Myšlenková mapa zobrazuje klíčové pojmy a souvislosti týkající se historie tance.",
+    "image": "assets/images/mindmaps/T01.png"
+  },
+  "summary": "Toto téma představuje základní koncepty a původ tance napříč historií. Rané formy tance sloužily různým účelům: komunikaci, oslavám, náboženským obřadům a sociálnímu spojení. Různé kultury rozvinuly jedinečné styly, které odrážely jejich hodnoty a tradice."
 }
 

@@ -1,67 +1,67 @@
-# Dance History Study Platform
+# Studijní platforma - Dějiny tance a baletu
 
-A modern, responsive self-study platform for learning dance history. Built as a static website with client-side functionality.
+Moderní, responzivní samostudijní platforma pro výuku dějin tance a baletu. Postavena jako statická webová stránka s funkcionalitou na straně klienta.
 
-## Project Structure
+## Struktura projektu
 
 ```
 /
-├── index.html                 # Topics overview/index page
-├── topic.html                 # Topic detail page template
+├── index.html                 # Přehledová/indexová stránka témat
+├── topic.html                 # Šablona stránky detailu tématu
 ├── assets/
-│   ├── audio/                 # Audio files (placeholder for now)
-│   ├── images/                # Images (if needed)
+│   ├── audio/                 # Audio soubory (zatím placeholdery)
+│   ├── images/                # Obrázky
 │   └── styles/
-│       ├── design-tokens.css  # CSS variables (colors, spacing, typography)
-│       ├── base.css           # Base/reset styles
-│       ├── layout.css         # Layout components (sidebar, main content)
-│       └── components.css     # UI components (topic cards, flashcards, etc.)
+│       ├── design-tokens.css  # CSS proměnné (barvy, mezery, typografie)
+│       ├── base.css           # Základní/resetové styly
+│       ├── layout.css         # Layout komponenty (sidebar, hlavní obsah)
+│       └── components.css     # UI komponenty (karty témat, flashcards, atd.)
 ├── data/
 │   └── topics/
-│       ├── _TEMPLATE.json    # Template for new topics
-│       ├── T01.json          # Individual topic files
+│       ├── _TEMPLATE.json    # Šablona pro nová témata
+│       ├── T01.json          # Soubory jednotlivých témat
 │       ├── T02.json
-│       └── ...                # More topics to be added
+│       └── ...                # Více témat k přidání
 ├── docs/
-│   └── SCALING_GUIDE.md      # Guide for adding new topics
+│   └── SCALING_GUIDE.md      # Průvodce přidáváním nových témat
 ├── scripts/
-│   ├── topic-loader.js        # Handles loading topic data
-│   ├── progress.js            # Progress tracking (abstracted storage)
-│   ├── flashcards.js          # Flashcard interactions
-│   └── app.js                 # Main application logic
-└── README.md                  # This file
+│   ├── topic-loader.js        # Načítání dat témat
+│   ├── progress.js            # Sledování pokroku (abstrahované úložiště)
+│   ├── flashcards.js          # Interakce s flashcards
+│   └── app.js                 # Hlavní aplikační logika
+└── README.md                  # Tento soubor
 ```
 
-## How to Run Locally
+## Jak spustit lokálně
 
-### Option 1: Using Python (Recommended)
+### Možnost 1: Použití Pythonu (doporučeno)
 
 ```bash
 # Python 3
 python -m http.server 8000
 
-# Then open http://localhost:8000 in your browser
+# Poté otevřete http://localhost:8000 v prohlížeči
 ```
 
-### Option 2: Using Node.js (http-server)
+### Možnost 2: Použití Node.js (http-server)
 
 ```bash
-# Install http-server globally (if not already installed)
+# Nainstalujte http-server globálně (pokud není nainstalován)
 npm install -g http-server
 
-# Run the server
+# Spusťte server
 http-server -p 8000
 
-# Then open http://localhost:8000 in your browser
+# Poté otevřete http://localhost:8000 v prohlížeči
 ```
 
-### Option 3: Using VS Code Live Server
+### Možnost 3: Použití VS Code Live Server
 
-1. Install the "Live Server" extension in VS Code
-2. Right-click on `index.html`
-3. Select "Open with Live Server"
+1. Nainstalujte rozšíření "Live Server" ve VS Code
+2. Klikněte pravým tlačítkem na `index.html`
+3. Vyberte "Open with Live Server"
 
-**Note:** The site must be served via HTTP (not opened directly as `file://`) because it uses `fetch()` to load JSON files.
+**Poznámka:** Stránka musí být obsluhována přes HTTP (ne otevřena přímo jako `file://`), protože používá `fetch()` pro načítání JSON souborů.
 
 ## Přidávání nových témat
 
@@ -87,71 +87,70 @@ Pro rychlý start použijte: `data/topics/_TEMPLATE.json`
 - ✅ Podcast (audio soubory)
 - ✅ Kvízové otázky (po jedné, náhodné pořadí)
 - ✅ Flashcards (po jedné, náhodné pořadí)
-- ✅ Myšlenková mapa
+- ✅ Myšlenková mapa pojmů
 - ✅ Dodatečné zdroje
 - ✅ Obrázky témat
 
-## Features
+## Funkce
 
-### ✅ Implemented
+### ✅ Implementováno
 
-- Responsive layout (desktop sidebar, mobile drawer)
-- Topic index page
-- Topic detail pages
-- Navigation (next/previous topics with numbers)
-- Flashcard interactions (one-by-one, random order)
-- Quiz functionality (one-by-one, random order, immediate feedback)
-- Audio player with transcript toggle
-- Mindmap support
-- Summary section
-- Quick navigation bar
-- Modern CSS variable-based design system
-- Image support for topics
+- Responzivní layout (desktop sidebar, mobilní drawer)
+- Přehledová stránka témat
+- Stránky detailů témat
+- Navigace (předchozí/následující témata s čísly)
+- Interakce s flashcards (po jedné, náhodné pořadí)
+- Funkcionalita kvízu (po jedné, náhodné pořadí, okamžitá zpětná vazba)
+- Audio přehrávač s přepínačem přepisu
+- Podpora myšlenkové mapy
+- Sekce shrnutí
+- Rychlá navigační lišta
+- Moderní designový systém založený na CSS proměnných
+- Podpora obrázků pro témata
 
 ### 📋 Backlog
 
-- Progress tracking (localStorage) - removed from UI, architecture ready for future implementation
-- Notes functionality - architecture ready, UI disabled for MVP
-- Automatic topic scanning from directory (currently hardcoded in topic-loader.js)
+- Sledování pokroku (localStorage) - odstraněno z UI, architektura připravena pro budoucí implementaci
+- Funkcionalita poznámek - architektura připravena, UI pro MVP deaktivováno
+- Automatické skenování témat z adresáře (aktuálně hardcoded v topic-loader.js)
 
-## Design Customization
+## Přizpůsobení designu
 
-All design tokens are centralized in `assets/styles/design-tokens.css`. To customize:
+Všechny designové tokeny jsou centralizované v `assets/styles/design-tokens.css`. Pro přizpůsobení:
 
-- **Colors**: Modify `--color-*` variables
-- **Typography**: Modify `--font-*` and `--font-size-*` variables
-- **Spacing**: Modify `--spacing-*` variables
-- **Layout**: Modify `--container-max-width`, `--sidebar-width`, etc.
+- **Barvy**: Upravte proměnné `--color-*`
+- **Typografie**: Upravte proměnné `--font-*` a `--font-size-*`
+- **Mezery**: Upravte proměnné `--spacing-*`
+- **Layout**: Upravte `--container-max-width`, `--sidebar-width`, atd.
 
-Changes to these variables will update the entire site automatically.
+Změny těchto proměnných automaticky aktualizují celý web.
 
-## Browser Support
+## Podpora prohlížečů
 
-Targets modern browsers (last 2 versions of Chrome, Firefox, Safari, Edge). Uses:
+Cíleno na moderní prohlížeče (poslední 2 verze Chrome, Firefox, Safari, Edge). Používá:
 - ES6+ JavaScript
-- CSS Custom Properties (variables)
+- CSS Custom Properties (proměnné)
 - Fetch API
 - LocalStorage
 
-## Development Notes
+## Vývojářské poznámky
 
-- **No build step required** - works as static files
-- **No backend needed** - all functionality is client-side
-- **Progress storage**: Currently localStorage (can be swapped for API-based storage later)
-- **Content format**: JSON files (Markdown supported in content strings)
+- **Bez build kroku** - funguje jako statické soubory
+- **Bez backendu** - veškerá funkcionalita je na straně klienta
+- **Úložiště pokroku**: Aktuálně localStorage (lze později vyměnit za API-based úložiště)
+- **Formát obsahu**: JSON soubory (Markdown podporován v textových řetězcích)
 
-## Next Steps (Phase B)
+## Další kroky (Fáze B)
 
-1. Extract content from PDF → create topic JSON files
-2. Test with 2 real topics
-3. Verify all features work with real content
-4. Proceed to Phase C for scaling to ~30 topics
+1. Extrahovat obsah z PDF → vytvořit JSON soubory témat
+2. Otestovat s 2 reálnými tématy
+3. Ověřit, že všechny funkce fungují s reálným obsahem
+4. Pokračovat do Fáze C pro škálování na ~30 témat
 
 ## Time Tracker
 
 Pro sledování času stráveného na projektu, počtu promptů a použitých nástrojů viz [PROJECT_TIME_TRACKER.md](PROJECT_TIME_TRACKER.md).
 
-## License
+## Licence
 
-Private project - all rights reserved.
-
+Soukromý projekt - všechna práva vyhrazena.
