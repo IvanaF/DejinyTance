@@ -1,0 +1,36 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# Build outputs (if you add build process later)
+dist/
+build/
+*.min.js
+*.min.css
+
+# Dependencies (if you add later)
+node_modules/
+package-lock.json
+
+# Temporary files
+tmp/
+temp/
+
+

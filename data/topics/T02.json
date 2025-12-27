@@ -1,0 +1,51 @@
+{
+  "id": "T02",
+  "order": 2,
+  "title": "Renaissance Dance Forms",
+  "objectives": [
+    "Identify key Renaissance dance styles",
+    "Understand social context of court dances",
+    "Recognize influence on modern ballet"
+  ],
+  "materials": {
+    "summary": "Explore the sophisticated dance forms that emerged during the Renaissance period, particularly in European courts.",
+    "sections": [
+      {
+        "heading": "Court Dances",
+        "content": "The Renaissance period saw the rise of elaborate court dances that reflected the sophistication and etiquette of royal courts.\n\nThese dances were not merely entertainment—they were displays of grace, social status, and cultural refinement."
+      },
+      {
+        "heading": "Influence on Ballet",
+        "content": "Many elements of Renaissance court dance laid the foundation for classical ballet, including posture, footwork patterns, and the emphasis on elegance and control."
+      }
+    ]
+  },
+  "audio": {
+    "title": "Podcast: Renaissance Dance Forms",
+    "src": "assets/audio/T02.mp3",
+    "transcript": "This is a placeholder transcript. The actual audio file will be added later."
+  },
+  "resources": [
+    {
+      "title": "Renaissance Dance Manuals",
+      "url": "https://example.com/renaissance-manuals",
+      "reason": "Original dance instruction books from the period"
+    },
+    {
+      "title": "Court Dance Reconstruction",
+      "url": "https://example.com/court-dance",
+      "reason": "Modern recreations of historical dance performances"
+    }
+  ],
+  "flashcards": [
+    {
+      "q": "What characterized Renaissance court dances?",
+      "a": "Elaborate choreography, displays of grace and social status, and emphasis on etiquette and refinement."
+    },
+    {
+      "q": "How did Renaissance dance influence ballet?",
+      "a": "It provided foundations in posture, footwork patterns, and the emphasis on elegance and control."
+    }
+  ]
+}
+

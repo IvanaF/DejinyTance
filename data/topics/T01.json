@@ -1,0 +1,46 @@
+{
+  "id": "T01",
+  "order": 1,
+  "title": "Introduction to Dance History",
+  "objectives": [
+    "Understand the origins of dance",
+    "Learn about early dance forms",
+    "Recognize key historical periods"
+  ],
+  "materials": {
+    "summary": "This topic introduces the fundamental concepts and origins of dance throughout history.",
+    "sections": [
+      {
+        "heading": "Early Origins",
+        "content": "Dance has been an integral part of human culture since ancient times. Evidence of dance can be traced back to prehistoric cave paintings and early rituals.\n\nThese early forms served multiple purposes: communication, celebration, religious ceremonies, and social bonding."
+      },
+      {
+        "heading": "Classical Periods",
+        "content": "As civilizations developed, dance evolved into more structured forms. Different cultures developed unique styles that reflected their values and traditions."
+      }
+    ]
+  },
+  "audio": {
+    "title": "Podcast: Introduction to Dance History",
+    "src": "assets/audio/T01.mp3",
+    "transcript": "This is a placeholder transcript. The actual audio file will be added later."
+  },
+  "resources": [
+    {
+      "title": "Historical Dance Archive",
+      "url": "https://example.com/dance-archive",
+      "reason": "Comprehensive collection of historical dance documentation"
+    }
+  ],
+  "flashcards": [
+    {
+      "q": "What were the primary purposes of early dance?",
+      "a": "Communication, celebration, religious ceremonies, and social bonding."
+    },
+    {
+      "q": "Where can evidence of early dance be found?",
+      "a": "Prehistoric cave paintings and early ritual artifacts."
+    }
+  ]
+}
+

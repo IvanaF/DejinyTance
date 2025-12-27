@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detail maturitní otázky">
+  <title id="pageTitle">Maturitní otázka - Dějiny tance a baletu</title>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/styles/design-tokens.css">
+  <link rel="stylesheet" href="assets/styles/base.css">
+  <link rel="stylesheet" href="assets/styles/layout.css">
+  <link rel="stylesheet" href="assets/styles/components.css">
+</head>
+<body>
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobilní navigace">
+    <div class="mobile-nav-header">
+      <h1 class="mobile-nav-title">Dějiny tance</h1>
+      <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Přepnout menu" aria-expanded="false">
+        <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 12h18M3 6h18M3 18h18"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Navigační panel">
+    <div class="sidebar-header">
+      <h2 class="sidebar-title">Dějiny tance a baletu</h2>
+      <p class="sidebar-subtitle">Maturitní otázky</p>
+    </div>
+    <nav id="mobileTopicList" aria-label="Navigace maturitních otázek">
+      <ul class="topic-list" id="mobileTopicsList">
+        <!-- Topic list will be populated by JavaScript -->
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Desktop Sidebar -->
+  <aside class="sidebar" id="sidebar" aria-label="Hlavní navigace">
+    <div class="sidebar-header">
+      <h2 class="sidebar-title">Dějiny tance a baletu</h2>
+      <p class="sidebar-subtitle">Maturitní otázky</p>
+    </div>
+    <nav id="topicList" aria-label="Navigace maturitních otázek">
+      <ul class="topic-list" id="topicsList">
+        <!-- Topic list will be populated by JavaScript -->
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content" id="mainContent">
+    <div class="content-wrapper">
+      <div class="content-container">
+        <!-- Topic Header -->
+        <header class="topic-header">
+          <h1 class="topic-title" id="topicTitle">Načítání...</h1>
+          <div class="topic-meta-info" id="topicMeta">
+            <!-- Meta info will be populated -->
+          </div>
+        </header>
+
+        <!-- Completion Toggle -->
+        <div class="completion-toggle" id="completionToggle">
+          <input type="checkbox" id="completionCheckbox" aria-label="Označit téma jako dokončené">
+          <label for="completionCheckbox" class="completion-toggle-label" id="completionLabel">
+            Označit jako dokončené
+          </label>
+        </div>
+
+        <!-- Objectives -->
+        <section class="topic-section" id="objectivesSection">
+          <h2 class="section-title">Výukové cíle</h2>
+          <ul class="objectives-list" id="objectivesList">
+            <!-- Objectives will be populated -->
+          </ul>
+        </section>
+
+        <!-- Materials -->
+        <section class="topic-section" id="materialsSection">
+          <h2 class="section-title">Materiály</h2>
+          <div class="section-content" id="materialsContent">
+            <!-- Materials will be populated -->
+          </div>
+        </section>
+
+        <!-- Audio -->
+        <section class="topic-section" id="audioSection">
+          <h2 class="section-title">Audio</h2>
+          <div class="audio-section" id="audioContent">
+            <!-- Audio player will be populated -->
+          </div>
+        </section>
+
+        <!-- Resources -->
+        <section class="topic-section" id="resourcesSection">
+          <h2 class="section-title">Další zdroje</h2>
+          <ul class="resources-list" id="resourcesList">
+            <!-- Resources will be populated -->
+          </ul>
+        </section>
+
+        <!-- Flashcards -->
+        <section class="topic-section" id="flashcardsSection">
+          <h2 class="section-title">Kartičky</h2>
+          <div class="flashcards-container" id="flashcardsContainer">
+            <!-- Flashcards will be populated -->
+          </div>
+        </section>
+
+        <!-- Navigation -->
+        <nav class="topic-navigation" id="topicNavigation">
+          <a href="#" class="nav-button secondary" id="prevButton" aria-label="Předchozí otázka">
+            ← Předchozí
+          </a>
+          <a href="index.html" class="nav-button secondary">Zpět na přehled</a>
+          <a href="#" class="nav-button" id="nextButton" aria-label="Další otázka">
+            Další →
+          </a>
+        </nav>
+      </div>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="scripts/topic-loader.js"></script>
+  <script src="scripts/progress.js"></script>
+  <script src="scripts/flashcards.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maturitní otázky z dějin tance a baletu">
+  <title>Dějiny tance a baletu - Maturitní otázky</title>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/styles/design-tokens.css">
+  <link rel="stylesheet" href="assets/styles/base.css">
+  <link rel="stylesheet" href="assets/styles/layout.css">
+  <link rel="stylesheet" href="assets/styles/components.css">
+</head>
+<body>
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobilní navigace">
+    <div class="mobile-nav-header">
+      <h1 class="mobile-nav-title">Dějiny tance</h1>
+      <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Přepnout menu" aria-expanded="false">
+        <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 12h18M3 6h18M3 18h18"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Navigační panel">
+    <div class="sidebar-header">
+      <h2 class="sidebar-title">Dějiny tance a baletu</h2>
+      <p class="sidebar-subtitle">Maturitní otázky</p>
+    </div>
+    <nav id="mobileTopicList" aria-label="Navigace maturitních otázek">
+      <!-- Topic list will be populated by JavaScript -->
+      <ul class="topic-list" id="mobileTopicsList">
+        <li class="topic-item">
+          <div class="topic-link">
+            <div class="topic-info">
+              <div class="topic-title">Načítání otázek...</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Desktop Sidebar -->
+  <aside class="sidebar" id="sidebar" aria-label="Hlavní navigace">
+    <div class="sidebar-header">
+      <h2 class="sidebar-title">Dějiny tance a baletu</h2>
+      <p class="sidebar-subtitle">Maturitní otázky</p>
+    </div>
+    <nav id="topicList" aria-label="Navigace maturitních otázek">
+      <!-- Topic list will be populated by JavaScript -->
+      <ul class="topic-list" id="topicsList">
+        <li class="topic-item">
+          <div class="topic-link">
+            <div class="topic-info">
+              <div class="topic-title">Načítání otázek...</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content" id="mainContent">
+    <div class="content-wrapper">
+      <div class="content-container">
+        <header class="topic-header">
+          <h1 class="topic-title">Všechny maturitní otázky</h1>
+          <p class="topic-meta-info">
+            <span class="meta-item">
+              <span class="meta-label">Celkem otázek:</span>
+              <span id="totalTopics">-</span>
+            </span>
+            <span class="meta-item">
+              <span class="meta-label">Dokončeno:</span>
+              <span id="completedTopics">-</span>
+            </span>
+          </p>
+        </header>
+
+        <section class="topic-section">
+          <p>Vyberte maturitní otázku z postranního panelu a začněte studovat. Každá otázka obsahuje studijní materiály, audio zdroje, další zdroje a kartičky pro upevnění znalostí.</p>
+        </section>
+
+        <section class="topic-section">
+          <h2 class="section-title">Maturitní otázky</h2>
+          <ul class="topic-list" id="indexTopicsList">
+            <!-- Topics will be populated by JavaScript -->
+            <li class="topic-item">
+              <div class="topic-link">
+                <div class="topic-info">
+                  <div class="topic-title">Načítání otázek...</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="scripts/topic-loader.js"></script>
+  <script src="scripts/progress.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
+
