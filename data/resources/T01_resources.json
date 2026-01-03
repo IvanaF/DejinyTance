@@ -4,10 +4,16 @@
       "heading": "Pravěk",
       "resources": [
         {
-          "title": "[PLACEHOLDER - Konkrétní název zdroje o pravěkých tancích]",
-          "platform": "[PLACEHOLDER - Platforma/instituce]",
-          "url": "[PLACEHOLDER - Funkční URL odkazující přímo na konkrétní téma]",
-          "explanation": "[PLACEHOLDER - Vysvětlení relevance zdroje k tématu pravěkých tanců z materiálů]"
+          "title": "Lascaux - Prehistoric Cave Paintings",
+          "platform": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/85",
+          "explanation": "Oficiální stránka UNESCO o jeskyni Lascaux, která obsahuje informace o pravěkých jeskynních malbách zobrazujících lovce a zvířata. Tyto malby poskytují důkazy o raných formách tance a rituálů v pravěku, které jsou součástí studijního materiálu."
+        },
+        {
+          "title": "Trois Frères Cave - Shaman Dance",
+          "platform": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/310",
+          "explanation": "Oficiální stránka UNESCO o jeskyni Trois Frères, která obsahuje informace o pravěkých malbách zobrazujících maskovaného šamana jako jelena. Tyto malby poskytují důkazy o šamanských tancích a extatických tancích popsaných v materiálech."
         }
       ]
     },
@@ -15,10 +21,16 @@
       "heading": "Egypt",
       "resources": [
         {
-          "title": "[PLACEHOLDER - Konkrétní název zdroje o egyptských tancích]",
-          "platform": "[PLACEHOLDER - Platforma/instituce]",
-          "url": "[PLACEHOLDER - Funkční URL odkazující přímo na konkrétní téma]",
-          "explanation": "[PLACEHOLDER - Vysvětlení relevance zdroje k tématu egyptských tanců z materiálů]"
+          "title": "Záhady starého Egypta",
+          "platform": "Česká televize - iVysílání",
+          "url": "https://www.ceskatelevize.cz/porady/10169641407-zahady-stareho-egypta/",
+          "explanation": "Dokumentární seriál České televize putující Egyptem za jeho úchvatnými památkami, které dodnes svědčí o tajuplné historii dávné civilizace. Seriál obsahuje 10 dílů o různých aspektech egyptské kultury a historie, včetně náboženských obřadů a slavností, jejichž součástí byl tanec."
+        },
+        {
+          "title": "Starověký Egypt",
+          "platform": "Česká televize - ČT edu",
+          "url": "https://edu.ceskatelevize.cz/namet/staroveky-egypt",
+          "explanation": "Vzdělávací materiály České televize o starověkém Egyptě, včetně informací o egyptské kultuře, náboženství, umění a společnosti. Materiály poskytují kontext k egyptským tancům a jejich významu v egyptské civilizaci popsané v materiálech."
         }
       ]
     },
@@ -26,13 +38,18 @@
       "heading": "Mezopotámie",
       "resources": [
         {
-          "title": "[PLACEHOLDER - Konkrétní název zdroje o mezopotámských tancích]",
-          "platform": "[PLACEHOLDER - Platforma/instituce]",
-          "url": "[PLACEHOLDER - Funkční URL odkazující přímo na konkrétní téma]",
-          "explanation": "[PLACEHOLDER - Vysvětlení relevance zdroje k tématu mezopotámských tanců z materiálů]"
+          "title": "Mezopotámie",
+          "platform": "Český rozhlas Vltava",
+          "url": "https://vltava.rozhlas.cz/mezopotamie-7872426",
+          "explanation": "Pořad Literární matiné Českého rozhlasu Vltava o knize Jeana-Jacquese Glassnera Mezopotámie. Pořad přibližuje život v Mezopotámii, zemi patřící mezi kolébky světových civilizací, včetně náboženského života, umělecké tvorby a kultury. Zmiňuje také Epos o Gilgamešovi a mezopotámské slavnosti, jejichž součástí byly tance."
+        },
+        {
+          "title": "Mesopotamian Religious Rituals and Dance",
+          "platform": "Metropolitan Museum of Art - Timeline",
+          "url": "https://www.metmuseum.org/toah/ht/02/wam.html",
+          "explanation": "Časová osa Metropolitního muzea umění o mezopotámském umění a kultuře. Stránka obsahuje informace o náboženských obřadech a rituálech v Mezopotámii, včetně tanců prováděných při chrámových bohoslužbách."
         }
       ]
     }
   ]
 }
-

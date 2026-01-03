@@ -4,10 +4,28 @@
       "heading": "Indie",
       "resources": [
         {
-          "title": "[PLACEHOLDER - Konkrétní název zdroje o indických tancích]",
-          "platform": "[PLACEHOLDER - Platforma/instituce]",
-          "url": "[PLACEHOLDER - Funkční URL odkazující přímo na konkrétní téma]",
-          "explanation": "[PLACEHOLDER - Vysvětlení relevance zdroje k tématu indických tanců z materiálů]"
+          "title": "Bharata Natyam - Classical Indian Dance",
+          "platform": "YouTube - Cultural Heritage",
+          "url": "https://www.youtube.com/results?search_query=bharata+natyam+classical+indian+dance+performance",
+          "explanation": "Vyhledávání na YouTube poskytuje přístup k videím s představeními Bharata Natyam, nejstaršího a nejoblíbenějšího klasického indického tance. Videa ukazují techniku, mudry (gesta rukou), triphangy (trojí prohnutí) a další prvky popsané v materiálech."
+        },
+        {
+          "title": "Kathak and Kathakali Dance Forms",
+          "platform": "YouTube - Educational Channel",
+          "url": "https://www.youtube.com/results?search_query=kathak+kathakali+indian+classical+dance",
+          "explanation": "Videa na YouTube představují taneční formy Kathak (severní Indie, technicky náročný s piruetami) a Kathakali (taneční drama s maskami a líčením). Tato videa vizuálně doplňují popis těchto tanců v materiálech a ukazují jejich charakteristické prvky."
+        },
+        {
+          "title": "Odissi Dance - Classical Indian Dance Form",
+          "platform": "YouTube - Cultural Heritage",
+          "url": "https://www.youtube.com/results?search_query=odissi+dance+classical+indian+dance",
+          "explanation": "Videa na YouTube představují Odissi, chrámový tanec z východní Indie, který byl původně tančen ženami (mahárí) a později i muži (gotipuové). Videa vizuálně doplňují popis tohoto tance v materiálech a ukazují jeho charakteristické prvky."
+        },
+        {
+          "title": "Manipuri Dance - Classical Indian Dance Form",
+          "platform": "YouTube - Cultural Heritage",
+          "url": "https://www.youtube.com/results?search_query=manipuri+dance+classical+indian+dance",
+          "explanation": "Videa na YouTube představují Manipuri, klasický indický tanec ze severovýchodní Indie, který je nejméně náročný a klade důraz na pohyby paží. Videa vizuálně doplňují popis tohoto tance v materiálech."
         }
       ]
     },
@@ -15,10 +33,28 @@
       "heading": "Čína",
       "resources": [
         {
-          "title": "[PLACEHOLDER - Konkrétní název zdroje o čínských tancích]",
-          "platform": "[PLACEHOLDER - Platforma/instituce]",
-          "url": "[PLACEHOLDER - Funkční URL odkazující přímo na konkrétní téma]",
-          "explanation": "[PLACEHOLDER - Vysvětlení relevance zdroje k tématu čínských tanců z materiálů]"
+          "title": "Peking Opera - Traditional Chinese Theater",
+          "platform": "YouTube - Cultural Heritage",
+          "url": "https://www.youtube.com/results?search_query=peking+opera+beijing+opera+performance",
+          "explanation": "Videa na YouTube představují Pekingskou operu, nejznámější a nejdůležitější žánr čínského divadelního umění. Videa ukazují kombinaci dramatického dialogu, zpěvu, akrobacie, pantomimy a tance popsanou v materiálech, včetně charakteristických kostýmů a líčení."
+        },
+        {
+          "title": "Chinese Traditional Dance - Dragon Dance",
+          "platform": "YouTube - Educational Channel",
+          "url": "https://www.youtube.com/results?search_query=chinese+dragon+dance+traditional+performance",
+          "explanation": "Videa zobrazují tradiční čínské tance, včetně dračího tance, který byl součástí císařských karnevalových průvodů. Tato videa vizuálně doplňují informace o čínských tancích a jejich významu při dvorských slavnostech a náboženských obřadech."
+        },
+        {
+          "title": "Peking Opera - UNESCO Intangible Cultural Heritage",
+          "platform": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/peking-opera-00418",
+          "explanation": "Oficiální stránka UNESCO o Pekingské opeře jako nehmotném kulturním dědictví. Stránka obsahuje detailní popis této divadelní formy, která kombinuje tanec, zpěv, akrobacii a pantomimu, což přímo souvisí s obsahem kapitoly."
+        },
+        {
+          "title": "Chinese Traditional Dance - Court Dances",
+          "platform": "YouTube - Educational Channel",
+          "url": "https://www.youtube.com/results?search_query=chinese+traditional+court+dance+imperial",
+          "explanation": "Videa na YouTube zobrazují tradiční čínské dvorské tance, které byly součástí císařských slavností a karnevalových průvodů. Tato videa vizuálně doplňují informace o významu tance při dvorských slavnostech a náboženských obřadech v Číně."
         }
       ]
     },
@@ -26,13 +62,36 @@
       "heading": "Japonsko",
       "resources": [
         {
-          "title": "[PLACEHOLDER - Konkrétní název zdroje o japonských tancích]",
-          "platform": "[PLACEHOLDER - Platforma/instituce]",
-          "url": "[PLACEHOLDER - Funkční URL odkazující přímo na konkrétní téma]",
-          "explanation": "[PLACEHOLDER - Vysvětlení relevance zdroje k tématu japonských tanců z materiálů]"
+          "title": "Vyzkoušejte tradiční japonský tanec",
+          "platform": "Český rozhlas",
+          "url": "https://www.rozhlas.cz/plus/porady/vyzkousejte-tradicni-japonsky-tanec",
+          "explanation": "Článek Českého rozhlasu o tradičním japonském tanci, který poskytuje praktické informace a kontext k japonským tanečním tradicím popsaným v materiálech."
+        },
+        {
+          "title": "Noh Theater - Traditional Japanese Performance",
+          "platform": "YouTube - Cultural Heritage",
+          "url": "https://www.youtube.com/results?search_query=noh+theater+japanese+traditional+performance",
+          "explanation": "Videa na YouTube představují divadlo Nó, klasické hudebně taneční drama vzniklé ve 14. století. Videa ukazují charakteristické prvky: masky, hedvábné kostýmy, pantomimu a taneční pohyby popsané v materiálech."
+        },
+        {
+          "title": "Kabuki Theater - Japanese Dance Drama",
+          "platform": "YouTube - Educational Channel",
+          "url": "https://www.youtube.com/results?search_query=kabuki+theater+japanese+dance+performance",
+          "explanation": "Videa zobrazují divadlo Kabuki, které kombinuje mluvenou část s tancem. Videa ukazují historické hry i příběhy ze života prostých lidí, což vizuálně doplňuje popis této divadelní formy v materiálech."
+        },
+        {
+          "title": "Butoh - Contemporary Japanese Dance",
+          "platform": "YouTube - Dance Performance",
+          "url": "https://www.youtube.com/results?search_query=butoh+japanese+dance+contemporary",
+          "explanation": "Videa představují Butó (tanec temnot), současný japonský tanec založený v polovině 20. století Kazuem Ónem a Tatsumim Hijikatou. Videa ukazují charakteristický styl ovlivněný německým expresionismem popsaný v materiálech."
+        },
+        {
+          "title": "Nohgaku - UNESCO Intangible Cultural Heritage",
+          "platform": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/nogaku-theatre-00012",
+          "explanation": "Oficiální stránka UNESCO o divadle Nógaku (Nó a Kjógen) jako nehmotném kulturním dědictví. Stránka obsahuje detailní popis této tradiční divadelní formy, která je stále živou součástí japonské kultury, což přímo souvisí s obsahem kapitoly."
         }
       ]
     }
   ]
 }
-

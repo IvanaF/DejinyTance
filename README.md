@@ -9,7 +9,7 @@ Moderní, responzivní samostudijní platforma pro výuku dějin tance a baletu.
 ├── index.html                 # Přehledová/indexová stránka témat
 ├── topic.html                 # Šablona stránky detailu tématu
 ├── assets/
-│   ├── audio/                 # Audio soubory (zatím placeholdery)
+│   ├── audio/                 # Audio soubory
 │   ├── images/                # Obrázky
 │   └── styles/
 │       ├── design-tokens.css  # CSS proměnné (barvy, mezery, typografie)
@@ -73,7 +73,7 @@ Pro detailní návod, jak přidat nová témata, viz **[Průvodce škálováním
 2. Použijte `data/topics/_TEMPLATE.json` jako šablonu
 3. Vyplňte všechna pole podle struktury
 4. Přidejte obrázky do `assets/images/topics/`
-5. Přidejte audio soubory do `assets/audio/` (volitelné)
+5. Přidejte audio soubory do `assets/audio/` (volitelné - lze vygenerovat pomocí scripts/generate_audio.py)
 6. Témata se automaticky zobrazí v seznamu
 
 ### Šablona

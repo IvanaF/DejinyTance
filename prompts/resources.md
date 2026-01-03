@@ -33,7 +33,9 @@ Vytvoř kvalitní seznam externích zdrojů pro kapitolu z přiložených studij
 - ❌ **NEPOUŽÍVEJ obecné stránky:** Např. `https://isac.uchicago.edu/` (obecná stránka) → použij konkrétní sekci nebo raději jiný zdroj
 - ❌ **NEPOUŽÍVEJ Britannica:** Obecné encyklopedické zdroje nejsou dostatečně specifické
 - ❌ **NEPOUŽÍVEJ Archive.org:** Obecné digitální archivy nejsou dostatečně specifické a relevantní
-- ✅ **PREFERUJ:** Konkrétní stránky muzeí (British Museum, Metropolitan Museum), oficiální kulturní portály, YouTube kanály s konkrétními videi, dokumentární videa, UNESCO stránky, oficiální stránky institutů a divadel s konkrétními díly
+- ❌ **NEPOUŽÍVEJ vzdělávací sekce muzeí:** Odkazy typu `britishmuseum.org/learn/schools/...` často mění strukturu a nejsou funkční → použij collection search nebo konkrétní artefakty
+- ❌ **NEPOUŽÍVEJ vyhledávání České televize:** Odkazy typu `ceskatelevize.cz/ivysilani/vyhledavani/?q=...` vedou na hlavní stránku, ne na konkrétní dokumenty → použij pouze konkrétní stránky dokumentů nebo pořadů
+- ✅ **PREFERUJ:** Konkrétní stránky muzeí (British Museum collection search, Metropolitan Museum konkrétní sekce), oficiální kulturní portály, YouTube vyhledávání (stabilní), dokumentární videa, UNESCO stránky, oficiální stránky institutů a divadel s konkrétními díly
 
 ### 2) Typy zdrojů
 
@@ -230,12 +232,13 @@ Pro každou sekci hledej:
 ### Krok 3: Kontrola relevance a funkčnosti
 
 Pro každý zdroj:
-- ✅ **OVĚŘ FUNKČNOST URL:** Povinně otevři každý URL v prohlížeči a ověř, že stránka existuje a je přístupná (ne "Page Not Found" nebo 404)
+- ✅ **OVĚŘ FUNKČNOST URL:** Povinně otevři každý URL v prohlížeči a ověř, že stránka existuje a je přístupná (ne "Page Not Found", "404", "Sorry we can't find that page")
+- ✅ **VYHNI SE PROBLEMATICKÝM STRUKTURÁM:** Nepoužívej URL obsahující `/learn/schools/` (vzdělávací sekce muzeí) nebo `/ivysilani/vyhledavani/` (vyhledávání ČT) - tyto často nejsou funkční
 - ✅ Ověř, že URL je konkrétní (ne obecná stránka)
 - ✅ Ověř, že zdroj přímo souvisí s tématem
 - ✅ Ověř, že zdroj je přístupný a funkční (žádné chyby při načítání)
 - ✅ Vytvoř jasné vysvětlení relevance
-- ✅ **PREFERUJ stabilní zdroje:** YouTube kanály, oficiální muzea (British Museum, Metropolitan Museum), UNESCO, Archive.org, Český rozhlas, Česká televize
+- ✅ **PREFERUJ stabilní zdroje:** YouTube vyhledávání, British Museum collection search, Metropolitan Museum konkrétní sekce, UNESCO, Ancient History Encyclopedia, oficiální stránky institutů
 
 ### Krok 4: Vytvoření souboru
 
@@ -251,7 +254,8 @@ Pro každý zdroj:
 Před vytvořením finálního souboru zkontroluj:
 
 ### Kontrola relevance a funkčnosti
-- ✅ **Jsou VŠECHNY URL FUNKČNÍ?** (POVINNĚ otevři každý URL v prohlížeči a ověř, že stránka existuje - žádné "Page Not Found" nebo 404 chyby)
+- ✅ **Jsou VŠECHNY URL FUNKČNÍ?** (POVINNĚ otevři každý URL v prohlížeči a ověř, že stránka existuje - žádné "Page Not Found", "404", "Sorry we can't find that page")
+- ✅ **Neobsahují URL problematické struktury?** (žádné `/learn/schools/` nebo `/ivysilani/vyhledavani/` - tyto často nejsou funkční)
 - ✅ **Jsou VŠECHNY URL konkrétní?** (ne obecné stránky)
 - ✅ **Jsou časopisy a časopisy konkrétní?** (konkrétní články nebo sekce, ne obecná hlavní stránka časopisu)
 - ✅ **Souvisí zdroje PŘÍMO S TANCEM?** (každý zdroj musí být o tanci, tanečních formách, tanečních technikách, tanečních představeních, taneční teorii - NE obecné historické nebo kulturní zdroje)
@@ -260,7 +264,7 @@ Před vytvořením finálního souboru zkontroluj:
 - ✅ **Nejsou v seznamu obecné stránky časopisů?** (obecné stránky časopisů bez konkrétního článku)
 - ✅ **Nejsou v seznamu zdroje z Britannicy?**
 - ✅ **Nejsou v seznamu obecné univerzitní stránky?**
-- ✅ **Jsou zdroje stabilní?** (preferuj oficiální muzea s tanečními artefakty, YouTube kanály s tanečními videi, UNESCO, Archive.org)
+- ✅ **Jsou zdroje stabilní?** (preferuj YouTube vyhledávání, British Museum collection search, Metropolitan Museum konkrétní sekce, UNESCO, Ancient History Encyclopedia)
 
 ### Kontrola formátu
 - ✅ **Je JSON validní?** (ověř pomocí JSON validátoru)
@@ -293,14 +297,15 @@ Před vytvořením finálního souboru zkontroluj:
 
 ## SHRNUTÍ KLÍČOVÝCH PRAVIDEL
 
-1. ✅ **FUNKČNÍ URL** – **POVINNĚ ověř každý URL v prohlížeči** před přidáním (žádné "Page Not Found" nebo 404 chyby)
-2. ✅ **KONKRÉTNÍ URL** – ne obecné stránky
-3. ✅ **RELEVANTNÍ k tématu** – přímo souvisí s obsahem
-4. ✅ **2-6 zdrojů na sekci** – podle hustoty tématu
-5. ✅ **Čeština** – všechny popisy v češtině
-6. ✅ **Žádná Britannica** – nepoužívej obecné encyklopedie
-7. ✅ **Žádné obecné univerzitní stránky** – preferuj stabilní zdroje (muzea, YouTube, UNESCO, Archive.org)
-8. ✅ **STABILNÍ ZDROJE** – preferuj oficiální muzea (British Museum, Metropolitan Museum), YouTube kanály, UNESCO, Archive.org, Český rozhlas, Česká televize
+1. ✅ **FUNKČNÍ URL** – **POVINNĚ ověř každý URL v prohlížeči** před přidáním (žádné "Page Not Found", "404", "Sorry we can't find that page")
+2. ✅ **VYHNI SE PROBLEMATICKÝM STRUKTURÁM** – nepoužívej URL s `/learn/schools/` (vzdělávací sekce muzeí) nebo `/ivysilani/vyhledavani/` (vyhledávání ČT)
+3. ✅ **KONKRÉTNÍ URL** – ne obecné stránky
+4. ✅ **RELEVANTNÍ k tématu** – přímo souvisí s obsahem
+5. ✅ **2-6 zdrojů na sekci** – podle hustoty tématu
+6. ✅ **Čeština** – všechny popisy v češtině
+7. ✅ **Žádná Britannica** – nepoužívej obecné encyklopedie
+8. ✅ **Žádné obecné univerzitní stránky** – preferuj stabilní zdroje
+9. ✅ **STABILNÍ ZDROJE** – preferuj YouTube vyhledávání, British Museum collection search, Metropolitan Museum konkrétní sekce, UNESCO, Ancient History Encyclopedia, oficiální stránky institutů
 
 ---
 
@@ -314,16 +319,17 @@ Před vytvořením finálního souboru zkontroluj:
 4. **Pokud URL nefunguje** - najdi alternativní zdroj nebo zdroj úplně vynech
 
 **PREFEROVANÉ STABILNÍ ZDROJE (obvykle funkční):**
-- ✅ YouTube kanály s konkrétními videi (vyhledávací dotazy jsou stabilní)
-- ✅ British Museum (oficiální galerie s tanečními artefakty)
-- ✅ Metropolitan Museum of Art (oficiální sekce s tanečními artefakty)
+- ✅ YouTube vyhledávání (vyhledávací dotazy jsou stabilní a funkční)
+- ✅ British Museum Collection Search (např. `britishmuseum.org/collection/search?keyword=...`) - stabilní a funkční
+- ✅ Metropolitan Museum of Art konkrétní sekce (např. `metmuseum.org/toah/hd/...`) - stabilní vzdělávací materiály
 - ✅ UNESCO World Heritage (oficiální seznamy památek s důkazy o tancích)
 - ✅ Oficiální stránky institutů a divadel s konkrétními díly (např. Institut Bohuslava Martinů)
-- ✅ Český rozhlas (konkrétní pořady o tanci)
-- ✅ Česká televize (konkrétní dokumenty o tanci)
+- ✅ Český rozhlas (konkrétní pořady o tanci s plným URL)
+- ✅ Česká televize (pouze konkrétní dokumenty s plným URL, NE vyhledávání)
 - ✅ Odborné taneční časopisy (Taneční aktuality, Dance Context Journal) - konkrétní články
 - ✅ Institut umění - Divadelní ústav (IDU) - publikace a encyklopedie
 - ✅ Ministerstvo kultury ČR - konkrétní stránky nebo publikace (pro česká témata)
+- ✅ Ancient History Encyclopedia (worldhistory.org) - stabilní a funkční články
 
 **PROBLÉMOVÉ ZDROJE (často nefunkční nebo nerelevantní):**
 - ❌ Obecné univerzitní stránky (často mění strukturu)
@@ -331,6 +337,8 @@ Před vytvořením finálního souboru zkontroluj:
 - ❌ Obecné stránky divadel (např. obecná stránka Národního divadla - použij konkrétní stránku o díle)
 - ❌ Neoficiální kulturní portály (mohou být nedostupné)
 - ❌ Staré nebo neudržované stránky
+- ❌ **Vzdělávací sekce muzeí** (např. `britishmuseum.org/learn/schools/...`) - často mění strukturu a nejsou funkční → použij collection search místo toho
+- ❌ **Vyhledávání České televize** (např. `ceskatelevize.cz/ivysilani/vyhledavani/?q=...`) - vedou na hlavní stránku, ne na konkrétní dokumenty → použij pouze konkrétní stránky dokumentů s plným URL
 
 ---
 
