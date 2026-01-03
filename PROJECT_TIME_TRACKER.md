@@ -18,6 +18,7 @@ Tento soubor slouží k zaznamenávání času stráveného na projektu, počtu 
 | 3. ledna 2026 (Session 4) | 3.5 | ~25-30 | Cursor AI, Python, Edge TTS | Vytvoření kompletního systému pro generování audio souborů (scripts/generate_audio.py, prompts/audio_generation.md) s podporou Edge TTS, automatickým střídáním hlasů, podporou více scénářů a automatickou aktualizací JSON, vytvoření systému pro generování SVG ikon témat (scripts/generate_topic_icons.py, prompts/topicsymbols.md), vytvoření pomocného skriptu pro přidání obrázků do témat (scripts/add_images_to_topics.py), vylepšení skriptu pro opravu Wikipedia odkazů (scripts/fix_wikipedia_links_improved.py), aktualizace promptů (audioscript.md, hyperlinks.md), vytvoření TESTING_GUIDE.md a TODO.md, vygenerování audio souborů pro T01 (3 části), vygenerování SVG ikon pro témata, úpravy UI (centrování navigačních tlačítek, vylepšení zobrazení audio přepisů), přidání requirements.txt, úklid starých audio script souborů |
 | 3. ledna 2026 (Session 5) | 2.5 | ~20-25 | Cursor AI, Python, Edge TTS | Implementace externího načítání flashcards a resources (flashcardSource, resourcesSource v topic JSON, rozšíření topic-loader.js), vytvoření flashcards pro T01 a T02, vytvoření resources pro T01 a T02 (s placeholdery), vytvoření promptů pro generování flashcards (prompts/flashcards.md) a resources (prompts/resources.md), vygenerování audio souborů pro T02 (3 části), vytvoření audio scriptů pro T02, vytvoření term_links pro T01, úpravy styling pro resources (sekce, platformy, vysvětlení) a quick navigation (responzivní úpravy), aktualizace components.css, app.js, generate_audio.py |
 | 3. ledna 2026 (Session 6) | 1.5 | ~12-15 | Cursor AI | Aktualizace resources pro T01 a T02 - nahrazení placeholderů skutečnými funkčními zdroji (UNESCO, YouTube vyhledávání, Česká televize, Český rozhlas, Metropolitan Museum), vylepšení promptu pro resources (prompts/resources.md) - přidání pravidel pro vyhýbání se problematickým URL strukturám (/learn/schools/, /ivysilani/vyhledavani/), ověření funkčnosti všech URL, aktualizace preferovaných zdrojů a problémových zdrojů v dokumentaci |
+| 3. ledna 2026 (Session 7) | 0.5 | ~8-10 | Cursor AI | Vylepšení hlavní stránky - přidání sekce "Jak studovat" s přehledem struktury otázek (6 částí s SVG ikonami), odstranění nadbytečných sekcí (doporučený postup, meta-info s počtem), přidání roku 2026 do sidebaru, sjednocení názvu na "Dějiny tance a baletu" všude, změna nadpisu na "Seznam maturitních otázek", úpravy CSS pro nové komponenty |
 
 ---
 
@@ -25,8 +26,8 @@ Tento soubor slouží k zaznamenávání času stráveného na projektu, počtu 
 
 | Metrika | Hodnota |
 |---------|---------|
-| Celkový čas | 16.5 hodin |
-| Celkový počet promptů | ~127-155 |
+| Celkový čas | 17.0 hodin |
+| Celkový počet promptů | ~135-165 |
 | Počet témat implementováno | 2 (T01, T02) |
 | Počet kvízů vytvořeno | 4 (T01, T02, T03, T04) |
 | Fáze projektu | Pilot verze dokončena, škálování v průběhu, audio a ikony připraveny, externí flashcards a resources podporovány, resources pro T01 a T02 dokončeny |
@@ -51,4 +52,4 @@ Tento soubor slouží k zaznamenávání času stráveného na projektu, počtu 
 
 ---
 
-*Poslední aktualizace: 3. ledna 2026*
+*Poslední aktualizace: 3. ledna 2026 (Session 7)*

@@ -16,7 +16,7 @@
   <!-- Mobile Navigation -->
   <nav class="mobile-nav" id="mobileNav" aria-label="Mobilní navigace">
     <div class="mobile-nav-header">
-      <h1 class="mobile-nav-title">Dějiny tance</h1>
+      <h1 class="mobile-nav-title">Dějiny tance a baletu - Maturitní otázky</h1>
       <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Přepnout menu" aria-expanded="false">
         <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M3 12h18M3 6h18M3 18h18"></path>
@@ -30,7 +30,7 @@
   <aside class="mobile-drawer" id="mobileDrawer" aria-label="Navigační panel">
     <div class="sidebar-header">
       <h2 class="sidebar-title">Dějiny tance a baletu</h2>
-      <p class="sidebar-subtitle">Maturitní otázky</p>
+      <p class="sidebar-subtitle">Maturitní otázky 2026</p>
     </div>
     <nav id="mobileTopicList" aria-label="Navigace maturitních otázek">
       <!-- Topic list will be populated by JavaScript -->
@@ -50,7 +50,7 @@
   <aside class="sidebar" id="sidebar" aria-label="Hlavní navigace">
     <div class="sidebar-header">
       <h2 class="sidebar-title">Dějiny tance a baletu</h2>
-      <p class="sidebar-subtitle">Maturitní otázky</p>
+      <p class="sidebar-subtitle">Maturitní otázky 2026</p>
     </div>
     <nav id="topicList" aria-label="Navigace maturitních otázek">
       <!-- Topic list will be populated by JavaScript -->
@@ -70,22 +70,112 @@
   <main class="main-content" id="mainContent">
     <div class="content-wrapper">
       <div class="content-container">
-        <header class="topic-header">
-          <h1 class="topic-title">Všechny maturitní otázky</h1>
-          <p class="topic-meta-info">
-            <span class="meta-item">
-              <span class="meta-label">Celkem:</span>
-              <span id="totalTopics">-</span>
-            </span>
-          </p>
-        </header>
 
         <section class="topic-section">
-          <p>Vyberte maturitní otázku z postranního panelu a začněte studovat. Každá otázka obsahuje studijní materiály, audio zdroje, další zdroje a kartičky pro upevnění znalostí.</p>
+          <h2 class="section-title">Jak studovat</h2>
+          
+          <div class="study-guide">
+            <div class="study-structure">
+              <h3 class="study-subtitle">Struktura každé otázky</h3>
+              <p class="study-intro">Každá maturitní otázka má jasnou strukturu a obsahuje tyto části:</p>
+              
+              <div class="structure-grid">
+                <div class="structure-item">
+                  <div class="structure-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                      <polyline points="14 2 14 8 20 8"/>
+                      <line x1="16" y1="13" x2="8" y2="13"/>
+                      <line x1="16" y1="17" x2="8" y2="17"/>
+                      <polyline points="10 9 9 9 8 9"/>
+                    </svg>
+                  </div>
+                  <div class="structure-content">
+                    <h4 class="structure-title">Shrnutí</h4>
+                    <p class="structure-desc">Rychlý přehled tématu pro orientaci</p>
+                  </div>
+                </div>
+                
+                <div class="structure-item">
+                  <div class="structure-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                    </svg>
+                  </div>
+                  <div class="structure-content">
+                    <h4 class="structure-title">Studijní text</h4>
+                    <p class="structure-desc">Kompletní materiály k probíranému tématu</p>
+                  </div>
+                </div>
+                
+                <div class="structure-item">
+                  <div class="structure-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                      <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                      <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                    </svg>
+                  </div>
+                  <div class="structure-content">
+                    <h4 class="structure-title">Audio nahrávky</h4>
+                    <p class="structure-desc">Poslechni si téma kdykoli a kdekoli</p>
+                  </div>
+                </div>
+                
+                <div class="structure-item">
+                  <div class="structure-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                      <polyline points="15 3 21 3 21 9"/>
+                      <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                  </div>
+                  <div class="structure-content">
+                    <h4 class="structure-title">Další zdroje</h4>
+                    <p class="structure-desc">Odkazy na videa, články a další materiály</p>
+                  </div>
+                </div>
+                
+                <div class="structure-item">
+                  <div class="structure-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
+                      <line x1="1" y1="10" x2="23" y2="10"/>
+                    </svg>
+                  </div>
+                  <div class="structure-content">
+                    <h4 class="structure-title">Kartičky</h4>
+                    <p class="structure-desc">Upevni si znalosti pomocí flashcards</p>
+                  </div>
+                </div>
+                
+                <div class="structure-item">
+                  <div class="structure-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"/>
+                      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                      <line x1="12" y1="17" x2="12.01" y2="17"/>
+                    </svg>
+                  </div>
+                  <div class="structure-content">
+                    <h4 class="structure-title">Kvíz</h4>
+                    <p class="structure-desc">Otestuj si znalosti pomocí kvízových otázek</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="study-instruction">
+              <p class="study-instruction-text">
+                <strong>Jak začít:</strong> Vyber otázku v seznamu dole na této stránce, nebo použij postranní panel vlevo (na mobilu rozbalovací menu v horní liště).
+              </p>
+            </div>
+          </div>
         </section>
 
         <section class="topic-section">
-          <h2 class="section-title">Maturitní otázky</h2>
+          <h2 class="section-title">Seznam maturitních otázek</h2>
           <ul class="topic-list" id="indexTopicsList">
             <!-- Topics will be populated by JavaScript -->
             <li class="topic-item">
