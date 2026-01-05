@@ -28,7 +28,9 @@ Moderní, responzivní samostudijní platforma pro výuku dějin tance a baletu.
 │   ├── topic-loader.js        # Načítání dat témat
 │   ├── progress.js            # Sledování pokroku (abstrahované úložiště)
 │   ├── flashcards.js          # Interakce s flashcards
-│   └── app.js                 # Hlavní aplikační logika
+│   ├── app.js                 # Hlavní aplikační logika
+│   ├── feedback.js            # Systém zpětné vazby
+│   └── help.js                # Help modal handler
 └── README.md                  # Tento soubor
 ```
 
@@ -84,12 +86,13 @@ Pro rychlý start použijte: `data/topics/_TEMPLATE.json`
 
 - ✅ Studijní materiály (sekce s nadpisy)
 - ✅ Shrnutí (automaticky generované 1-2 odstavce)
-- ✅ Audio (audio soubory)
+- ✅ Audio (audio soubory s přepisem)
 - ✅ Kvízové otázky (po jedné, náhodné pořadí)
 - ✅ Flashcards (po jedné, náhodné pořadí)
 - ✅ Myšlenková mapa pojmů
 - ✅ Dodatečné zdroje
 - ✅ Obrázky témat
+- ✅ Help modal s nápovědou a screenshoty
 
 ## Funkce
 
@@ -107,10 +110,15 @@ Pro rychlý start použijte: `data/topics/_TEMPLATE.json`
 - Rychlá navigační lišta
 - Moderní designový systém založený na CSS proměnných
 - Podpora obrázků pro témata
+- Systém zpětné vazby s integrací do GitHub Issues
+- Help modal s nápovědou a screenshoty navigace
+- Plovoucí tlačítka pro nápovědu a zpětnou vazbu
 
 ### 📋 Backlog
 
 Pro aktuální seznam úkolů a oprav viz **[TODO.md](TODO.md)**.
+
+Zpětná vazba od uživatelů se automaticky ukládá do GitHub Issues. Pro více informací o systému zpětné vazby viz **[FEEDBACK_SYSTEM.md](docs/FEEDBACK_SYSTEM.md)**.
 
 ## Přizpůsobení designu
 

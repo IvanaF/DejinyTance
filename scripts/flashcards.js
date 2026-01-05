@@ -35,12 +35,12 @@ class FlashcardsHandler {
     this.shuffledCards = [...this.flashcards].sort(() => Math.random() - 0.5);
     this.currentIndex = 0;
     
-    // Update section title with count (only number, no plural)
+    // Update section title (no count)
     const flashcardsSection = document.getElementById('flashcardsSection');
     if (flashcardsSection && this.flashcards.length > 0) {
       const sectionTitle = flashcardsSection.querySelector('.section-title span');
       if (sectionTitle) {
-        sectionTitle.textContent = `Kartičky (${this.flashcards.length})`;
+        sectionTitle.textContent = `Kartičky`;
       }
     }
     
@@ -110,10 +110,34 @@ class FlashcardsHandler {
       this.currentIndex = index;
       this.render();
       
-      // Scroll to top of flashcards section
+      // Scroll to section title to keep it visible
       const flashcardsSection = document.getElementById('flashcardsSection');
       if (flashcardsSection) {
-        flashcardsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const sectionTitle = flashcardsSection.querySelector('.section-title');
+        const scrollTarget = sectionTitle || flashcardsSection;
+        
+        // Calculate dynamic offset (same function as in app.js)
+        let offset = 0;
+        const stickyHeader = document.getElementById('stickyHeader');
+        if (stickyHeader && stickyHeader.classList.contains('visible')) {
+          const stickyHeaderRect = stickyHeader.getBoundingClientRect();
+          offset += stickyHeaderRect.height;
+        }
+        const mobileNav = document.querySelector('.mobile-nav');
+        if (mobileNav && window.getComputedStyle(mobileNav).display !== 'none') {
+          const mobileNavRect = mobileNav.getBoundingClientRect();
+          offset += mobileNavRect.height;
+        }
+        offset += 40; // Extra padding to prevent overlap with topic header
+        offset = Math.max(offset, 100); // Minimum 100px offset
+        
+        const elementPosition = scrollTarget.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
       }
     }
   }

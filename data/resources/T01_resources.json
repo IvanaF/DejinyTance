@@ -2,20 +2,7 @@
   "sections": [
     {
       "heading": "Pravěk",
-      "resources": [
-        {
-          "title": "Lascaux - Prehistoric Cave Paintings",
-          "platform": "UNESCO World Heritage Centre",
-          "url": "https://whc.unesco.org/en/list/85",
-          "explanation": "Oficiální stránka UNESCO o jeskyni Lascaux, která obsahuje informace o pravěkých jeskynních malbách zobrazujících lovce a zvířata. Tyto malby poskytují důkazy o raných formách tance a rituálů v pravěku, které jsou součástí studijního materiálu."
-        },
-        {
-          "title": "Trois Frères Cave - Shaman Dance",
-          "platform": "UNESCO World Heritage Centre",
-          "url": "https://whc.unesco.org/en/list/310",
-          "explanation": "Oficiální stránka UNESCO o jeskyni Trois Frères, která obsahuje informace o pravěkých malbách zobrazujících maskovaného šamana jako jelena. Tyto malby poskytují důkazy o šamanských tancích a extatických tancích popsaných v materiálech."
-        }
-      ]
+      "resources": []
     },
     {
       "heading": "Egypt",

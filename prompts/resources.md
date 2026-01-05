@@ -5,6 +5,12 @@ Vytvoř kvalitní seznam externích zdrojů pro kapitolu z přiložených studij
 
 **Cíl:** Poskytnout studentům relevantní, konkrétní a užitečné externí zdroje, které rozšiřují a doplňují studijní materiály.
 
+**⚠️ DŮLEŽITÉ: VALIDACE ODKAZŮ**
+- **POVINNĚ** ověř každý URL v prohlížeči před přidáním
+- **POVINNĚ** spusť validační skript `python scripts/validate_resource_links.py` před finálním uložením
+- Skript automaticky odstraní nefunkční odkazy (404, 403, connection errors, timeouts)
+- Pokud přidáváš odkazy manuálně, také je POVINNĚ zkontroluj pomocí skriptu nebo manuálně v prohlížeči
+
 ---
 
 ## VSTUP
@@ -29,7 +35,7 @@ Vytvoř kvalitní seznam externích zdrojů pro kapitolu z přiložených studij
 - ✅ **PRO ČESKÁ TÉMATA preferuj české zdroje:** Pro česká taneční témata (české balety, české taneční formy) **POVINNĚ** zahrň české odborné zdroje: konkrétní články z odborných časopisů, konkrétní sekce z Institutu umění - Divadelní ústav (IDU), konkrétní publikace, české instituty s konkrétními díly (např. Institut Bohuslava Martinů)
 - ❌ **NEPOUŽÍVEJ obecné historické zdroje:** Obecné historické pořady nebo dokumenty, které se netýkají přímo tance (např. "Historie Plus" bez konkrétního zaměření na tanec)
 - ❌ **NEPOUŽÍVEJ turistické stránky:** Turistické portály bez konkrétního obsahu o tanci
-- ✅ **FUNKČNÍ URL:** **POVINNĚ ověř, že každý URL je funkční a vede na existující stránku** - před přidáním zdroje otevři URL v prohlížeči a ověř, že stránka existuje
+- ✅ **FUNKČNÍ URL:** **POVINNĚ ověř, že každý URL je funkční a vede na existující stránku** - před přidáním zdroje otevři URL v prohlížeči a ověř, že stránka existuje (žádné 404, 403, connection errors, timeouts)
 - ❌ **NEPOUŽÍVEJ obecné stránky:** Např. `https://isac.uchicago.edu/` (obecná stránka) → použij konkrétní sekci nebo raději jiný zdroj
 - ❌ **NEPOUŽÍVEJ Britannica:** Obecné encyklopedické zdroje nejsou dostatečně specifické
 - ❌ **NEPOUŽÍVEJ Archive.org:** Obecné digitální archivy nejsou dostatečně specifické a relevantní
@@ -232,13 +238,14 @@ Pro každou sekci hledej:
 ### Krok 3: Kontrola relevance a funkčnosti
 
 Pro každý zdroj:
-- ✅ **OVĚŘ FUNKČNOST URL:** Povinně otevři každý URL v prohlížeči a ověř, že stránka existuje a je přístupná (ne "Page Not Found", "404", "Sorry we can't find that page")
+- ✅ **OVĚŘ FUNKČNOST URL:** Povinně otevři každý URL v prohlížeči a ověř, že stránka existuje a je přístupná (ne "Page Not Found", "404", "403 Forbidden", "Sorry we can't find that page", connection errors, timeouts)
 - ✅ **VYHNI SE PROBLEMATICKÝM STRUKTURÁM:** Nepoužívej URL obsahující `/learn/schools/` (vzdělávací sekce muzeí) nebo `/ivysilani/vyhledavani/` (vyhledávání ČT) - tyto často nejsou funkční
 - ✅ Ověř, že URL je konkrétní (ne obecná stránka)
 - ✅ Ověř, že zdroj přímo souvisí s tématem
 - ✅ Ověř, že zdroj je přístupný a funkční (žádné chyby při načítání)
 - ✅ Vytvoř jasné vysvětlení relevance
 - ✅ **PREFERUJ stabilní zdroje:** YouTube vyhledávání, British Museum collection search, Metropolitan Museum konkrétní sekce, UNESCO, Ancient History Encyclopedia, oficiální stránky institutů
+- ✅ **PŘED FINÁLNÍM ULOŽENÍM:** Spusť validační skript `scripts/validate_resource_links.py` pro automatickou kontrolu všech URL
 
 ### Krok 4: Vytvoření souboru
 
@@ -254,8 +261,9 @@ Pro každý zdroj:
 Před vytvořením finálního souboru zkontroluj:
 
 ### Kontrola relevance a funkčnosti
-- ✅ **Jsou VŠECHNY URL FUNKČNÍ?** (POVINNĚ otevři každý URL v prohlížeči a ověř, že stránka existuje - žádné "Page Not Found", "404", "Sorry we can't find that page")
+- ✅ **Jsou VŠECHNY URL FUNKČNÍ?** (POVINNĚ otevři každý URL v prohlížeči a ověř, že stránka existuje - žádné "Page Not Found", "404", "403 Forbidden", "Sorry we can't find that page", connection errors, timeouts)
 - ✅ **Neobsahují URL problematické struktury?** (žádné `/learn/schools/` nebo `/ivysilani/vyhledavani/` - tyto často nejsou funkční)
+- ✅ **Byl spuštěn validační skript?** (POVINNĚ spusť `python scripts/validate_resource_links.py` pro automatickou kontrolu všech URL před finálním uložením)
 - ✅ **Jsou VŠECHNY URL konkrétní?** (ne obecné stránky)
 - ✅ **Jsou časopisy a časopisy konkrétní?** (konkrétní články nebo sekce, ne obecná hlavní stránka časopisu)
 - ✅ **Souvisí zdroje PŘÍMO S TANCEM?** (každý zdroj musí být o tanci, tanečních formách, tanečních technikách, tanečních představeních, taneční teorii - NE obecné historické nebo kulturní zdroje)
@@ -297,15 +305,16 @@ Před vytvořením finálního souboru zkontroluj:
 
 ## SHRNUTÍ KLÍČOVÝCH PRAVIDEL
 
-1. ✅ **FUNKČNÍ URL** – **POVINNĚ ověř každý URL v prohlížeči** před přidáním (žádné "Page Not Found", "404", "Sorry we can't find that page")
-2. ✅ **VYHNI SE PROBLEMATICKÝM STRUKTURÁM** – nepoužívej URL s `/learn/schools/` (vzdělávací sekce muzeí) nebo `/ivysilani/vyhledavani/` (vyhledávání ČT)
-3. ✅ **KONKRÉTNÍ URL** – ne obecné stránky
-4. ✅ **RELEVANTNÍ k tématu** – přímo souvisí s obsahem
-5. ✅ **2-6 zdrojů na sekci** – podle hustoty tématu
-6. ✅ **Čeština** – všechny popisy v češtině
-7. ✅ **Žádná Britannica** – nepoužívej obecné encyklopedie
-8. ✅ **Žádné obecné univerzitní stránky** – preferuj stabilní zdroje
-9. ✅ **STABILNÍ ZDROJE** – preferuj YouTube vyhledávání, British Museum collection search, Metropolitan Museum konkrétní sekce, UNESCO, Ancient History Encyclopedia, oficiální stránky institutů
+1. ✅ **FUNKČNÍ URL** – **POVINNĚ ověř každý URL v prohlížeči** před přidáním (žádné "Page Not Found", "404", "403 Forbidden", connection errors, timeouts)
+2. ✅ **AUTOMATICKÁ VALIDACE** – **POVINNĚ spusť validační skript** (`python scripts/validate_resource_links.py`) před finálním uložením souboru
+3. ✅ **VYHNI SE PROBLEMATICKÝM STRUKTURÁM** – nepoužívej URL s `/learn/schools/` (vzdělávací sekce muzeí) nebo `/ivysilani/vyhledavani/` (vyhledávání ČT)
+4. ✅ **KONKRÉTNÍ URL** – ne obecné stránky
+5. ✅ **RELEVANTNÍ k tématu** – přímo souvisí s obsahem
+6. ✅ **2-6 zdrojů na sekci** – podle hustoty tématu
+7. ✅ **Čeština** – všechny popisy v češtině
+8. ✅ **Žádná Britannica** – nepoužívej obecné encyklopedie
+9. ✅ **Žádné obecné univerzitní stránky** – preferuj stabilní zdroje
+10. ✅ **STABILNÍ ZDROJE** – preferuj YouTube vyhledávání, British Museum collection search, Metropolitan Museum konkrétní sekce, UNESCO, Ancient History Encyclopedia, oficiální stránky institutů
 
 ---
 
@@ -314,9 +323,19 @@ Před vytvořením finálního souboru zkontroluj:
 **PŘED PŘIDÁNÍM KAŽDÉHO ZDROJE:**
 
 1. **Otevři URL v prohlížeči** - zkopíruj URL a otevři ho v novém okně prohlížeče
-2. **Ověř, že stránka existuje** - stránka se musí načíst bez chyb (žádné "404 Not Found", "Page Not Found", "Error 404")
+2. **Ověř, že stránka existuje** - stránka se musí načíst bez chyb (žádné "404 Not Found", "403 Forbidden", "Page Not Found", "Error 404", connection errors, timeouts)
 3. **Ověř, že obsah je relevantní** - stránka musí skutečně obsahovat informace související s tématem
 4. **Pokud URL nefunguje** - najdi alternativní zdroj nebo zdroj úplně vynech
+
+**PO VYTVOŘENÍ SOUBORU (POVINNĚ):**
+
+1. **Spusť automatickou validaci** - použij validační skript: `python scripts/validate_resource_links.py`
+2. **Skript automaticky:**
+   - Ověří funkčnost všech URL v souboru
+   - Odstraní nefunkční odkazy (404, 403, connection errors, timeouts)
+   - Zobrazí souhrn validace
+3. **Zkontroluj výsledky** - pokud byly některé odkazy odstraněny, nahraď je funkčními alternativami
+4. **Opakuj validaci** - pokud jsi přidal nové odkazy, znovu spusť validační skript
 
 **PREFEROVANÉ STABILNÍ ZDROJE (obvykle funkční):**
 - ✅ YouTube vyhledávání (vyhledávací dotazy jsou stabilní a funkční)
@@ -345,4 +364,75 @@ Před vytvořením finálního souboru zkontroluj:
 **POZOR:** 
 - Pokud nemůžeš najít konkrétní zdroj pro téma, je lepší mít méně zdrojů, ale všechny kvalitní a relevantní, než přidat obecný nebo nerelevantní zdroj.
 - **NIKDY nepřidávej zdroj bez ověření funkčnosti URL v prohlížeči!**
+- **POVINNĚ spusť validační skript** (`python scripts/validate_resource_links.py`) před finálním uložením souboru - skript automaticky odstraní všechny nefunkční odkazy
+
+---
+
+## AUTOMATICKÁ VALIDACE ODKAZŮ
+
+### Použití validačního skriptu
+
+**Před finálním uložením souboru POVINNĚ spusť validační skript:**
+
+```bash
+python scripts/validate_resource_links.py
+```
+
+**Co skript dělá:**
+- ✅ Kontroluje všechny URL v souborech `data/resources/*.json`
+- ✅ Ověřuje funkčnost každého odkazu (HTTP status codes, connection errors, timeouts)
+- ✅ Automaticky odstraňuje nefunkční odkazy (404 Not Found, 403 Forbidden, connection errors, timeouts)
+- ✅ Ukládá opravené soubory s odstraněnými nefunkčními odkazy
+- ✅ Zobrazuje souhrn: kolik odkazů bylo zkontrolováno, kolik odstraněno
+
+**Kdy spustit validaci:**
+1. **Před finálním uložením** nového souboru s resources
+2. **Po manuální úpravě** existujícího souboru (přidání/změna odkazů)
+3. **Pravidelně** pro kontrolu všech existujících odkazů (odkazy mohou časem přestat fungovat)
+
+**Co skript považuje za nefunkční:**
+- ❌ HTTP 404 (Not Found)
+- ❌ HTTP 403 (Forbidden) - často kvůli bot protection
+- ❌ Connection errors (stránka není dostupná)
+- ❌ Timeouts (stránka se nenačte včas)
+- ❌ Jiné HTTP chyby (5xx, atd.)
+
+**Co skript považuje za funkční:**
+- ✅ HTTP 200-399 (OK, redirects)
+
+**Příklad výstupu:**
+```
+Validating: data/resources/T01_resources.json
+Section: Pravěk
+  Checking: Lascaux - Prehistoric Cave Paintings...
+    URL: https://whc.unesco.org/en/list/85
+    [INVALID] Invalid: 403 Forbidden
+  ...
+[SUCCESS] Updated data/resources/T01_resources.json
+  Removed 2 invalid link(s) out of 6 total
+```
+
+**Důležité:**
+- Skript automaticky upraví soubory - nefunkční odkazy budou odstraněny
+- Pokud byly odkazy odstraněny, nahraď je funkčními alternativami
+- Po přidání nových odkazů znovu spusť validaci
+
+### Manuální kontrola (pokud není k dispozici skript)
+
+Pokud nemůžeš použít validační skript, POVINNĚ:
+
+1. **Otevři každý URL v prohlížeči** - zkopíruj a otevři každý odkaz
+2. **Ověř funkčnost:**
+   - ✅ Stránka se načte bez chyb
+   - ✅ Žádné "404 Not Found", "403 Forbidden", "Page Not Found"
+   - ✅ Žádné connection errors nebo timeouts
+   - ✅ Obsah je relevantní k tématu
+3. **Odstraň nefunkční odkazy** - pokud URL nefunguje, odstraň celý zdroj z JSON souboru
+4. **Zkontroluj JSON formát** - po úpravách ověř, že JSON je validní
+
+**Co považovat za nefunkční:**
+- ❌ HTTP chyby (404, 403, 500, atd.)
+- ❌ "Page Not Found", "Error 404", "403 Forbidden"
+- ❌ Stránka se nenačte (connection error, timeout)
+- ❌ Stránka přesměruje na hlavní stránku místo konkrétního obsahu
 

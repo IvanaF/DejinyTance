@@ -182,6 +182,9 @@ async function initTopicPage() {
 
     // Setup navigation
     setupTopicNavigation(topicId);
+    
+    // Setup sticky header and floating button
+    setupStickyNavigation(topic);
   } catch (error) {
     console.error('Chyba při načítání otázky:', error);
     const titleElement = document.getElementById('topicTitle');
@@ -375,22 +378,29 @@ function renderTopicContent(topic) {
     `;
   }
 
+  // Update sticky header title
+  const stickyHeaderTitle = document.getElementById('stickyHeaderTitle');
+  if (stickyHeaderTitle) {
+    const topicNumber = topic.order || '';
+    stickyHeaderTitle.textContent = topicNumber ? `${topicNumber}. ${topic.title}` : topic.title;
+  }
+
   // Render meta info (removed - no longer displaying time and difficulty)
   const metaElement = document.getElementById('topicMeta');
   if (metaElement) {
     metaElement.innerHTML = '';
   }
 
-  // Render summary
+  // Render outline
   if (topic.summary) {
-    const summaryContent = document.getElementById('summaryContent');
-    if (summaryContent) {
-      summaryContent.innerHTML = `<div class="summary-text">${markdownToHtml(topic.summary)}</div>`;
+    const outlineContent = document.getElementById('outlineContent');
+    if (outlineContent) {
+      outlineContent.innerHTML = `<div class="outline-text">${markdownToHtml(topic.summary)}</div>`;
     }
   } else {
-    const summarySection = document.getElementById('summarySection');
-    if (summarySection) {
-      summarySection.style.display = 'none';
+    const outlineSection = document.getElementById('outlineSection');
+    if (outlineSection) {
+      outlineSection.style.display = 'none';
     }
   }
 
@@ -568,14 +578,12 @@ function renderTopicContent(topic) {
     const quizSection = document.getElementById('quizSection');
     
     if (quizSection) {
-      // Update section title with question count (with correct plural)
+      // Update section title (no count)
       const sectionTitle = quizSection.querySelector('.section-title');
       if (sectionTitle) {
         const spanElement = sectionTitle.querySelector('span');
         if (spanElement) {
-          const count = topic.quiz.questions.length;
-          const plural = getCzechPlural(count, 'otázka', 'otázky', 'otázek');
-          spanElement.textContent = `Kvíz (${count} ${plural})`;
+          spanElement.textContent = `Kvíz`;
         }
       }
     }
@@ -781,12 +789,49 @@ function navigateQuiz(questionIndex) {
     window.currentQuiz.currentIndex = questionIndex;
     renderQuizQuestion(questionIndex);
     
-    // Scroll to top of quiz section
+    // Scroll to section title to keep it visible
     const quizSection = document.getElementById('quizSection');
     if (quizSection) {
-      quizSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const sectionTitle = quizSection.querySelector('.section-title');
+      const scrollTarget = sectionTitle || quizSection;
+      const offset = calculateScrollOffset();
+      const elementPosition = scrollTarget.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
     }
   }
+}
+
+/**
+ * Calculate dynamic offset for scroll positioning
+ * Accounts for sticky header and mobile nav
+ * @returns {number} Offset in pixels
+ */
+function calculateScrollOffset() {
+  let offset = 0;
+  
+  // Check if sticky header is visible
+  const stickyHeader = document.getElementById('stickyHeader');
+  if (stickyHeader && stickyHeader.classList.contains('visible')) {
+    const stickyHeaderRect = stickyHeader.getBoundingClientRect();
+    offset += stickyHeaderRect.height;
+  }
+  
+  // Check if mobile nav is visible
+  const mobileNav = document.querySelector('.mobile-nav');
+  if (mobileNav && window.getComputedStyle(mobileNav).display !== 'none') {
+    const mobileNavRect = mobileNav.getBoundingClientRect();
+    offset += mobileNavRect.height;
+  }
+  
+  // Add extra padding to ensure section title is fully visible
+  // This prevents overlap with topic header
+  // If no sticky elements, use minimum offset to account for any fixed elements
+  return Math.max(offset + 40, 100); // 40px extra padding, minimum 100px
 }
 
 /**
@@ -801,8 +846,12 @@ function setupQuickNavigation() {
         e.preventDefault();
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
-          const offset = 80; // Account for mobile nav height
-          const elementPosition = targetElement.getBoundingClientRect().top;
+          // Find the section title within the target section to keep it visible
+          const sectionTitle = targetElement.querySelector('.section-title');
+          const scrollTarget = sectionTitle || targetElement;
+          
+          const offset = calculateScrollOffset();
+          const elementPosition = scrollTarget.getBoundingClientRect().top;
           const offsetPosition = elementPosition + window.pageYOffset - offset;
 
           window.scrollTo({
@@ -877,6 +926,78 @@ function setupTopicNavigation(topicId) {
       nextButton.addEventListener('click', (e) => e.preventDefault());
     }
   }
+}
+
+/**
+ * Setup sticky header and floating back-to-top button
+ * @param {Object} topic - Current topic object
+ */
+function setupStickyNavigation(topic) {
+  const stickyHeader = document.getElementById('stickyHeader');
+  const floatingButton = document.getElementById('floatingBackToTop');
+  const topicHeader = document.getElementById('topicHeader');
+  
+  if (!topicHeader) return;
+
+  // Threshold for showing sticky elements (in pixels from top)
+  const SCROLL_THRESHOLD = 200;
+  
+  let ticking = false;
+  
+  function handleScroll() {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        const scrollY = window.scrollY || window.pageYOffset;
+        const shouldShow = scrollY > SCROLL_THRESHOLD;
+        
+        // Toggle sticky header
+        if (stickyHeader) {
+          if (shouldShow) {
+            stickyHeader.classList.add('visible');
+          } else {
+            stickyHeader.classList.remove('visible');
+          }
+        }
+        
+        // Toggle floating button
+        if (floatingButton) {
+          if (shouldShow) {
+            floatingButton.classList.add('visible');
+          } else {
+            floatingButton.classList.remove('visible');
+          }
+        }
+        
+        ticking = false;
+      });
+      
+      ticking = true;
+    }
+  }
+  
+  // Add smooth scroll behavior to anchor links (using same logic as setupQuickNavigation)
+  function scrollToHeader(e) {
+    e.preventDefault();
+    const mobileNav = document.querySelector('.mobile-nav');
+    const offset = mobileNav && window.getComputedStyle(mobileNav).display !== 'none' ? 80 : 0;
+    const elementPosition = topicHeader.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  }
+  
+  if (floatingButton) {
+    floatingButton.addEventListener('click', scrollToHeader);
+  }
+  
+  // Listen to scroll events
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  
+  // Initial check
+  handleScroll();
 }
 
 /**

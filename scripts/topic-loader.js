@@ -103,17 +103,17 @@ class TopicLoader {
       if (topic.summarySource) {
         try {
           const summaryUrl = topic.summarySource;
-          console.log(`Načítání shrnutí z ${summaryUrl}...`);
+          console.log(`Načítání osnovy z ${summaryUrl}...`);
           const summaryResponse = await fetch(summaryUrl);
           if (summaryResponse.ok) {
             const summaryText = await summaryResponse.text();
             topic.summary = summaryText.trim();
             console.log(`Shrnutí načteno (${summaryText.length} znaků)`);
           } else {
-            console.warn(`Nepodařilo se načíst shrnutí z ${summaryUrl}: ${summaryResponse.status}`);
+            console.warn(`Nepodařilo se načíst osnovu z ${summaryUrl}: ${summaryResponse.status}`);
           }
         } catch (summaryError) {
-          console.warn(`Chyba při načítání shrnutí pro ${topicId}:`, summaryError);
+          console.warn(`Chyba při načítání osnovy pro ${topicId}:`, summaryError);
           // Continue without external summary - topic will use inline summary if available
         }
       }
