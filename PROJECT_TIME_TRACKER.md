@@ -56,4 +56,4 @@ Tento soubor slouží k zaznamenávání času stráveného na projektu, počtu 
 
 ---
 
-*Poslední aktualizace: [Datum] (Session 9)*
+*Poslední aktualizace: 6. ledna 2026 (Session 10)*

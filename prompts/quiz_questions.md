@@ -86,7 +86,28 @@ Každá otázka má formát:
 **Správná odpověď:**
 - Musí být úplná a přesná
 - Měla by obsahovat všechny relevantní informace z materiálu
-- Pokud je odpověď delší, měla by být srozumitelná
+- **⚠️ DŮLEŽITÉ: Odpověď NESMÍ opakovat část otázky** - odpovědi musí být stručné a neobsahovat redundantní opakování
+- Pokud je odpověď delší, měla by být srozumitelná, ale stále stručná
+
+**Příklady správných a špatných odpovědí:**
+
+✅ **DOBRÉ příklady (stručné, bez opakování):**
+- Otázka: "Kdy byl uveden první dvorský balet v Rusku a jak se jmenoval?"
+  - Odpověď: "1673, Orfeus a Eurydika"
+- Otázka: "Kdy byla založena první ruská baletní škola?"
+  - Odpověď: "1738"
+- Otázka: "Kdo byl prvním ruským baletním mistrem?"
+  - Odpověď: "Ivan Ivanovič Valberg"
+- Otázka: "Kdy bylo otevřeno Velké divadlo v Moskvě a jak se dnes nazývá?"
+  - Odpověď: "1825, dnes Bolshoi Theatre"
+
+❌ **ŠPATNÉ příklady (opakují otázku):**
+- Otázka: "Kdy byl uveden první dvorský balet v Rusku a jak se jmenoval?"
+  - Odpověď: "V roce 1673 byl uveden první dvorský balet v Rusku, a to Orfeus a Eurydika." ❌
+- Otázka: "Kdy byla založena první ruská baletní škola?"
+  - Odpověď: "První ruská baletní škola byla založena v roce 1738." ❌
+- Otázka: "Kdo byl prvním ruským baletním mistrem?"
+  - Odpověď: "Prvním ruským baletním mistrem byl Ivan Ivanovič Valberg." ❌
 
 **Nesprávné odpovědi (distraktory):**
 - Musí být věrohodné (ne zjevně špatné)
@@ -153,6 +174,7 @@ Pro každé téma vytvoř 4-8 otázek různých typů:
 Pro každou otázku zkontroluj:
 - ✅ Je otázka jasně formulována?
 - ✅ Je správná odpověď úplná a přesná?
+- ✅ **Odpověď NESMÍ opakovat část otázky** - odpovědi musí být stručné (např. "1673, Orfeus a Eurydika" místo "V roce 1673 byl uveden první balet v Rusku, a to Orfeus a Eurydika")
 - ✅ Jsou nesprávné odpovědi věrohodné?
 - ✅ Pokrývá otázka důležitou informaci z materiálu?
 
@@ -250,6 +272,7 @@ VYTVOŘENÉ OTÁZKY:
 KONTROLA:
 - [ ] Všechny otázky jsou jasně formulované
 - [ ] Správné odpovědi jsou úplné a přesné
+- [ ] **Odpovědi NESMÍ opakovat část otázky** - všechny odpovědi jsou stručné a neobsahují redundantní opakování
 - [ ] Nesprávné odpovědi jsou věrohodné
 - [ ] Otázky pokrývají všechny důležité části kapitoly
 - [ ] Počet otázek: [X] (doporučeno 30-50)

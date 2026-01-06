@@ -1,252 +1,432 @@
 {
   "questions": [
     {
-      "question": "Co se stalo v roce  17. stol.?",
+      "question": "Kdy byl uveden první dvorský balet v Rusku a jak se jmenoval?",
       "answers": [
-        "– zásluhou diplomatů a obchodníků se do Ruska šířil vliv západní evropské kultury",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1673, Orfeus a Eurydika",
+        "1650, Labutí jezero",
+        "1700, Spící krasavice",
+        "1600, Louskáček"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1673 ?",
+      "question": "Kdo měl největší zásluhu na rozvoji dvorského baletu v Rusku?",
       "answers": [
-        "– Orfeus a Eurydika (první dvorský balet uvedený v Rusku)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Car Petr I. Veliký",
+        "Carevna Anna Ivanova",
+        "Marius Petipa",
+        "Ivan Ivanovič Valberg"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro 12.) vývoj baletu v rusku?",
+      "question": "Kdy byla založena první ruská baletní škola Jejího veličenstva?",
       "answers": [
-        "1673 – Orfeus a Eurydika (první dvorský balet uvedený v Rusku)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1738",
+        "1720",
+        "1750",
+        "1700"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 12.) vývoj baletu v rusku?",
+      "question": "Kdo byl prvním ředitelem první ruské baletní školy Jejího veličenstva?",
       "answers": [
-        "- 17. stol. – zásluhou diplomatů a obchodníků se do Ruska šířil vliv západní evropské kultury",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Jean Baptiste Landé",
+        "Franz Hilverding",
+        "Gasparo Angiolini",
+        "Charles le Pique"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 12.) vývoj baletu v rusku?",
+      "question": "Kdo byl prvním ruským baletním mistrem?",
       "answers": [
-        "- největší zásluha v rozvoji dvorského baletu = car Petr I. Veliký",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ivan Ivanovič Valberg",
+        "Charles Louis Didelot",
+        "Marius Petipa",
+        "Lev Ivanov"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 12.) vývoj baletu v rusku?",
+      "question": "Jaké balety vytvořil Ivan Ivanovič Valberg?",
       "answers": [
-        "stol. – zásluhou diplomatů a obchodníků se do Ruska šířil vliv západní evropské kultury",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Šťastná hvězda, Nový Werther, Orfeus a Eurydika, Romeo a Julie",
+        "Labutí jezero, Louskáček, Spící krasavice",
+        "Giselle, Korzár, Bayadéra",
+        "Don Quijote, Faraonova dcera, Raymonda"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1731 – carevna Anna Ivanova založila šlechtickou kadetku (?",
+      "question": "V jakých letech působil Charles Louis Didelot v Rusku ve svém prvním tvůrčím období?",
       "answers": [
-        "škola pro vojáky)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1801-1811",
+        "1795-1805",
+        "1810-1820",
+        "1820-1830"
       ],
       "correct": 0
     },
     {
-      "question": "Co je (pro dvanáct dívek a dvanáct chlapců, první žáci?",
+      "question": "Jaké balety vytvořil Charles Louis Didelot v Rusku?",
       "answers": [
-        "děti služebnictva)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Medea a Iáson, Amor a Psyché, Zefír a Flóra, Kavkazský zajatec, Ruslan a Ludmilla",
+        "Labutí jezero, Louskáček, Spící krasavice",
+        "Giselle, Korzár, Bayadéra",
+        "Don Quijote, Faraonova dcera, Raymonda"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1766–81 – Gasparo Angiolini?",
+      "question": "Kdy působil Jules Perrot v Petrohradu jako baletní mistr Mariinského divadla?",
       "answers": [
-        "ředitel baletní školy + uváděl balety",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1848-1858",
+        "1830-1840",
+        "1860-1870",
+        "1850-1860"
       ],
       "correct": 0
     },
     {
-      "question": "Co je do Ruska přinesl dějový dramatický balet (?",
+      "question": "Jaké balety uvedl Jules Perrot v Petrohradu?",
       "answers": [
-        "ballet d´action)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Giselle, Ondine, Kateřina dcera banditova, Amazonky, Starosti baletního mistra, Korzár",
+        "Labutí jezero, Louskáček, Spící krasavice",
+        "Don Quijote, Faraonova dcera, Raymonda",
+        "Sylfida, Cikánka, Natálie aneb Švýcarská mlékařka"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1809 ?",
+      "question": "Kdy přišel Marius Petipa do Petrohradu?",
       "answers": [
-        "– Romeo a Julie (Romeo = I",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "5. června 1847",
+        "1830",
+        "1850",
+        "1860"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1738 ?",
+      "question": "Kdy se stal Marius Petipa prvním baletním mistrem Mariinského divadla?",
       "answers": [
-        "– první ruská baletní škola Jejího veličenstva",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1871",
+        "1860",
+        "1880",
+        "1850"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje petrohrad?",
+      "question": "Který balet byl Petipův první celovečerní balet?",
       "answers": [
-        "- výuka společenských tanců",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Hvězda z Granady (1855)",
+        "Faraonova dcera (1862)",
+        "Spící krasavice (1890)",
+        "Labutí jezero (1895)"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje petrohrad?",
+      "question": "Který balet přinesl Mariu Petipovi pozici druhého baletního mistra Mariinského divadla?",
       "answers": [
-        "(pro dvanáct dívek a dvanáct chlapců, první žáci = děti služebnictva)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Faraonova dcera (1862)",
+        "Hvězda z Granady (1855)",
+        "Korzár (1863)",
+        "Don Quijote (1869)"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje petrohrad?",
+      "question": "Které balety vytvořil Marius Petipa?",
       "answers": [
-        "- 1759 – Franz Hilverding",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Faraonova dcera, Korzár, Don Quijote, Bayadéra, Spící krasavice, Labutí jezero, Raymonda, Giselle",
+        "Louskáček, Labutí jezero, Spící krasavice",
+        "Giselle, Korzár, Bayadéra",
+        "Don Quijote, Faraonova dcera, Raymonda"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1773 – založena speciální třída -> pravidelné hodiny tance?",
+      "question": "Kdy zemřel Marius Petipa a kde je pochován?",
       "answers": [
-        "4x týdně 4 hodiny",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1910 na Krymu, pochován v Petrohradu",
+        "1900 v Petrohradu, pochován v Moskvě",
+        "1920 v Paříži, pochován ve Francii",
+        "1890 v Moskvě, pochován v Petrohradu"
       ],
       "correct": 0
     },
     {
-      "question": "Co je vl. jméno?",
+      "question": "Jaký je význam Mariu Petipu pro ruský balet?",
       "answers": [
-        "Michel Victor Marius Alphonse Petipa",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Nejvýznamnější představitel klasického baletního umění, jeho balety se dodnes tančí po celém světě",
+        "První ruský baletní mistr",
+        "Zakladatel první ruské baletní školy",
+        "Průkopník symfonických baletů"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1875 ?",
+      "question": "Kdy se stal Lev Ivanovič Ivanov druhým baletním mistrem?",
       "answers": [
-        "– Stella, Ariadna 1877 – Labutí jezero (hudba – P",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1885",
+        "1870",
+        "1890",
+        "1900"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1805 ?",
+      "question": "Jaké balety vytvořil Lev Ivanovič Ivanov?",
       "answers": [
-        "– divadlo vyhořelo -> přerušení výuky",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Marná opatrnost, Polovecké tance, Louskáček, Labutí jezero",
+        "Spící krasavice, Labutí jezero, Louskáček",
+        "Giselle, Korzár, Bayadéra",
+        "Don Quijote, Faraonova dcera, Raymonda"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1853 ?",
+      "question": "Jaký byl význam Lva Ivanoviče Ivanova pro ruský balet?",
       "answers": [
-        "– divadlo vyhořelo",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Průkopník symfonických (bezdějových) baletů, díky skvělému sluchu uměl dát tanec přesně do hudby",
+        "Nejvýznamnější představitel klasického baletního umění",
+        "První ruský baletní mistr",
+        "Zakladatel první ruské baletní školy"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1862 ?",
+      "question": "Jaké jsou hlavní rozdíly mezi petrohradským a moskevským baletem?",
       "answers": [
-        "– žádost od vedení divadla na vytvoření baletu pro C",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Petrohrad bylo carské město s lepšími podmínkami, kde byla v roce 1738 založena první ruská baletní škola. Moskva bylo kupecké město s opožděným vývojem, oblíbeným žánrem byla komika a pantomima.",
+        "Petrohrad měl opožděný vývoj, Moskva měla lepší podmínky",
+        "Petrohrad a Moskva měly stejné podmínky",
+        "Petrohrad se zaměřoval na komiku a pantomimu, Moskva na klasický balet"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1827 ?",
+      "question": "Kdo byl prvním moskevským tanečním mistrem?",
       "answers": [
-        "– debut, Brusel",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Adam Gluškovský",
+        "Carlo Blasis",
+        "Václav Reisinger",
+        "Marius Petipa"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje moskva?",
+      "question": "Kdy bylo otevřeno Velké divadlo v Moskvě a jak se dnes nazývá?",
       "answers": [
-        "- 1764 – vychovatelna pro sirotky (součástí výuky byl tanec)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1825, dnes Bolshoi Theatre",
+        "1800, dnes Mariinské divadlo",
+        "1850, dnes Národní divadlo",
+        "1900, dnes Velké divadlo"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje moskva?",
+      "question": "Kdo byl Václav Reisinger a jaké balety vytvořil v Moskvě?",
       "answers": [
-        "- 1812 – Moskva - baletní mistr a pedagog + choreografie do oper, činoher:",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Čech, v roce 1871 vytvořil Popelku aneb Kouzelný střevíček, v roce 1873 se stal moskevským baletním mistrem. Vytvořil balety Kaščej, Stella, Ariadna, Labutí jezero a Babiččina svatba",
+        "Francouz, vytvořil Giselle a Labutí jezero",
+        "Ital, vytvořil Don Quijote a Faraonovu dceru",
+        "Rus, vytvořil Spící krasavici a Louskáčka"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje moskva?",
+      "question": "Kdy působil Carlo Blasis v Moskvě a jaké balety zde vytvořil?",
       "answers": [
-        "- 1825 – otevření Velkého divadla v Moskvě (dnes Bolshoi Theatre)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1861-1864, vytvořil Faust, Pygmalion a Dva dny v Benátkách",
+        "1850-1860, vytvořil Labutí jezero a Louskáčka",
+        "1870-1880, vytvořil Spící krasavici a Raymondu",
+        "1840-1850, vytvořil Giselle a Korzára"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co přinesl Charles le Pique do Ruska?",
+      "answers": [
+        "Uvedl Noverrovy balety, zasloužil se o překlad Noverrových listů a přinesl dějový dramatický balet (ballet d'action)",
+        "Přinesl klasický balet a založil první ruskou baletní školu",
+        "Přinesl symfonické balety a vytvořil Labutí jezero",
+        "Přinesl romantický balet a vytvořil Giselle"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy působil Filip Taglioni v Petrohradu a jaké balety zde uvedl?",
+      "answers": [
+        "1837-1842, v roce 1842 zde vystupovala také Marie Taglioni. Tituly: Sylfida, Cikánka, Natálie aneb Švýcarská mlékařka, Mořský lupič, Jezero víl",
+        "1850-1860, uvedl Labutí jezero a Louskáčka",
+        "1870-1880, uvedl Spící krasavici a Raymondu",
+        "1820-1830, uvedl Giselle a Korzára"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy působil Arthur Saint-Léon v Petrohradu a jaké balety zde uvedl?",
+      "answers": [
+        "1859-1869, tituly: Pohádka o rybáři a rybce, Koníček hrbáček",
+        "1840-1850, uvedl Labutí jezero a Louskáčka",
+        "1870-1880, uvedl Spící krasavici a Raymondu",
+        "1830-1840, uvedl Giselle a Korzára"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo dokončil Louskáčka po Petipovi a proč?",
+      "answers": [
+        "Lev Ivanov, z důvodu Petipovy vážné kožní choroby. Oblíbeným prvkem byl tanec vloček",
+        "Jules Perrot, z důvodu Petipovy nemoci",
+        "Charles Didelot, z důvodu Petipovy nepřítomnosti",
+        "Arthur Saint-Léon, z důvodu Petipovy rezignace"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo vytvořil druhé a čtvrté jednání Labutího jezera?",
+      "answers": [
+        "Lev Ivanov (druhé a čtvrté jednání), Marius Petipa (první a třetí jednání)",
+        "Marius Petipa vytvořil všechna jednání",
+        "Jules Perrot vytvořil druhé a čtvrté jednání",
+        "Charles Didelot vytvořil druhé a čtvrté jednání"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Marius Petipa s hudbou Petra Iljiče Čajkovského?",
+      "answers": [
+        "Spící krasavice (1890) a Labutí jezero (1895)",
+        "Louskáček (1892)",
+        "Raymonda (1898)",
+        "Giselle (1903)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Marius Petipa s hudbou Alexandra Glazunova?",
+      "answers": [
+        "Raymonda (1898)",
+        "Spící krasavice (1890)",
+        "Labutí jezero (1895)",
+        "Louskáček (1892)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Marius Petipa s hudbou Ludwiga Minkuse?",
+      "answers": [
+        "Don Quijote (1869) a Bayadéra (1877)",
+        "Spící krasavice (1890)",
+        "Labutí jezero (1895)",
+        "Raymonda (1898)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Lev Ivanov Polovecké tance a do které opery patřily?",
+      "answers": [
+        "1890, do opery Kníže Igor s hudbou Alexandra Borodina",
+        "1885, do opery Labutí jezero",
+        "1892, do opery Louskáček",
+        "1895, do opery Spící krasavice"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Lev Ivanov Labutí jezero pouze s druhým jednáním?",
+      "answers": [
+        "1894, po smrti Petra Iljiče Čajkovského",
+        "1890",
+        "1892",
+        "1895"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Lev Ivanov s hudbou Petera Ludwiga Hertela?",
+      "answers": [
+        "Marná opatrnost (1885)",
+        "Polovecké tance (1890)",
+        "Louskáček (1892)",
+        "Labutí jezero (1894)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy působil Franz Hilverding v Petrohradu a jaké balety vytvořil?",
+      "answers": [
+        "1759 jako ředitel baletní školy, vytvořil balety na náměty z antické mytologie: Opuštěná Didona, Acis a Galthea, Návrat jara aneb Vítězství Flóry",
+        "1738, založil první ruskou baletní školu",
+        "1786, přinesl dějový dramatický balet",
+        "1847, vytvořil Faraonovu dceru"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy působil Gasparo Angiolini v Petrohradu a jaké balety vytvořil?",
+      "answers": [
+        "1766-1781 jako ředitel baletní školy, vytvořil Rinaldo a Armida, Thézeus a Ariadna, Překonaný předsudek",
+        "1738, založil první ruskou baletní školu",
+        "1786, přinesl dějový dramatický balet",
+        "1847, vytvořil Faraonovu dceru"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Jean Baptiste Landé v roce 1744?",
+      "answers": [
+        "Balet květů, námět: Galantní Indové, třetí část: Perský svátek květin",
+        "Labutí jezero",
+        "Louskáček",
+        "Spící krasavice"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Adam Gluškovský balety Popelka a Černý šál?",
+      "answers": [
+        "Popelka 1826, Černý šál 1831",
+        "Popelka 1800, Černý šál 1810",
+        "Popelka 1850, Černý šál 1860",
+        "Popelka 1870, Černý šál 1880"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Marius Petipa v Moskvě v roce 1869?",
+      "answers": [
+        "Don Quijote s hudbou Ludwiga Minkuse",
+        "Faraonova dcera",
+        "Král Kandaul",
+        "Korzár"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Marius Petipa balet Korzár?",
+      "answers": [
+        "1863",
+        "1862",
+        "1869",
+        "1871"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet obnovil Marius Petipa v roce 1903 a kdo tančil hlavní roli?",
+      "answers": [
+        "Giselle, hlavní roli tančila Anna Pavlova",
+        "Labutí jezero, hlavní roli tančila Anna Pavlova",
+        "Louskáček, hlavní roli tančila Anna Pavlova",
+        "Spící krasavice, hlavní roli tančila Anna Pavlova"
       ],
       "correct": 0
     }

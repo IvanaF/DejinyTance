@@ -1,0 +1,47 @@
+{
+  "id": "T12",
+  "order": 12,
+  "title": "VÝVOJ BALETU V RUSKU",
+  "image": "assets/images/topics/T12.svg",
+  "objectives": [
+    "Pochopit vývoj baletu v Rusku od 17. století a vliv západní evropské kultury",
+    "Naučit se o rozdílech mezi petrohradským a moskevským baletem",
+    "Rozpoznat klíčové osobnosti ruského baletu (Petipa, Ivanov, Valberg, Didelot) a jejich význam",
+    "Pochopit vývoj baletní školy v Petrohradu a její vliv na ruský balet",
+    "Naučit se o nejvýznamnějších baletech ruského baletu a jejich choreografech"
+  ],
+  "materials": {
+    "summary": "Vývoj baletu v Rusku začal v 17. století, kdy se balet dostal do země díky zahraničním tanečníkům a baletním mistrům z Francie a Itálie. V roce 1673 byl uveden první dvorský balet Orfeus a Eurydika. Vývoj baletu probíhal odlišně v Petrohradu, carském městě s lepšími podmínkami pro rozvoj tanečního umění, a v Moskvě, kupeckém městě s opožděným vývojem baletu, kde byl oblíbeným žánrem komika a pantomima."
+  },
+  "audio": {
+    "title": "Otázka 12 - VÝVOJ BALETU V RUSKU",
+    "src": "assets/audio/Otazka-12-vyvoj-baletu-v-rusku-cast-1.mp3",
+    "transcript": "Více audio souborů - viz jednotlivé části níže.",
+    "files": [
+      {
+        "src": "assets/audio/Otazka-12-vyvoj-baletu-v-rusku-cast-1.mp3",
+        "title": "Otázka 12 - Úvod a Petrohrad",
+        "part": 1
+      },
+      {
+        "src": "assets/audio/Otazka-12-vyvoj-baletu-v-rusku-cast-2.mp3",
+        "title": "Otázka 12 - Moskva a Marius Petipa",
+        "part": 2
+      },
+      {
+        "src": "assets/audio/Otazka-12-vyvoj-baletu-v-rusku-cast-3.mp3",
+        "title": "Otázka 12 - Lev Ivanov",
+        "part": 3
+      }
+    ]
+  },
+  "resourcesSource": "data/resources/T12_resources.json",
+  "flashcardSource": "data/flashcards/T12_flashcards.json",
+  "mindmap": {
+    "description": "Myšlenková mapa zobrazuje klíčové pojmy a souvislosti týkající se vývoje baletu v Rusku, rozdíly mezi petrohradským a moskevským baletem a významné osobnosti ruského baletu.",
+    "image": "assets/images/mindmaps/T12.png"
+  },
+  "materialsSource": "data/materials/T12_materials.json",
+  "summarySource": "data/summaries/T12_summary.txt",
+  "quizSource": "data/quizzes/T12_quiz.json"
+}
