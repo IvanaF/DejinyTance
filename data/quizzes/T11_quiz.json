@@ -1,192 +1,512 @@
 {
   "questions": [
     {
-      "question": "Co je 1870 – Coppélie (hudba – L. Delibes)?",
+      "question": "Kdo byl Jules Perrot a kdy žil?",
       "answers": [
-        "konec éry romantických baletů",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Francouzský tanečník, pedagog a choreograf (1810-1892)",
+        "Italský tanečník a choreograf (1821-1870)",
+        "Dánský pedagog, tanečník a choreograf (1805-1879)",
+        "Francouzský tanečník a baletní mistr (1779-1871)"
       ],
       "correct": 0
     },
     {
-      "question": "Co je vydal tři svazky pamětí?",
+      "question": "Kde se narodil Jules Perrot?",
       "answers": [
-        "Můj divadelní život",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "V Lyonu",
+        "V Paříži",
+        "V Miláně",
+        "V Kodani"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1837 ?",
+      "question": "Kdy měl Jules Perrot debut v Pařížské opeře a kdo byl jeho partner?",
       "answers": [
-        "(16 let) – debut -> začal vystupovat v evropských divadlech",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "23. června 1830, partner Marie Taglioni",
+        "V roce 1826, partner Augusta Vestrise",
+        "V roce 1835, partner Carlotta Grissi",
+        "V roce 1840, partner Fanny Cerrito"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1851?",
+      "question": "S kterou tanečnicí spolupracoval Jules Perrot a stali se životními partnery?",
       "answers": [
-        "-58 – baletní mistr Mariinského divadla",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Carlotta Grissi",
+        "Fanny Cerrito",
+        "Lucile Grahn",
+        "Marie Taglioni"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1847 ?",
+      "question": "Kdy vytvořil Jules Perrot balet Giselle a kdo tančil hlavní roli?",
       "answers": [
-        "– Paříž - angažmá v PO jako tanečník",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1841, hlavní roli tančila Carlotta Grissi",
+        "1840, hlavní roli tančila Fanny Cerrito",
+        "1836, hlavní roli tančila Lucile Grahn",
+        "1845, hlavní roli tančila Marie Taglioni"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1813 ?",
+      "question": "Kolik nových baletů vytvořil Jules Perrot v Londýně?",
       "answers": [
-        "(8 let) – debut",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "18 nových baletů",
+        "10 nových baletů",
+        "25 nových baletů",
+        "15 nových baletů"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1826?",
+      "question": "Jaký balet vytvořil Jules Perrot v roce 1844?",
       "answers": [
-        "-30 – divadlo Porte Saint Martin",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Esmeralda",
+        "Ondine",
+        "Pas de quatre",
+        "Kateřina dcera banditova"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro romantičtí choreografové?",
+      "question": "Kde působil Jules Perrot v letech 1851-58 jako baletní mistr?",
       "answers": [
-        "• Jules Perrot (1810-1892)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Mariinské divadlo v Petrohradě",
+        "Pařížská opera",
+        "Královský dánský balet v Kodani",
+        "La Scala v Miláně"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje romantičtí choreografové?",
+      "question": "Kdo byl Arthur Saint-Léon a kdy žil?",
       "answers": [
-        "– Lyon, taneční škola",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Francouzský tanečník, choreograf a hudebník (1821-1870)",
+        "Francouzský tanečník a choreograf (1810-1892)",
+        "Dánský pedagog a choreograf (1805-1879)",
+        "Italský tanečník a choreograf (1779-1871)"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje romantičtí choreografové?",
+      "question": "S kterou tanečnicí se setkal Arthur Saint-Léon ve Vídni a později se vzali?",
       "answers": [
-        "- navštěvoval hodiny A. Vestrise",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Fanny Cerrito",
+        "Carlotta Grissi",
+        "Lucile Grahn",
+        "Marie Taglioni"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje romantičtí choreografové?",
+      "question": "Kdy působil Arthur Saint-Léon jako baletní mistr Pařížské opery?",
       "answers": [
-        "- s C. Grissi začal spolupracovat-> stali se životními partnery +podnikli turné po Evropě (Paříž)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1851-53",
+        "1842-48",
+        "1859-69",
+        "1830-40"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1854 ?",
+      "question": "Jaký významný balet vytvořil Arthur Saint-Léon v roce 1870?",
       "answers": [
-        "– Gemma (chor",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Coppélie, konec éry romantických baletů",
+        "Giselle, první romantický balet",
+        "La Sylphide, významný dánský balet",
+        "Esmeralda, dramatický balet"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1851?",
+      "question": "Kdo byl August Bournonville a kdy žil?",
       "answers": [
-        "-55 – sólistka PO",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Dánský pedagog, tanečník, choreograf a baletní mistr (1805-1879)",
+        "Francouzský tanečník a choreograf (1810-1892)",
+        "Francouzský choreograf a hudebník (1821-1870)",
+        "Italský tanečník a choreograf (1779-1871)"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1909 ?",
+      "question": "Kde se narodil August Bournonville?",
       "answers": [
-        "– zemřela v Paříži",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "V Kodani",
+        "V Lyonu",
+        "V Paříži",
+        "V Miláně"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1859 ?",
+      "question": "Jak dlouho působil August Bournonville jako baletní mistr a ředitel Královského dánského baletu?",
       "answers": [
-        "– ve svých čtyřiceti letech ukončila kariéru",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "47 let (až do roku 1877)",
+        "30 let",
+        "25 let",
+        "35 let"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1841 ?",
+      "question": "Jaký významný balet vytvořil August Bournonville v roce 1836?",
       "answers": [
-        "– Giselle 1843 – La péri (PO, chor",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "La Sylphide s hudbou Hermana Severina von Løvenskjolda",
+        "Giselle s hudbou Adolphe Charlese Adama",
+        "Coppélie s hudbou Léo Delibese",
+        "Esmeralda s hudbou Cesare Pugniho"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro romantické tanečnice?",
+      "question": "Jaký je Bournonvillův význam pro rozvoj baletu?",
       "answers": [
-        "• Carlotta Grissi (1819-1899)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Rozvinul školu mužského tance, vytvořil systém týdenních tréninků, zrovnoprávnil balet s operou a činohrou",
+        "Vytvořil balet Coppélie, který je považován za konec éry romantických baletů",
+        "Spolupracoval s Carlottou Grissi a vytvořil balet Giselle",
+        "Působil jako baletní mistr Mariinského divadla v Petrohradě"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje romantické tanečnice?",
+      "question": "Co vydal August Bournonville?",
       "answers": [
-        "– začala vystupovat v La Scale",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Tři svazky pamětí nazvané Můj divadelní život",
+        "Baletní učebnici s názvem Základy baletu",
+        "Teoretickou práci o romantickém baletu",
+        "Autobiografii s názvem Můj život v baletu"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje romantické tanečnice?",
+      "question": "Kdo byla Carlotta Grissi a kdy žila?",
       "answers": [
-        "- ve stejném roce nabídka na angažmá v PO -> taneční partnerka L. Petipy (bratr M. Petipy)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Italská tanečnice a partnerka Julese Perrota (1819-1899)",
+        "Italská tanečnice a manželka Arthura Saint-Léona (1817-1909)",
+        "Dánská tanečnice a žákyně Augusta Bournonvilla (1819-1907)",
+        "Francouzská tanečnice a partnerka Marie Taglioni (1810-1884)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde se narodila Carlotta Grissi?",
+      "answers": [
+        "V Miláně",
+        "V Neapoli",
+        "V Kodani",
+        "V Paříži"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém baletu tančila Carlotta Grissi hlavní roli v roce 1841?",
+      "answers": [
+        "Giselle",
+        "Esmeralda",
+        "La Sylphide",
+        "Coppélie"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy skončilo angažmá Carlotty Grissi v Pařížské opeře?",
+      "answers": [
+        "1849",
+        "1841",
+        "1855",
+        "1859"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byla Fanny Cerrito a kdy žila?",
+      "answers": [
+        "Italská tanečnice a manželka Arthura Saint-Léona (1817-1909)",
+        "Italská tanečnice a partnerka Julese Perrota (1819-1899)",
+        "Dánská tanečnice a žákyně Augusta Bournonvilla (1819-1907)",
+        "Francouzská tanečnice a partnerka Marie Taglioni (1810-1884)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde se narodila Fanny Cerrito?",
+      "answers": [
+        "V Neapoli",
+        "V Miláně",
+        "V Kodani",
+        "V Paříži"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byl učitelem Fanny Cerrito?",
+      "answers": [
+        "Jules Perrot",
+        "August Bournonville",
+        "Arthur Saint-Léon",
+        "Filip Taglioni"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy působila Fanny Cerrito jako sólistka Pařížské opery?",
+      "answers": [
+        "1851-55",
+        "1841-49",
+        "1838-42",
+        "1845-50"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byla Lucile Grahn a kdy žila?",
+      "answers": [
+        "Dánská tanečnice a žákyně Augusta Bournonvilla (1819-1907)",
+        "Italská tanečnice a partnerka Julese Perrota (1819-1899)",
+        "Italská tanečnice a manželka Arthura Saint-Léona (1817-1909)",
+        "Francouzská tanečnice a partnerka Marie Taglioni (1810-1884)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde se narodila Lucile Grahn?",
+      "answers": [
+        "V Kodani",
+        "V Miláně",
+        "V Neapoli",
+        "V Paříži"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byl učitelem Lucile Grahn?",
+      "answers": [
+        "August Bournonville",
+        "Jules Perrot",
+        "Arthur Saint-Léon",
+        "Filip Taglioni"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém baletu tančila Lucile Grahn hlavní roli v roce 1835?",
+      "answers": [
+        "Waldemar",
+        "La Sylphide",
+        "Giselle",
+        "Esmeralda"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde hostovala Lucile Grahn v letech 1850-51?",
+      "answers": [
+        "V Praze ve Stavovském divadle",
+        "V Petrohradě v Mariinském divadle",
+        "V Londýně v Královském divadle",
+        "V Paříži v Pařížské opeře"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy ukončila Lucile Grahn aktivní kariéru?",
+      "answers": [
+        "1856",
+        "1849",
+        "1859",
+        "1857"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy měl Jules Perrot debut v Pařížské opeře?",
+      "answers": [
+        "23. června 1830",
+        "23. června 1826",
+        "12. března 1832",
+        "10. června 1822"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce vytvořil Jules Perrot balet Ondine?",
+      "answers": [
+        "1843",
+        "1841",
+        "1844",
+        "1845"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce vytvořil Jules Perrot balet Pas de quatre?",
+      "answers": [
+        "1845",
+        "1843",
+        "1844",
+        "1846"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce vytvořil Jules Perrot balet Kateřina dcera banditova?",
+      "answers": [
+        "1846",
+        "1844",
+        "1845",
+        "1848"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce vytvořil Jules Perrot balet Korzár?",
+      "answers": [
+        "1858",
+        "1851",
+        "1852",
+        "1856"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce měl Arthur Saint-Léon debut?",
+      "answers": [
+        "1837 (v 16 letech)",
+        "1830 (v 9 letech)",
+        "1813 (v 8 letech)",
+        "1829 (v 10 letech)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce vytvořil Arthur Saint-Léon balet Markytánka?",
+      "answers": [
+        "1844",
+        "1847",
+        "1848",
+        "1849"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce vytvořil Arthur Saint-Léon balet Ďáblovy housle?",
+      "answers": [
+        "1849",
+        "1847",
+        "1848",
+        "1851"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde působil Arthur Saint-Léon v letech 1859-69?",
+      "answers": [
+        "V Petrohradě jako baletní mistr",
+        "V Paříži jako baletní mistr Pařížské opery",
+        "V Londýně jako baletní mistr",
+        "V Kodani jako baletní mistr"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce vytvořil Arthur Saint-Léon balet Koníček Hrbáček?",
+      "answers": [
+        "1864",
+        "1867",
+        "1870",
+        "1859"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce vytvořil August Bournonville balet Waldemar?",
+      "answers": [
+        "1835",
+        "1836",
+        "1842",
+        "1848"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce vytvořil August Bournonville balet Napoli aneb Rybář a jeho nevěsta?",
+      "answers": [
+        "1842",
+        "1835",
+        "1836",
+        "1858"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy měl August Bournonville poslední vystoupení jako tanečník?",
+      "answers": [
+        "1848 v baletu Waldemar",
+        "1836 v baletu La Sylphide",
+        "1842 v baletu Napoli",
+        "1858 v baletu Slavnost květin v Genzánu"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce začala Carlotta Grissi vystupovat v La Scale?",
+      "answers": [
+        "1829 (v 10 letech)",
+        "1826 (v 7 letech)",
+        "1832 (v 15 letech)",
+        "1819 (v 9 letech)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce měla Fanny Cerrito debut?",
+      "answers": [
+        "1832 (v 15 letech) v Neapoli",
+        "1829 (v 10 letech) v Miláně",
+        "1826 (v 7 letech) v Kodani",
+        "1819 (v 9 letech) v Lyonu"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém roce měla Lucile Grahn debut?",
+      "answers": [
+        "1826 (v 7 letech)",
+        "1829 (v 10 letech)",
+        "1832 (v 15 letech)",
+        "1819 (v 9 letech)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy měla Lucile Grahn angažmá v Pařížské opeře?",
+      "answers": [
+        "1838",
+        "1840",
+        "1843",
+        "1844"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy ukončila Carlotta Grissi kariéru?",
+      "answers": [
+        "1859 (ve svých 40 letech)",
+        "1856",
+        "1857",
+        "1849"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy měla Fanny Cerrito poslední veřejné vystoupení?",
+      "answers": [
+        "1857",
+        "1855",
+        "1856",
+        "1859"
       ],
       "correct": 0
     }

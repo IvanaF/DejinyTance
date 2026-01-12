@@ -1,0 +1,42 @@
+{
+  "id": "T04",
+  "order": 4,
+  "title": "STŘEDOVĚK",
+  "image": "assets/images/topics/T04.svg",
+  "objectives": [
+    "Pochopit středověk jako období rozdělené na tři fáze (raný, vrcholný, pozdní středověk) a jejich charakteristiky",
+    "Naučit se o vývoji umění ve středověku (románský a gotický sloh) a jejich charakteristikách",
+    "Rozpoznat různé druhy středověkého divadla (církevní a světské) a jejich žánry",
+    "Pochopit vývoj tance ve středověku a postoj církve k tanci",
+    "Naučit se o různých druzích středověkých tanců (dvorské, cechovní, samostatné druhy)"
+  ],
+  "materials": {
+    "summary": "Středověk lze rozdělit na tři období: raný středověk (5. – 11. stol.) charakterizovaný šířením křesťanství a rozvojem románské kultury, vrcholný středověk (11. – 14. stol.) s rozvojem měst a vznikem měšťanstva, a pozdní středověk (14. – 15. stol.) s prvními zámořskými objevy a vrcholem gotického umění. V umění se rozvíjel románský sloh (10. – 12. stol.) vycházející z římského umění a gotický sloh (2. pol. 12. – 15. stol.) s charakteristickými znaky jako vertikalismus, lomený oblouk a vnější opěrný systém. V divadle antické divadlo zaniklo a divadelní umění přežilo mezi kočovnými umělci. Objevily se dva druhy divadla: církevní (liturgické) divadlo s žánry jako mirákl, moralita a mystérium, a světské divadlo s fraškami, slavnostmi bláznů, interludii a mumraji, které stály na počátku vzniku baletního umění. V tanci měla církev negativní postoj a tanec považovala za hřích. Rozvíjely se různé druhy tanců: dvorské tance (procesionální tance, estampida), cechovní tance a samostatné druhy tanců jako tanec smrti, choreománie (Tanec sv. Víta), tanec pochodňový a sabath."
+  },
+  "audio": {
+    "title": "Otázka 4 - STŘEDOVĚK",
+    "src": "assets/audio/Otazka-4-stredovek-cast-1.mp3",
+    "transcript": "Více audio souborů - viz jednotlivé části níže.",
+    "files": [
+      {
+        "src": "assets/audio/Otazka-4-stredovek-cast-1.mp3",
+        "title": "Otázka 4 - Historii středověku",
+        "part": 1
+      },
+      {
+        "src": "assets/audio/Otazka-4-stredovek-cast-2.mp3",
+        "title": "Otázka 4 - Divadlo a tanec",
+        "part": 2
+      }
+    ]
+  },
+  "resourcesSource": "data/resources/T04_resources.json",
+  "flashcardSource": "data/flashcards/T04_flashcards.json",
+  "mindmap": {
+    "description": "Myšlenková mapa zobrazuje klíčové pojmy a souvislosti týkající se středověku, tří období středověku, umění (románský a gotický sloh), divadla (církevní a světské) a tance.",
+    "image": "assets/images/mindmaps/T04.png"
+  },
+  "materialsSource": "data/materials/T04_materials.json",
+  "summarySource": "data/summaries/T04_summary.txt",
+  "quizSource": "data/quizzes/T04_quiz.json"
+}

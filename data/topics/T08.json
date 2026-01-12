@@ -1,0 +1,42 @@
+{
+  "id": "T08",
+  "order": 8,
+  "title": "KLASICISMUS",
+  "image": "assets/images/topics/T08.svg",
+  "objectives": [
+    "Pochopit klasicismus jako období inspirované antikou s důrazem na rozum a pravidelný řád",
+    "Naučit se o vzniku nového baletního žánru ballet d'action (dějový dramatický balet)",
+    "Rozpoznat významné choreografy klasicismu (Angiolini, Noverre) a jejich díla",
+    "Pochopit význam Noverrových Listů o tanci a baletech pro vývoj baletu",
+    "Naučit se o významných tanečnících a choreografech Pařížské opery (Vestris, Gardelové, Dauberval)"
+  ],
+  "materials": {
+    "summary": "Klasicismus bylo období, které vzniklo ve Francii ve druhé polovině 17. století za vlády Ludvíka XIV. Inspirovalo se antikou a zdůrazňovalo jasný, pravidelný řád, úměrnost a rozum. V tanci získal balet svou samostatnost a nebyl součástí opery. Vznikl nový baletní žánr ballet d'action (dějový dramatický balet), o jehož uvedení se zasloužili choreografové Gasparo Angiolini a Jean Georges Noverre. Noverre vytvořil kolem 150 baletů a v roce 1760 vydal knihu Listy o tanci a baletech, která měla zásadní vliv na vývoj baletu. V Pařížské opeře působili významní tanečníci a choreografové jako Gaetano Vestris, August Vestris, Maxmilian Gardel, Pierre Gardel a Jean Dauberval."
+  },
+  "audio": {
+    "title": "Otázka 8 - KLASICISMUS",
+    "src": "assets/audio/Otazka-8-klasicismus-cast-1.mp3",
+    "transcript": "Více audio souborů - viz jednotlivé části níže.",
+    "files": [
+      {
+        "src": "assets/audio/Otazka-8-klasicismus-cast-1.mp3",
+            "title": "Otázka 8 - Klasicismus a Gasparo Angiolini",
+        "part": 1
+      },
+      {
+        "src": "assets/audio/Otazka-8-klasicismus-cast-2.mp3",
+            "title": "Otázka 8 - Jean Georges Noverre a Pařížská opera",
+        "part": 2
+      }
+    ]
+  },
+  "resourcesSource": "data/resources/T08_resources.json",
+  "flashcardSource": "data/flashcards/T08_flashcards.json",
+  "mindmap": {
+    "description": "Myšlenková mapa zobrazuje klíčové pojmy a souvislosti týkající se klasicismu, vývoje baletu v tomto období, významných choreografů a jejich díla.",
+    "image": "assets/images/mindmaps/T08.png"
+  },
+  "materialsSource": "data/materials/T08_materials.json",
+  "summarySource": "data/summaries/T08_summary.txt",
+  "quizSource": "data/quizzes/T08_quiz.json"
+}

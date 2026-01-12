@@ -1,422 +1,562 @@
 {
   "questions": [
     {
-      "question": "Co je hl. znaky?",
+      "question": "Kdy vznikl romantismus a jako reakce na co?",
       "answers": [
-        "individualita (vyzdvihuje svobodu jednotlivce), cit a vášeň",
-        "středověké dějiny",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Na přelomu 18. a 19. století jako reakce na osvícenství",
+        "V první polovině 18. století jako reakce na klasicismus",
+        "Ve druhé polovině 19. století jako reakce na realismus",
+        "Na počátku 17. století jako reakce na baroko"
       ],
       "correct": 0
     },
     {
-      "question": "Co je neinspiroval se antikou -> inspirace?",
+      "question": "Jaké jsou hlavní znaky romantismu?",
       "answers": [
-        "středověk, exotické země",
-        "středověké dějiny",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Individualita (vyzdvihuje svobodu jednotlivce), cit a vášeň",
+        "Pravidelný řád, úměrnost a rozum",
+        "Náboženská témata, mystika a nadpřirozeno",
+        "Abstraktní formy, experimenty v umění"
       ],
       "correct": 0
     },
     {
-      "question": "Co je umělci se stávají dělníky?",
+      "question": "Z čeho se inspiroval romantismus?",
       "answers": [
-        "jsou závislí na měšťanech, aby si jejich díla koupili",
-        "středověké dějiny",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Středověk a exotické země",
+        "Antika a klasické umění",
+        "Baroko a renesance",
+        "Moderní technologie a věda"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce  19. stol.?",
+      "question": "Odkud pochází název romantismus?",
       "answers": [
-        "jako reakce na osvícenství",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Od slova román",
+        "Od slova romantika",
+        "Od jména básníka Romana",
+        "Od názvu města Řím"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro 10.) romantismus?",
+      "question": "Jaké znaky má architektura romantismu?",
       "answers": [
-        "(osvícenství – optimismus)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Náměty především gotické (tzv. novogotika), příklad zámek Hluboká",
+        "Pravidelné linie, sloupořadí, trojúhelníkové štíty",
+        "Kruhové a elipsovité půdorysy, dynamika",
+        "Barokní zdobení, asymetrie"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 10.) romantismus?",
+      "question": "Kde byla kolébka románské (windsorské) gotiky?",
       "answers": [
-        "- název romantismus = od slova román",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Anglie",
+        "Francie",
+        "Německo",
+        "Itálie"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 10.) romantismus?",
+      "question": "Jaké znaky má malířství romantismu?",
       "answers": [
-        "a 19. stol. jako reakce na osvícenství",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Náměty středověkých dějin s hrou světla a stínu pro větší dramatický efekt",
+        "Antické náměty s důrazem na symetrii",
+        "Abstraktní formy a geometrické obrazce",
+        "Náboženská témata s využitím zlata"
       ],
       "correct": 0
     },
     {
-      "question": "Co je náměty?",
+      "question": "Co je biedermayer?",
       "answers": [
-        "antické, ale především gotické (tzv",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Nový umělecký směr rozvíjející se v německy mluvících zemích v období Metternichova absolutismu",
+        "Název architektonického slohu v romantismu",
+        "Název hudebního žánru romantismu",
+        "Název literárního směru romantismu"
       ],
       "correct": 0
     },
     {
-      "question": "Co je náměty?",
+      "question": "Který francouzský malíř romantismu vytvořil obraz Svoboda vede lid na barikády?",
       "answers": [
-        "středověké dějiny",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Eugene Delacroix",
+        "Francisco Goya",
+        "Théodore Géricault",
+        "Antonín Mánes"
       ],
       "correct": 0
     },
     {
-      "question": "Co je Čechy?",
+      "question": "Který francouzský malíř vytvořil obraz Vor Medúzy, který je považován za první obraz z období romantismu?",
       "answers": [
-        "Antonín Mánes (krajiny)",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Théodore Géricault",
+        "Francisco Goya",
+        "Eugene Delacroix",
+        "Antonín Mánes"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro malířství?",
+      "question": "Který český malíř romantismu je známý svými krajinami?",
       "answers": [
-        "(rozvoj v německy mluvících zemích v období Metternichova absolutismu)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Antonín Mánes",
+        "Josef Mánes",
+        "Josef Navrátil",
+        "Karel Purkyně"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje malířství?",
+      "question": "Jaké změny probíhaly v hudbě romantismu?",
       "answers": [
-        "- vznikl nový umělecký směr tzv. biedermayer",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Přesun ze šlechtických dvorů do veřejných sálů a divadel, reforma opery, prvky z lidové hudby",
+        "Přesun do kostelů, důraz na náboženskou hudbu",
+        "Přesun do operních domů pouze pro šlechtu",
+        "Přesun do soukromých salónů, důraz na komorní hudbu"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje malířství?",
+      "question": "Který skladatel prosazoval reformu opery, podle které předehra má vykreslovat děj a náladu opery?",
       "answers": [
-        "- Francie = Francisco Goya",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Richard Wagner",
+        "Franz Schubert",
+        "Franz Liszt",
+        "Frédéric Chopin"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje malířství?",
+      "question": "Který český skladatel vytvořil opery Prodaná nevěsta, Libuše a cyklus Má vlast?",
       "answers": [
-        "Théodore Géricault (Vor Medúzy – první obraz z období romantismu)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Bedřich Smetana",
+        "Antonín Dvořák",
+        "Leoš Janáček",
+        "Bohuslav Martinů"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1896 ?",
+      "question": "Který český skladatel vytvořil opery Rusalka, Čert a Káča a díla Humoreska a Slovanské tance?",
       "answers": [
-        "– založena Česká filharmonie",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Antonín Dvořák",
+        "Bedřich Smetana",
+        "Leoš Janáček",
+        "Bohuslav Martinů"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro hudba?",
+      "question": "Kdy byla založena Česká filharmonie?",
       "answers": [
-        "P",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1896",
+        "1886",
+        "1906",
+        "1876"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje hudba?",
+      "question": "Jaké znaky má literatura romantismu?",
       "answers": [
-        "- objevují se prvky z lidové hudby",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Důležitý je cit, sen a podvědomí, populární je poezie a pohádky",
+        "Důraz na rozum, logiku a fakta",
+        "Náboženská témata a duchovní obsah",
+        "Technické popisy a vědecké informace"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje hudba?",
+      "question": "Který americký spisovatel romantismu vytvořil báseň Havran a povídku Jáma a kyvadlo?",
       "answers": [
-        "A. Dvořák (opery Rusalka, Čert a Káča; Humoreska, Slovanské tance) + N. Paganini (houslista)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Edgar Allan Poe",
+        "George Gordon Byron",
+        "Victor Hugo",
+        "Alexandre Dumas st."
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro literatura?",
+      "question": "Který anglický básník romantismu vytvořil báseň Korzár?",
       "answers": [
-        "Anglie – G",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "George Gordon Byron",
+        "Edgar Allan Poe",
+        "Victor Hugo",
+        "Alexandr Sergejevič Puškin"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje literatura?",
+      "question": "Který ruský spisovatel romantismu vytvořil díla Evžen Oněgin a Bachčisarijská fontána?",
       "answers": [
-        "Čechy – K. H. Mácha (Máj, Pouť krkonošská)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Alexandr Sergejevič Puškin",
+        "Lev Nikolajevič Tolstoj",
+        "Fjodor Michajlovič Dostojevskij",
+        "Ivan Sergejevič Turgeněv"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje literatura?",
+      "question": "Který francouzský spisovatel romantismu vytvořil díla Bídníci a Chrám matky boží v Paříži?",
       "answers": [
-        "- A. Jirásek (historické romány – Psohlavci)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Victor Hugo",
+        "Alexandre Dumas st.",
+        "Gustave Flaubert",
+        "Émile Zola"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristický námět?",
+      "question": "Který francouzský spisovatel romantismu vytvořil díla Tři mušketýři a Hrabě Monte Cristo?",
       "answers": [
-        "láska smrtelníka k nadpřirozené bytosti",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Alexandre Dumas st.",
+        "Victor Hugo",
+        "Gustave Flaubert",
+        "Émile Zola"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakterní tance (?",
+      "question": "Který český básník romantismu vytvořil díla Máj a Pouť krkonošská?",
       "answers": [
-        "stylizované, upravované tance)",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Karel Hynek Mácha",
+        "Karel Jaromír Erben",
+        "Alois Jirásek",
+        "Božena Němcová"
       ],
       "correct": 0
     },
     {
-      "question": "Co je Druhá část?",
+      "question": "Který český spisovatel romantismu vytvořil Kytici a věnoval se sběratelské činnosti?",
       "answers": [
-        "„bílý balet“ (nový žánr)",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Karel Jaromír Erben",
+        "Karel Hynek Mácha",
+        "Alois Jirásek",
+        "Božena Němcová"
       ],
       "correct": 0
     },
     {
-      "question": "Co je nereálné prostředí?",
+      "question": "Který český spisovatel romantismu vytvořil historické romány, například Psohlavci?",
       "answers": [
-        "svět fantazie, snů, pohádky",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Alois Jirásek",
+        "Karel Hynek Mácha",
+        "Karel Jaromír Erben",
+        "Božena Němcová"
       ],
       "correct": 0
     },
     {
-      "question": "Co je Scénografie – změny i ve výtvarné stránce?",
+      "question": "Co se stalo s baletem v romantismu?",
       "answers": [
-        "lesní krajina, skály, vodopády",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Balet získal novou podobu, obsah i formu a stal se samostatným a hodnotným žánrem",
+        "Balet se stal součástí opery a ztratil samostatnost",
+        "Balet se stal pouze zábavou pro šlechtu",
+        "Balet se přestal vyvíjet a zůstal stejný"
       ],
       "correct": 0
     },
     {
-      "question": "Co je technika?",
+      "question": "Jaký je charakteristický námět romantického baletu?",
       "answers": [
-        "stroje, ocelová lana (k vytvoření dojmu létání víl)",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Láska smrtelníka k nadpřirozené bytosti a motivy z prostředí pirátů, banditů a cikánů",
+        "Antické náměty a mytologie",
+        "Náboženská témata a biblické příběhy",
+        "Historické události a války"
       ],
       "correct": 0
     },
     {
-      "question": "Co je (3. jednání – tanec Stínu?",
+      "question": "Co je dvousoučástí děje v romantickém baletu?",
       "answers": [
-        "jako první jej Marie tančila na špičkách",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Střet reálného a nereálného světa s nadpřirozenými bytostmi",
+        "Dvě samostatné části bez vzájemného vztahu",
+        "Kombinace tance a zpěvu",
+        "Dvě různá témata v jednom baletu"
       ],
       "correct": 0
     },
     {
-      "question": "Co je námět?",
+      "question": "Co je bílý balet?",
       "answers": [
-        "povídka Skřítek od Ch",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Nový žánr s nereálným prostředím (svět fantazie, snů, pohádky), vzdušnými tanci na špičkách a bílým kostýmem",
+        "Balet pouze s bílými tanečnicemi",
+        "Balet bez kostýmů",
+        "Balet s antickými náměty"
       ],
       "correct": 0
     },
     {
-      "question": "Co je hudba?",
+      "question": "Co je klasické pas de deux?",
+      "answers": [
+        "Tanec obou, mužské sólo, ženské sólo a coda",
+        "Tanec pouze pro dva tanečníky",
+        "Tanec s hudbou pro dva nástroje",
+        "Tanec v bílém kostýmu"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Které jsou romantické balety?",
+      "answers": [
+        "Sylfida, Giselle, Coppélie",
+        "Korzár, Esmeralda, Kateřina dcera banditova",
+        "Labutí jezero, Louskáček, Spící krasavice",
+        "Romeo a Julie, Othello, Macbeth"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Které jsou dramatické balety?",
+      "answers": [
+        "Korzár, Esmeralda, Kateřina dcera banditova",
+        "Sylfida, Giselle, Coppélie",
+        "Labutí jezero, Louskáček, Spící krasavice",
+        "Romeo a Julie, Othello, Macbeth"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo vytvořil kostým na bílý balet?",
+      "answers": [
+        "Eugene Lami",
+        "Pierre Ciceri",
+        "Adolph Nourrit",
+        "Jean Madeleine Schneitzhoeffer"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaký je romantický kostým na bílý balet?",
+      "answers": [
+        "Bílá polodlouhá sukně, upnutý živůtek a růžový trikot",
+        "Dlouhá černá sukně a bílý živůtek",
+        "Krátká sukně a bílé ponožky",
+        "Plně zdobená sukně s krajkami"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo jako první obula špičky v rámci představení?",
+      "answers": [
+        "Marie Taglioni v opeře Robert Ďábel",
+        "Fanny Elssler v baletu Sylfida",
+        "Amálie Brugnoliová v opeře Robert Ďábel",
+        "Carlotta Grisi v baletu Giselle"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kterou tanečnici viděla Marie Taglioni ve Vídni chvíli stojící na špičkách?",
+      "answers": [
+        "Amalii Brugnoliovou",
+        "Fanny Elssler",
+        "Carlottu Grisi",
+        "Lucile Grahn"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké znaky má scénografie romantického baletu?",
+      "answers": [
+        "Lesní krajina, skály, vodopády s využitím techniky pro létání víl",
+        "Městské prostředí a architektura",
+        "Antické chrámy a sochy",
+        "Abstraktní dekorace"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil Filip Taglioni?",
+      "answers": [
+        "1779-1871",
+        "1804-1884",
+        "1808-1884",
+        "1810-1884"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde se narodil Filip Taglioni?",
+      "answers": [
+        "V Itálii do umělecké rodiny",
+        "Ve Francii do šlechtické rodiny",
+        "V Německu do taneční rodiny",
+        "V Rakousku do hudební rodiny"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy měl Filip Taglioni debut a kde?",
+      "answers": [
+        "1795 (16 let) v Pise",
+        "1799 v Paříži",
+        "1802 ve Stockholmu",
+        "1805 ve Vídni"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy a kde byla uvedena Sylfida, první romantický balet?",
+      "answers": [
+        "12. března 1832 v Pařížské opeře",
+        "10. června 1822 ve Vídni",
+        "23. července 1827 v Pařížské opeře",
+        "1. dubna 1828 v Pařížské opeře"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo vytvořil libreto k baletu Sylfida?",
+      "answers": [
+        "Adolph Nourrit",
+        "Filip Taglioni",
+        "Jean Madeleine Schneitzhoeffer",
+        "Eugene Lami"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo složil hudbu k baletu Sylfida?",
       "answers": [
         "Jean Madeleine Schneitzhoeffer",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Adolph Nourrit",
+        "Filip Taglioni",
+        "Eugene Lami"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 7. 1827 – debut v PO?",
+      "question": "Kdo vytvořil choreografii k baletu Sylfida?",
       "answers": [
-        "vystoupila se svým bratrem šestkrát (velký úspěch)",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Filip Taglioni",
+        "Jean Madeleine Schneitzhoeffer",
+        "Adolph Nourrit",
+        "Joseph Mazilier"
       ],
       "correct": 0
     },
     {
-      "question": "Co je tanci se věnoval od dětství?",
+      "question": "Kdo tančil hlavní roli Sylfidy v baletu Sylfida?",
       "answers": [
-        "vyučoval jej jeho otec Filip a pedagog J",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Marie Taglioni",
+        "Fanny Elssler",
+        "Carlotta Grisi",
+        "Lucile Grahn"
       ],
       "correct": 0
     },
     {
-      "question": "Co je poté se vrátil do Berlína?",
+      "question": "Kdy žila Marie Taglioni?",
       "answers": [
-        "vytvářel choreografie pro svou dceru Marii Taglioni ml",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1804-1884",
+        "1779-1871",
+        "1808-1884",
+        "1810-1884"
       ],
       "correct": 0
     },
     {
-      "question": "Co je dále vystoupila v baletech?",
+      "question": "Kde se narodila Marie Taglioni?",
       "answers": [
-        "Kočka proměněná v ženu, Voliéra",
-        "přelom 18. a 19. stol. jako reakce na osvícenství",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ve švédském Stockholmu",
+        "V Itálii",
+        "Ve Francii",
+        "V Rakousku"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1837 ?",
+      "question": "Kdy měla Marie Taglioni debut a kde?",
       "answers": [
-        "– konec Mariiny smlouvy s PO, odešel s ní i její otec",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "10. června 1822 ve Vídni v baletu Přijetí nymfy ke dvoru Terpsichořinu",
+        "23. července 1827 v Pařížské opeře",
+        "12. března 1832 v Pařížské opeře v baletu Sylfida",
+        "1. dubna 1828 v Pařížské opeře"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1805 ?",
+      "question": "Která byla nejúspěšnější role Marie Taglioni?",
       "answers": [
-        "– odjezd s rodiči do Vídně",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Sylfida, kterou tančila celou na špičkách",
+        "Giselle",
+        "Coppélie",
+        "Esmeralda"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1853 ?",
+      "question": "Kdy žil Pavel (Paolo) Taglioni?",
       "answers": [
-        "– Metamorfózy -> Satanella (hudba – C",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1808-1884",
+        "1779-1871",
+        "1804-1884",
+        "1810-1884"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1827 ?",
+      "question": "Kde působil Pavel Taglioni jako šéf berlínského baletu?",
       "answers": [
-        "– Paříž (s otcem a bratrem)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1856-1883",
+        "1830-1856",
+        "1828-1830",
+        "1847-1853"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1808?",
+      "question": "Kdy žila Fanny Elssler?",
       "answers": [
-        "- narození syna Pavla (Paola)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1810-1884",
+        "1804-1884",
+        "1808-1884",
+        "1779-1871"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Kde se narodila Fanny Elssler?",
       "answers": [
-        "Typické libreto První část – reálné prostředí",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ve Vídni",
+        "V Paříži",
+        "V Berlíně",
+        "V Londýně"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Který tanec tančila Fanny Elssler v baletu Kulhavý ďábel?",
       "answers": [
-        "- vyvíjí se zde děj baletu (obsahuje hl. zápletku)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Cachucha",
+        "Tarantela",
+        "Krakovianka",
+        "Tyrolský tanec"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Který tanec tančila Fanny Elssler v baletu Pavouk?",
       "answers": [
-        "Druhá část = „bílý balet“ (nový žánr)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Tarantela",
+        "Cachucha",
+        "Krakovianka",
+        "Tyrolský tanec"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy bylo poslední vystoupení Fanny Elssler v Pařížské opeře a v jakém baletu?",
+      "answers": [
+        "3. března 1840 v baletu Cikánka",
+        "12. března 1832 v baletu Sylfida",
+        "23. července 1827 v Pařížské opeře",
+        "1847 v baletu Faust"
       ],
       "correct": 0
     }

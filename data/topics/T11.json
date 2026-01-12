@@ -1,0 +1,42 @@
+{
+  "id": "T11",
+  "order": 11,
+  "title": "ROMANTIČTÍ CHOREOGRAFOVÉ A TANEČNICE",
+  "image": "assets/images/topics/T11.svg",
+  "objectives": [
+    "Pochopit význam romantických choreografů (Perrot, Saint-Léon, Bournonville) pro rozvoj romantického baletu",
+    "Naučit se o životě a díle Julese Perrota, včetně jeho spolupráce s Carlottou Grissi a baletu Giselle",
+    "Rozpoznat význam Arthura Saint-Léona a baletu Coppélie jako konce éry romantických baletů",
+    "Pochopit význam Augusta Bournonvilla pro rozvoj dánského baletu a mužského tance",
+    "Naučit se o významných romantických tanečnicích (Grissi, Cerrito, Grahn) a jejich spolupráci s choreografy"
+  ],
+  "materials": {
+    "summary": "Romantičtí choreografové a tanečnice představují významné osobnosti období romantismu v baletu. Mezi romantické choreografy patří Jules Perrot, Arthur Saint-Léon a August Bournonville. Jules Perrot působil jako taneční partner Marie Taglioni v Pařížské opeře a spolupracoval s tanečnicí Carlottou Grissi, se kterou vytvořil balet Giselle. Perrot působil také v Londýně a v Petrohradě, kde byl baletním mistrem Mariinského divadla. Arthur Saint-Léon vytvořil balet Coppélie, který je považován za konec éry romantických baletů. August Bournonville působil jako baletní mistr a ředitel Královského dánského baletu po 47 let a rozvinul školu mužského tance. Mezi romantické tanečnice patří Carlotta Grissi, Fanny Cerrito a Lucile Grahn, které významně přispěly k rozvoji romantického baletu."
+  },
+  "audio": {
+    "title": "Otázka 11 - ROMANTIČTÍ CHOREOGRAFOVÉ A TANEČNICE",
+    "src": "assets/audio/Otazka-11-romanticti-choreografove-a-tanecnice-cast-1.mp3",
+    "transcript": "Více audio souborů - viz jednotlivé části níže.",
+    "files": [
+      {
+        "src": "assets/audio/Otazka-11-romanticti-choreografove-a-tanecnice-cast-1.mp3",
+        "title": "Otázka 11 - Romantičtí choreografové",
+        "part": 1
+      },
+      {
+        "src": "assets/audio/Otazka-11-romanticti-choreografove-a-tanecnice-cast-2.mp3",
+        "title": "Otázka 11 - Romantické tanečnice",
+        "part": 2
+      }
+    ]
+  },
+  "resourcesSource": "data/resources/T11_resources.json",
+  "flashcardSource": "data/flashcards/T11_flashcards.json",
+  "mindmap": {
+    "description": "Myšlenková mapa zobrazuje klíčové pojmy a souvislosti týkající se romantických choreografů (Jules Perrot, Arthur Saint-Léon, August Bournonville) a romantických tanečnic (Carlotta Grissi, Fanny Cerrito, Lucile Grahn) a jejich významu pro rozvoj romantického baletu.",
+    "image": "assets/images/mindmaps/T11.png"
+  },
+  "materialsSource": "data/materials/T11_materials.json",
+  "summarySource": "data/summaries/T11_summary.txt",
+  "quizSource": "data/quizzes/T11_quiz.json"
+}

@@ -1,0 +1,34 @@
+{
+  "sections": [
+    {
+      "heading": "STŘEDOVĚK",
+      "resources": [
+        {
+          "title": "Středověk - umělecký směr",
+          "platform": "Česká televize - ČT edu",
+          "url": "https://edu.ceskatelevize.cz/video/15950-stredovek",
+          "explanation": "Video představuje středověk jako období rozdělené na tři fáze (raný, vrcholný, pozdní středověk), románský a gotický sloh, církevní a světské divadlo a tanec ve středověku. Materiál poskytuje kontext k středověké kultuře, umění a divadlu. Availability: OK"
+        },
+        {
+          "title": "Románský a gotický sloh - architektura a umění",
+          "platform": "YouTube - History Documentary",
+          "url": "https://www.youtube.com/results?search_query=romanesque+gothic+architecture+art+middle+ages+documentary",
+          "explanation": "Dokumentární videa o románském a gotickém slohu, architektuře (rotunda, bazilika, katedrály), sochařství (madona, pieta), malířství (iluminace, fresky) a jejich charakteristikách. Pokrývá také české gotické umění a umělce jako Mistr Třeboňského oltáře. Availability: OK"
+        },
+        {
+          "title": "Středověké divadlo - církevní a světské divadlo",
+          "platform": "YouTube - Theater History",
+          "url": "https://www.youtube.com/results?search_query=medieval+theatre+mystery+miracle+morality+play+documentary",
+          "explanation": "Dokumentární videa o středověkém divadle, církevním divadle (mirákl, moralita, mystérium), světském divadle (fraška, slavnosti bláznů, interludia, mumraje), tropych a vývoji divadelního prostoru (mansiony, simultánní divadelní prostor). Availability: OK"
+        },
+        {
+          "title": "Středověký tanec - dvorské, cechovní a další druhy tanců",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=medieval+dance+court+dance+estampida+choreomania+dance+history",
+          "explanation": "Dokumentární videa o středověkém tanci, dvorských tancích (procesionální tance, estampida), cechovních tancích, tanci smrti (danse macaber), choreománii (Tanec sv. Víta) a dalších druzích středověkých tanců. Pokrývá také postoj církve k tanci a profesionální tanečníky (žakéři, jokulátoři). Availability: OK"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,42 @@
+{
+  "id": "T10",
+  "order": 10,
+  "title": "ROMANTISMUS",
+  "image": "assets/images/topics/T10.svg",
+  "objectives": [
+    "Pochopit romantismus jako období reakce na osvícenství s důrazem na individualitu, cit a vášeň",
+    "Naučit se o nové podobě baletu v romantismu (dvousoučástí děje, bílý balet, pas de deux)",
+    "Rozpoznat významné romantické balety (Sylfida, Giselle, Coppélie) a dramatické balety (Korzár, Esmeralda)",
+    "Pochopit význam rodiny Taglioni (Filip, Marie, Pavel) pro rozvoj romantického baletu",
+    "Naučit se o významné romantické tanečnici Fanny Elssler a charakterních tancích"
+  ],
+  "materials": {
+    "summary": "Romantismus vznikl na přelomu 18. a 19. století jako reakce na osvícenství. Hlavními znaky jsou individualita (vyzdvihuje svobodu jednotlivce), cit a vášeň. V tanci balet získal novou podobu, obsah i formu a stal se samostatným a hodnotným žánrem. Charakteristickým námětem byla láska smrtelníka k nadpřirozené bytosti a v libretu se objevuje tzv. dvousoučástí děje (střet reálného a nereálného světa). První část je reálné prostředí s charakterními tanci, druhá část je \"bílý balet\" s nereálným prostředím, vzdušnými tanci a tanci na špičkách. Romantické balety zahrnují Sylfida, Giselle a Coppélie. Mezi představitele romantického baletu patří rodina Taglioni (Filip, Marie, Pavel) a Fanny Elssler."
+  },
+  "audio": {
+    "title": "Otázka 10 - ROMANTISMUS",
+    "src": "assets/audio/Otazka-10-romantismus-cast-1.mp3",
+    "transcript": "Více audio souborů - viz jednotlivé části níže.",
+    "files": [
+      {
+        "src": "assets/audio/Otazka-10-romantismus-cast-1.mp3",
+        "title": "Otázka 10 - Vznik a charakteristiky",
+        "part": 1
+      },
+      {
+        "src": "assets/audio/Otazka-10-romantismus-cast-2.mp3",
+        "title": "Otázka 10 - Tanec v romantismu",
+        "part": 2
+      }
+    ]
+  },
+  "resourcesSource": "data/resources/T10_resources.json",
+  "flashcardSource": "data/flashcards/T10_flashcards.json",
+  "mindmap": {
+    "description": "Myšlenková mapa zobrazuje klíčové pojmy a souvislosti týkající se romantismu, nové podoby baletu (bílý balet, dvousoučástí děje), významných romantických baletů a představitelů romantického baletu (rodina Taglioni, Fanny Elssler).",
+    "image": "assets/images/mindmaps/T10.png"
+  },
+  "materialsSource": "data/materials/T10_materials.json",
+  "summarySource": "data/summaries/T10_summary.txt",
+  "quizSource": "data/quizzes/T10_quiz.json"
+}

@@ -1,0 +1,34 @@
+{
+  "sections": [
+    {
+      "heading": "ROMANTISMUS",
+      "resources": [
+        {
+          "title": "Romantismus - umělecký směr 19. století",
+          "platform": "YouTube - History Documentary",
+          "url": "https://www.youtube.com/results?search_query=romantism+romanticism+19th+century+art+history+documentary",
+          "explanation": "Dokumentární videa o romantismu jako období reakce na osvícenství (přelom 18. a 19. století), charakteristikách romantismu (individualita, cit, vášeň, pesimismus, tajemno a nadpřirozeno), rozdílu od optimistického osvícenství a významu romantismu pro umění. Availability: OK"
+        },
+        {
+          "title": "Romantická architektura a malířství",
+          "platform": "YouTube - Art History",
+          "url": "https://www.youtube.com/results?search_query=romantic+architecture+painting+goya+delacroix+gericault+biedermeier+novogotika",
+          "explanation": "Dokumentární videa o romantické architektuře (novogotika - zámek Hluboká), romantickém malířství (Francisco Goya, Eugene Delacroix - Svoboda vede lid na barikády, Théodore Géricault - Vor Medúzy), biedermeieru a českých malířích (Antonín Mánes, Josef Mánes). Availability: OK"
+        },
+        {
+          "title": "Romantická hudba a literatura",
+          "platform": "YouTube - Music and Literature History",
+          "url": "https://www.youtube.com/results?search_query=romantic+music+literature+wagner+schubert+chopin+goethe+hugo+macha+dvorak+smetana",
+          "explanation": "Dokumentární videa o romantické hudbě (Richard Wagner, Franz Schubert, Frédéric Chopin, Petr Iljič Čajkovskij, Bedřich Smetana, Antonín Dvořák, Česká filharmonie 1896) a romantické literatuře (Edgar Allan Poe, George Gordon Byron, Alexandr Sergejevič Puškin, Victor Hugo, Alexandre Dumas st., Karel Hynek Mácha, Karel Jaromír Erben, Alois Jirásek). Availability: OK"
+        },
+        {
+          "title": "Romantický balet - Sylfida, Giselle, rodina Taglioni, Fanny Elssler",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=romantic+ballet+sylphide+giselle+taglioni+fanny+elssler+dance+history+documentary",
+          "explanation": "Dokumentární videa o romantickém baletu, baletu Sylfida (La Sylphide, 1832) od Filipa Taglioniho, rodině Taglioni (Filip, Marie, Pavel), Fanny Elssler, bílém baletu, tanci na špičkách, romantických baletech (Sylfida, Giselle, Coppélie) a dramatických baletech (Korzár, Esmeralda). Availability: OK"
+        }
+      ]
+    }
+  ]
+}
+

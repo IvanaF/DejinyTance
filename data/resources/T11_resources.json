@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "heading": "ROMANTIČTÍ CHOREOGRAFOVÉ",
+      "resources": [
+        {
+          "title": "Jules Perrot a romantický balet - dokument",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=jules+perrot+romantic+ballet+giselle+esmeralda+dance+history+documentary",
+          "explanation": "Dokumentární videa o Julesi Perrotovi (1810-1892), jeho významu pro romantický balet, spolupráci s Carlottou Grissi, baletu Giselle (1841) a dalších baletech (Ondine, Esmeralda, Pas de quatre, Kateřina dcera banditova). Pokrývá také jeho působení v Paříži, Londýně a Petrohradě (baletní mistr Mariinského divadla 1851-58). Availability: OK"
+        },
+        {
+          "title": "Arthur Saint-Léon a balet Coppélie",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=arthur+saint+leon+coppelia+romantic+ballet+dance+history+documentary",
+          "explanation": "Dokumentární videa o Arthuru Saint-Léonovi (1821-1870), jeho významu pro romantický balet, baletu Coppélie (1870) jako konci éry romantických baletů, spolupráci s Fanny Cerrito a působení v Paříži a Petrohradě (baletní mistr 1859-69). Availability: OK"
+        },
+        {
+          "title": "August Bournonville a dánský balet",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=august+bournonville+danish+ballet+la+sylphide+dance+history+documentary",
+          "explanation": "Dokumentární videa o Augustovi Bournonvillovi (1805-1879), jeho významu pro rozvoj dánského baletu, baletu La Sylphide (1836), škole mužského tance, systému týdenních tréninků a působení jako baletní mistr a ředitel Královského dánského baletu (47 let). Availability: OK"
+        }
+      ]
+    },
+    {
+      "heading": "ROMANTICKÉ TANEČNICE",
+      "resources": [
+        {
+          "title": "Romantické tanečnice - Carlotta Grissi, Fanny Cerrito, Lucile Grahn",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=carlotta+grissi+fanny+cerrito+lucile+grahn+romantic+ballerinas+dance+history",
+          "explanation": "Dokumentární videa o významných romantických tanečnicích - Carlotta Grissi (1819-1899, partnerka Julese Perrota, hlavní role v Giselle), Fanny Cerrito (1817-1909, manželka Arthura Saint-Léona), Lucile Grahn (1819-1907, žákyně Augusta Bournonvilla) a jejich významu pro romantický balet. Availability: OK"
+        },
+        {
+          "title": "Giselle - romantický balet Perrota a Coralliho",
+          "platform": "YouTube - Ballet Performance",
+          "url": "https://www.youtube.com/results?search_query=giselle+perrot+coralli+grissi+ballet+full+performance",
+          "explanation": "Záznamy baletu Giselle (1841) od Julese Perrota (choreografie sóla pro Carlottu Grissi) a Jeana Coralliho (choreografie sbory), který je jedním z nejznámějších romantických baletů. Hlavní roli Giselle tančila Carlotta Grissi. Availability: OK"
+        },
+        {
+          "title": "Coppélie - konec éry romantických baletů",
+          "platform": "YouTube - Ballet Performance",
+          "url": "https://www.youtube.com/results?search_query=coppelia+saint+leon+delibes+ballet+full+performance",
+          "explanation": "Záznamy baletu Coppélie (1870) od Arthura Saint-Léona s hudbou Léo Delibese, který je považován za konec éry romantických baletů. Availability: OK"
+        }
+      ]
+    }
+  ]
+}
+

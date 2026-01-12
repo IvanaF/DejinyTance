@@ -1,352 +1,502 @@
 {
   "questions": [
     {
-      "question": "Co se stalo v roce  17. stol.?",
+      "question": "Kdy a kde vzniknul klasicismus?",
       "answers": [
-        "(vláda Ludvíka XIV",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Ve Francii ve druhé polovině 17. století za vlády Ludvíka XIV.",
+        "V Itálii v 16. století",
+        "V Anglii v 18. století",
+        "V Německu na počátku 17. století"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro 8.) klasicismus?",
+      "question": "Na kolik fází lze rozdělit klasicismus?",
       "answers": [
-        "2",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Tři fáze: barokní klasicismus, klasicismus (osvícenství, absolutismus), empír",
+        "Dvě fáze: raný a pozdní klasicismus",
+        "Čtyři fáze podle století",
+        "Pět fází podle zemí"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 8.) klasicismus?",
+      "question": "Jaké jsou hlavní znaky klasicismu?",
       "answers": [
-        "3.) empír (Napoleon Bonaparte)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Inspirace antikou, jasný pravidelný řád, úměrnost a rozum",
+        "Nepravidelnost, dynamika, emocionalita",
+        "Abstraktní formy, experimenty",
+        "Náboženská témata, mystika"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 8.) klasicismus?",
+      "question": "Kdo byl hlavní francouzský filozof klasicismu s myšlenkou \"Myslím, tedy jsem\"?",
       "answers": [
-        "-> lidé poznávají svět skrze rozum",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "René Descartes",
+        "Immanuel Kant",
+        "Voltaire",
+        "Denis Diderot"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 8.) klasicismus?",
+      "question": "Kdo byl německý filozof klasicismu?",
       "answers": [
-        "pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Immanuel Kant",
+        "René Descartes",
+        "Voltaire",
+        "Denis Diderot"
       ],
       "correct": 0
     },
     {
-      "question": "Co je významné dílo?",
+      "question": "Jaké jsou hlavní znaky klasicistní architektury?",
       "answers": [
-        "Poetika (autor – Aristoteles, uznával tři jednoty – místa, času a děje)",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Pravidelné a přímé linie, sloupořadí, trojúhelníkové štíty",
+        "Kruhové a elipsovité půdorysy, dynamika",
+        "Gotické prvky, vertikální linie",
+        "Barokní zdobení, asymetrie"
       ],
       "correct": 0
     },
     {
-      "question": "Co je ) vysoký styl?",
+      "question": "Kdo byl významným klasicistním malířem, který vytvořil dílo Maratova smrt?",
       "answers": [
-        "epos, tragédie, óda",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Jacques Louis David",
+        "Antonio Canova",
+        "Jean Antoine Watteau",
+        "Francisco Goya"
       ],
       "correct": 0
     },
     {
-      "question": "Co je ) nízký styl?",
+      "question": "Kdo byl významným klasicistním sochařem, osobní sochař Napoleona?",
       "answers": [
-        "bajka, satira, komedie, píseň, román",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Antonio Canova",
+        "Jacques Louis David",
+        "Michelangelo",
+        "Donatello"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro literatura?",
+      "question": "Co je Poetika a kdo ji napsal?",
       "answers": [
-        "1",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Dílo Aristotela uznávající tři jednoty: místa, času a děje",
+        "Dílo Platóna o ideálním státě",
+        "Dílo Cicerona o rétorice",
+        "Dílo Homera o válce"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje literatura?",
+      "question": "Na jaké dva styly se dělí klasicistní literatura?",
       "answers": [
-        "- literatura se dělí na dva styly:",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Vysoký styl (epos, tragédie, óda) a nízký styl (bajka, satira, komedie)",
+        "Náboženský a světský styl",
+        "Lyrický a epický styl",
+        "Klasický a moderní styl"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro hudba?",
+      "question": "Kdo byl hlavní autor Encyklopedie umění, věd a řemesel a kdy vznikla?",
       "answers": [
-        "+ autor hudby k baletu Stvoření Prométheovo)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Denis Diderot, 1751–1784, 28 svazků",
+        "Voltaire, 1740–1760, 20 svazků",
+        "Rousseau, 1760–1780, 30 svazků",
+        "Montesquieu, 1730–1750, 25 svazků"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje hudba?",
+      "question": "Jaké významné hudební skladatele známe z klasicismu?",
       "answers": [
-        "- Ludwig van Beethoven (Měsíční sonáta, Óda na radost",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Joseph Haydn, Wolfgang Amadeus Mozart, Ludwig van Beethoven",
+        "Johann Sebastian Bach, Georg Friedrich Händel, Antonio Vivaldi",
+        "Claude Debussy, Maurice Ravel, Igor Stravinskij",
+        "Franz Schubert, Robert Schumann, Felix Mendelssohn"
       ],
       "correct": 0
     },
     {
-      "question": "Co je tanec není součástí opery?",
+      "question": "Co je ballet d'action?",
       "answers": [
-        "> má svou samostatnost",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Dějový dramatický balet, nový baletní žánr vzniklý v klasicismu",
+        "Dvorský balet s komickými prvky",
+        "Balet s operním doprovodem",
+        "Lidový tanec přenesený na jeviště"
       ],
       "correct": 0
     },
     {
-      "question": "Co je vznik nového baletního žánru?",
+      "question": "Kdo se zasloužil o uvedení ballet d'action?",
       "answers": [
-        "ballet d´action (dějový dramatický balet)",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Gasparo Angiolini a Jean Georges Noverre",
+        "Pierre Beauchamp a Louis Pécour",
+        "Jean Baptiste Lully a Molière",
+        "Gaetano Vestris a August Vestris"
       ],
       "correct": 0
     },
     {
-      "question": "Co je Postavy?",
+      "question": "Kdo byl Gasparo Angiolini a jaké významné dílo vytvořil?",
       "answers": [
-        "Don Juan (světoběžník, milovník žen), Komtur, donna Elvíra (Komturova dcera)",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Italský choreograf, který vytvořil balet Kamenná hostina v roce 1761",
+        "Francouzský choreograf, který vytvořil balet Marná opatrnost",
+        "Anglický choreograf, který vytvořil balet Psyché",
+        "Německý choreograf, který vytvořil balet Medea a Iáson"
       ],
       "correct": 0
     },
     {
-      "question": "Co je balet měl velký úspěch?",
+      "question": "Kdy byl uveden balet Kamenná hostina a kdo složil hudbu?",
       "answers": [
-        "> hrál se po celé Evropě (i v Praze)",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "17. října 1761, hudba Christoph Willibald Glück",
+        "15. října 1581, hudba Jean Baptiste Lully",
+        "11. června 1778, hudba Wolfgang Amadeus Mozart",
+        "1. října 1776, hudba Franz Aspelmayer"
       ],
       "correct": 0
     },
     {
-      "question": "Co je Noverrovo datum narození?",
+      "question": "Kdy se narodil Jean Georges Noverre?",
       "answers": [
-        "Mezinárodní Den tance",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "29. dubna 1727",
+        "17. října 1761",
+        "1. října 1776",
+        "11. června 1778"
       ],
       "correct": 0
     },
     {
-      "question": "Co je začal vytvářet choreografie?",
+      "question": "Jaký význam má Noverrovo datum narození?",
       "answers": [
-        "balet Čínské slavnosti (spíše divertissement)",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Je Mezinárodní Den tance",
+        "Je den založení Pařížské opery",
+        "Je den prvního baletu",
+        "Je den založení Královské akademie tance"
       ],
       "correct": 0
     },
     {
-      "question": "Co je > návrat do Paříže?",
+      "question": "Kdy vydal Noverre knihu Listy o tanci a baletech?",
       "answers": [
-        "opět snaha dostat se do PO, znovu neúspěšně",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "V roce 1760 (první verze 15 listů, rozšířená verze 1807 měla 35 listů)",
+        "V roce 1780 (20 listů)",
+        "V roce 1750 (10 listů)",
+        "V roce 1770 (12 listů)"
       ],
       "correct": 0
     },
     {
-      "question": "Co je skvělé podmínky k práci?",
+      "question": "Kde působil Noverre jako baletní mistr?",
       "answers": [
-        "> začal uplatňovat své teoretické názory v praxi",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "V Lyonu, Stuttgartu, Vídni, Miláně, Pařížské opeře, Londýně",
+        "Pouze v Paříži",
+        "Pouze v Londýně",
+        "Pouze v Itálii"
       ],
       "correct": 0
     },
     {
-      "question": "Co je u Noverra studovali dva čeští umělci?",
+      "question": "Který Noverrův balet je jediný balet s Mozartovou hudbou?",
       "answers": [
-        "Vojtěch Morávek, Antonín Roessler",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Maličkosti (premiéra 11. června 1778)",
+        "Kamenná hostina",
+        "Medea a Iáson",
+        "Psyché"
       ],
       "correct": 0
     },
     {
-      "question": "Co je byla zde zavřená divadla?",
+      "question": "Kolik baletů vytvořil Noverre a jak dlouho působil jako tanečník a choreograf?",
       "answers": [
-        "> Noverre dostal svolení císaře, aby mohl uvést své balety",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Kolem 150 baletů, 56 let (1743-94)",
+        "Kolem 50 baletů, 30 let",
+        "Kolem 200 baletů, 70 let",
+        "Kolem 100 baletů, 40 let"
       ],
       "correct": 0
     },
     {
-      "question": "Co je základní chyba v baletu?",
+      "question": "Kdo byli dva čeští umělci, kteří studovali u Noverra?",
       "answers": [
-        "slučování odlišných charakterů (vážný a komický)",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Vojtěch Morávek a Antonín Roessler",
+        "František Křižík a Jan Neruda",
+        "Bedřich Smetana a Antonín Dvořák",
+        "Josef Mánes a Mikoláš Aleš"
       ],
       "correct": 0
     },
     {
-      "question": "Co je přirovnání tance k ostatním druhům umění?",
+      "question": "Co říká Noverre v Listu č. 1 o tanci a baletech?",
       "answers": [
-        "tanec je „nedokonalý“",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Umělec by se měl inspirovat přírodou (rozmanitost, individualita), odmítal symetrie",
+        "Balet by měl být přirozený a rozmanitý",
+        "Nejlepší žánr pro zpracování baletu je tragédie",
+        "Tanečník by měl do tance vkládat city"
       ],
       "correct": 0
     },
     {
-      "question": "Co je List č. 11 – o chybě ve stavbě těla?",
+      "question": "Co říká Noverre v Listu č. 3 o tanci a baletech?",
       "answers": [
-        "nohy do X, nohy do O",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Nejlepší žánr pro zpracování baletu je tragédie",
+        "Umělec by se měl inspirovat přírodou",
+        "Balet by měl být přirozený a rozmanitý",
+        "Tanečník by měl do tance vkládat city"
       ],
       "correct": 0
     },
     {
-      "question": "Co je opět uvedl Balet o slámě, ale pod jiným názvem?",
+      "question": "Co říká Noverre v Listu č. 4 o tanci a baletech?",
       "answers": [
-        "Špatně střežená dívka",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Tanečník by měl do tance vkládat city (mimika, pantomima), nekopírovat jiné tanečníky",
+        "Umělec by se měl inspirovat přírodou",
+        "Nejlepší žánr pro zpracování baletu je tragédie",
+        "Balet by měl být přirozený a rozmanitý"
       ],
       "correct": 0
     },
     {
-      "question": "Co je původní hudba?",
+      "question": "Kdo byl Gaetano Vestris a jak dlouho působil v Pařížské opeře?",
       "answers": [
-        "francouzské lidové popěvky, úryvky z oper",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Tanečník a choreograf, působil v PO 1748-81, baletní mistr 1770-76",
+        "Tanečník a choreograf, působil v PO 1760-1800",
+        "Tanečník a choreograf, působil v PO 1750-1790",
+        "Tanečník a choreograf, působil v PO 1770-1820"
       ],
       "correct": 0
     },
     {
-      "question": "Co je námět?",
+      "question": "Kdo byl August Vestris a kdo byli jeho slavní žáci?",
       "answers": [
-        "z vesnického prostředí",
-        "Francie, 2. pol. 17. stol. (vláda Ludvíka XIV.)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Syn Gaetana Vestrise, slavní žáci: Charles Louis Didelot, August Bournonville, Jules Perrot",
+        "Syn Gaetana Vestrise, slavní žáci: Jean Georges Noverre, Pierre Beauchamp",
+        "Syn Gaetana Vestrise, slavní žáci: Jean Dauberval, Maxmilian Gardel",
+        "Syn Gaetana Vestrise, slavní žáci: Marius Petipa, Lev Ivanov"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1760 ?",
+      "question": "Kdo byl Maxmilian Gardel a kdy působil jako baletní mistr PO?",
       "answers": [
-        "– kniha Listy o tanci a baletech (viz",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Tanečník a choreograf PO, baletní mistr 1781-1787 (po odchodu Noverra)",
+        "Tanečník a choreograf PO, baletní mistr 1770-1780",
+        "Tanečník a choreograf PO, baletní mistr 1760-1770",
+        "Tanečník a choreograf PO, baletní mistr 1790-1800"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1789 ?",
+      "question": "Kdo byl Pierre Gardel a jaké slavné balety vytvořil?",
       "answers": [
-        "– Balet o slámě aneb Něco špatného k něčemu dobré",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Po Noverrovi nejúspěšnější choreograf, balety Psyché (1790) a Dansomanie (1800)",
+        "Choreograf, balety Kamenná hostina a Medea a Iáson",
+        "Choreograf, balety Marná opatrnost a Maličkosti",
+        "Choreograf, balety Giselle a Korzár"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1733 ?",
+      "question": "Kolik repríz měl balet Psyché od Pierra Gardela?",
       "answers": [
-        "– baletní škola při PO, žák L",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Tisíc repríz, uváděl se až do roku 1820",
+        "Sto repríz",
+        "Padesát repríz",
+        "Dvě stě repríz"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1827 ?",
+      "question": "Kdo byl Jean Dauberval a jaké slavné dílo vytvořil?",
       "answers": [
-        "– baletní mistr",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Francouzský choreograf, vytvořil balet Balet o slámě (1789), později Marná opatrnost",
+        "Italský choreograf, vytvořil balet Kamenná hostina",
+        "Anglický choreograf, vytvořil balet Psyché",
+        "Německý choreograf, vytvořil balet Medea a Iáson"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro tanec?",
+      "question": "Kdy byl původně uveden balet Marná opatrnost (Balet o slámě)?",
       "answers": [
-        "• Gasparo Angiolini (vl",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1789 (Bordeaux), později uveden v Praze (1796), Paříži (1828), Berlíně (1864)",
+        "1761 ve Vídni",
+        "1778 v Paříži",
+        "1800 v Londýně"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Kdo složil hudbu k baletu Stvoření Prométheovo?",
       "answers": [
-        "- o jeho uvedení se zasloužili choreografové G. Angiolini a J. G. Noverre",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Joseph Haydn",
+        "Christoph Willibald Glück"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Jaké tři fáze klasicismu známe?",
       "answers": [
-        "(Burg theatr, Vídeň) - hudba: Ch. W. Glück / Dvorské divadlo - námět: Don Juan, Moliere",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Barokní klasicismus, klasicismus (osvícenství, absolutismus), empír (Napoleon Bonaparte)",
+        "Raný, střední a pozdní klasicismus",
+        "Italský, francouzský a německý klasicismus",
+        "Klasicismus v architektuře, malířství a sochařství"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké náměty používalo klasicistní malířství?",
+      "answers": [
+        "Náměty z antické mytologie (náboženská témata mizí)",
+        "Pouze náboženská témata",
+        "Pouze portréty",
+        "Pouze krajinomalby"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké typy staveb se stavěly v klasicistní architektuře?",
+      "answers": [
+        "Paláce, veřejné budovy (divadla, akademie, muzea), parky",
+        "Pouze kostely a chrámy",
+        "Pouze městské domy",
+        "Pouze vojenské stavby"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde a kdy působil Gasparo Angiolini v Petrohradě?",
+      "answers": [
+        "1766-1786 v Petrohradě (občas se vracel do Rakouska a Itálie)",
+        "1770-1790 v Petrohradě",
+        "1750-1770 v Petrohradě",
+        "1780-1800 v Petrohradě"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy zemřel Gasparo Angiolini a kde?",
+      "answers": [
+        "3. února 1803 v Miláně",
+        "29. dubna 1727 v Paříži",
+        "11. června 1778 ve Vídni",
+        "17. října 1761 ve Vídni"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde se narodil Jean Georges Noverre?",
+      "answers": [
+        "V Paříži",
+        "Ve Vídni",
+        "V Londýně",
+        "Ve Stuttgartu"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy a kde zemřel Jean Georges Noverre?",
+      "answers": [
+        "1810 ve Francii",
+        "1803 v Miláně",
+        "1787 v Paříži",
+        "1795 v Londýně"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde působil Noverre ve Stuttgartu a v jakých letech?",
+      "answers": [
+        "Baletní mistr v divadle württemberského vévody Karla Eugena, 1760-67",
+        "Baletní mistr, 1750-1760",
+        "Baletní mistr, 1770-1780",
+        "Baletní mistr, 1780-1790"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který Noverrův balet byl nejúspěšnější a kdo v něm tančil?",
+      "answers": [
+        "Medea a Iáson (1763), Medea = Nancy Lavierová, Iáson = G. Vestris",
+        "Kamenná hostina, Don Juan",
+        "Psyché, Psyché",
+        "Maličkosti, Amor"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jak dlouho působil Noverre v Pařížské opeře?",
+      "answers": [
+        "1776 (červen) - 1780",
+        "1760-1770",
+        "1780-1790",
+        "1770-1785"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byli asistenti Gaetana Vestrise, kteří chtěli převzít funkci baletního mistra PO?",
+      "answers": [
+        "Maxmilian Gardel a Jean Dauberval",
+        "Pierre Gardel a August Vestris",
+        "Noverre a Angiolini",
+        "Lully a Beauchamp"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy a kde debutoval August Vestris v Pařížské opeře?",
+      "answers": [
+        "1772 v PO, působil 1772-1816",
+        "1760 v PO",
+        "1780 v PO",
+        "1790 v PO"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy debutoval Maxmilian Gardel v Pařížské opeře?",
+      "answers": [
+        "1755",
+        "1748",
+        "1761",
+        "1772"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy byl Pierre Gardel sólistou PO a kdy baletním mistrem?",
+      "answers": [
+        "Sólista od 1780, baletní mistr 1787-1827",
+        "Sólista od 1770, baletní mistr 1780-1800",
+        "Sólista od 1760, baletní mistr 1770-1790",
+        "Sólista od 1790, baletní mistr 1800-1820"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde působil Jean Dauberval v letech 1785-1791?",
+      "answers": [
+        "Bordeaux jako baletní mistr",
+        "Paříž jako baletní mistr",
+        "Londýn jako baletní mistr",
+        "Vídeň jako baletní mistr"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo uvedl balet Marná opatrnost v Praze v roce 1796?",
+      "answers": [
+        "Salvatore Vigano (Daubervalův žák)",
+        "Jean Dauberval",
+        "Jean Aumer",
+        "Frederick Ashton"
       ],
       "correct": 0
     }

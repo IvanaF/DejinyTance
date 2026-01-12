@@ -1,0 +1,42 @@
+{
+  "id": "T09",
+  "order": 9,
+  "title": "PREROMANTISMUS",
+  "image": "assets/images/topics/T09.svg",
+  "objectives": [
+    "Pochopit preromantismus jako přechodné období od klasicismu k romantismu s důrazem na city a přírodu",
+    "Naučit se o významných osobnostech preromantismu v tanci (Vigano, Didelot, Duport, Milon, Aumer)",
+    "Rozpoznat nový divadelní žánr choreodrama vytvořený Salvatorem Viganem",
+    "Pochopit význam Carla Blasise pro rozvoj italské taneční techniky a první zmínku o tanci na špičkách",
+    "Naučit se o vývoji baletu v preromantismu a opuštění antických námětů"
+  ],
+  "materials": {
+    "summary": "Preromantismus byl období druhé poloviny 18. století až počátku 19. století, které představovalo přechod od klasicismu k romantismu. Rozum ustupoval a důraz byl kladen na city a přírodu. V tanci došlo k vyvrcholení dějového dramatického baletu a balet získal svou samostatnost. Opouštěly se antické náměty a hledala se nová témata. Salvatore Vigano vytvořil nový divadelní žánr choreodrama. Mezi významné osobnosti patří také Charles Louis Didelot, Louis Duport, Louis Milon, Jean Louis Aumer, Louis Xavier Stanislav Henry, Jean Coralli a Carlo Blasis, který se zasloužil o rozvoj italské taneční techniky a první zmínku o tanci na špičkách."
+  },
+  "audio": {
+    "title": "Otázka 9 - PREROMANTISMUS",
+    "src": "assets/audio/Otazka-9-preromantismus-cast-1.mp3",
+    "transcript": "Více audio souborů - viz jednotlivé části níže.",
+    "files": [
+      {
+        "src": "assets/audio/Otazka-9-preromantismus-cast-1.mp3",
+        "title": "Otázka 9 - Vznik a charakteristiky",
+        "part": 1
+      },
+      {
+        "src": "assets/audio/Otazka-9-preromantismus-cast-2.mp3",
+        "title": "Otázka 9 - Další významné osobnosti",
+        "part": 2
+      }
+    ]
+  },
+  "resourcesSource": "data/resources/T09_resources.json",
+  "flashcardSource": "data/flashcards/T09_flashcards.json",
+  "mindmap": {
+    "description": "Myšlenková mapa zobrazuje klíčové pojmy a souvislosti týkající se preromantismu, vývoje baletu v tomto období a významných choreografů a tanečníků.",
+    "image": "assets/images/mindmaps/T09.png"
+  },
+  "materialsSource": "data/materials/T09_materials.json",
+  "summarySource": "data/summaries/T09_summary.txt",
+  "quizSource": "data/quizzes/T09_quiz.json"
+}

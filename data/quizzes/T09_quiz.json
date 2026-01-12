@@ -1,262 +1,482 @@
 {
   "questions": [
     {
-      "question": "Co je pol. 18. – počátek 19. stol.?",
+      "question": "Kdy probíhal preromantismus a co představoval?",
       "answers": [
-        "přechod od klasicismu k romantismu",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Druhá polovina 18. století až počátek 19. století, přechod od klasicismu k romantismu",
+        "První polovina 18. století, období klasicismu",
+        "Konec 17. století až počátek 18. století, období baroka",
+        "Střed 19. století, období romantismu"
       ],
       "correct": 0
     },
     {
-      "question": "Co je velký rozvoj preromantismu – Anglie?",
+      "question": "Jaké jsou hlavní znaky preromantismu?",
       "answers": [
-        "rozvoj textilního průmyslu (tkalcovský stav),",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Rozum ustupuje, důraz na city a přírodu, vyrovnávání společenských vrstev",
+        "Důraz na rozum, pravidelný řád a symetrii",
+        "Náboženská témata, mystika a nadpřirozeno",
+        "Abstraktní formy, experimenty v umění"
       ],
       "correct": 0
     },
     {
-      "question": "Co je vynalezení parního stroje (James Watt)?",
+      "question": "Kde probíhal velký rozvoj preromantismu a co ho charakterizovalo?",
       "answers": [
-        "> narůstá hustota dopravy (první parní lokomotiva - G",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Anglie, rozvoj textilního průmyslu, vynález parního stroje, první parní lokomotiva",
+        "Francie, rozvoj klasicistní architektury",
+        "Itálie, rozvoj opery a baletu",
+        "Německo, rozvoj filozofie"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce  19. stol.?",
+      "question": "Kdo byl hlavním filozofem preromantismu a jaké dílo vytvořil?",
       "answers": [
-        "= přechod od klasicismu k romantismu",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Jean Jacques Rousseau, Emil čili o výchově",
+        "Immanuel Kant, Kritika čistého rozumu",
+        "René Descartes, Rozprava o metodě",
+        "Voltaire, Candide"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro 9.) preromantismus?",
+      "question": "Jaké znaky má architektura preromantismu?",
       "answers": [
-        "= sentimentalismus (Anglie), předromantismus",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Anglické a francouzské parky, vznik velkých měst, nové materiály (železobeton, ocel)",
+        "Pravidelné linie, sloupořadí, trojúhelníkové štíty",
+        "Kruhové a elipsovité půdorysy, dynamika",
+        "Gotické prvky, vertikální linie"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 9.) preromantismus?",
+      "question": "Který německý spisovatel preromantismu vytvořil díla Faust a Utrpení mladého Werthera?",
       "answers": [
-        "=> narůstá hustota dopravy (první parní lokomotiva - G. Stephenson)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Johann Wolfgang Goethe",
+        "Friedrich Schiller",
+        "Gotthold Ephraim Lessing",
+        "Heinrich von Kleist"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 9.) preromantismus?",
+      "question": "Který německý spisovatel preromantismu vytvořil báseň óda na radost a drama Loupežníci?",
       "answers": [
-        "pol. 18. – počátek 19. stol. = přechod od klasicismu k romantismu",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Friedrich Schiller",
+        "Johann Wolfgang Goethe",
+        "Gotthold Ephraim Lessing",
+        "Heinrich von Kleist"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro literatura?",
+      "question": "Kdo vytvořil první milostný román Manon Lescaut?",
       "answers": [
-        "F",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Antoine François Prévost",
+        "Jean Jacques Rousseau",
+        "Voltaire",
+        "Denis Diderot"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje literatura?",
+      "question": "Co se stalo s baletem v preromantismu?",
       "answers": [
-        "F. Schiller (báseň óda na radost, drama Loupežníci)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Vyvrcholení dějového dramatického baletu (ballet d'action), balet získal samostatnost, opuštění antických námětů",
+        "Balet se stal součástí opery jako divertissement",
+        "Vznik nového tanečního stylu danse noble",
+        "Balet zanikl a nahradil ho pantomimus"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje literatura?",
+      "question": "Kdo byl Salvatore Vigano a kdy žil?",
       "answers": [
-        "- Čechy: národní obrození = J. Dobrovský, J. Jungmann… + Rukopisy",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Italský tanečník a choreograf, 1769-1821",
+        "Francouzský tanečník a choreograf, 1727-1810",
+        "Anglický tanečník a choreograf, 1731-1803",
+        "Německý tanečník a choreograf, 1767-1837"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1809 – Střelci (námět – ruská historie?",
+      "question": "Jaký nový divadelní žánr vytvořil Salvatore Vigano?",
       "answers": [
-        "spiknutí proti caru P",
-        "sentimentalismus (Anglie), předromantismus",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Choreodrama, spojení tance, divadla a výtvarné stránky",
+        "Ballet d'action, dějový dramatický balet",
+        "Opera-balet, balet s operou",
+        "Pantomimus, pantomimický balet"
       ],
       "correct": 0
     },
     {
-      "question": "Co je vytvořil nový divadelní žánr choreodrama?",
+      "question": "Kdy a kde zemřel Salvatore Vigano?",
       "answers": [
-        "spojení tance, divadla a výtvarné stránky",
-        "sentimentalismus (Anglie), předromantismus",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "10. srpna 1821 v Miláně, při práci na baletu Didona",
+        "7. listopadu 1837 v Kyjevě",
+        "19. října 1810 ve Francii",
+        "3. února 1803 v Miláně"
       ],
       "correct": 0
     },
     {
-      "question": "Co je poslední choreografie?",
+      "question": "Který balet vytvořil Salvatore Vigano s hudbou Ludwiga van Beethovena?",
       "answers": [
-        "1835 – Ostrov pirátů, PO (hudba – Casimir Gide",
-        "sentimentalismus (Anglie), předromantismus",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Stvoření Prométheovo (1801)",
+        "Richard Lví srdce",
+        "Střelci",
+        "Othello"
       ],
       "correct": 0
     },
     {
-      "question": "Co je kvůli neúspěchu ve Vídni?",
+      "question": "Kdo byl Charles Louis Didelot a kdy žil?",
       "answers": [
-        "> odjezd do Itálie (Benátky, Neapol, Milán)",
-        "sentimentalismus (Anglie), předromantismus",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Francouzský tanečník, choreograf a pedagog, 1767-1837",
+        "Italský tanečník a choreograf, 1769-1821",
+        "Anglický tanečník a choreograf, 1781-1850",
+        "Německý tanečník a choreograf, 1774-1833"
       ],
       "correct": 0
     },
     {
-      "question": "Co je byl úspěšný, ale zranil se?",
+      "question": "Kdy uvedl Charles Louis Didelot balet Zefír a Flóra v Pařížské opeře a jaký měl úspěch?",
       "answers": [
-        "> zaměřil se na pedagogiku",
-        "sentimentalismus (Anglie), předromantismus",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "12. prosince 1815, velký úspěch, 169 repríz, účast krále Ludvíka XVIII.",
+        "10. srpna 1821, střední úspěch, 50 repríz",
+        "17. října 1761, velký úspěch, 200 repríz",
+        "11. června 1778, malý úspěch, 20 repríz"
       ],
       "correct": 0
     },
     {
-      "question": "Co je obě díla?",
+      "question": "Kolik druhů baletů vytvořil Charles Louis Didelot v Petrohradě?",
       "answers": [
-        "podstatný význam pro rozvoj taneční techniky:",
-        "sentimentalismus (Anglie), předromantismus",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Čtyři druhy: mytologické, pohádkové, komické, dramatické",
+        "Dva druhy: vážné a komické",
+        "Tři druhy: klasické, romantické, moderní",
+        "Pět druhů podle žánrů"
       ],
       "correct": 0
     },
     {
-      "question": "Co je nové taneční prvky?",
+      "question": "Který balet vytvořil Charles Louis Didelot s tanečnicí Avdoťou Istominou v hlavní roli a obsahoval Tanec stínů, který předjímá romantický balet?",
       "answers": [
-        "arabesque, attitude",
-        "sentimentalismus (Anglie), předromantismus",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Kavkazský zajatec (1823)",
+        "Acis a Galathea (1816)",
+        "Ruslan a Ludmila (1824)",
+        "Maďarská chýše (1814)"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1796 ?",
+      "question": "Kdy a kde zemřel Charles Louis Didelot?",
       "answers": [
-        "– Zefír a Flóra (uvedl jej pod Noverrovým dohledem)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "7. listopadu 1837 v Kyjevě",
+        "10. srpna 1821 v Miláně",
+        "19. října 1833 v Paříži",
+        "3. února 1803 v Miláně"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1809 ?",
+      "question": "Kdo byl Louis Duport a jaké významné balety vytvořil?",
       "answers": [
-        "– Střelci (námět – ruská historie = spiknutí proti caru P",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Francouzský tanečník a choreograf, vytvořil Acis a Galathea (1805), Figaro (1806), Lisa a Colin (1812)",
+        "Italský tanečník a choreograf, vytvořil Othello (1818), Titáni (1819)",
+        "Anglický tanečník a choreograf, vytvořil Richard Lví srdce, Střelci",
+        "Německý tanečník a choreograf, vytvořil Giselle (1841)"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1816 ?",
+      "question": "Kdo byl Louis Milon a čím se vyznačovaly jeho balety?",
       "answers": [
-        "– Acis a Galathea (hudba – Cattarino Cavos",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Francouzský tanečník, baletní mistr a choreograf, v jeho baletech převažuje pantomima",
+        "Italský tanečník a choreograf, vytvořil choreodrama",
+        "Anglický tanečník a choreograf, vytvořil čtyři druhy baletů",
+        "Německý tanečník a choreograf, vytvořil balety s hudbou Beethovena"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1817 ?",
+      "question": "Který balet vytvořil Louis Milon s námětem z románu Don Quijote?",
       "answers": [
-        "– Thézeus a Ariadna (námět pro A",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Svatba Gamachova (1801)",
+        "Clara aneb Slíbené manželství (1812)",
+        "Nina aneb Šílená z lásky (1813)",
+        "Pygmalion (1800)"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1799 ?",
+      "question": "Kdo byl Jean Louis Aumer a kde působil jako pedagog?",
       "answers": [
-        "– asistent baletního mistra P",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Francouzský tanečník, choreograf a pedagog, působil ve Vídni (1814-20), žákyně Fanny Elssler a její sestra Tereza",
+        "Italský tanečník a choreograf, působil v Miláně",
+        "Anglický tanečník a choreograf, působil v Londýně",
+        "Německý tanečník a choreograf, působil ve Vídni"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro tanec?",
+      "question": "Který balet vytvořil Jean Louis Aumer s hudbou Vojtěcha Jírovce, českého houslisty působícího ve Vídni?",
       "answers": [
-        "(současná literatura, příběhy o rytířích, pohádky)",
-        "• Salvatore Vigano (1769-1821)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Bajadérky (1815)",
+        "Náměsíčná (1827)",
+        "Marná opatrnost (1828)",
+        "Spící krasavice (1829)"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Který balet vytvořil Jean Louis Aumer s libretem Eugèna Scriba a hudbou Ferdinanda Hérolda?",
       "answers": [
-        "-> balet získává svou samostatnost",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Náměsíčná (1827)",
+        "Spící krasavice (1829)",
+        "Marná opatrnost (1828)",
+        "Manon Lescaut (1830)"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Kdy a kde zemřel Jean Louis Aumer?",
       "answers": [
-        "• Salvatore Vigano (1769-1821)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1833, zemřel po odchodu z Pařížské opery v roce 1831",
+        "1821, zemřel v Miláně",
+        "1837, zemřel v Kyjevě",
+        "1854, zemřel ve Vídni"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Kdo byl Louis Xavier Stanislav Henry a jaký význam má jeho balet Undine?",
       "answers": [
-        "- v Římě se poprvé představil jako tanečník",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Francouzský tanečník a choreograf, balet Undine (1825) předjímá romantický balet a obsahuje první zmínku o tanci na špičkách",
+        "Italský tanečník a choreograf, balet Undine obsahuje choreodrama",
+        "Anglický tanečník a choreograf, balet Undine je první balet s hudbou Beethovena",
+        "Německý tanečník a choreograf, balet Undine je první balet s pantomimou"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy a kde zemřel Louis Xavier Stanislav Henry?",
+      "answers": [
+        "1836 v Neapoli na choleru",
+        "1821 v Miláně při práci na baletu",
+        "1837 v Kyjevě",
+        "1854 ve Francii"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byl Jean Coralli a jaký významný balet vytvořil?",
+      "answers": [
+        "Francouzský tanečník a choreograf na přelomu preromantismu a romantismu, vytvořil Giselle (1841) ve spolupráci s Julesem Perrotem",
+        "Italský tanečník a choreograf, vytvořil choreodrama",
+        "Anglický tanečník a choreograf, vytvořil čtyři druhy baletů",
+        "Německý tanečník a choreograf, vytvořil první balet s hudbou Beethovena"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy a s kým vytvořil Jean Coralli balet Giselle?",
+      "answers": [
+        "1841, ve spolupráci s Julesem Perrotem, Giselle = Carlotta Grisi, Albert/Albrecht = Lucien Petipa",
+        "1825, ve spolupráci s Charlesem Louisem Didelotem, Giselle = Avdoťa Istomina",
+        "1815, ve spolupráci s Louisem Milonem, Giselle = Fanny Elssler",
+        "1801, ve spolupráci se Salvatorem Viganem, Giselle = Marie Medina"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byl Carlo Blasis a jaký je jeho význam pro taneční techniku?",
+      "answers": [
+        "Italský tanečník, choreograf a především pedagog, položil základ klasického tréninku, první zmínka o tanci na špičkách, nové prvky arabesque a attitude",
+        "Francouzský tanečník a choreograf, vytvořil choreodrama",
+        "Anglický tanečník a choreograf, vytvořil čtyři druhy baletů",
+        "Německý tanečník a choreograf, vytvořil první balet s hudbou Beethovena"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vydal Carlo Blasis své významné knihy o taneční technice?",
+      "answers": [
+        "Základní pojednání o teorii a praxi tanečního umění (1820), Úplná příručka tance (1830)",
+        "Listy o tanci a baletech (1760), rozšířená verze (1807)",
+        "Poetika (4. stol. př. n. l.)",
+        "Emil čili o výchově (1762)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde působil Carlo Blasis jako ředitel baletní školy?",
+      "answers": [
+        "Milán, baletní škola při divadle La Scala (od roku 1837)",
+        "Paříž, baletní škola při Pařížské opeře",
+        "Petrohrad, carská baletní škola",
+        "Vídeň, baletní škola při Dvorském divadle"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Salvatore Vigano s námětem z ruské historie o spiknutí proti caru Petru Velikému?",
+      "answers": [
+        "Střelci (1809)",
+        "Richard Lví srdce",
+        "Othello (1818)",
+        "Johanka z Arku (1821)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "S kým spolupracoval Salvatore Vigano na kulisách od roku 1809?",
+      "answers": [
+        "S malířem Alessandro Sanquiricem",
+        "S choreografem Charlesem Louisem Didelotem",
+        "S hudebním skladatelem Ludwigem van Beethovenem",
+        "S tanečnicí Marií Medinou"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde vystoupili manželé Vigano v pražském divadle?",
+      "answers": [
+        "V pražském Nosticově divadle během turné po Evropě (1795-98)",
+        "V pražském Stavovském divadle v roce 1821",
+        "V pražském Národním divadle v roce 1815",
+        "V pražském divadle v roce 1801"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Které balety patří mezi mytologické balety Charlese Louise Didelota vytvořené v Petrohradě?",
+      "answers": [
+        "Acis a Galathea (1816), Thézeus a Ariadna (1817)",
+        "Kavkazský zajatec (1823), Ruslan a Ludmila (1824)",
+        "Kalif bagdádský (1818)",
+        "Maďarská chýše (1814)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Charles Louis Didelot s pohádkovým námětem a názvem Kráska a zvíře?",
+      "answers": [
+        "Chenzi a Tao (1819)",
+        "Laura a Henrich aneb Trubadúr (1809)",
+        "Roland a Morgana (1812)",
+        "Kalif bagdádský (1818)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Jean Louis Aumer s námětem z pohádek Charlese Perraulta?",
+      "answers": [
+        "Spící krasavice (1829)",
+        "Náměsíčná (1827)",
+        "Marná opatrnost (1828)",
+        "Manon Lescaut (1830)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který charakterní tanec vytvořil Jean Coralli pro Fanny Elssler v baletu Kulhavý ďábel?",
+      "answers": [
+        "Cachucha (1836)",
+        "Tarantela (1839)",
+        "Valčík (1800)",
+        "Gavota (1787)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který tanec vytvořil Jean Coralli pro Fanny Elssler v baletu La Tarentule?",
+      "answers": [
+        "Tarantela (1839)",
+        "Cachucha (1836)",
+        "Valčík (1800)",
+        "Gavota (1787)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byl žákem Jeana Daubervala a později vytvořil balety pro Pařížskou operu?",
+      "answers": [
+        "Charles Louis Didelot",
+        "Salvatore Vigano",
+        "Louis Duport",
+        "Louis Milon"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který český houslista působící ve Vídni složil hudbu k baletu Bajadérky Jeana Louise Aumera?",
+      "answers": [
+        "Vojtěch Jírovec",
+        "Ludwig van Beethoven",
+        "Josef Weigl",
+        "Ferdinand Hérold"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde působil Louis Duport v letech 1808-11?",
+      "answers": [
+        "V Petrohradě",
+        "Ve Vídni",
+        "V Miláně",
+        "V Paříži"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Louis Duport upravou baletu Marná opatrnost?",
+      "answers": [
+        "Lisa a Colin (1812)",
+        "Telemach na ostrově Calypsině (1813)",
+        "Popelka (1813)",
+        "Acis a Galathea (1805)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo vytvořil balet Othello, který se inspiroval tvorbou Salvatore Vigana?",
+      "answers": [
+        "Louis Xavier Stanislav Henry (1808)",
+        "Salvatore Vigano (1818)",
+        "Charles Louis Didelot (1820)",
+        "Jean Louis Aumer (1825)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Louis Xavier Stanislav Henry s námětem o vodní víle, který předjímá romantický balet?",
+      "answers": [
+        "Undine (1825)",
+        "Sylfida (1828)",
+        "Ostrov pirátů (1835)",
+        "Romeo a Julie (1814)"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy a kde působil Jean Coralli jako baletní mistr Pařížské opery?",
+      "answers": [
+        "1831-51",
+        "1816-29",
+        "1801-11",
+        "1787-1827"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Který balet vytvořil Jean Coralli s námětem Williama Shakespeara a hlavní rolí Fanny Elssler?",
+      "answers": [
+        "Bouře (1834)",
+        "Giselle (1841)",
+        "Kulhavý ďábel (1836)",
+        "La Tarentule (1839)"
       ],
       "correct": 0
     }

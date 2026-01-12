@@ -553,13 +553,45 @@
     padding: var(--spacing-sm);
   }
   
+  .hero-section {
+    padding: var(--spacing-sm) var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
+  }
+  
   .hero-title {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-base);
+    line-height: 1.2;
+  }
+  
+  .hero-subtitle {
+    font-size: 0.7rem;
   }
   
   .hero-cta-button {
-    font-size: 0.875rem;
+    font-size: 0.7rem;
     padding: var(--spacing-sm) var(--spacing-xs);
+    line-height: 1.3;
+  }
+  
+  .study-intro-section .section-title {
+    font-size: var(--font-size-sm);
+  }
+  
+  .structure-item {
+    padding: var(--spacing-xs);
+  }
+  
+  .structure-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .structure-title {
+    font-size: 0.65rem;
+  }
+  
+  .structure-desc {
+    font-size: 0.6rem;
   }
   
   .quick-nav-button {
@@ -1688,71 +1720,105 @@
 /* Mobile (~768px and smaller) */
 @media (max-width: 768px) {
   .hero-section {
-    padding: var(--spacing-xl) var(--spacing-md) var(--spacing-lg);
-    margin-bottom: var(--spacing-2xl);
+    padding: var(--spacing-lg) var(--spacing-sm) var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
   }
   
   .hero-title {
-    font-size: var(--font-size-2xl);
-    margin-bottom: var(--spacing-sm);
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.3;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
   
   .hero-subtitle {
-    font-size: var(--font-size-base);
-    margin-bottom: var(--spacing-lg);
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--spacing-md);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
   
   .hero-cta-button {
     width: 100%;
-    max-width: 400px;
-    padding: var(--spacing-sm) var(--spacing-md);
-    font-size: var(--font-size-base);
+    padding: var(--spacing-md) var(--spacing-sm);
+    font-size: var(--font-size-sm);
+    line-height: 1.4;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .study-intro-section {
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .study-intro-section .section-title {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-sm);
+    padding-bottom: var(--spacing-xs);
   }
   
   .study-guide {
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
+    border-radius: var(--border-radius-md);
   }
   
   .study-intro {
-    font-size: var(--font-size-sm);
-    margin-bottom: var(--spacing-sm);
+    font-size: var(--font-size-xs);
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.4;
   }
   
   .structure-grid {
     grid-template-columns: 1fr;
     gap: var(--spacing-xs);
-    margin-top: var(--spacing-sm);
+    margin-top: var(--spacing-xs);
   }
   
   .structure-item {
-    padding: var(--spacing-xs) var(--spacing-sm);
-    gap: var(--spacing-xs);
+    padding: var(--spacing-sm);
+    gap: var(--spacing-sm);
+    align-items: flex-start;
   }
   
   .structure-icon {
     width: 20px;
     height: 20px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  
+  .structure-content {
+    flex: 1;
+    min-width: 0;
   }
   
   .structure-title {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.3;
   }
   
   .structure-desc {
     font-size: 0.7rem;
+    line-height: 1.4;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
   
   .topics-section {
-    margin-top: var(--spacing-2xl);
+    margin-top: var(--spacing-xl);
+    padding-top: var(--spacing-lg);
   }
   
   .topics-section-title {
-    font-size: var(--font-size-xl);
-    margin-bottom: var(--spacing-lg);
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-md);
   }
   
   .study-info {
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
   }
   
   .study-instruction {
@@ -1763,63 +1829,91 @@
 /* Small mobile (<=480px) */
 @media (max-width: 480px) {
   .hero-section {
-    padding: var(--spacing-lg) var(--spacing-sm) var(--spacing-md);
-    margin-bottom: var(--spacing-xl);
+    padding: var(--spacing-md) var(--spacing-xs) var(--spacing-sm);
+    margin-bottom: var(--spacing-lg);
   }
   
   .hero-title {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-lg);
     line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: var(--spacing-xs);
+  }
+  
+  .hero-subtitle {
+    font-size: var(--font-size-xs);
+    margin-bottom: var(--spacing-sm);
     word-wrap: break-word;
     overflow-wrap: break-word;
   }
   
-  .hero-subtitle {
-    font-size: var(--font-size-sm);
-    margin-bottom: var(--spacing-md);
-    word-wrap: break-word;
-  }
-  
   .hero-cta-button {
     width: 100%;
-    padding: var(--spacing-md) var(--spacing-sm);
-    font-size: var(--font-size-sm);
+    padding: var(--spacing-sm) var(--spacing-xs);
+    font-size: var(--font-size-xs);
     min-height: 44px;
-  }
-  
-  .study-guide {
-    padding: var(--spacing-sm);
+    line-height: 1.3;
   }
   
   .study-intro-section {
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
   }
   
-  .section-title {
-    font-size: var(--font-size-lg);
-    margin-bottom: var(--spacing-md);
+  .study-intro-section .section-title {
+    font-size: var(--font-size-base);
+    margin-bottom: var(--spacing-xs);
+    padding-bottom: var(--spacing-xs);
+  }
+  
+  .study-guide {
+    padding: var(--spacing-xs);
+    border-radius: var(--border-radius-md);
+  }
+  
+  .study-intro {
+    font-size: 0.7rem;
+    margin-bottom: var(--spacing-xs);
+    line-height: 1.3;
   }
   
   .structure-grid {
     gap: var(--spacing-xs);
+    margin-top: var(--spacing-xs);
   }
   
   .structure-item {
-    padding: var(--spacing-xs);
-    flex-direction: column;
-    text-align: center;
+    padding: var(--spacing-xs) var(--spacing-sm);
     gap: var(--spacing-xs);
+    align-items: flex-start;
   }
   
   .structure-icon {
-    width: 24px;
-    height: 24px;
-    margin: 0 auto;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  
+  .structure-title {
+    font-size: 0.7rem;
+    margin-bottom: 2px;
+    line-height: 1.2;
+  }
+  
+  .structure-desc {
+    font-size: 0.65rem;
+    line-height: 1.3;
+  }
+  
+  .topics-section {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-md);
   }
   
   .topics-section-title {
-    font-size: var(--font-size-lg);
-    margin-bottom: var(--spacing-md);
+    font-size: var(--font-size-base);
+    margin-bottom: var(--spacing-sm);
   }
 }
 
