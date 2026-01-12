@@ -1,0 +1,42 @@
+{
+  "id": "T07",
+  "order": 7,
+  "title": "BAROKO, ROKOKO",
+  "image": "assets/images/topics/T07.svg",
+  "objectives": [
+    "Pochopit baroko jako období přelomu 17. a 18. století s návratem k náboženství",
+    "Naučit se o dvou základních tanečních druzích v baroku (danse noble a danse haute)",
+    "Rozpoznat významné tanečníky a tanečnice období baroka",
+    "Pochopit rokoko jako aristokratický styl 18. století",
+    "Naučit se o vývoji baletu v období rokoka a opera-baletu"
+  ],
+  "materials": {
+    "summary": "Baroko bylo období přelomu 17. a 18. století, období vrcholného absolutismu, které vzniklo v Římě a tvorba se opět vracela k náboženství. V tanci bylo baroko zlatou érou ve vývoji tanečního umění s dvěma základními tanečními druhy: danse noble a danse haute. Rokoko vzniklo v 18. století ve Francii jako aristokratický styl s hlavními znaky křehkosti, hravosti a galantnosti. V tanci byl balet součástí opery jako divertissement a rozvinul se žánr opera-balet."
+  },
+  "audio": {
+    "title": "Otázka 7 - BAROKO, ROKOKO",
+    "src": "assets/audio/Otazka-7-baroko-rokoko-cast-1.mp3",
+    "transcript": "Více audio souborů - viz jednotlivé části níže.",
+    "files": [
+      {
+        "src": "assets/audio/Otazka-7-baroko-rokoko-cast-1.mp3",
+        "title": "Otázka 7 - Baroko",
+        "part": 1
+      },
+      {
+        "src": "assets/audio/Otazka-7-baroko-rokoko-cast-2.mp3",
+        "title": "Otázka 7 - Rokoko",
+        "part": 2
+      }
+    ]
+  },
+  "resourcesSource": "data/resources/T07_resources.json",
+  "flashcardSource": "data/flashcards/T07_flashcards.json",
+  "mindmap": {
+    "description": "Myšlenková mapa zobrazuje klíčové pojmy a souvislosti týkající se baroka, rokoka, tanečního umění a významných osobností těchto období.",
+    "image": "assets/images/mindmaps/T07.png"
+  },
+  "materialsSource": "data/materials/T07_materials.json",
+  "summarySource": "data/summaries/T07_summary.txt",
+  "quizSource": "data/quizzes/T07_quiz.json"
+}

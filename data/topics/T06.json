@@ -1,0 +1,31 @@
+{
+  "id": "T06",
+  "order": 6,
+  "title": "POČÁTKY BALETU JAKO JEVIŠTNÍ FORMY – DVORSKÝ BALET",
+  "image": "assets/images/topics/T06.svg",
+  "objectives": [
+    "Pochopit vznik a vývoj dvorského baletu ve Francii koncem 16. století",
+    "Naučit se o prvním historicky doloženém dvorském baletu Ballet comique de la reine",
+    "Rozpoznat význam Ludvíka XIV. a Královské akademie tance pro rozvoj baletu",
+    "Pochopit strukturu a charakteristiky dvorského baletu",
+    "Naučit se o významných osobnostech dvorského baletu (Beaujoyeux, Beauchamp, Lully)"
+  ],
+  "materials": {
+    "summary": "Počátky baletu jako jevištní formy začaly ve Francii koncem 16. století s dvorským baletem. V roce 1533 se Kateřina Medicejská provdala za francouzského krále Jindřicha II., což přineslo do Francie mnoho italských umělců. V roce 1571 byla založena Akademie hudby a poezie a v roce 1581 byl uveden první historicky doložený dvorský balet Ballet comique de la reine. V období baroka za vlády Ludvíka XIV. dosáhl dvorský balet největšího rozkvětu, včetně založení Královské akademie tance v roce 1661 a Královské akademie hudby v roce 1669."
+  },
+  "audio": {
+    "title": "Otázka 6 - POČÁTKY BALETU JAKO JEVIŠTNÍ FORMY – DVORSKÝ BALET",
+    "src": "assets/audio/Otazka-6-pocatky-baletu-jako-jevistni-formy-dvorsky-balet.mp3",
+    "transcript": "Více audio souborů - viz jednotlivé části níže.",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T06_resources.json",
+  "flashcardSource": "data/flashcards/T06_flashcards.json",
+  "mindmap": {
+    "description": "Myšlenková mapa zobrazuje klíčové pojmy a souvislosti týkající se počátků baletu jako jevištní formy, dvorského baletu a významných osobností.",
+    "image": "assets/images/mindmaps/T06.png"
+  },
+  "materialsSource": "data/materials/T06_materials.json",
+  "summarySource": "data/summaries/T06_summary.txt",
+  "quizSource": "data/quizzes/T06_quiz.json"
+}

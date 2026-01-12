@@ -1,0 +1,42 @@
+{
+  "id": "T05",
+  "order": 5,
+  "title": "RENESANCE",
+  "image": "assets/images/topics/T05.svg",
+  "objectives": [
+    "Pochopit renesanci jako období znovuzrození antické kultury s důrazem na humanismus",
+    "Naučit se o rozvoji renesančního divadla v Itálii, Anglii a Španělsku",
+    "Rozpoznat významné renesanční tance a jejich charakteristiky",
+    "Pochopit vývoj dvorského tanečního umění a význam učitelů tance",
+    "Naučit se o struktuře a významu renesančních tanců od 15. do 17. století"
+  ],
+  "materials": {
+    "summary": "Renesance bylo období od 14. do 17. století, které vzniklo v Itálii ve Florencii a snažilo se o znovuzrození antické kultury s důrazem na humanismus a život v současnosti. V renesanci se rozvíjelo umění, literatura, hudba, divadlo a tanec. V divadle se nejprve rozvíjelo italské divadlo s různými druhy – školské divadlo, učenecká komedie, dvorské divadlo a komedie dell'arte. V Anglii vzniklo alžbětinské divadlo s masques a Williamem Shakespearem jako nejslavnějším dramatikem. Ve Španělsku se rozvíjelo španělské divadlo zlatého věku. V tanci se rozvíjelo dvorské taneční umění s významnými učiteli tance a rozvojem tanců od 15. do 17. století, včetně založení Královské akademie tance v roce 1661."
+  },
+  "audio": {
+    "title": "Otázka 5 - RENESANCE",
+    "src": "assets/audio/Otazka-5-renesance-cast-1.mp3",
+    "transcript": "Více audio souborů - viz jednotlivé části níže.",
+    "files": [
+      {
+        "src": "assets/audio/Otazka-5-renesance-cast-1.mp3",
+        "title": "Otázka 5 - Renesance a italské divadlo",
+        "part": 1
+      },
+      {
+        "src": "assets/audio/Otazka-5-renesance-cast-2.mp3",
+        "title": "Otázka 5 - Anglické a španělské divadlo a renesanční tanec",
+        "part": 2
+      }
+    ]
+  },
+  "resourcesSource": "data/resources/T05_resources.json",
+  "flashcardSource": "data/flashcards/T05_flashcards.json",
+  "mindmap": {
+    "description": "Myšlenková mapa zobrazuje klíčové pojmy a souvislosti týkající se renesance, renesančního divadla, tance a jejich významu.",
+    "image": "assets/images/mindmaps/T05.png"
+  },
+  "materialsSource": "data/materials/T05_materials.json",
+  "summarySource": "data/summaries/T05_summary.txt",
+  "quizSource": "data/quizzes/T05_quiz.json"
+}

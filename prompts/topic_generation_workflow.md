@@ -361,9 +361,19 @@ git commit -m "Backup before updating TXX"
 
 **Prompt:** `prompts/quiz_questions.md`
 
+**⚠️ POVINNÉ:** Tento krok NESMÍ být přeskočen. Kvízové otázky musí být vytvořeny kvalitně podle promptu `quiz_questions.md`.
+
+**⚠️ KRITICKÉ POŽADAVKY:**
+- **Otázky MUSÍ být správné PŘI PRVNÍM vytvoření** - nepřijatelné vytvářet nekvalitní otázky s plánem je opravit později
+- **Před uložením POVINNĚ zkontroluj kvalitu** každé otázky podle kritérií níže
+- **NEPOKRAČUJ** s nekvalitními otázkami - pokud není možné vytvořit kvalitní otázky, pozastav práci a požádej o pomoc
+- **Studuj příklady** z `data/quizzes/T01_quiz.json`, `data/quizzes/T03_quiz.json` a `data/quizzes/T12_quiz.json` před vytvářením nových otázek
+
 **⚠️ Pokud soubor už existuje:**
 - **ZÁLOHUJ** existující soubor před přepsáním
-- Pokud existující otázky jsou kvalitní a kompletní, **PŘESKOČ** tento krok
+- **POVINNĚ zkontroluj kvalitu** existujících otázek podle kritérií níže
+- Pokud existující otázky jsou kvalitní a kompletní (viz kontrola níže), **PŘESKOČ** tento krok
+- Pokud existující otázky jsou špatné (neúplné, nesmyslné, špatně formulované), **PŘEPIŠ** celý soubor
 - Pokud potřebuješ přidat/opravit otázky, můžeš upravit existující soubor nebo přepsat celý
 
 ### 5.1 Vytvoření kvízových otázek
@@ -389,10 +399,22 @@ git commit -m "Backup before updating TXX"
 
 **Pravidla (viz `prompts/quiz_questions.md`):**
 - ✅ **20-75 otázek** na kapitolu (doporučeno 30-50)
-- ✅ **Kvalitní formulace** - jasné, srozumitelné otázky
-- ✅ **Věrohodné distraktory** - nesprávné odpovědi musí být logické
-- ✅ **Úplné správné odpovědi** - obsahují všechny relevantní informace
+- ✅ **Kvalitní formulace** - jasné, srozumitelné otázky (formuluj kompletní otázky, ne neúplné fragmenty)
+- ✅ **Žádné formátovací artefakty** - otázky NESMÍ obsahovat čísla témat ("5.)", "T05"), závorky s neúplným textem, šipky ("->"), odrážky z materiálů
+- ✅ **Věrohodné distraktory** - nesprávné odpovědi musí být logické (NE "Nelze určit", "Informace nejsou dostupné", "Závisí na kontextu")
+- ✅ **Úplné správné odpovědi** - obsahují všechny relevantní informace, ale jsou stručné
 - ✅ **Stručné odpovědi bez opakování otázky** - odpovědi NESMÍ opakovat část otázky (např. pokud otázka zní "Kdy byl uveden první balet?", odpověď by měla být "1673, Orfeus a Eurydika", ne "V roce 1673 byl uveden první balet v Rusku, a to Orfeus a Eurydika")
+
+**⚠️ BĚHEM VYTVÁŘENÍ - kontrola před uložením:**
+- Projdi každou otázku a ověř, že je **kompletně formulovaná** (ne "Co je vznik?" ale "Kde vznikla renesance?")
+- Ověř, že **odpovědi neopakují otázku** (ne "V roce 1533 se konala svatba Kateřiny Medicejské" ale "1533")
+- **⚠️ KRITICKY OVĚŘ DISTRAKTORY** - pro každou otázku zkontroluj všechny čtyři odpovědi:
+  - ✅ Všechny distraktory jsou **skutečné fakta** z materiálů (jiné roky, jiné osoby, jiná místa ze stejného období)
+  - ❌ **ŽÁDNÉ** distraktory typu "Nelze určit", "Informace nejsou k dispozici", "Závisí na kontextu", "Nelze zjistit", "Informace nejsou dostupné"
+  - ✅ Distraktory jsou **věrohodné** - musí testovat skutečné znalosti, ne jen štěstí
+- Ověř, že **nejsou žádné formátovací artefakty** z materiálů (žádné "5.)", "->", neúplné věty)
+- **Před uložením si přečti několik příkladů** z kvalitních kvízů (T01, T03, T12) pro ověření formátu
+- **PROHLÉDNI CELÝ SOUBOR** - po vytvoření všech otázek ještě jednou projdi celý JSON soubor a ověř, že všechny odpovědi (správné i nesprávné) jsou kvalitní
 
 **Typy otázek:**
 - Letopočty a období
@@ -404,15 +426,24 @@ git commit -m "Backup before updating TXX"
 - Díla a jejich autoři
 - Technické termíny
 
-**Kontrola:**
-- [ ] Všechny otázky jsou **jasně formulované** (ne neúplné nebo nesmyslné)
+**Kontrola kvality (POVINNÁ - PROVÉST PŘED ULOŽENÍM):**
+- [ ] **Studovány příklady kvalitních kvízů** - přečteny příklady z `data/quizzes/T01_quiz.json`, `data/quizzes/T03_quiz.json` a `data/quizzes/T12_quiz.json`
+- [ ] Všechny otázky jsou **jasně formulované** (ne neúplné nebo nesmyslné jako "Co je vznik?" ale "Kde vznikla renesance?")
 - [ ] **Otázky NESMÍ obsahovat číslo tématu** (např. "12.)" nebo "T12 -")
+- [ ] **Otázky NESMÍ obsahovat formátovací artefakty** z materiálů (např. "5.)", "->", neúplné věty jako "Co je (Alcina?")
 - [ ] Správné odpovědi jsou **úplné a přesné** (ne zkrácené nebo neúplné)
 - [ ] **Odpovědi NESMÍ opakovat část otázky** - odpovědi musí být stručné a neobsahovat redundantní opakování (např. pokud otázka zní "Kdy byl uveden první balet?", odpověď "1673, Orfeus a Eurydika" je správně, ale "V roce 1673 byl uveden první balet v Rusku, a to Orfeus a Eurydika" je špatně)
-- [ ] Nesprávné odpovědi jsou **věrohodné** (ne zjevně špatné jako "Nelze určit" nebo "Informace nejsou k dispozici")
-- [ ] **Kvalita otázek odpovídá standardu** - viz příklady v `data/quizzes/T01_quiz.json` a `data/quizzes/T12_quiz.json`
+- [ ] **⚠️ KRITICKÁ KONTROLA DISTRAKTORŮ:** Nesprávné odpovědi jsou **věrohodné** - každá nesprávná odpověď musí být skutečné faktum z materiálů nebo logická alternativa (NE "Nelze určit", "Informace nejsou k dispozici", "Závisí na kontextu", "Nelze zjistit", "Informace nejsou dostupné" - použij skutečné fakta z materiálů jako distraktory, např. jiné roky, jiné osoby, jiná místa ze stejného období)
+- [ ] **PROHLÉDNI VŠECHNY ODPOVĚDI** - před uložením projdi každou otázku a ověř, že všechny čtyři možnosti jsou správně zformulované a věrohodné
+- [ ] **Kvalita otázek odpovídá standardu** - všechny otázky jsou formulovány stejně kvalitně jako v příkladech
+- [ ] Otázky pokrývají různé typy: letopočty, osoby, pojmy, charakteristiky, místa, události, díla
 - [ ] 20-75 otázek (doporučeno 30-50)
-- [ ] JSON je validní
+- [ ] JSON je validní (zkontrolováno JSON validátorem)
+
+**⚠️ KRITICKÉ:** 
+- **Otázky MUSÍ být správné PŘI PRVNÍM vytvoření** - nepřijatelné vytvářet nekvalitní otázky
+- Pokud existující otázky nesplňují výše uvedená kritéria kvality, MUSÍŠ je přepsat před pokračováním
+- Nepokračuj s nekvalitními otázkami - zlepš kvalitu před uložením
 
 ---
 
@@ -569,10 +600,17 @@ Ověř, že v `data/topics/TXX.json` je správně nastaveno:
 
 **Prompt:** `prompts/hyperlinks.md`
 
+**⚠️ POVINNÉ:** Tento krok NESMÍ být přeskočen. Term links umožňují klikatelné odkazy ve studijních materiálech.
+
 **⚠️ Pokud soubor už existuje:**
 - Pokud existující termíny jsou kompletní a funkční, můžeš je doplnit nebo **PŘESKOČ** tento krok
 - Pokud potřebuješ přidat nové termíny, uprav existující soubor (přidej do objektu `terms`)
 - **POVINNĚ** ověř funkčnost všech odkazů (i existujících)
+
+**⚠️ Pokud soubor neexistuje:**
+- **MUSÍŠ vytvořit** soubor `data/term_links/TXX_terms.json`
+- Term links jsou **automaticky načítány** systémem z tohoto souboru (není třeba je odkazovat v `topic.json`)
+- Bez tohoto souboru nebudou termíny klikatelné ve studijních materiálech
 
 ### 9.1 Identifikace termínů
 1. Projdi text v `data/materials/TXX_materials.json`
@@ -606,10 +644,13 @@ Ověř, že v `data/topics/TXX.json` je správně nastaveno:
 - ✅ **Konkrétní termíny** - ne obecná slova
 
 **Kontrola:**
+- [ ] Soubor `data/term_links/TXX_terms.json` **EXISTUJE** (NESMÍ být přeskočen tento krok)
 - [ ] Všechny odkazy vedou na existující stránky (ověřeno v prohlížeči)
 - [ ] Pro neexistující české stránky je použita anglická verze nebo odkaz odstraněn
-- [ ] Všechny varianty termínů jsou zahrnuty
+- [ ] Všechny varianty termínů jsou zahrnuty (velká/malá písmena, jednotné/množné číslo)
+- [ ] Identifikovány a přidány klíčové termíny z materiálů (osobnosti, místa, pojmy, díla)
 - [ ] JSON je validní
+- [ ] Term links jsou funkční v aplikaci (termíny jsou klikatelné ve studijních materiálech)
 
 ---
 
@@ -719,10 +760,10 @@ Ověř existenci všech souborů:
 - [ ] `data/materials/TXX_materials.json`
 - [ ] `data/audio_scripts/TXX.txt` nebo `TXX_part*.txt`
 - [ ] `data/flashcards/TXX_flashcards.json`
-- [ ] `data/quizzes/TXX_quiz.json`
+- [ ] `data/quizzes/TXX_quiz.json` ⚠️ **POVINNÉ** - kvalita musí odpovídat standardu
 - [ ] `data/resources/TXX_resources.json`
 - [ ] `data/summaries/TXX_summary.txt`
-- [ ] `data/term_links/TXX_terms.json`
+- [ ] `data/term_links/TXX_terms.json` ⚠️ **POVINNÉ** - NESMÍ být přeskočeno
 - [ ] `assets/images/topics/TXX.svg`
 - [ ] `assets/audio/Otazka-X-*.mp3`
 
@@ -735,9 +776,9 @@ Ověř validitu všech JSON souborů:
 - [ ] `data/topics/TXX.json` - validní JSON
 - [ ] `data/materials/TXX_materials.json` - validní JSON
 - [ ] `data/flashcards/TXX_flashcards.json` - validní JSON
-- [ ] `data/quizzes/TXX_quiz.json` - validní JSON
+- [ ] `data/quizzes/TXX_quiz.json` - validní JSON + **kontrola kvality otázek** (viz Krok 5)
 - [ ] `data/resources/TXX_resources.json` - validní JSON
-- [ ] `data/term_links/TXX_terms.json` - validní JSON
+- [ ] `data/term_links/TXX_terms.json` - validní JSON + **soubor existuje** (NESMÍ být přeskočen)
 
 ### 12.2 Validace odkazů
 Spusť validační skript pro resources:
@@ -767,9 +808,10 @@ python scripts/validate_resource_links.py
 - [ ] Všechny informace z PDF jsou zahrnuty
 - [ ] Audio-scénář pokrývá 100% obsahu
 - [ ] Flashcards pokrývají klíčové informace
-- [ ] Kvízové otázky jsou kvalitní a relevantní
+- [ ] **Kvízové otázky jsou kvalitní a relevantní** - všechny otázky jsou jasně formulované, odpovědi neopakují otázku, distraktory jsou věrohodné
+- [ ] **Term links jsou vytvořeny** - soubor `data/term_links/TXX_terms.json` existuje a obsahuje klíčové termíny
 - [ ] Zdroje jsou funkční a relevantní
-- [ ] Hyperlinky fungují správně
+- [ ] Hyperlinky fungují správně (termíny jsou klikatelné ve studijních materiálech)
 
 ---
 
@@ -863,8 +905,13 @@ git commit -m "Add topic TXX: NÁZEV TÉMATU"
 - ✅ **VALIDUJ** všechny JSON soubory před uložením
 - ✅ **OVĚŘUJ** funkčnost všech odkazů (resources, hyperlinky)
 - ✅ **TESTOVAT PŘEHRÁVÁNÍ** video/audio odkazů před přidáním (zvláště iVysílání)
-- ✅ **KONTROLUJ** kvalitu obsahu (100% pokrytí, gramatika, formát)
+- ✅ **KONTROLUJ** kvalita obsahu (100% pokrytí, gramatika, formát)
 - ✅ **KONZISTENTNÍ FORMÁTOVÁNÍ** materiálů s existujícími tématy (odrážky, číslování, struktura)
+- ✅ **KVIZOVÉ OTÁZKY MUSÍ BÝT SPRÁVNÉ PŘI PRVNÍM VYTVOŘENÍ** - nepřijatelné vytvářet nekvalitní otázky s plánem opravy později
+- ✅ **STUDUJ PŘÍKLADY** kvalitních kvízů (T01, T03, T12) před vytvářením nových otázek
+- ✅ **KONTROLA PŘED ULOŽENÍM** - každou otázku zkontroluj podle kritérií kvality před uložením souboru
+- ✅ **⚠️ KONTROLA DISTRAKTORŮ** - pro každou kvízovou otázku ověř, že všechny čtyři možnosti jsou kvalitní: správná odpověď je úplná a přesná, všechny tři distraktory jsou věrohodné skutečné fakta (NE "Nelze určit", "Informace nejsou k dispozici", "Závisí na kontextu")
+- ✅ **FINÁLNÍ REVIZE KVIZU** - po vytvoření všech otázek ještě jednou projdi celý soubor a ověř kvalitu všech odpovědí (správných i nesprávných)
 
 ### Po dokončení
 - ✅ **TESTOVAT** na webu před commitem
@@ -886,9 +933,65 @@ git commit -m "Add topic TXX: NÁZEV TÉMATU"
 ---
 
 **Vytvořeno:** 2025-01-27  
-**Aktualizováno:** 2025-01-27 (lekce z T03)  
-**Verze:** 1.1  
+**Aktualizováno:** 2025-01-27 (lekce z T03 a T05-T07)  
+**Verze:** 1.4  
 **Status:** K REVIZI - NEPROVÁDĚT BEZ SCHVÁLENÍ
+
+---
+
+## ZMĚNY VERZE 1.4 (2025-01-27)
+
+**Lekce z kontroly kvízových otázek T05-T07:**
+
+1. **Kvízové otázky - kontrola distraktorů (Krok 5):**
+   - Přidána **KRITICKÁ KONTROLA DISTRAKTORŮ** do kontrolního seznamu kvality
+   - Zdůrazněno, že všechny distraktory musí být skutečné fakta z materiálů (NE "Nelze určit", "Informace nejsou k dispozici", "Závisí na kontextu")
+   - Přidán požadavek na prohlédnutí všech odpovědí před uložením
+   - Rozšířena sekce "Během vytváření" o explicitní kontrolu distraktorů
+   - Přidána finální kontrola do sekce "Během práce"
+   - Rozšířena validace (Krok 12.4) o finální kontrolu všech kvízových otázek
+
+---
+
+## ZMĚNY VERZE 1.3 (2025-01-27)
+
+**Lekce z regenerace kvízových otázek T05-T07:**
+
+1. **Kvízové otázky (Krok 5):**
+   - **KRITICKÉ POŽADAVKY:** Přidáno explicitní upozornění, že otázky MUSÍ být správné PŘI PRVNÍM vytvoření
+   - Přidáno upozornění, že nepřijatelné je vytvářet nekvalitní otázky s plánem opravy později
+   - Přidán požadavek na studium příkladů z kvalitních kvízů (T01, T03, T12) před vytvářením
+   - Rozšířena kontrola před uložením o explicitní kontrolní body
+   - Přidány konkrétní příklady špatných otázek a odpovědí k předcházení chybám
+   - Rozšířena sekce "Během práce" o požadavky na kvalitu kvízových otázek
+
+---
+
+## ZMĚNY VERZE 1.2 (2025-01-27)
+
+**Lekce z implementace T05-T07:**
+
+1. **Kvízové otázky (Krok 5):**
+   - Přidáno upozornění, že tento krok NESMÍ být přeskočen
+   - Přidána povinná kontrola kvality otázek
+   - Přidány kritéria pro identifikaci nekvalitních otázek (formátovací artefakty, neúplné otázky, špatné odpovědi)
+   - Přidáno upozornění, že nekvalitní otázky MUSÍ být přepsány
+   - Rozšířena kontrola o požadavek na různé typy otázek
+
+2. **Term links (Krok 9):**
+   - Přidáno upozornění, že tento krok NESMÍ být přeskočen
+   - Zdůrazněno, že term links jsou automaticky načítány systémem (není třeba je odkazovat v topic.json)
+   - Přidáno upozornění, že bez souboru term links nebudou termíny klikatelné
+   - Rozšířena kontrola o požadavek na identifikaci klíčových termínů a funkčnost v aplikaci
+
+3. **Kontrola souborů (Krok 11):**
+   - Přidána poznámka k povinnosti kvízových otázek a term links
+   - Zdůrazněno, že tyto soubory NESMÍ být přeskočeny
+
+4. **Validace (Krok 12):**
+   - Přidána kontrola kvality kvízových otázek do validace
+   - Přidána kontrola existence term links do validace
+   - Rozšířena kontrola kvality obsahu o explicitní požadavky na kvízové otázky a term links
 
 ---
 

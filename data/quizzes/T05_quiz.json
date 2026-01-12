@@ -1,502 +1,462 @@
 {
   "questions": [
     {
-      "question": "Co je vznik?",
+      "question": "V jakém období probíhala renesance?",
+      "answers": [
+        "14. – 17. století",
+        "13. – 16. století",
+        "15. – 18. století",
+        "12. – 15. století"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde vznikla renesance?",
       "answers": [
         "Itálie, Florencie",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Francie, Paříž",
+        "Anglie, Londýn",
+        "Španělsko, Madrid"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 5.) renesance?",
+      "question": "Kdo vynalezl knihtisk?",
       "answers": [
-        "- důraz na život v současnosti a na člověka (humanismus)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Johannes Gutenberg",
+        "Leonardo da Vinci",
+        "William Shakespeare",
+        "Michelangelo Buonarroti"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 5.) renesance?",
+      "question": "Který rod založil Platónskou akademii?",
       "answers": [
-        "- rod Medicejů (Medicejové) – bankéři, založili Platónskou akademii",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Medicejové",
+        "Sforzové",
+        "Borgiové",
+        "Esteové"
       ],
       "correct": 0
     },
     {
-      "question": "Co je myšlenka “ad fontes“ (zpět k pramenům?",
+      "question": "Co znamená myšlenka \"ad fontes\"?",
       "answers": [
-        "k antické kultuře)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Zpět k pramenům, k antické kultuře",
+        "Zpět k přírodě",
+        "Zpět k Bohu",
+        "Zpět k původům křesťanství"
       ],
       "correct": 0
     },
     {
-      "question": "Co je nový prvek – omítka?",
+      "question": "Co je charakteristické pro renesanční umění?",
       "answers": [
-        "> tvorba ozdobných prvků (štuk, sgrafita – dvouvrstvá omítka)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Individualismus, umělci podepisují svá díla, konec anonymity",
+        "Anonymní tvorba, kolektivní díla",
+        "Náboženská témata pouze",
+        "Abstraktní formy"
       ],
       "correct": 0
     },
     {
-      "question": "Co je první architekt?",
+      "question": "Kdo byl prvním renesančním architektem?",
       "answers": [
         "Filippo Bruneleschi",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Andrea Palladio",
+        "Rafael Santi",
+        "Michelangelo Buonarroti"
       ],
       "correct": 0
     },
     {
-      "question": "Co je náměty?",
+      "question": "Které architektonické prvky jsou typické pro renesanci?",
       "answers": [
-        "náboženské, antická mytologie",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Souměrnost, jednoduchost, sloupy, kupole",
+        "Vysoké věže, lomené oblouky",
+        "Barokní zdobnost, dynamika",
+        "Gotické prvky, vertikalita"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro umění?",
+      "question": "Který nový prvek přinesla renesanční architektura?",
       "answers": [
-        "typické rysy renesance – individualismus (umělci podepisují svá díla = konec anonymity)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Omítka, tvorba ozdobných prvků (štuk, sgrafita)",
+        "Betón",
+        "Ocel",
+        "Sklo"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje umění?",
+      "question": "Který renesanční sochař vytvořil sochu Davida?",
       "answers": [
-        "- materiál: kámen, cihly, dřevo, mramor, kov",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Michelangelo",
+        "Donatello",
+        "Leonardo da Vinci",
+        "Rafael Santi"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje literatura?",
+      "question": "Co je kalokaghatia?",
       "answers": [
-        "- díky vynálezu knihtisku je literatura přístupná širokým vrstvám obyvatel",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Antický ideál krásy, snaha o soulad fyzického a duševního",
+        "Typ renesančního tance",
+        "Renesanční architektonický styl",
+        "Typ renesanční hudby"
       ],
       "correct": 0
     },
     {
-      "question": "Co je autoři?",
+      "question": "Který malíř vytvořil fresky v Sixtinské kapli?",
       "answers": [
-        "vzdělaní básníci",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Michelangelo",
+        "Leonardo da Vinci",
+        "Rafael Santi",
+        "Sandro Boticelli"
       ],
       "correct": 0
     },
     {
-      "question": "Co je předchůdci komedie dell’ arte?",
+      "question": "Které dílo vytvořil Leonardo da Vinci?",
       "answers": [
-        "amatérští herci měšťanských, dvorských souborů",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Poslední večeře, Mona Lisa",
+        "Zrození Venuše",
+        "Božská komedie",
+        "Romeo a Julie"
       ],
       "correct": 0
     },
     {
-      "question": "Co je nemotorný, nešikovný, bezradný?",
+      "question": "Který italský autor napsal Božskou komedii?",
       "answers": [
-        "> miláček obecenstva,",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Dante Alighieri",
+        "Francesco Petrarca",
+        "Giovanni Boccaccio",
+        "Niccolò Machiavelli"
       ],
       "correct": 0
     },
     {
-      "question": "Co je začalo se hrát v interiéru?",
+      "question": "Který anglický dramatik napsal Romeo a Julie a Hamlet?",
       "answers": [
-        "> zřízení stálého krytého divadla",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "William Shakespeare",
+        "Christopher Marlowe",
+        "Ben Jonson",
+        "Thomas Kyd"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1568 ?",
+      "question": "Kolik her napsal William Shakespeare?",
       "answers": [
-        "– nejstarší známé představení",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "38 her",
+        "25 her",
+        "50 her",
+        "30 her"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro itálie?",
+      "question": "Kdy se konalo nejstarší známé představení komedie dell'arte?",
       "answers": [
-        "Druhy italského divadla",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1568",
+        "1500",
+        "1600",
+        "1550"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje itálie?",
+      "question": "Co je komedie dell'arte?",
       "answers": [
-        "Druhy italského divadla",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Improvizované profesionální divadlo, někdy nazývané komedie masek",
+        "Školské divadlo na univerzitách",
+        "Náboženské divadlo",
+        "Dvorské divadlo pouze pro šlechtu"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje itálie?",
+      "question": "Která postava komedie dell'arte je benátský kupec s benátským dialektem?",
       "answers": [
-        "Učenecká komedie (komedie Erudita)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Pantalon",
+        "Harlekýn",
+        "Dottore",
+        "Brighella"
       ],
       "correct": 0
     },
     {
-      "question": "Co je materiál?",
+      "question": "Která postava komedie dell'arte je zchudlý zemědělec, později tanečník, nazývaný \"král\" komedie dell'arte?",
       "answers": [
-        "dřevo -> časté požáry",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Harlekýn",
+        "Pantalon",
+        "Brighella",
+        "Dottore"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce  16. stol.?",
+      "question": "Jaké jsou hlavní znaky komedie dell'arte?",
       "answers": [
-        "se objevují dvorská interiérová představení tzv",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Všestranná hlasová a fyzická příprava, užívání nářečí, uplatnění gagů (lazzi), syntetičnost",
+        "Psaný text, neměnné postavy",
+        "Pouze náboženská témata",
+        "Profesionální herci pouze z šlechty"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro anglie?",
+      "question": "Kde se nacházelo první dochované renesanční divadlo?",
       "answers": [
-        "= alžbětinské divadlo (spojeno s vládou Alžběty I",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Teatro Olimpico ve Vicenze",
+        "Globe Theatre v Londýně",
+        "Teatro Farnese v Parmě",
+        "Corral de comedias v Madridu"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje anglie?",
+      "question": "Kdo navrhl Teatro Olimpico ve Vicenze?",
       "answers": [
-        "• John Lyly – Endymion, Proměny lásky (pohádkové komedie)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Andrea Palladio",
+        "Filippo Bruneleschi",
+        "Giacomo Torelli",
+        "Indigo Jones"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje anglie?",
+      "question": "Co jsou masques v alžbětinském divadle?",
       "answers": [
-        "Zimní pohádka (hudba – J. Talbot, chor. - Ch. Wheeldon) Hamlet Sen noci svatojánské (hudba – F. Mendelssohn-Bartholdy, chor. – G. Balanchine)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Krátké veršované divadelní hry zahrnující hudbu, zpěv a tanec, připomínající maškarní ples",
+        "Náboženské hry",
+        "Shakespearovy tragédie",
+        "Lidové frašky"
       ],
       "correct": 0
     },
     {
-      "question": "Co je první známý dramatik?",
+      "question": "Kdo byl autorem masek v alžbětinském divadle?",
       "answers": [
-        "Lope de Rueda (vlastník kočovné společnosti)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ben Jonson",
+        "William Shakespeare",
+        "Christopher Marlowe",
+        "Thomas Kyd"
       ],
       "correct": 0
     },
     {
-      "question": "Co je okna a balkony vedlejších domů?",
+      "question": "Kdo navrhoval kostýmy pro masques?",
       "answers": [
-        "místa pro šlechtice (ostatní seděli či stáli před scénou)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Indigo Jones",
+        "Ben Jonson",
+        "William Shakespeare",
+        "Christopher Marlowe"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce  15. stol.?",
+      "question": "Který španělský dramatik je označován jako \"otec španělského dramatu\"?",
       "answers": [
-        "– první světská hra Komedie o Kalistovi a Melibeji (autor – Fernardo de Rojas)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Juan del Encina",
+        "Lope de Vega",
+        "Pedro Calderón de la Barca",
+        "Tirso de Molina"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1939?",
+      "question": "Kolik komedií a autos se dochovalo od Lope de Vegy?",
       "answers": [
-        ", Petrohrad",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "470 komedií a 50 autos",
+        "300 komedií a 30 autos",
+        "200 komedií a 20 autos",
+        "100 komedií a 10 autos"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro španělsko?",
+      "question": "Jak se nazývají divadla zřízená mezi sousedními domy ve Španělsku?",
       "answers": [
-        "= španělské divadlo zlatého věku (16",
-        "• Juan del Encina – „otec španělského dramatu“",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Corrales (dvory)",
+        "Autos sacramentales",
+        "Corrales de comedias",
+        "Teatros"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje španělsko?",
+      "question": "Kdo napsal knihu Orchésographie popisující zvyky a tance ze 16. století?",
       "answers": [
-        "- původ ve středověku",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Thoinot Arbeau",
+        "Cesare Negri",
+        "Antonio Cornazano",
+        "Pierre Beauchamp"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje španělsko?",
+      "question": "Který tanec byl nejstarší a nejoblíbenější tancem 15. století?",
       "answers": [
-        "- první známý dramatik = Lope de Rueda (vlastník kočovné společnosti)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Basse danse",
+        "Gagliarda",
+        "Pavana",
+        "Courante"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje španělsko?",
+      "question": "Jak se nazývá taneční prvek stylizované chůze vpřed, stranou, vzad, který je základním prvkem tanců 15. a 16. století?",
       "answers": [
-        "• Lope de Vega – autor komedií a náboženských her, tzv. autos",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Simple",
+        "Double",
+        "Branle",
+        "Réverance"
       ],
       "correct": 0
     },
     {
-      "question": "Co je hud. doprovod?",
+      "question": "Který tanec je nejoblíbenějším renesančním tancem?",
       "answers": [
-        "píšťala (melodie), bubínek (rytmus)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Gagliarda",
+        "Pavana",
+        "Basse danse",
+        "Courante"
       ],
       "correct": 0
     },
     {
-      "question": "Co je rychlé couranty považovány za neřestný tanec?",
+      "question": "Kde vznikla pavana?",
       "answers": [
-        "> vydány i zákazy (1627– v Čechách)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Španělsko",
+        "Itálie",
+        "Francie",
+        "Německo"
       ],
       "correct": 0
     },
     {
-      "question": "Co je základní pohyb?",
+      "question": "Co znamená jiný název gagliardy \"sinkapas\"?",
       "answers": [
-        "kývání zprava doleva a zleva doprava",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Pět kroků, základ gagliardy",
+        "Pět tanečníků",
+        "Pět částí tance",
+        "Pět taktů"
       ],
       "correct": 0
     },
     {
-      "question": "Co je + gavota?",
+      "question": "Kde vznikla allemane?",
       "answers": [
-        "branles double s prvky gagliardy",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Německo",
+        "Itálie",
+        "Francie",
+        "Španělsko"
       ],
       "correct": 0
     },
     {
-      "question": "Co je milostný vášnivý tanec doprovázen neslušnými písněmi?",
+      "question": "Kde vznikla sarabanda?",
       "answers": [
-        "> zakazována a odsuzována",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Mexiko, konec 16. století se dostala do Španělska",
+        "Itálie",
+        "Francie",
+        "Španělsko"
       ],
       "correct": 0
     },
     {
-      "question": "Co je živý ráz?",
+      "question": "Kdy byla založena Královská akademie tance Ludvíkem XIV.?",
       "answers": [
-        "> odsuzována církví (vzhledem k nemravnosti tance)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1661",
+        "1650",
+        "1670",
+        "1680"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1661?",
+      "question": "Jaký byl účel Královské akademie tance?",
       "answers": [
-        "založení Královské akademie tance Ludvíkem XIV",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Pečovat o čistotu provedení tanců a zvyšovat úroveň tance",
+        "Vzdělávat choreografy",
+        "Organizovat taneční soutěže",
+        "Vytvářet nové tance"
       ],
       "correct": 0
     },
     {
-      "question": "Co je účel?",
+      "question": "Který tanec 17. století byl nazýván \"doktorský\" tanec a tančil se pouze v královské a dvorské společnosti?",
       "answers": [
-        "pečovat o čistotu provedení tanců a zvyšovat úroveň tance",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Courante",
+        "Menuet",
+        "Gagliarda",
+        "Pavana"
       ],
       "correct": 0
     },
     {
-      "question": "Co je stol.?",
+      "question": "Který tanec pochází z lidového branlu tančeného v kraji Pointu?",
       "answers": [
-        "mění svou taneční a hudební podobu",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Menuet",
+        "Courante",
+        "Gagliarda",
+        "Basse danse"
       ],
       "correct": 0
     },
     {
-      "question": "Co je taneční charakter?",
+      "question": "Kdo ustálil dráhu menuetu do obrazce \"Z\"?",
       "answers": [
-        "z poskočného na kluzný (volnější tempo)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Louis Pécour",
+        "Pierre Beauchamp",
+        "Thoinot Arbeau",
+        "Cesare Negri"
       ],
       "correct": 0
     },
     {
-      "question": "Co je tančil se pouze v královské a dvorské společnosti?",
+      "question": "Jak se nazývá nejslavnější hudba k menuetu, vytvořená ke svatbě Marie Antoinetty a Ludvíka XVI.?",
       "answers": [
-        "> král tančil sám",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Menuet de la Reine",
+        "Menuet de la Cour",
+        "Menuet royal",
+        "Menuet de Versailles"
       ],
       "correct": 0
     },
     {
-      "question": "Co je název?",
+      "question": "Který český hudební skladatel patří do renesance?",
       "answers": [
-        "od slova menu (malý, něžný, drobný)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Kryštof Harant z Polžic a Bezdružic",
+        "Bedřich Smetana",
+        "Antonín Dvořák",
+        "Leoš Janáček"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce  19. stol.?",
+      "question": "Které nové hudební nástroje se objevily v renesanci?",
       "answers": [
-        "nemá nic společného)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Klavichord, virginal",
+        "Klavír, housle",
+        "Varhany, flétna",
+        "Loutna, kytara"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1627?",
+      "question": "Který renesanční architekt navrhl architektonický návrh sirotčince, který se stal inspirací pro další stavby?",
       "answers": [
-        "– v Čechách)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co se stalo v roce 1661 ?",
-      "answers": [
-        "= založení Královské akademie tance Ludvíkem XIV",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co je charakteristické pro tanec?",
-      "answers": [
-        "• Thoinot Arbeau – kniha Orchésographie",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co zahrnuje tanec?",
-      "answers": [
-        "• Cesare Negri – pražský baletní mistr",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co zahrnuje tanec?",
-      "answers": [
-        "basse danse (nízký tanec; ¾ takt)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co zahrnuje tanec?",
-      "answers": [
-        "- dvě základní části: 1.) vlastní basse danse",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Filippo Bruneleschi",
+        "Andrea Palladio",
+        "Rafael Santi",
+        "Michelangelo Buonarroti"
       ],
       "correct": 0
     }

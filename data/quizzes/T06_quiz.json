@@ -1,302 +1,482 @@
 {
   "questions": [
     {
-      "question": "Co je účinkující?",
+      "question": "Kdy se konala svatba Kateřiny Medicejské s francouzským králem Jindřichem II.?",
       "answers": [
-        "šlechta, sloužící (komické postavy)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1533",
+        "1520",
+        "1540",
+        "1550"
       ],
       "correct": 0
     },
     {
-      "question": "Co je (Alcina?",
+      "question": "Kdy byla založena Akademie hudby a poezie?",
       "answers": [
-        "kouzelnice, jež způsobí chaos a zmatek",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1571",
+        "1560",
+        "1580",
+        "1590"
       ],
       "correct": 0
     },
     {
-      "question": "Co je témata dvorských baletů?",
+      "question": "Kdo založil Akademii hudby a poezie?",
       "answers": [
-        "oslava panovníka (náměty – antická mytologie)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Jean Antoine de Baif",
+        "Pierre Beauchamp",
+        "Jean Baptiste Lully",
+        "Balthasar de Beaujoyeux"
       ],
       "correct": 0
     },
     {
-      "question": "Co je choreografie?",
+      "question": "Kdy proběhl první úspěšný pokus spojení hudby, tance a poezie do jednoho dramatického útvaru?",
       "answers": [
-        "společenské tance té doby (tanečníci zobrazovali různé útvary - ornamenty)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1573",
+        "1571",
+        "1581",
+        "1568"
       ],
       "correct": 0
     },
     {
-      "question": "Co je kostýmy?",
+      "question": "Jak se jmenovalo první představení, které úspěšně spojilo hudbu, tanec a poezii?",
       "answers": [
-        "ušity z drahých látek (satén, brokát, hedvábí)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ballet des Nymphes",
+        "Ballet comique de la reine",
+        "Ballet noci",
+        "Ballet námořnictva"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1617 ?",
+      "question": "Kdy byl uveden první historicky doložený dvorský balet?",
       "answers": [
-        "– Osvobození Renauda (Rinalda)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "15. října 1581",
+        "15. října 1573",
+        "15. října 1600",
+        "15. října 1653"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1581 ?",
+      "question": "Jak se jmenoval první historicky doložený dvorský balet?",
       "answers": [
-        "- uveden první, historicky doložený dvorský balet (ballet de cour)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Ballet comique de la reine (Dramatický balet královnin), s podtitulem Kirké",
+        "Ballet des Nymphes",
+        "Ballet noci",
+        "Ballet námořnictva"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1571 ?",
+      "question": "Kdo vytvořil choreografii pro první historicky doložený dvorský balet?",
       "answers": [
-        "- založení Akademie hudby a poezie",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Balthasar de Beaujoyeux",
+        "Pierre Beauchamp",
+        "Jean Baptiste Lully",
+        "Giacomo Torelli"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1573 ?",
+      "question": "Jaká byla struktura dvorského baletu?",
       "answers": [
-        "- první úspěšný pokus spojení hudby, tance a poezie do 1 dramatického útvaru",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Orchestrální předehra, recit parlé (mluvená část), recit chanté (zpěv), grand ballet",
+        "Předehra, tanec, zpěv, závěr",
+        "Prolog, tanec, intermezzo, závěr",
+        "Úvod, hlavní část, tanec, závěr"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce  16. stol.?",
+      "question": "Jaké byly náměty dvorských baletů?",
       "answers": [
-        "– pořádání maškarních průvodů, dvorských tanců a hostin",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Oslava panovníka, antická mytologie",
+        "Náboženské náměty",
+        "Lidové příběhy",
+        "Historické události"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro francie?",
+      "question": "Jak se nazývá jev, kdy role žen často tančili muži?",
       "answers": [
-        "• 1533 - sňatek Kateřiny Medicejské s francouzským králem Jindřichem II",
-        "=> do Francie přišlo mnoho italských umělců, kteří vystupovali na slavnostech královny",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Travesti",
+        "Cross-dressing",
+        "Gender-bending",
+        "Drag"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje francie?",
+      "question": "Kdy byl uveden balet Alcina?",
       "answers": [
-        "• 1573 - první úspěšný pokus spojení hudby, tance a poezie do 1 dramatického útvaru",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1610",
+        "1600",
+        "1620",
+        "1581"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje francie?",
+      "question": "Kdy byl uveden balet Osvobození Renauda (Rinalda)?",
       "answers": [
-        "• 15. října 1581 - uveden první, historicky doložený dvorský balet (ballet de cour)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1617",
+        "1610",
+        "1619",
+        "1620"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje francie?",
+      "question": "Kdy byl uveden balet Tankredovo dobrodružství v začarovaném lese?",
       "answers": [
-        "- choreografie: Balthasar de Beaujoyeux",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1619",
+        "1617",
+        "1610",
+        "1620"
       ],
       "correct": 0
     },
     {
-      "question": "Co je největší rozkvět dvorského baletu?",
+      "question": "Kdy byl uveden Balet námořnictva?",
       "answers": [
-        "za vlády Ludvíka XIV",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1635",
+        "1630",
+        "1640",
+        "1650"
       ],
       "correct": 0
     },
     {
-      "question": "Co je zde naposledy účinkovala aristokracie?",
+      "question": "V kterém baletu se Ludvík XIV. poprvé objevil jako tanečník?",
       "answers": [
-        "> začínají hrát profesionálové",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Cassandra (1651)",
+        "Balet noci (1653)",
+        "Balet ročních období (1661)",
+        "Balet jara (1669)"
       ],
       "correct": 0
     },
     {
-      "question": "Co je vznik?",
+      "question": "Kolik let bylo Ludvíku XIV., když se poprvé objevil v baletu?",
       "answers": [
-        "březen 1661 (zakladatel – Ludvík XIV",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "13 let",
+        "10 let",
+        "15 let",
+        "18 let"
       ],
       "correct": 0
     },
     {
-      "question": "Co je vznik?",
+      "question": "Kdy byl uveden nejslavnější balet, v němž Ludvík XIV. účinkoval?",
       "answers": [
-        "1669 (zakladatel – Ludvík XIV",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1653 – Balet noci",
+        "1651 – Cassandra",
+        "1661 – Balet ročních období",
+        "1669 – Balet jara"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1672?",
+      "question": "Kdo vytvořil choreografii pro Balet noci?",
       "answers": [
-        "Lully zde založil baletní školu pro dvanáct chlapců a dvanáct dívek",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Pierre Beauchamp",
+        "Jean Baptiste Lully",
+        "Giacomo Torelli",
+        "Balthasar de Beaujoyeux"
       ],
       "correct": 0
     },
     {
-      "question": "Co je akademie hudby?",
+      "question": "Kolik výstupů měl Balet noci?",
       "answers": [
-        "později slavná pařížská Opera",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "45 výstupů",
+        "30 výstupů",
+        "50 výstupů",
+        "40 výstupů"
       ],
       "correct": 0
     },
     {
-      "question": "Co je baletní škola?",
+      "question": "Kolik částí měl Balet noci?",
       "answers": [
-        "později taneční škola při pařížské Opeře",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "4 části",
+        "3 části",
+        "5 částí",
+        "6 částí"
       ],
       "correct": 0
     },
     {
-      "question": "Co je odmalička projevoval hudební nadání?",
+      "question": "Jaká byla celková doba trvání představení Baletu noci?",
       "answers": [
-        "> začal se učit hrát na hud",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "12 hodin",
+        "6 hodin",
+        "8 hodin",
+        "10 hodin"
       ],
       "correct": 0
     },
     {
-      "question": "Co je ) comedie – ballet?",
+      "question": "V jaké roli vystoupil Ludvík XIV. v desátém výstupu čtvrté části Baletu noci?",
       "answers": [
-        "hry od Moliera, do nichž Lully vložil hudbu pro taneční výstupy (Zdravý nemocný, Měšťák šlechticem, Láska lékařem)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Slunce",
+        "Neptun",
+        "Hodin",
+        "Zvědavý"
       ],
       "correct": 0
     },
     {
-      "question": "Co je ) tragédie lyrique?",
+      "question": "Jakou přezdívku získal Ludvík XIV. díky své roli v Baletu noci?",
       "answers": [
-        "spojení italské opery a francouzského ballet de cour (Cadamus a Hermiona)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Král Slunce",
+        "Král tance",
+        "Král divadla",
+        "Král baletu"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1661 ?",
+      "question": "Kdy byl uveden poslední dvorský balet, v němž Ludvík XIV. hrál?",
       "answers": [
-        "– Balet ročních období",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1669 – Balet jara",
+        "1661 – Balet ročních období",
+        "1670 – Výteční milenci",
+        "1653 – Balet noci"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1669 ?",
+      "question": "Kdy naposledy účinkovala aristokracie v dvorském baletu?",
       "answers": [
-        "– Balet jara",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1670 – představení Výteční milenci",
+        "1669 – Balet jara",
+        "1672 – založení baletní školy",
+        "1687 – smrt Lullyho"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro baroko?",
+      "question": "Kdy byla založena Královská akademie tance?",
       "answers": [
-        "• 1635 – Balet námořnictva (Le ballet de la Marine)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Březen 1661",
+        "Březen 1653",
+        "Březen 1669",
+        "Březen 1672"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje baroko?",
+      "question": "Kdo založil Královskou akademii tance?",
       "answers": [
-        "- k oslavě vybudování francouzské námořnické flotily (kardinál Richelieu)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ludvík XIV.",
+        "Pierre Beauchamp",
+        "Jean Baptiste Lully",
+        "Louis Pécour"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje baroko?",
+      "question": "Kdo byl prvním ředitelem Královské akademie tance?",
       "answers": [
-        "- největší rozkvět dvorského baletu = za vlády Ludvíka XIV.",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Pierre Beauchamp",
+        "Jean Baptiste Lully",
+        "Louis Pécour",
+        "Raoul Auger Feuillet"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje baroko?",
+      "question": "Kolik baletních mistrů měla Královská akademie tance?",
       "answers": [
-        "- od té doby se dvorských baletů účastnil jako tanečník",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Třináct baletních mistrů",
+        "Dvanáct baletních mistrů",
+        "Patnáct baletních mistrů",
+        "Deset baletních mistrů"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké principy uzákonila Královská akademie tance?",
+      "answers": [
+        "Princip vytočení en dehors a pět základních pozic nohou",
+        "Princip vytočení en dedans a čtyři základní pozice nohou",
+        "Princip rovného držení a šest základních pozic nohou",
+        "Princip otevřeného držení a tři základní pozice nohou"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy byla založena Královská akademie hudby?",
+      "answers": [
+        "1669",
+        "1661",
+        "1672",
+        "1687"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byl prvním ředitelem Královské akademie hudby?",
+      "answers": [
+        "Pierre Perrin",
+        "Jean Baptiste Lully",
+        "Pierre Beauchamp",
+        "Philippe Quinault"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byl druhým ředitelem Královské akademie hudby?",
+      "answers": [
+        "Jean Baptiste Lully",
+        "Pierre Perrin",
+        "Pierre Beauchamp",
+        "Louis Pécour"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy založil Jean Baptiste Lully baletní školu při Královské akademii hudby?",
+      "answers": [
+        "1672",
+        "1669",
+        "1661",
+        "1687"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kolik chlapců a dívek měla baletní škola při Královské akademii hudby?",
+      "answers": [
+        "Dvanáct chlapců a dvanáct dívek",
+        "Deset chlapců a deset dívek",
+        "Patnáct chlapců a patnáct dívek",
+        "Osm chlapců a osm dívek"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Z jakého města pocházel Jean Baptiste Lully?",
+      "answers": [
+        "Florencie, Itálie",
+        "Paříž, Francie",
+        "Benátky, Itálie",
+        "Řím, Itálie"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V kolika letech odjel Jean Baptiste Lully do Francie?",
+      "answers": [
+        "Ve čtrnácti letech",
+        "V deseti letech",
+        "V šestnácti letech",
+        "V osmnácti letech"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy zemřel Jean Baptiste Lully?",
+      "answers": [
+        "1687 (na otravu krve)",
+        "1685",
+        "1700",
+        "1705"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké dva nové hudební žánry založil Jean Baptiste Lully?",
+      "answers": [
+        "Comedie-ballet a tragédie lyrique",
+        "Opera a balet",
+        "Kantáta a oratorium",
+        "Symfonie a koncert"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "S kým vytvořil Jean Baptiste Lully comedie-ballet?",
+      "answers": [
+        "S Molierem",
+        "S Pierrem Beauchampem",
+        "S Philippem Quinaultem",
+        "S Isaacem de Benserade"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "S kým vytvořil Jean Baptiste Lully tragédie lyrique?",
+      "answers": [
+        "S básníkem Philippem Quinaultem",
+        "S Molierem",
+        "S Pierrem Beauchampem",
+        "S Isaacem de Benserade"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se narodil Pierre Beauchamp?",
+      "answers": [
+        "1636",
+        "1632",
+        "1653",
+        "1661"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy zemřel Pierre Beauchamp?",
+      "answers": [
+        "1705",
+        "1687",
+        "1700",
+        "1710"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy byl Pierre Beauchamp jmenován královským choreografem?",
+      "answers": [
+        "1655",
+        "1653",
+        "1661",
+        "1672"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vydal Raoul Auger Feuillet taneční notaci vytvořenou Pierrem Beauchampem?",
+      "answers": [
+        "1700",
+        "1705",
+        "1687",
+        "1661"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jak se jmenuje kniha vydaná Raoulem Augerem Feuilletem s taneční notací?",
+      "answers": [
+        "Choreografie aneb umění zapisovat tanec (Beauchamp-Feuilletova metoda)",
+        "Umění tance",
+        "Taneční notace",
+        "Zápis tance"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy zanikla Královská akademie tance?",
+      "answers": [
+        "1789",
+        "1705",
+        "1687",
+        "1800"
       ],
       "correct": 0
     }

@@ -1,382 +1,472 @@
 {
   "questions": [
     {
-      "question": "Co se stalo v roce  18. stol.?",
+      "question": "V jakém období probíhalo baroko?",
       "answers": [
-        ", období vrcholného absolutismu (třicetiletá válka, válka na Bílé hoře)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Přelom 17. a 18. století",
+        "Přelom 16. a 17. století",
+        "Přelom 15. a 16. století",
+        "Přelom 18. a 19. století"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje baroko?",
+      "question": "Kde vzniklo baroko?",
       "answers": [
-        "a 18. stol., období vrcholného absolutismu (třicetiletá válka, válka na Bílé hoře)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Řím",
+        "Florencie",
+        "Paříž",
+        "Benátky"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro architektura?",
+      "question": "Jaké jsou typické půdorysy barokní architektury?",
       "answers": [
-        "Čechy – Kryštof a Kilián Ignác Dientzenhoferovi (otec a syn): K",
-        "(neboli Giovanni Battista Santini)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Kruhové a elipsovité půdorysy",
+        "Čtvercové a obdélníkové půdorysy",
+        "Šestiúhelníkové a osmiúhelníkové půdorysy",
+        "Trojúhelníkové a kosočtverečné půdorysy"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro sochařství?",
+      "question": "Který český sochař vytvořil sochy Ctností a Neřestí na Kuksu?",
       "answers": [
-        "(sochy Ctností a Neřestí na Kuksu, socha Vidění svaté Luitgardy na Karlově mostě)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Matyáš Bernard Braun",
+        "Kryštof Dientzenhofer",
+        "Kilián Ignác Dientzenhofer",
+        "Jan Santini Aichel"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje hudba?",
+      "question": "Který skladatel vytvořil Čtvero ročních období?",
       "answers": [
-        "- Johann Sebastian Bach (Braniborské koncerty, Ave Maria)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Antonio Vivaldi",
+        "Georg Friedrich Händel",
+        "Johann Sebastian Bach",
+        "Jean Philippe Rameau"
       ],
       "correct": 0
     },
     {
-      "question": "Co je hl. znak?",
+      "question": "Který skladatel vytvořil oratorium Mesiáš?",
       "answers": [
-        "ostré oddělení jeviště od hlediště portálem a rampou",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Georg Friedrich Händel",
+        "Antonio Vivaldi",
+        "Johann Sebastian Bach",
+        "Jean Philippe Rameau"
       ],
       "correct": 0
     },
     {
-      "question": "Co je změna i v rozdělení hlediště?",
+      "question": "Který skladatel vytvořil Braniborské koncerty?",
       "answers": [
-        "dle sociálních poměrů ve společnosti",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Johann Sebastian Bach",
+        "Antonio Vivaldi",
+        "Georg Friedrich Händel",
+        "Jean Philippe Rameau"
       ],
       "correct": 0
     },
     {
-      "question": "Co je osvětlení?",
+      "question": "Jak se nazývá hlavní znak barokního divadelního prostoru?",
       "answers": [
-        "svíčky -> časté požáry",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ostré oddělení jeviště od hlediště portálem a rampou, vznik kukátkového prostoru",
+        "Otevřený prostor bez oddělení",
+        "Kruhový prostor",
+        "Prostor bez ramp"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro divadlo?",
+      "question": "Jaké bylo osvětlení v barokních divadlech?",
       "answers": [
-        "náboženská představení",
-        "1",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Svíčky, což způsobovalo časté požáry",
+        "Olejové lampy",
+        "Elektrické osvětlení",
+        "Plynové osvětlení"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje divadlo?",
+      "question": "Co je charakteristické pro baroko v tanci?",
       "answers": [
-        "- kulisy malovali významní malíři",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Zlatá éra ve vývoji tanečního umění, tanec byl součástí zábavy všech společenských vrstev",
+        "Tanec pouze pro šlechtu",
+        "Tanec pouze v divadle",
+        "Tanec pouze v kostelech"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje divadlo?",
+      "question": "Jaké jsou dva základní taneční druhy v baroku?",
       "answers": [
-        "- osvětlení = svíčky -> časté požáry",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Danse noble a danse haute",
+        "Danse noble a danse basse",
+        "Danse haute a danse basse",
+        "Danse courante a danse menuet"
       ],
       "correct": 0
     },
     {
-      "question": "Co je baroko?",
+      "question": "Co je danse noble?",
       "answers": [
-        "zlatá éra ve vývoji tanečního umění",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Francouzský vznešený urozený taneční styl, rozvoj v Královské akademii tance",
+        "Italský taneční styl zaměřený na skoky",
+        "Španělský taneční styl",
+        "Německý taneční styl"
       ],
       "correct": 0
     },
     {
-      "question": "Co je a) danse noble?",
+      "question": "Co je danse haute?",
       "answers": [
-        "francouzský vznešený urozený taneční styl",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Vysoký tanec pocházející z Itálie, zaměřený na skoky",
+        "Francouzský vznešený taneční styl",
+        "Nízký tanec",
+        "Společenský tanec"
       ],
       "correct": 0
     },
     {
-      "question": "Co je (vysoký) - zaměřen na skoky?",
+      "question": "Kdy žil Louis Pécour?",
       "answers": [
-        "> rozvoj techniky skoku a dopadu",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1655–1729",
+        "1636–1705",
+        "1676–1739",
+        "1680–1741"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1703 ?",
+      "question": "V kterém roce debutoval Jean Ballon v Pařížské opeře?",
       "answers": [
-        "– převzal funkce po Beauchampovi",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1691",
+        "1681",
+        "1699",
+        "1703"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro tanec?",
+      "question": "Jaký skok je pojmenován podle Jeana Ballona?",
       "answers": [
-        "(znalost tanečních kroků a tanců patřila k základnímu vzdělání šlechticů)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Balloné",
+        "Sissonne",
+        "Pas de chat",
+        "Jeté"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Kdo byla první profesionální tanečnice?",
       "answers": [
-        "danse noble = francouzský vznešený urozený taneční styl",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Mademoiselle La Fontaine",
+        "Marie Therese Subligny",
+        "Francoise Prévostová",
+        "Marie Anne de Cupi"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "V kterém roce debutovala Mademoiselle La Fontaine v Pařížské opeře?",
       "answers": [
-        "- znaky: poloha nohou pod 45°, nízké skoky, zaoblené paže, nástup na",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1681",
+        "1691",
+        "1699",
+        "1668"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Ve které opeře debutovala Mademoiselle La Fontaine?",
       "answers": [
-        "danse haute – pochází z Itálie, rozvoj z komedie dell´ arte",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Triumf lásky (hudba – Jean Baptiste Lully)",
+        "Cadmus a Hermiona",
+        "Atys",
+        "Galantní Indové"
       ],
       "correct": 0
     },
     {
-      "question": "Co je název rokoko?",
+      "question": "Kdy žila Marie Therese Subligny?",
       "answers": [
-        "z francouzského slova rocaille (lastura, ornament)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1666–1736",
+        "1655–1738",
+        "1680–1741",
+        "1710–1770"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce  18. stol.?",
+      "question": "Která tanečnice byla první francouzskou tanečnicí, která hostovala v Anglii?",
       "answers": [
-        "ve Francii, přelom vlády Ludvíka XIV",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Marie Therese Subligny",
+        "Mademoiselle La Fontaine",
+        "Francoise Prévostová",
+        "Marie Anne de Cupi"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro rokoko?",
+      "question": "Která tanečnice byla pedagožkou rokokových tanečnic Marie Anne de Cupi a Marie Sallé?",
       "answers": [
-        "+ stoupá zájem o exotiku, exotické země (Čína, Indie)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Francoise Prévostová",
+        "Mademoiselle La Fontaine",
+        "Marie Therese Subligny",
+        "Louis Dupré"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje rokoko?",
+      "question": "V kterém století vzniklo rokoko?",
       "answers": [
-        "- název rokoko = z francouzského slova rocaille (lastura, ornament)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "18. století ve Francii",
+        "17. století ve Francii",
+        "18. století v Itálii",
+        "17. století v Itálii"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje rokoko?",
+      "question": "Z jakého francouzského slova pochází název rokoko?",
       "answers": [
-        "stol. ve Francii, přelom vlády Ludvíka XIV. a Ludvíka XV.",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Rocaille (lastura, ornament)",
+        "Rococo (křehkost)",
+        "Rocque (hravost)",
+        "Rocque (galantnost)"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje umění?",
+      "question": "Jaké jsou hlavní znaky rokoka?",
       "answers": [
-        "- důležitá tvorba ze dřeva",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Křehkost, hravost, něžnost, bezstarostnost, galantnost, náznaky erotiky a flirtu",
+        "Vznešenost, patos, dramatičnost",
+        "Jednoduchost, čistota",
+        "Barokní zdobnost, dynamika"
       ],
       "correct": 0
     },
     {
-      "question": "Co je hl. téma baletní části?",
+      "question": "Co je divertissement v opeře?",
       "answers": [
-        "příběhy z různých částí světa",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Taneční výstupy sloužící pro pobavení a rozptýlení diváků na konci každého jednání",
+        "Hlavní dějová část opery",
+        "Zpěvní část opery",
+        "Orchestrální předehra"
       ],
       "correct": 0
     },
     {
-      "question": "Co je od dětství vystupovala v pantomimách a vaudevillech (?",
+      "question": "Jak se nazývá žánr, kde balet je součástí opery, ale nemá souvislý děj?",
       "answers": [
-        "komická hra se zpěvy)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Opera-balet",
+        "Tragédie lyrique",
+        "Comedie-ballet",
+        "Ballet de cour"
       ],
       "correct": 0
     },
     {
-      "question": "Co je neúspěch?",
+      "question": "Kdy byla uvedena opera-balet Galantní Indové (Les Indes Galantes)?",
       "answers": [
-        "> návrat do PO, tančila v představení Galantní Indové",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1735",
+        "1730",
+        "1740",
+        "1725"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1735 – návrat do Vídně (první vídeňské období)?",
+      "question": "Kdo složil hudbu k opeře-balet Galantní Indové?",
       "answers": [
-        "> dvorský pedagog tance a tanečník",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Jean Philippe Rameau",
+        "Jean Baptiste Lully",
+        "Georg Friedrich Händel",
+        "Antonio Vivaldi"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1760 ?",
+      "question": "Kolik částí má baletní část opery-balet Galantní Indové?",
       "answers": [
-        "– Návrat jara aneb Vítězství Flóry",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "4 části",
+        "3 části",
+        "5 částí",
+        "2 části"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1735 ?",
+      "question": "Jak se jmenuje první část baletu Galantní Indové?",
       "answers": [
-        "– Galantní Indové (Les Indes Galantes)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Šlechetný Turek",
+        "Inkové v Peru",
+        "Perský svátek květů",
+        "Divoši"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1734 ?",
+      "question": "Jak se jmenuje čtvrtá část baletu Galantní Indové?",
       "answers": [
-        "– nabídka z Londýna, Covent Garden (zakladatel – John Rich)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Divoši",
+        "Šlechetný Turek",
+        "Inkové v Peru",
+        "Perský svátek květů"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1758 ?",
+      "question": "Kdy žil Louis Dupré?",
       "answers": [
-        "– zde uvedl první část Galantních Indů = Šlechetný Turek + titul Paní kmotro, půjčte mi ty nůžky",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1697–1774",
+        "1710–1768",
+        "1707–1756",
+        "1710–1770"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1751 ?",
+      "question": "Který tanečník byl nazýván \"danseur noble\"?",
       "answers": [
-        "(od 18 let) – působení v PO",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Louis Dupré",
+        "Jean Ballon",
+        "Louis Pécour",
+        "Franz Hilverding"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro tanec?",
+      "question": "Kdy žila Marie Anne de Cupi (později de Camargo)?",
       "answers": [
-        "(divertir – bavit se)",
-        "(balet nemá souvislý děj, každá část má samostatný příběh – často milostný)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1710–1770",
+        "1707–1756",
+        "1710–1768",
+        "1680–1741"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "V kterém roce se stala Marie Anne de Cupi členkou Pařížské opery?",
       "answers": [
-        "- postupně se tento žánr začal nazývat opera-balet",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1726",
+        "1727",
+        "1734",
+        "1735"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Která tanečnice si přisvojila mužské kroky?",
       "answers": [
-        "- hudba: Jean Philippe Rameau",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Marie Anne de Cupi (Camargo)",
+        "Marie Sallé",
+        "Francoise Prévostová",
+        "Mademoiselle La Fontaine"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje tanec?",
+      "question": "Kdy žila Marie Sallé?",
       "answers": [
-        "- soudobé tance (i přesto, že představovaly exotické země)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1707–1756",
+        "1710–1770",
+        "1710–1768",
+        "1680–1741"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V kterém roce debutovala Marie Sallé v Pařížské opeře?",
+      "answers": [
+        "1727",
+        "1726",
+        "1734",
+        "1735"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Která tanečnice byla konkurentkou Marie de Camargo?",
+      "answers": [
+        "Marie Sallé",
+        "Marie Therese Subligny",
+        "Francoise Prévostová",
+        "Mademoiselle La Fontaine"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Ve kterém divadle v Londýně působila Marie Sallé?",
+      "answers": [
+        "Covent Garden",
+        "Drury Lane",
+        "Burgtheatr",
+        "Teatro Olimpico"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jakou pantomimu vytvořila Marie Sallé?",
+      "answers": [
+        "Pygmalion",
+        "Terpsichora",
+        "Alcina",
+        "Galantní Indové"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kterou část Galantních Indů vytvořila Marie Sallé jako vlastní choreografii?",
+      "answers": [
+        "Perský svátek květin",
+        "Šlechetný Turek",
+        "Inkové v Peru",
+        "Divoši"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil Franz Hilverding?",
+      "answers": [
+        "1710–1768",
+        "1697–1774",
+        "1707–1756",
+        "1710–1770"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Ve kterém divadle působil Franz Hilverding ve Vídni?",
+      "answers": [
+        "Burgtheatr (Dvorské divadlo)",
+        "Covent Garden",
+        "Pařížská opera",
+        "Divadlo u Korutanské brány"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V kterém roce vytvořil Franz Hilverding balet Návrat jara aneb Vítězství Flóry?",
+      "answers": [
+        "1760",
+        "1758",
+        "1764",
+        "1765"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V kterém roce vytvořil Franz Hilverding dvorský balet Vítězství lásky k příležitosti svatby Josefa II.?",
+      "answers": [
+        "1765",
+        "1760",
+        "1764",
+        "1768"
       ],
       "correct": 0
     }

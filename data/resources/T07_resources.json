@@ -1,0 +1,39 @@
+{
+  "sections": [
+    {
+      "heading": "BAROKO",
+      "resources": [
+        {
+          "title": "Barokní umění a kultura - dokumentární cyklus",
+          "platform": "YouTube - Art History",
+          "url": "https://www.youtube.com/results?search_query=baroque+art+culture+history+documentary",
+          "explanation": "Dokumentární videa o baroku jako období přelomu 17. a 18. století, barokní architektuře, sochařství, hudbě (Vivaldi, Händel, Bach) a divadle. Pokrývá známá barokní divadla v Českém Krumlově a Litomyšli. Availability: OK"
+        },
+        {
+          "title": "Barokní tanec - danse noble a danse haute",
+          "platform": "YouTube - Historical Dance",
+          "url": "https://www.youtube.com/results?search_query=baroque+dance+danse+noble+haute+historical+reconstruction",
+          "explanation": "Videa s historickými rekonstrukcemi barokních tanců, dvou základních tanečních druhů (danse noble a danse haute), významných tanečníků a tanečnic období baroka (Pécour, Ballon, La Fontaine, Subligny, Prévostová). Availability: OK"
+        }
+      ]
+    },
+    {
+      "heading": "ROKOKO",
+      "resources": [
+        {
+          "title": "Rokoko a jeho charakteristiky - dokument",
+          "platform": "YouTube - Art History",
+          "url": "https://www.youtube.com/results?search_query=rococo+art+france+18th+century+documentary",
+          "explanation": "Dokumentární videa o rokoku jako aristokratickém stylu 18. století ve Francii, jeho hlavních znacích (křehkost, hravost, galantnost) a rokokovém umění. Pokrývá období přelomu vlády Ludvíka XIV. a Ludvíka XV. Availability: OK"
+        },
+        {
+          "title": "Rokokový balet a opera-balet",
+          "platform": "YouTube - Ballet History",
+          "url": "https://www.youtube.com/results?search_query=rococo+ballet+opera+ballet+camargo+salle+documentary",
+          "explanation": "Dokumentární videa o rokokovém baletu, žánru opera-balet, baletu Galantní Indové (Les Indes Galantes), významných tanečnících a tanečnicích (Dupré, Camargo, Sallé, Hilverding) a jejich choreografiích. Availability: OK"
+        }
+      ]
+    }
+  ]
+}
+
