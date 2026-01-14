@@ -16,7 +16,7 @@ class TopicLoader {
   async loadAllTopics() {
     // For Phase A, we'll use a hardcoded list of available topics
     // In Phase B/C, this could scan the directory or use a manifest
-    const topicIds = ['T01', 'T02', 'T03', 'T04', 'T05', 'T06', 'T07', 'T08', 'T09', 'T10', 'T11', 'T12']; // List of available topics
+    const topicIds = ['T00', 'T01', 'T02', 'T03', 'T04', 'T05', 'T06', 'T07', 'T08', 'T09', 'T10', 'T11', 'T12', 'T13', 'T14', 'T15', 'T16', 'T17', 'T18', 'T19', 'T20', 'T21', 'T22', 'T23', 'T24']; // List of available topics
     
     try {
       // Load topics individually so one failure doesn't break everything

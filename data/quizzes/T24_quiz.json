@@ -1,142 +1,182 @@
 {
   "questions": [
     {
-      "question": "Co je pohádkové balety?",
+      "question": "Co se stalo se souborem ND po smrti Saši Machova v roce 1951?",
       "answers": [
-        "1976 – Ferda mravenec (hudba – Jiří Pauer), Sůl nad zlato, Špalíček, Z pohádky do pohádky + pedagogická činnost",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Soubor se ocitl v krizi, vedení se ujali bývalí sólisté",
+        "Soubor pokračoval bez změn",
+        "Byl jmenován nový baletní mistr",
+        "Soubor se rozpadl"
       ],
       "correct": 0
     },
     {
-      "question": "Co je poté Opava?",
+      "question": "Kdy žil Vlastimil Jílek a v jakých letech byl šéfem baletu ND?",
       "answers": [
-        "sólista -> 1946 – šéf baletu + titul z Pohádky do pohádky",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1925-1996, 1951-55",
+        "1925-1996, 1951-57",
+        "1924-1996, 1951-55",
+        "1925-1995, 1951-55"
       ],
       "correct": 0
     },
     {
-      "question": "Co je první choreografie?",
+      "question": "Kdy žil Antonín Landa a kdy převzal funkci šéfa baletu?",
       "answers": [
-        "1957 – Karneval (hudba – R",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1916-1995, 1955",
+        "1916-1995, 1957",
+        "1916-1994, 1955",
+        "1915-1995, 1955"
       ],
       "correct": 0
     },
     {
-      "question": "Co je ukončil svou taneční kariéru?",
+      "question": "Jaký pohádkový balet vytvořil Antonín Landa v roce 1976?",
       "answers": [
-        "představení Odysseus",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ferda mravenec",
+        "Sůl nad zlato",
+        "Špalíček",
+        "Z pohádky do pohádky"
       ],
       "correct": 0
     },
     {
-      "question": "Co je první taneční vzdělání?",
+      "question": "Kdy žil Jiří Němeček?",
+      "answers": [
+        "1924-1991",
+        "1924-1990",
+        "1925-1991",
+        "1924-1992"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakých letech byl Jiří Němeček šéfem Baletu ND Praha v prvním období?",
+      "answers": [
+        "1957-70",
+        "1955-70",
+        "1957-77",
+        "1960-70"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kolik baletních inscenací vytvořil Jiří Němeček celkem?",
+      "answers": [
+        "Na 80",
+        "Na 60",
+        "Na 100",
+        "Na 50"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Na kolik tanečníků zvýšil Jiří Němeček počet v souboru ND?",
+      "answers": [
+        "160",
+        "150",
+        "170",
+        "180"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil Emerich Gabzdyl a v jakých letech byl šéfem Baletu ND Praha?",
+      "answers": [
+        "1908-1993, 1970-74",
+        "1908-1993, 1970-77",
+        "1908-1992, 1970-74",
+        "1907-1993, 1970-74"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se narodil Miroslav Kůra a jaké ocenění získal?",
+      "answers": [
+        "*1924, Cena Thálie za celoživotní mistrovství (1994)",
+        "*1924, Cena Thálie za celoživotní dílo",
+        "*1925, Cena Thálie za celoživotní mistrovství (1994)",
+        "*1924, Medaile za zásluhy"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se narodil Vlastimil Harapes?",
+      "answers": [
+        "*1946",
+        "*1945",
+        "*1947",
+        "*1944"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakých letech byl Vlastimil Harapes šéfem Baletu ND Praha?",
+      "answers": [
+        "1990-2002",
+        "1990-2001",
+        "1987-2002",
+        "1990-2003"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde studoval Vlastimil Harapes?",
+      "answers": [
+        "Taneční oddělení Pražské konzervatoře",
+        "HAMU",
+        "Akademie Vaganova",
+        "ND Brno"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké ocenění získal Vlastimil Harapes v roce 2011?",
+      "answers": [
+        "Cena Thálie za celoživotní dílo",
+        "Cena Thálie za celoživotní mistrovství",
+        "Medaile za zásluhy",
+        "Prix Benois de la danse"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se narodil Petr Zuska a v jakých letech byl šéfem Baletu ND?",
+      "answers": [
+        "*1968, 2002-17",
+        "*1968, 2002-16",
+        "*1967, 2002-17",
+        "*1968, 2000-17"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde získal Petr Zuska první taneční vzdělání?",
       "answers": [
         "Vysokoškolský umělecký soubor Univerzity Karlovy",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Pantomima Na zábradlí",
+        "Pražský komorní balet",
+        "HAMU"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 2014 – ukončil taneční kariéru?",
+      "question": "V jakém souboru působil Petr Zuska v Kanadě?",
       "answers": [
-        "role v baletu Anna Karenina",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Les Grands Ballets Canadiens",
+        "National Ballet of Canada",
+        "Royal Winnipeg Ballet",
+        "Alberta Ballet"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1971 ?",
+      "question": "Kdy ukončil Petr Zuska svou taneční kariéru a v jaké roli?",
       "answers": [
-        "– ND Praha - tančil v baletech M",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co se stalo v roce 1946 ?",
-      "answers": [
-        "– šéf baletu + titul z Pohádky do pohádky",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co se stalo v roce 2011 ?",
-      "answers": [
-        "– Cena Thálie za celoživotní dílo",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co se stalo v roce 1975 ?",
-      "answers": [
-        "- Spartakus",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co je charakteristické pro 24.) baletní mistři a reperotár nd od r. 1959?",
-      "answers": [
-        "• Vlastimil Jílek (1925-1996)",
-        "– český tanečník, choreograf, baletní mistr",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co zahrnuje 24.) baletní mistři a reperotár nd od r. 1959?",
-      "answers": [
-        "- 1951-55 – šéf baletu ND",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co zahrnuje 24.) baletní mistři a reperotár nd od r. 1959?",
-      "answers": [
-        "• Antonín Landa (1916-1995)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co zahrnuje 24.) baletní mistři a reperotár nd od r. 1959?",
-      "answers": [
-        "- 1957-70 – šéf Baletu ND Praha (1. období)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "2014, role v baletu Anna Karenina",
+        "2017, role v baletu Anna Karenina",
+        "2014, role v baletu Psycho",
+        "2017, šéf baletu ND"
       ],
       "correct": 0
     }

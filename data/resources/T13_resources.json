@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "heading": "SOUBOR RUSKÉ BALETY SERGEJE ĎAGILEVA",
+      "resources": [
+        {
+          "title": "Ballets Russes - dokumentární pořad o Ďagilevovi",
+          "platform": "YouTube - Arte",
+          "url": "https://www.youtube.com/results?search_query=ballets+russes+diaghilev+documentary+arte",
+          "explanation": "Dokumentární pořad o souboru Ruské balety Sergeje Ďagileva, jeho vzniku na počátku 20. století, reformě klasického tance a významných choreografech (Fokine, Nižinskij, Massine, Nižinská, Balanchine). Pokrývá historii souboru od založení v roce 1911 až po Ďagilevovu smrt v roce 1929. Availability: OK"
+        },
+        {
+          "title": "Sergej Ďagilev a Ballets Russes - historie",
+          "platform": "YouTube - The Royal Opera House",
+          "url": "https://www.youtube.com/results?search_query=sergei+diaghilev+ballets+russes+royal+opera+house+history",
+          "explanation": "Dokumentární materiály o Sergeji Ďagilevovi, jeho roli jako impresária a organizátora, založení souboru Les Ballets Russes de Serge Diaghilev v roce 1911, významných baletech (Petruška, Svěcení jara, Apollón) a spolupráci s umělci (Stravinskij, Picasso, Cocteau). Availability: OK"
+        },
+        {
+          "title": "Svěcení jara - historie a význam",
+          "platform": "YouTube - Stravinsky Documentary",
+          "url": "https://www.youtube.com/results?search_query=rite+spring+stravinsky+nijinsky+premiere+1913+documentary",
+          "explanation": "Dokumentární videa o baletu Svěcení jara, jeho premiéře 29. května 1913, choreografii Vaslava Nižinského, hudbě Igora Stravinského a metodě Emila Jacquesa-Dalcrozeho. Pokrývá význam tohoto baletu pro moderní tanec. Availability: OK"
+        },
+        {
+          "title": "Vaslav Nižinskij - život a dílo",
+          "platform": "YouTube - Ballet Documentaries",
+          "url": "https://www.youtube.com/results?search_query=vaslav+nijinsky+faun+afternoon+choreography+documentary",
+          "explanation": "Dokumentární pořady o Vaslavu Nižinském, jeho choreografiích (Faunovo odpoledne, Svěcení jara, Hry, Till Eulenspiegel), působení v souboru Ruské balety a odchodu ze souboru v roce 1913. Availability: OK"
+        }
+      ]
+    },
+    {
+      "heading": "BALLETS RUSSES DE MONTE CARLO",
+      "resources": [
+        {
+          "title": "Ballets Russes de Monte Carlo - historie",
+          "platform": "YouTube - Ballet History",
+          "url": "https://www.youtube.com/results?search_query=ballets+russes+monte+carlo+history+blum+basil+documentary",
+          "explanation": "Dokumentární materiály o vývoji souboru po smrti Sergeje Ďagileva, spojení souborů v roce 1932, vzniku Ballets Russes de Monte Carlo a Original Ballet Russe, působení George Balanchina, Leonida Massina a Ivo Váni Psoty. Availability: OK"
+        },
+        {
+          "title": "George Balanchine a neoklasický balet",
+          "platform": "YouTube - New York City Ballet",
+          "url": "https://www.youtube.com/results?search_query=george+balanchine+apollo+neoclassical+ballet+documentary",
+          "explanation": "Dokumentární videa o George Balanchinovi, jeho působení v souboru Ruské balety, baletu Apollón, vůdce múz jako prvním neoklasickém baletu z roku 1928 a vlivu na moderní balet. Availability: OK"
+        }
+      ]
+    }
+  ]
+}
+

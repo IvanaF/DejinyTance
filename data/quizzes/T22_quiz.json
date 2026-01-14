@@ -1,212 +1,252 @@
 {
   "questions": [
     {
-      "question": "Co je vl. jméno?",
+      "question": "Kdy žil Saša Machov a jaké bylo jeho vlastní jméno?",
       "answers": [
-        "František Alexander Maťha (židovský původ)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1903-1951, František Alexander Maťha",
+        "1903-1951, Saša Machov",
+        "1904-1951, František Alexander Maťha",
+        "1903-1952, František Alexander Maťha"
       ],
       "correct": 0
     },
     {
-      "question": "Co je > Machov?",
+      "question": "U koho studoval Saša Machov balet?",
       "answers": [
-        "tanečník, choreograf + zakladatel baletní školy",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Jelizaveta Nikolská",
+        "Augustin Berger",
+        "Achille Viscusi",
+        "Remislav Remislavský"
       ],
       "correct": 0
     },
     {
-      "question": "Co je v Jeruzalémě (Jeruzalém?",
+      "question": "Kdy vytvořil Saša Machov svou první choreografii a jak se jmenovala?",
       "answers": [
-        "protože byl židovského původu)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1929, Fagot a Flétna",
+        "1928, Fagot a Flétna",
+        "1929, Popelka",
+        "1930, Fagot a Flétna"
       ],
       "correct": 0
     },
     {
-      "question": "Co je v ND Brno ale v tu dobu byli už dva baletní mistři?",
+      "question": "Kdy se stal Saša Machov šéfem Baletu Národního divadla?",
       "answers": [
-        "Josef Judl, Stanislav Remar",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1948",
+        "1946",
+        "1947",
+        "1949"
       ],
       "correct": 0
     },
     {
-      "question": "Co je několikrát obnovena?",
+      "question": "Kdy vytvořil Saša Machov Popelku a proč je tento balet významný?",
       "answers": [
-        "1994 – Vlastimil Jílek a Růžena Mazalová, ND Praha",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "8. ledna 1948, první uvedení mimo Rusko",
+        "8. ledna 1947, první uvedení mimo Rusko",
+        "1948, první uvedení v Čechách",
+        "22. prosince 1948, první uvedení mimo Rusko"
       ],
       "correct": 0
     },
     {
-      "question": "Co je > Machov byl v nevýhodné pozici?",
+      "question": "Kolik baletních inscenací vytvořil Saša Machov celkem?",
       "answers": [
-        "šířily se o něm různé lži",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "34",
+        "30",
+        "40",
+        "35"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1951 – spáchal sebevraždu?",
+      "question": "Kolik celovečerních baletů uvedl Saša Machov v Národním divadle?",
       "answers": [
-        "zemřel na otravu jedem",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "10",
+        "8",
+        "12",
+        "15"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1911 – návrat do Čech -> Přerov, Morava; - otec?",
+      "question": "Kdy zemřel Saša Machov a jak?",
       "answers": [
-        "ředitel obchodní školy",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1951, sebevražda",
+        "1950, sebevražda",
+        "1951, přirozená smrt",
+        "1952, sebevražda"
       ],
       "correct": 0
     },
     {
-      "question": "Co je maminka Anna?",
+      "question": "Kdy žil Ivo Váňa Psota a jaké bylo jeho vlastní jméno?",
       "answers": [
-        "tanečnice, pedagožka tance",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1908-1952, Ivan Psota",
+        "1908-1952, Ivo Váňa Psota",
+        "1907-1952, Ivan Psota",
+        "1908-1951, Ivan Psota"
       ],
       "correct": 0
     },
     {
-      "question": "Co je obnovil?",
+      "question": "V jakých letech působil Ivo Váňa Psota jako šéf Baletu ND Brno poprvé?",
       "answers": [
-        "Signorina Gioventu (chor",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1928-1929",
+        "1927-1929",
+        "1928-1930",
+        "1929-1930"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1941 – Slavonica (?",
+      "question": "Kdy vytvořil Ivo Váňa Psota Romeo a Julii a proč je tento balet významný?",
       "answers": [
-        "Slovanské tance, ALE jiný název)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "30. prosince 1938, první uvedení na hudbu Prokofjeva v Čechách",
+        "1938, první uvedení v Čechách",
+        "30. prosince 1937, první uvedení na hudbu Prokofjeva v Čechách",
+        "1939, první uvedení na hudbu Prokofjeva v Čechách"
       ],
       "correct": 0
     },
     {
-      "question": "Co je choreografická soutěž (1. cena?",
+      "question": "Kam emigroval Ivo Váňa Psota v roce 1941?",
       "answers": [
-        "vyhrál) -> 1946 – Yara",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "USA, Metropolitní opera New York",
+        "Francie, Paříž",
+        "Anglie, Londýn",
+        "Brazílie"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1946 ?",
+      "question": "Kdy se Ivo Váňa Psota vrátil do Brna a stal se znovu šéfem baletu?",
       "answers": [
-        "– choreograf ND",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Květen 1947",
+        "1946",
+        "Květen 1948",
+        "1947"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1936 ?",
+      "question": "Kdy zemřel Ivo Váňa Psota a jak?",
       "answers": [
-        "– Brno - šéf baletu + tituly:",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1952, srážka s tramvají",
+        "1951, srážka s tramvají",
+        "1952, přirozená smrt",
+        "1953, srážka s tramvají"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1949 ?",
+      "question": "Kdo je považován za zakladatele české choreografické tvorby?",
       "answers": [
-        "– Symfonie života (hudba – P",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Saša Machov",
+        "Ivo Váňa Psota",
+        "Jaroslav Hladík",
+        "Jelizaveta Nikolská"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1950 ?",
+      "question": "Kde působil Saša Machov během druhé světové války v letech 1940-1942?",
       "answers": [
-        "– Romeo a Julie (jediný balet, za který získal ocenění)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "V Africe jako dobrovolník v armádě",
+        "V Londýně",
+        "V Řecku",
+        "V Jeruzalémě"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1940 ?",
+      "question": "Kde působil Saša Machov v roce 1943?",
       "answers": [
-        "– dobrovolník v armádě -> aktivní účast ve 2",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Londýn, opera Sadler's Wells",
+        "Jeruzalém",
+        "Řecko",
+        "Praha"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro 22.) zakladatelé české choreografické tvorby?",
+      "question": "Kde působil Ivo Váňa Psota v letech 1933-36?",
       "answers": [
-        "• Saša Machov (1903-1951)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ballets Russes de Monte Carlo jako sólista",
+        "ND Brno",
+        "ND Praha",
+        "Metropolitní opera New York"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 22.) zakladatelé české choreografické tvorby?",
+      "question": "Kdo převzal baletní školu Ivo Váni Psoty v Brně?",
       "answers": [
-        "- 1917 – Praha (přešel s rodiči)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Jeho sestra Ljuba Kvasnicová-Psotová",
+        "Zora Šemberová",
+        "Máša Cvejičová",
+        "Jelizaveta Nikolská"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 22.) zakladatelé české choreografické tvorby?",
+      "question": "Jaký balet vytvořil Saša Machov v roce 1950?",
       "answers": [
-        "– žák baletní školy J. Nikolské",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Romeo a Julie",
+        "Popelka",
+        "Labutí jezero",
+        "Šípková Růženka"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 22.) zakladatelé české choreografické tvorby?",
+      "question": "Jaký balet vytvořil Ivo Váňa Psota v roce 1949?",
       "answers": [
-        "a mladými režiséry",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Symfonie života",
+        "Labutí jezero",
+        "Král Ječmínek",
+        "Romeo a Julie"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byli významní taneční umělci doby Saši Machova?",
+      "answers": [
+        "Zora Šemberová, Miroslav Kůra, Vlastimil Jílek, Antonín Sanda",
+        "Jelizaveta Nikolská, Remislav Remislavský",
+        "Ivo Váňa Psota, Jaroslav Hladík",
+        "Augustin Berger, Achille Viscusi"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "S kým spolupracoval Saša Machov v avantgardních divadlech?",
+      "answers": [
+        "Jindřich Frejka, Jiří Voskovec, Jan Werich, Vítězslav Nezval",
+        "Emil František Burian",
+        "Jelizaveta Nikolská",
+        "Renato Mordo"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde působil Saša Machov v letech 1929-34?",
+      "answers": [
+        "Ostrava, ND moravskoslezské",
+        "Praha, ND",
+        "Brno, ND",
+        "Plzeň"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Saša Machov Labutí jezero?",
+      "answers": [
+        "26. ledna 1951",
+        "1950",
+        "1949",
+        "1948"
       ],
       "correct": 0
     }

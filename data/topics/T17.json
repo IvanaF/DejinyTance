@@ -1,0 +1,31 @@
+{
+  "id": "T17",
+  "order": 17,
+  "title": "VÝVOJ MODERNÍHO TANCE V USA",
+  "image": "assets/images/topics/T17.svg",
+  "objectives": [
+    "Pochopit vývoj moderního tance v USA a jeho zakladatele (Ruth St. Denis, Ted Shawn)",
+    "Naučit se o Denishawn School a jeho vlivu na americký moderní tanec",
+    "Rozpoznat hlavní představitele amerického moderního tance (Doris Humphrey, Charles Weidman, José Limón, Martha Graham, Erick Hawkins, Merce Cunningham)",
+    "Pochopit významné taneční techniky a metody (Graham technika, Humphrey-Weidman, Cunningham technika)",
+    "Naučit se o významných dílech a choreografiích amerického moderního tance"
+  ],
+  "materials": {
+    "summary": "Vývoj moderního tance v USA začal později než v Evropě a zakladatelkou byla Ruth St. Denis, která se stala sólovou orientální tanečnicí. Spolu s Tedem Shawnem založila v roce 1915 Denishawn School v Los Angeles, která vychovala mnoho významných tanečníků. Mezi hlavní představitele patřili Doris Humphrey a Charles Weidman, kteří založili Humphrey-Weidman studio, José Limón, který vytvořil více než 70 choreografií včetně Maurovy pavany, a především Martha Graham, která vytvořila vlastní techniku založenou na principu contraction a release a vytvořila kolem 200 choreografií. Erick Hawkins a Merce Cunningham, známý jako otec avantgardy, také významně přispěli k rozvoji moderního tance v USA."
+  },
+  "audio": {
+    "title": "Otázka 17 - VÝVOJ MODERNÍHO TANCE V USA",
+    "src": "assets/audio/Otazka-17-vyvoj-moderniho-tance-v-usa.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T17_resources.json",
+  "flashcardSource": "data/flashcards/T17_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T17_materials.json",
+  "summarySource": "data/summaries/T17_summary.txt",
+  "quizSource": "data/quizzes/T17_quiz.json"
+}

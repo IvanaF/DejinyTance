@@ -1,202 +1,432 @@
 {
   "questions": [
     {
-      "question": "Co je počátek 20. stol.?",
+      "question": "Kdy se klasický tanec dostal do krize a proč?",
       "answers": [
-        "klasický tanec se dostává do krize (roste obliba moderního tance)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Na počátku 20. století, protože rostla obliba moderního tance",
+        "Na konci 19. století, protože klesal zájem o balet",
+        "V polovině 20. století, protože se změnily společenské poměry",
+        "Na začátku 19. století, protože se rozvíjel moderní tanec"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1906 – Paříž?",
+      "question": "Kdo byl Sergej Pavlovič Ďagilev a jaká byla jeho role?",
       "answers": [
-        "propagace ruského umění",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ruský manažer, organizátor a impresário, syn šlechtice, který měl největší zásluhu na reformě klasického tance",
+        "Ruský choreograf a tanečník, který založil baletní školu",
+        "Ruský hudební skladatel, který komponoval pro balet",
+        "Ruský výtvarník, který navrhoval kostýmy pro balet"
       ],
       "correct": 0
     },
     {
-      "question": "Co je > ukázka výtvarného umění?",
+      "question": "V jakých letech žil Sergej Ďagilev?",
+      "answers": [
+        "1872-1929",
+        "1865-1920",
+        "1880-1935",
+        "1870-1930"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "S kým se Ďagilev seznámil v Petrohradě v roce 1890?",
+      "answers": [
+        "S výtvarníky Alexandrem Benoisem a Léonem Bakstem",
+        "S choreografy Michaelem Fokinem a Vaslavem Nižinským",
+        "S hudebníky Igorem Stravinským a Nikolajem Rimským-Korsakovem",
+        "S tanečníky Annou Pavlovou a Tamarou Karsavinou"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakých letech vydávali Ďagilev, Benois a Bakst časopis Svět umění?",
+      "answers": [
+        "1898-1904",
+        "1895-1900",
+        "1900-1906",
+        "1902-1908"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy odjel Ďagilev do Paříže propagovat ruské umění?",
+      "answers": [
+        "1906",
+        "1905",
+        "1907",
+        "1908"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jak se jmenovala výstava výtvarného umění, kterou Ďagilev představil v Paříži?",
       "answers": [
         "Dvě století ruského malířství a sochařství",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ruské umění 19. a 20. století",
+        "Mistři ruského malířství",
+        "Ruská výtvarná tradice"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1925 – příchod G. Balanchina?",
+      "question": "Kolik koncertů ruské hudby uspořádal Ďagilev v roce 1907?",
       "answers": [
-        "působil jako tanečník + měl prostor pro tvorbu:",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Pět koncertů",
+        "Tři koncerty",
+        "Sedm koncertů",
+        "Deset koncertů"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1906 ?",
+      "question": "Kdy bylo uvedeno první samostatné baletní představení na zámku a kdo byl choreografem?",
       "answers": [
-        "– Paříž = propagace ruského umění",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1909, choreografem byl Michail Fokine",
+        "1908, choreografem byl Vaslav Nižinskij",
+        "1910, choreografem byl Leonid Massine",
+        "1907, choreografem byl George Balanchine"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce  20. stol.?",
+      "question": "Kteří tanečníci tančili v prvním baletním představení na zámku v roce 1909?",
       "answers": [
-        "= klasický tanec se dostává do krize (roste obliba moderního tance)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Anna Pavlova, Tamara Karsavina a Vaslav Nižinskij",
+        "Tamara Karsavina, Vaslav Nižinskij a Serge Lifar",
+        "Anna Pavlova, George Balanchine a Leonid Massine",
+        "Vaslav Nižinskij, Bronislava Nižinská a Michail Fokine"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1909 ?",
+      "question": "Které balety byly uvedeny v roce 1909?",
       "answers": [
-        "– samostatné baletní představení na zámku (chor",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Pavilon Armidy, Polovecké tance, Kleopatra a Sylfidy",
+        "Petruška, Svěcení jara, Faunovo odpoledne a Duch Růže",
+        "Labutí jezero, Giselle, Karneval a Šeherezáda",
+        "Apollón, vůdce múz, Marnotratný syn, Pastorála a Lišák"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1921 ?",
+      "question": "Kdy byl založen samostatný soubor Les Ballets Russes de Serge Diaghilev a kde měl sídlo?",
       "answers": [
-        "– příchod Bronislavy Nižinské (sestra V",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1911, sídlo bylo v Monte Carlu",
+        "1910, sídlo bylo v Paříži",
+        "1912, sídlo bylo v Londýně",
+        "1909, sídlo bylo v Petrohradě"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1898?",
+      "question": "Kdo byl uměleckým ředitelem souboru Les Ballets Russes?",
       "answers": [
-        "-1904 – tito tři umělci spolu vydávali časopis Svět umění",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Alexandre Benois",
+        "Léon Bakst",
+        "Michail Fokine",
+        "Sergej Ďagilev"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro 13.) soubor ruské balety sergeje ďagileva?",
+      "question": "Kdo byl hlavním výtvarníkem souboru Les Ballets Russes?",
       "answers": [
-        "(hnutí moderního tance – balet není reálný, je jednostranný, tančí jen profesionálové)",
-        "• Sergej Pavlovič Ďagilev (1872-1929)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Léon Bakst",
+        "Alexandre Benois",
+        "Pablo Picasso",
+        "Jean Cocteau"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 13.) soubor ruské balety sergeje ďagileva?",
+      "question": "Kdo složil hudbu k baletu Duch Růže?",
       "answers": [
-        "-> reforma tanečního umění",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Carl Maria von Weber",
+        "Igor Stravinskij",
+        "Claude Debussy",
+        "Richard Strauss"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 13.) soubor ruské balety sergeje ďagileva?",
+      "question": "Kdo složil hudbu k baletu Petruška?",
       "answers": [
-        "• Sergej Pavlovič Ďagilev (1872-1929)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Igor Stravinskij",
+        "Claude Debussy",
+        "Richard Strauss",
+        "Nikolaj Rimskij-Korsakov"
       ],
       "correct": 0
     },
     {
-      "question": "Co je R. Blum zůstal v Monte Carlu?",
+      "question": "Které balety vytvořil Michail Fokine v roce 1910 v pařížské Opeře?",
       "answers": [
-        "soubor Ballet Russe de Monte Carlo",
-        "klasický tanec se dostává do krize (roste obliba moderního tance)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Karneval, Šeherezáda, Giselle a Pták ohnivák",
+        "Pavilon Armidy, Polovecké tance, Kleopatra a Sylfidy",
+        "Tamara, Modrý bůh, Dafnis a Chloe",
+        "Motýli, Skřivánek, Legenda o Josefovi"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1936 – C. de Basil?",
+      "question": "Kdy vytvořil Vaslav Nižinskij svou první choreografii a jak se jmenovala?",
       "answers": [
-        "soubor Original Ballet Russe",
-        "klasický tanec se dostává do krize (roste obliba moderního tance)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1912, balet Faunovo odpoledne",
+        "1911, balet Petruška",
+        "1913, balet Svěcení jara",
+        "1910, balet Duch Růže"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1932 ?",
+      "question": "Kdo složil hudbu k baletu Faunovo odpoledne?",
       "answers": [
-        "– zde působil český tanečník Ivo Váňa Psota",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Claude Debussy",
+        "Igor Stravinskij",
+        "Richard Strauss",
+        "Carl Maria von Weber"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1936 ?",
+      "question": "Kdy mělo premiéru Svěcení jara a kdo složil hudbu?",
       "answers": [
-        "– rozpad souboru (neshody vedoucích)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "29. května 1913, hudbu složil Igor Stravinskij",
+        "29. května 1912, hudbu složil Claude Debussy",
+        "29. května 1914, hudbu složil Richard Strauss",
+        "29. května 1911, hudbu složil Nikolaj Rimskij-Korsakov"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1962 ?",
+      "question": "Kdo poslal Nižinskému svou asistentku Marii Rambert na pomoc při vytváření Svěcení jara?",
       "answers": [
-        "– konec působení souboru",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Emil Jacques-Dalcroze, pedagog moderní gymnastiky z Hellerau u Drážďan",
+        "Jean Cocteau, francouzský básník a dramatik",
+        "Pablo Picasso, španělský malíř",
+        "Erik Satie, francouzský skladatel"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1938?",
+      "question": "Proč odešel Nižinskij ze souboru v roce 1913?",
       "answers": [
-        "-42 – baletní mistr: L",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Kvůli sňatku s Romolou de Pulski, Maďarkou a ctitelkou Nižinského",
+        "Kvůli neshodám s Ďagilevem",
+        "Kvůli odchodu do Ameriky",
+        "Kvůli zdravotním problémům"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje -> ballets russes de monte carlo?",
+      "question": "Kdy se soubor přestěhoval do Švýcarska a proč?",
       "answers": [
-        "- R. Blum zůstal v Monte Carlu = soubor Ballet Russe de Monte Carlo",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1915, kvůli první světové válce jako válečný azyl",
+        "1914, kvůli začátku první světové války",
+        "1916, kvůli turné po Evropě",
+        "1917, kvůli představení Parade"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje -> ballets russes de monte carlo?",
+      "question": "Kdo se stal novým choreografem v roce 1915 po odchodu Fokina?",
       "answers": [
-        "baletní mistr: G. Balanchine",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Leonid Massine",
+        "Vaslav Nižinskij",
+        "George Balanchine",
+        "Bronislava Nižinská"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jak se jmenoval poslední balet, který vytvořil Nižinskij?",
+      "answers": [
+        "Till Eulenspiegel",
+        "Svěcení jara",
+        "Faunovo odpoledne",
+        "Hry"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo vytvořil námět baletu Parade z roku 1917?",
+      "answers": [
+        "Jean Cocteau",
+        "Pablo Picasso",
+        "Erik Satie",
+        "Sergej Ďagilev"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo složil hudbu k baletu Parade?",
+      "answers": [
+        "Erik Satie",
+        "Igor Stravinskij",
+        "Richard Strauss",
+        "Manuel de Falla"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo navrhl výtvarnou stránku baletu Parade?",
+      "answers": [
+        "Pablo Picasso",
+        "Léon Bakst",
+        "Alexandre Benois",
+        "Coco Chanel"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byla Bronislava Nižinská a kdy přišla do souboru?",
+      "answers": [
+        "Sestra Vaslava Nižinského, jediná žena, která působila jako choreografka. Přišla v roce 1921",
+        "Manželka Vaslava Nižinského, tanečnice. Přišla v roce 1913",
+        "Dcera Vaslava Nižinského, choreografka. Přišla v roce 1925",
+        "Matka Vaslava Nižinského, baletní mistr. Přišla v roce 1919"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké balety vytvořila Bronislava Nižinská v roce 1921?",
+      "answers": [
+        "Spící krasavice",
+        "Lišák",
+        "Svatby",
+        "Laně"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo složil hudbu k baletu Lišák, který vytvořila Bronislava Nižinská?",
+      "answers": [
+        "Igor Stravinskij",
+        "Sergej Prokofjev",
+        "Darius Milhaud",
+        "Manuel de Falla"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo navrhl kostýmy k baletu Modrý vlak?",
+      "answers": [
+        "Coco Chanel",
+        "Pablo Picasso",
+        "Léon Bakst",
+        "Alexandre Benois"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy přišel do souboru George Balanchine a jakou roli měl?",
+      "answers": [
+        "1925, působil jako tanečník a měl prostor pro tvorbu",
+        "1924, působil jako choreograf",
+        "1926, působil jako tanečník",
+        "1928, působil jako baletní mistr"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaký balet byl prvním neoklasickým baletem a kdo ho vytvořil?",
+      "answers": [
+        "Apollón, vůdce múz z roku 1928, vytvořil ho George Balanchine",
+        "Marnotratný syn z roku 1929, vytvořil ho George Balanchine",
+        "Pastorála z roku 1926, vytvořil ho George Balanchine",
+        "Svěcení jara z roku 1913, vytvořil ho Vaslav Nižinskij"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo složil hudbu k baletu Apollón, vůdce múz?",
+      "answers": [
+        "Igor Stravinskij",
+        "Sergej Prokofjev",
+        "Darius Milhaud",
+        "Manuel de Falla"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo tančil roli Apollóna v baletu Apollón, vůdce múz?",
+      "answers": [
+        "Serge Lifar",
+        "Vaslav Nižinskij",
+        "Leonid Massine",
+        "George Balanchine"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy a kde zemřel Sergej Ďagilev?",
+      "answers": [
+        "19. srpna 1929 v Benátkách",
+        "19. srpna 1928 v Monte Carlu",
+        "19. srpna 1930 v Paříži",
+        "19. srpna 1927 v Petrohradě"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kolik premiér uvedl soubor Ruské balety během 20 let?",
+      "answers": [
+        "64 premiér",
+        "50 premiér",
+        "75 premiér",
+        "80 premiér"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy došlo ke spojení dvou souborů po Ďagilevově smrti?",
+      "answers": [
+        "1932",
+        "1930",
+        "1931",
+        "1933"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byl prvním baletním mistrem souboru Ballets Russes de Monte Carlo?",
+      "answers": [
+        "George Balanchine",
+        "Leonid Massine",
+        "Ivo Váňa Psota",
+        "René Blum"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy působil český tanečník Ivo Váňa Psota v souboru Ballets Russes de Monte Carlo?",
+      "answers": [
+        "Od roku 1932",
+        "Od roku 1930",
+        "Od roku 1934",
+        "Od roku 1936"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy ukončil soubor Ballet Russe de Monte Carlo působení?",
+      "answers": [
+        "1962",
+        "1960",
+        "1965",
+        "1958"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy působil Ivo Váňa Psota jako umělecký ředitel a baletní mistr souboru Original Ballet Russe?",
+      "answers": [
+        "1942-1947",
+        "1940-1945",
+        "1944-1949",
+        "1941-1946"
       ],
       "correct": 0
     }

@@ -287,6 +287,13 @@
                     rows="6" placeholder="Podrobně popište vaši zpětnou vazbu..." required></textarea>
         </div>
 
+        <div class="feedback-form-group">
+          <label for="feedbackAttachment" class="feedback-label">Příloha (volitelné)</label>
+          <input type="file" id="feedbackAttachment" name="attachment" class="feedback-file-input" 
+                 accept="image/*,.pdf,.doc,.docx" multiple>
+          <div class="feedback-file-preview" id="feedbackFilePreview"></div>
+        </div>
+
         <input type="hidden" id="feedbackPageUrl" name="pageUrl" value="">
         <input type="hidden" name="userAgent" value="">
 

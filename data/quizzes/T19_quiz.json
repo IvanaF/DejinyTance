@@ -1,122 +1,442 @@
 {
   "questions": [
     {
-      "question": "Co je 1942 – první choreografie?",
+      "question": "Kdy žil John Cranko?",
       "answers": [
-        "suita z baletu Příběh vojáka (hudba – I",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1927-1973",
+        "1925-1975",
+        "1930-1980",
+        "1929-1971"
       ],
       "correct": 0
     },
     {
-      "question": "Co je členové?",
+      "question": "Kde se narodil John Cranko a kde studoval tanec?",
       "answers": [
-        "významné osobnosti (M",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "V Jihoafrické republice, tanec studoval v Kapském Městě",
+        "V Anglii, tanec studoval v Londýně",
+        "V USA, tanec studoval v New Yorku",
+        "V Německu, tanec studoval v Berlíně"
       ],
       "correct": 0
     },
     {
-      "question": "Co je styl M. Eka?",
+      "question": "Kdy vytvořil John Cranko svou první choreografii a jak se jmenovala?",
       "answers": [
-        "taneční moderní divadlo",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1942, suita z baletu Příběh vojáka",
+        "1940, Dětský koutek",
+        "1945, Romeo a Julie",
+        "1947, Dětský koutek"
       ],
       "correct": 0
     },
     {
-      "question": "Co je první taneční vzdělání?",
+      "question": "Kdy se stal John Cranko šéfem Stuttgarter Ballet?",
       "answers": [
-        "univerzita Jacksonville (obor klasický tanec)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1961",
+        "1959",
+        "1963",
+        "1965"
       ],
       "correct": 0
     },
     {
-      "question": "Co je Forsytheovy choreografie?",
+      "question": "Kdy vytvořil John Cranko Romeo a Julii a kdo tančil hlavní role?",
       "answers": [
-        "bezdějové, technicky náročné",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1962, Márcia Haydée a Richard Cragun",
+        "1963, Márcia Haydée a Egon Madsen",
+        "1961, Birgit Keil a Richard Cragun",
+        "1965, Márcia Haydée a Richard Cragun"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1971 ?",
+      "question": "Kdy vytvořil John Cranko Oněgina a na hudbu jakého skladatele?",
       "answers": [
-        "– Nižinskij, klaun boží (hudba – P",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1965, Petr Iljič Čajkovskij",
+        "1963, Sergej Prokofjev",
+        "1967, Igor Stravinskij",
+        "1964, Petr Iljič Čajkovskij"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1965 ?",
+      "question": "Kdy a za jakých okolností zemřel John Cranko?",
       "answers": [
-        "– Oněgin (hudba - P",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1973 ve věku 46 let, při návratu z úspěšného amerického turné",
+        "1975 ve věku 48 let, přirozenou smrtí",
+        "1971 ve věku 44 let, při představení",
+        "1973 ve věku 46 let, při představení"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1973 ?",
+      "question": "Kdy žil Maurice Béjart?",
       "answers": [
-        "(46 let) – nečekaně zemřel (při návratu z úspěšného amerického turné)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1927-2007",
+        "1925-2005",
+        "1930-2010",
+        "1929-2009"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1984–2004?",
+      "question": "Kde se narodil Maurice Béjart a jaké bylo povolání jeho otce?",
       "answers": [
-        "– Frankfurt = šéf baletu",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "V Marseille, otec byl filozof a spisovatel",
+        "V Paříži, otec byl hudebník",
+        "V Bruselu, otec byl choreograf",
+        "V Lyonu, otec byl pedagog"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro 19.) významní světoví choreografové?",
+      "question": "Kdy a kde založil Maurice Béjart Ballet du XXe siècle?",
       "answers": [
-        "• John Cranko (1927-1973)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1960 v Bruselu",
+        "1959 v Paříži",
+        "1961 v Bruselu",
+        "1960 v Lausanne"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 19.) významní světoví choreografové?",
+      "question": "Kdy vytvořil Maurice Béjart Bolero?",
       "answers": [
-        "- od r. 1949 - výhradně choreograf (Londýn, Paříž)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1960",
+        "1959",
+        "1964",
+        "1962"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 19.) významní světoví choreografové?",
+      "question": "Kdy vytvořil Maurice Béjart Nižinskij, klaun boží a na hudbu jakých skladatelů?",
       "answers": [
-        "- Cranko vytvářel dějové balety",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1971, Petr Iljič Čajkovskij a Pierre Henry",
+        "1970, Igor Stravinskij a Pierre Schaeffer",
+        "1972, Petr Iljič Čajkovskij a Pierre Henry",
+        "1969, Maurice Ravel a Pierre Henry"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se Maurice Béjart přestěhoval do Lausanne a jak se jmenoval jeho soubor?",
+      "answers": [
+        "1987, Béjart Ballet Lausanne",
+        "1985, Béjart Ballet Lausanne",
+        "1989, Ballet du XXe siècle Lausanne",
+        "1987, Les Ballets de l'etoile Lausanne"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Maurice Béjart Ballet for Life a komu ho věnoval?",
+      "answers": [
+        "1992, pacientům s AIDS",
+        "1990, pacientům s AIDS",
+        "1992, Gianni Versacemu",
+        "1994, pacientům s AIDS"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se narodil John Neumeier?",
+      "answers": [
+        "1939 nebo 1942",
+        "1940 nebo 1943",
+        "1938 nebo 1941",
+        "1941 nebo 1944"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde začal John Neumeier tančit?",
+      "answers": [
+        "V roce 1942 v Milwaukee, Wisconsin",
+        "V roce 1940 v Chicagu",
+        "V roce 1944 v New Yorku",
+        "V roce 1942 v Londýně"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se stal John Neumeier vedoucím souboru v Hamburku?",
+      "answers": [
+        "1973",
+        "1971",
+        "1975",
+        "1970"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Na kolik okruhů se dělí tvorba Johna Neumeiera?",
+      "answers": [
+        "Čtyři",
+        "Tři",
+        "Pět",
+        "Šest"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil John Neumeier Dámu s kaméliemi a na jakou literární předlohu?",
+      "answers": [
+        "1978, Alexandre Dumas mladší",
+        "1976, Alexandre Dumas mladší",
+        "1978, Tennessee Williams",
+        "1980, Alexandre Dumas mladší"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil John Neumeier Tramvaj do stanice Touha a kde měla premiéru?",
+      "answers": [
+        "1983, premiéra v ND Praha 15. prosince 2022",
+        "1981, premiéra v Hamburku",
+        "1983, premiéra v Hamburku",
+        "1985, premiéra v ND Praha"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil John Neumeier Malou mořskou vílu a kde měla premiéru?",
+      "answers": [
+        "2005, premiéra v Dánsku",
+        "2003, premiéra v Dánsku",
+        "2005, premiéra v Hamburku",
+        "2007, premiéra v Dánsku"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil John Neumeier životopisný balet Vaslav Nižinský?",
+      "answers": [
+        "2000",
+        "1998",
+        "2002",
+        "1999"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se narodil Mats Ek?",
+      "answers": [
+        "1945",
+        "1943",
+        "1947",
+        "1944"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byla matka Mats Eka?",
+      "answers": [
+        "Birgit Cullberg, zakladatelka Cullberg Ballet",
+        "Ana Laguna, španělská tanečnice",
+        "Malin Ek, divadelní kostymérka",
+        "Márcia Haydée, brazilská tanečnice"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy začal Mats Ek tvořit choreografie?",
+      "answers": [
+        "1976",
+        "1974",
+        "1978",
+        "1975"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se Mats Ek stal uměleckým ředitelem Cullberg Ballet?",
+      "answers": [
+        "1985",
+        "1983",
+        "1987",
+        "1984"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Mats Ek Giselle?",
+      "answers": [
+        "1982",
+        "1980",
+        "1984",
+        "1981"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Mats Ek Labutí jezero?",
+      "answers": [
+        "1987",
+        "1985",
+        "1989",
+        "1986"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Mats Ek Carmen a kde bylo uvedeno?",
+      "answers": [
+        "1992, ND Praha v roce 2008",
+        "1990, ND Praha v roce 2008",
+        "1992, Stockholm",
+        "1994, ND Praha"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jak lze charakterizovat styl Mats Eka?",
+      "answers": [
+        "Taneční moderní divadlo",
+        "Klasický balet",
+        "Moderní tanec",
+        "Neoklasický balet"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se narodil William Forsythe a kde?",
+      "answers": [
+        "1949 v New Yorku",
+        "1947 v New Yorku",
+        "1949 v Chicagu",
+        "1951 v New Yorku"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde získal William Forsythe své první taneční vzdělání?",
+      "answers": [
+        "Univerzita v Jacksonville, obor klasický tanec",
+        "Joeffrey Ballet School",
+        "Royal Ballet School",
+        "New York City Ballet School"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil William Forsythe svou první choreografii a jak se jmenovala?",
+      "answers": [
+        "1976, Urlicht",
+        "1974, Urlicht",
+        "1976, In the Middle, Somewhat Elevated",
+        "1978, Urlicht"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakých letech byl William Forsythe šéfem baletu ve Frankfurtu?",
+      "answers": [
+        "1984-2004",
+        "1982-2002",
+        "1986-2006",
+        "1984-2006"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy založil William Forsythe The Forsythe Company?",
+      "answers": [
+        "2004",
+        "2002",
+        "2006",
+        "2005"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil William Forsythe In the Middle, Somewhat Elevated a pro koho?",
+      "answers": [
+        "1987, pro Pařížskou operu pro Sylvii Guillem",
+        "1985, pro Pařížskou operu",
+        "1987, pro Stuttgart Ballet",
+        "1989, pro Pařížskou operu"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde bylo uvedeno In the Middle, Somewhat Elevated v Národním divadle v Praze a kdo ho tančil?",
+      "answers": [
+        "2012, Nikola Márová a Michal Štípa",
+        "2010, Nikola Márová a Michal Štípa",
+        "2012, Sylva Guillem",
+        "2014, Nikola Márová a Michal Štípa"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jak lze charakterizovat Forsytheovy choreografie?",
+      "answers": [
+        "Bezdějové, technicky náročné",
+        "Dějové, technicky náročné",
+        "Bezdějové, jednoduché",
+        "Dějové, jednoduché"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kým se inspiroval William Forsythe?",
+      "answers": [
+        "Georgem Balanchinem a Rudolfem Labanem",
+        "Merce Cunninghamem a Johnem Cageem",
+        "Michaelem Fokinem a Vaslavem Nižinským",
+        "George Balanchinem a Jeromem Robbinsem"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "S jakým hudebním skladatelem spolupracoval William Forsythe od roku 1985?",
+      "answers": [
+        "Thomem Willemsem",
+        "Pierre Henry",
+        "Igor Stravinskij",
+        "Gustav Mahler"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde působil William Forsythe v letech 1977-80?",
+      "answers": [
+        "Ve Stuttgartu jako stálý choreograf",
+        "Ve Frankfurtu jako šéf baletu",
+        "V New Yorku",
+        "V Paříži"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil John Cranko Iniciály R. B. M. E. a komu je věnoval?",
+      "answers": [
+        "1972, Richardu Cragunovi, Birgit Keil, Márcii Haydée a Egonu Madsenovi",
+        "1970, Richardu Cragunovi, Birgit Keil, Márcii Haydée a Egonu Madsenovi",
+        "1972, Johnu Neumeierovi, Jiřímu Kyliánovi, Williamu Forsythovi a Mats Ekovi",
+        "1974, Richardu Cragunovi, Birgit Keil, Márcii Haydée a Egonu Madsenovi"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Maurice Béjart 9. symfonii Ludwiga van Beethovena?",
+      "answers": [
+        "1964",
+        "1962",
+        "1966",
+        "1960"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Maurice Béjart Kabuki?",
+      "answers": [
+        "1986",
+        "1984",
+        "1988",
+        "1990"
       ],
       "correct": 0
     }

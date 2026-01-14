@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "heading": "ZAKLADATELÉ ČESKÉ CHOREOGRAFICKÉ TVORBY",
+      "resources": [
+        {
+          "title": "Saša Machov - zakladatel české choreografické tvorby",
+          "platform": "YouTube - Czech Dance History",
+          "url": "https://www.youtube.com/results?search_query=sasa+machov+cesky+balet+choreograf+documentary",
+          "explanation": "Dokumentární videa o Saši Machovovi, zakladateli české choreografické tvorby, jeho životě, působení v Národním divadle a významných choreografiích (Popelka, Romeo a Julie, Šípková Růženka)."
+        },
+        {
+          "title": "Ivo Váňa Psota - baletní mistr a pedagog",
+          "platform": "YouTube - Ballet History",
+          "url": "https://www.youtube.com/results?search_query=ivo+vana+psota+brno+balet+documentary",
+          "explanation": "Dokumentární materiály o Ivo Váňi Psotovi, jeho působení v Národním divadle Brno, pedagogické činnosti a významných choreografiích (Romeo a Julie, Labutí jezero)."
+        },
+        {
+          "title": "Česká choreografická tvorba - historie a význam",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=ceska+choreograficka+tvorba+historie+balet+documentary",
+          "explanation": "Dokumentární pořady o historii české choreografické tvorby, zakladatelích Saši Machovovi a Ivo Váňi Psotovi a jejich vlivu na rozvoj českého baletu."
+        },
+        {
+          "title": "Balet Národního divadla - historie a choreografové",
+          "platform": "YouTube - Czech Culture",
+          "url": "https://www.youtube.com/results?search_query=narodni+divadlo+balet+choreografove+historie+documentary",
+          "explanation": "Dokumentární videa o historii baletu v Národním divadle, významných choreografech včetně Saši Machova a vývoji českého baletu."
+        },
+        {
+          "title": "Balet Národního divadla Brno - historie",
+          "platform": "YouTube - Theater History",
+          "url": "https://www.youtube.com/results?search_query=narodni+divadlo+brno+balet+historie+psota+documentary",
+          "explanation": "Dokumentární materiály o historii baletu v Národním divadle Brno, Ivo Váňi Psotovi a jeho působení v brněnském divadle."
+        }
+      ]
+    }
+  ]
+}
+

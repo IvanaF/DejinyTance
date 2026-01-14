@@ -123,6 +123,9 @@ async function initIndexPage() {
     
     // Setup smooth scroll for hero CTA button
     setupHeroCTA();
+    
+    // Setup floating back-to-top button
+    setupIndexBackToTop();
   } catch (error) {
     console.error('Error initializing index page:', error);
     const containers = ['topicsList', 'mobileTopicsList', 'indexTopicsList'];
@@ -217,7 +220,8 @@ function renderTopicList(containerId, topics, isIndexPage, activeTopicId = null)
     const isActive = activeTopicId === topic.id;
     const url = isIndexPage ? topicLoader.getTopicUrl(topic.id) : topicLoader.getTopicUrl(topic.id);
     // Use order field if available, otherwise use index + 1
-    const topicNumber = topic.order || (index + 1);
+    // Skip number for T00 (Úvod)
+    const topicNumber = topic.id === 'T00' ? '' : (topic.order || (index + 1));
     
     // Image with fallback
     const imageHtml = topic.image ? `
@@ -245,7 +249,7 @@ function renderTopicList(containerId, topics, isIndexPage, activeTopicId = null)
             ${imageHtml}
           </div>
           <div class="topic-info">
-            <div class="topic-title">${topicNumber}. ${escapeHtml(topic.title)}</div>
+            <div class="topic-title">${topicNumber ? topicNumber + '. ' : ''}${escapeHtml(topic.title)}</div>
           </div>
         </a>
       </li>
@@ -948,6 +952,65 @@ function setupTopicNavigation(topicId) {
       nextButton.addEventListener('click', (e) => e.preventDefault());
     }
   }
+}
+
+/**
+ * Setup floating back-to-top button for index page
+ */
+function setupIndexBackToTop() {
+  const floatingButton = document.getElementById('floatingBackToTop');
+  const heroSection = document.getElementById('hero-section');
+  
+  if (!floatingButton || !heroSection) return;
+
+  // Threshold for showing button (in pixels from top)
+  const SCROLL_THRESHOLD = 200;
+  
+  let ticking = false;
+  
+  function handleScroll() {
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        const scrollY = window.scrollY || window.pageYOffset;
+        const shouldShow = scrollY > SCROLL_THRESHOLD;
+        
+        // Toggle floating button
+        if (shouldShow) {
+          floatingButton.classList.add('visible');
+        } else {
+          floatingButton.classList.remove('visible');
+        }
+        
+        ticking = false;
+      });
+      
+      ticking = true;
+    }
+  }
+  
+  // Add smooth scroll behavior
+  function scrollToTop(e) {
+    e.preventDefault();
+    const mobileNav = document.querySelector('.mobile-nav');
+    const offset = mobileNav && window.getComputedStyle(mobileNav).display !== 'none' ? 80 : 0;
+    const elementPosition = heroSection.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  }
+  
+  if (floatingButton) {
+    floatingButton.addEventListener('click', scrollToTop);
+  }
+  
+  // Listen to scroll events
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  
+  // Initial check
+  handleScroll();
 }
 
 /**

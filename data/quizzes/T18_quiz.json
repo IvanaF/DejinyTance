@@ -1,172 +1,422 @@
 {
   "questions": [
     {
-      "question": "Co je počátky anglického baletu?",
+      "question": "Jaké byly počátky anglického baletu?",
       "answers": [
-        "mumraje, maškarády, karnevalové průvody",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Mumraje, maškarády a karnevalové průvody",
+        "Dvorské tance",
+        "Lidové tance",
+        "Náboženské obřady"
       ],
       "correct": 0
     },
     {
-      "question": "Co je přelom 18. a 19. stol.?",
+      "question": "Kdy vznikly masky (masques) v Anglii?",
       "answers": [
-        "příjezd zahraničních umělců",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1513",
+        "1500",
+        "1520",
+        "1550"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1872?",
+      "question": "Za vlády kterých panovníků vzrostla obliba masek?",
       "answers": [
-        "rodina Espinózů (otec – Léon, syn – Edouard)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Jindřicha VIII. a Alžběty I.",
+        "Jindřicha VII. a Alžběty I.",
+        "Jindřicha VIII. a Marie I.",
+        "Jindřicha VII. a Marie I."
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1926 – otevřela první taneční školu v Londýně?",
+      "question": "Kolik masek vytvořil Ben Jonson?",
       "answers": [
-        "Akademie choreografického umění",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "35",
+        "30",
+        "40",
+        "25"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1946 – založila juniorský soubor?",
+      "question": "Co vytvářel Inigo Jones pro masky?",
       "answers": [
-        "Sadler´s Wells Theatre Ballet",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Dekorace, scénu a kostýmy",
+        "Text a děj",
+        "Hudbu",
+        "Choreografie"
       ],
       "correct": 0
     },
     {
-      "question": "Co je po 1. sv. válce odjezd do Anglie?",
+      "question": "Z kolika částí se skládala struktura masek?",
       "answers": [
-        "studium střední školy + hodiny společenských tanců",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Čtyř",
+        "Tří",
+        "Pěti",
+        "Šesti"
       ],
       "correct": 0
     },
     {
-      "question": "Co je (námět – Jorimda a Joringel, pohádka bratří Grimmů děj?",
+      "question": "Kdy skončila éra masek?",
       "answers": [
-        "žárlila na milence -> zakletí do podoby ptáka, jeden chlapec se nepromění a pustí všechny z klece",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1640",
+        "1650",
+        "1630",
+        "1660"
       ],
       "correct": 0
     },
     {
-      "question": "Co je narodila se ve Varšavě, od dětství tančila (původní jména?",
+      "question": "Kdy žil John Weaver a čím se proslavil?",
       "answers": [
-        "Cyvia Rambey -> Myriam Rambert)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1673-1760, otec anglické pantomimy",
+        "1691-1761, mim",
+        "1673-1760, choreograf",
+        "1691-1761, tanečník"
       ],
       "correct": 0
     },
     {
-      "question": "Co je M. Rambert?",
+      "question": "Kde působil John Weaver a v jakých letech?",
       "answers": [
-        "asistentka Nižinského při titulu Svěcení jara (hudba – I",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Divadlo Drury Lane, 1700-36",
+        "Divadlo Drury Lane, 1700-40",
+        "Sadler's Wells Theatre, 1700-36",
+        "Old Vic Theatre, 1700-36"
       ],
       "correct": 0
     },
     {
-      "question": "Co je funguje dodnes, Rambert?",
+      "question": "Kdy žil John Rich a čím se proslavil?",
       "answers": [
-        "pedagožka, vedoucí souboru",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1691-1761, rolí harlekýna",
+        "1673-1760, otcem pantomimy",
+        "1691-1761, choreografem",
+        "1673-1760, tanečníkem"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1971 ?",
+      "question": "V jakých letech působil Jules Perrot v Anglii?",
       "answers": [
-        "– pedagožka v RB School",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1842-48",
+        "1840-50",
+        "1845-55",
+        "1848-52"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1946 ?",
+      "question": "Kdy přijela do Londýna rodina Espinózů?",
       "answers": [
-        "– založila juniorský soubor = Sadler´s Wells Theatre Ballet",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1872",
+        "1870",
+        "1875",
+        "1880"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1965 ?",
+      "question": "Kdo byla nejslavnější žákyně rodiny Espinózů?",
       "answers": [
-        "– Monotones II",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Ninette de Valois",
+        "Margot Fonteyn",
+        "Marie Rambert",
+        "Anna Pavlova"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1984 ?",
+      "question": "Kdy žila Ninette de Valois?",
       "answers": [
-        "– oslava 80",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1898-2001",
+        "1904-1988",
+        "1929-1992",
+        "1888-1982"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1513 ?",
+      "question": "Jaké bylo vlastní jméno Ninette de Valois?",
       "answers": [
-        "= vznikly, tzv",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Eddris Stannus",
+        "Myriam Rambert",
+        "Margot Fonteyn",
+        "Lilian Baylis"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 18.) vývoj baletu v anglii?",
+      "question": "V jakých letech byla Ninette de Valois členkou souboru Ruské balety Sergeje Ďagileva?",
       "answers": [
-        "- obliba vzrostla za vlády Jindřicha VIII. a Alžběty I.",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1922-25",
+        "1920-25",
+        "1922-27",
+        "1925-30"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 18.) vývoj baletu v anglii?",
+      "question": "Kdy otevřela Ninette de Valois první taneční školu v Londýně a jak se jmenovala?",
       "answers": [
-        "2) Mluvená část (monolog, dialog; interiér)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1926, Akademie choreografického umění",
+        "1920, Royal Ballet School",
+        "1931, Sadler's Wells School",
+        "1928, Vic-Wells School"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy založila Ninette de Valois Vic-Wells Ballet?",
+      "answers": [
+        "1931",
+        "1926",
+        "1932",
+        "1935"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy došlo k přejmenování Vic-Wells Ballet na Sadler's Wells Ballet?",
+      "answers": [
+        "1942",
+        "1932",
+        "1946",
+        "1956"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy došlo k přejmenování Sadler's Wells Ballet na The Royal Ballet?",
+      "answers": [
+        "1956",
+        "1946",
+        "1963",
+        "1942"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakých letech byla Ninette de Valois šéfkou Royal Ballet?",
+      "answers": [
+        "1956-63",
+        "1942-56",
+        "1963-70",
+        "1931-42"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořila Ninette de Valois choreografii Checkmate a na hudbu jakého skladatele?",
+      "answers": [
+        "1937, Arthur Bliss",
+        "1936, Ludwig van Beethoven",
+        "1931, Wolfgang Amadeus Mozart",
+        "1940, Arthur Bliss"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil Frederick Ashton?",
+      "answers": [
+        "1904-1988",
+        "1898-2001",
+        "1929-1992",
+        "1888-1982"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde se narodil Frederick Ashton?",
+      "answers": [
+        "Ekvádoru",
+        "Peru",
+        "Anglii",
+        "Francii"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Frederick Ashton Tragédii módy?",
+      "answers": [
+        "1926",
+        "1925",
+        "1928",
+        "1935"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se stal Frederick Ashton choreografem Vic-Wells Ballet?",
+      "answers": [
+        "1935",
+        "1931",
+        "1932",
+        "1942"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Frederick Ashton Popelku a proč je tento balet významný?",
+      "answers": [
+        "1948, první celovečerní balet",
+        "1935, první celovečerní balet",
+        "1955, první celovečerní balet",
+        "1948, nejslavnější balet"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Na hudbu jakého skladatele vytvořil Frederick Ashton Popelku?",
+      "answers": [
+        "Sergej Prokofjev",
+        "Petr Iljič Čajkovskij",
+        "Igor Stravinskij",
+        "Sergej Prokofjev"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakých letech byl Frederick Ashton šéfem Royal Ballet?",
+      "answers": [
+        "1963-70",
+        "1956-63",
+        "1970-77",
+        "1981-86"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Frederick Ashton svou poslední choreografii a jak se jmenovala?",
+      "answers": [
+        "1976, Měsíc na vsi",
+        "1965, Monotones II.",
+        "1988, Měsíc na vsi",
+        "1976, The Dream"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil Kenneth MacMillan?",
+      "answers": [
+        "1929-1992",
+        "1904-1988",
+        "1898-2001",
+        "1888-1982"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Kenneth MacMillan svůj první celovečerní balet a jak se jmenoval?",
+      "answers": [
+        "1965, Romeo a Julie",
+        "1958, The Burrow",
+        "1970, Anastázie",
+        "1974, Manon"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kolik choreografií vytvořil Kenneth MacMillan celkem?",
+      "answers": [
+        "95",
+        "70",
+        "200",
+        "50"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kolik celovečerních baletů vytvořil Kenneth MacMillan?",
+      "answers": [
+        "Deset",
+        "Pět",
+        "Patnáct",
+        "Tři"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Kenneth MacMillan Manon a na hudbu jakého skladatele?",
+      "answers": [
+        "1974, Jules Massenet",
+        "1965, Sergej Prokofjev",
+        "1970, Petr Iljič Čajkovskij",
+        "1978, Franz Liszt"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Kenneth MacMillan Mayerling a na hudbu jakého skladatele?",
+      "answers": [
+        "1978, Franz Liszt",
+        "1974, Jules Massenet",
+        "1989, Benjamin Britten",
+        "1991, Petr Iljič Čajkovskij"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy zemřel Kenneth MacMillan a za jakých okolností?",
+      "answers": [
+        "29. října 1992, v zákulisí při představení Mayerling po srdečním záchvatu",
+        "29. října 1992, přirozenou smrtí",
+        "1988, v zákulisí",
+        "1992, při představení Manon"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žila Marie Rambert a kde se narodila?",
+      "answers": [
+        "1888-1982, Varšava",
+        "1898-2001, Irsko",
+        "1904-1988, Ekvádor",
+        "1929-1992, Skotsko"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy založila Marie Rambert vlastní taneční školu v Londýně?",
+      "answers": [
+        "1920",
+        "1914",
+        "1926",
+        "1930"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy založila Marie Rambert soubor a jak se původně jmenoval?",
+      "answers": [
+        "1926, M. R. Dancers",
+        "1920, Ballet Club",
+        "1930, Ballet Club",
+        "1935, Rambert Ballet"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy došlo ke změně názvu souboru Marie Rambert na Rambert Ballet?",
+      "answers": [
+        "1935",
+        "1930",
+        "1926",
+        "1940"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byli žáci Marie Rambert, kteří vytvořili choreografie?",
+      "answers": [
+        "Frederick Ashton, Antony Tudor, Christopher Bruce, Robert North",
+        "Frederick Ashton, Kenneth MacMillan",
+        "Ninette de Valois, Frederick Ashton",
+        "Antony Tudor, Kenneth MacMillan"
       ],
       "correct": 0
     }

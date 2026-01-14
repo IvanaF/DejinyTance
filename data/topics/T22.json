@@ -1,0 +1,31 @@
+{
+  "id": "T22",
+  "order": 22,
+  "title": "ZAKLADATELÉ ČESKÉ CHOREOGRAFICKÉ TVORBY",
+  "image": "assets/images/topics/T22.svg",
+  "objectives": [
+    "Pochopit význam Saši Machova jako zakladatele české choreografické tvorby",
+    "Naučit se o životě a díle Ivo Váni Psoty",
+    "Rozpoznat významné choreografie obou zakladatelů",
+    "Pochopit historický kontext jejich tvorby (2. světová válka, 50. léta)",
+    "Naučit se o jejich pedagogické činnosti a vlivu na český balet"
+  ],
+  "materials": {
+    "summary": "Zakladatelé české choreografické tvorby zahrnují dva významné osobnosti. Saša Machov (1903-1951) je považován za zakladatele české choreografické tvorby. Vlastní jméno František Alexander Maťha, působil jako tanečník, choreograf, baletní mistr a pedagog. Byl žákem Jelizavety Nikolské a tanečním partnerem v souboru Československý balet. První choreografie Fagot a Flétna vytvořil v roce 1929. V letech 1948-1951 byl šéfem Baletu Národního divadla v Praze a vytvořil významné tituly jako Popelka (první uvedení mimo Rusko), Šípková Růženka, Romeo a Julie a Viktorka. Celkem vytvořil 34 baletních inscenací, v ND uvedl 10 celovečerních baletů. V roce 1951 spáchal sebevraždu. Ivo Váňa Psota (1908-1952) byl český tanečník, choreograf, baletní mistr a pedagog. Vlastní jméno Ivan Psota. Působil jako šéf Baletu ND Brno v letech 1928-1929 a 1936-1941, poté emigroval do USA. V roce 1938 vytvořil Romeo a Julie (první uvedení na hudbu Prokofjeva v Čechách). V letech 1947-1952 byl opět šéfem Baletu ND Brno. Celý život byl především pedagogem, v Brně založil baletní školu. Zemřel v roce 1952 po srážce s tramvají."
+  },
+  "audio": {
+    "title": "Otázka 22 - ZAKLADATELÉ ČESKÉ CHOREOGRAFICKÉ TVORBY",
+    "src": "assets/audio/Otazka-22-zakladatele-ceske-choreograficke-tvorby.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T22_resources.json",
+  "flashcardSource": "data/flashcards/T22_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T22_materials.json",
+  "summarySource": "data/summaries/T22_summary.txt",
+  "quizSource": "data/quizzes/T22_quiz.json"
+}

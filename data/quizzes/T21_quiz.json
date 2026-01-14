@@ -1,112 +1,302 @@
 {
   "questions": [
     {
-      "question": "Co je (chor. – A. Viscusi, úprava libreta?",
+      "question": "Kdy žil Achille Viscusi a kde se narodil?",
       "answers": [
-        "přidal některé scény a hudbu ze Spící krasavice)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1869-1945, Řím",
+        "1869-1945, Praha",
+        "1870-1945, Řím",
+        "1869-1944, Řím"
       ],
       "correct": 0
     },
     {
-      "question": "Co je vl. jméno?",
+      "question": "V jakých letech působil Achille Viscusi jako baletní mistr Národního divadla?",
       "answers": [
-        "Remislav Szymborski",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1901-1912",
+        "1900-1912",
+        "1901-1913",
+        "1902-1912"
       ],
       "correct": 0
     },
     {
-      "question": "Co je Lucerna?",
+      "question": "Kdy vytvořil Achille Viscusi první celé představení Labutího jezera v Čechách?",
       "answers": [
-        "kino -> krátké choreografie mezi filmy",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1907",
+        "1908",
+        "1906",
+        "1909"
       ],
       "correct": 0
     },
     {
-      "question": "Co je spolupráce Jenčíka s ND?",
+      "question": "S kterým hudebním skladatelem spolupracoval Achille Viscusi?",
       "answers": [
-        "taneční mistr + choreografie do oper (Radúz a Mahulena)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Oskar Nedbal",
+        "Antonín Dvořák",
+        "Bohuslav Martinů",
+        "Leoš Janáček"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1912?",
+      "question": "Kdy žil Remislav Remislavský a jaké bylo jeho vlastní jméno?",
       "answers": [
-        "– Ramen (rozloučení s ND)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1897-1973, Remislav Szymborski",
+        "1897-1973, Remislav Remislavský",
+        "1898-1973, Remislav Szymborski",
+        "1897-1972, Remislav Szymborski"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1930?",
+      "question": "V jakých letech působil Remislav Remislavský v Národním divadle?",
       "answers": [
-        "– Nikotina, Signorina Gioventu (hudba – Vítězslav Novák, námět – povídky S",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1922-1927",
+        "1921-1927",
+        "1922-1928",
+        "1923-1927"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1909 ?",
+      "question": "Co zavedl Remislav Remislavský do Národního divadla?",
       "answers": [
-        "– hostování T",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Ruskou školu",
+        "Italskou školu",
+        "Francouzskou školu",
+        "Německou školu"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1930 ?",
+      "question": "Kdy bylo uvedeno Spící krasavice v Národním divadle a kdo ho vytvořil?",
       "answers": [
-        "– Nikotina, Signorina Gioventu (hudba – Vítězslav Novák, námět – povídky S",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1924, Remislav Remislavský",
+        "1923, Remislav Remislavský",
+        "1924, Jaroslav Hladík",
+        "1925, Remislav Remislavský"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro 21.) baletní mistři nd do roku 1945?",
+      "question": "Kdy žil Jaroslav Hladík?",
       "answers": [
-        "• Achille Viscusi (1869-1945)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1885-1941",
+        "1884-1941",
+        "1885-1942",
+        "1886-1941"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 21.) baletní mistři nd do roku 1945?",
+      "question": "V jakých letech působil Jaroslav Hladík jako baletní mistr Národního divadla?",
       "answers": [
-        "září 1901 – Slovanské tance (hudba – A. Dvořák, k 60. narozeninám Dvořáka)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1928-1933",
+        "1927-1933",
+        "1928-1934",
+        "1929-1933"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 21.) baletní mistři nd do roku 1945?",
+      "question": "Na základě jakého titulu byl Jaroslav Hladík pozván do Národního divadla?",
       "answers": [
-        "(tanečníci i činoherní herci, např. H. Kvapilová, J. Mošna)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Raymonda (1927)",
+        "Nikotina (1930)",
+        "Signorina Gioventu (1930)",
+        "Giselle"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žila Jelizaveta Nikolská a kde se narodila?",
+      "answers": [
+        "1904-1955, Vladivostok",
+        "1904-1955, Oděsa",
+        "1903-1955, Vladivostok",
+        "1904-1954, Vladivostok"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakých letech byla Jelizaveta Nikolská šéfkou Baletu Národního divadla?",
+      "answers": [
+        "1941-1945",
+        "1940-1945",
+        "1941-1946",
+        "1942-1945"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se stala Jelizaveta Nikolská sólistkou Národního divadla?",
+      "answers": [
+        "1933",
+        "1932",
+        "1934",
+        "1937"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde působila Jelizaveta Nikolská v letech 1930-32?",
+      "answers": [
+        "Káhira, Královská Opera",
+        "Paříž",
+        "Berlín",
+        "Vídeň"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil Joe Jenčík a jaké bylo jeho vlastní jméno?",
+      "answers": [
+        "1893-1945, Josef Jenčík",
+        "1893-1945, Joe Jenčík",
+        "1892-1945, Josef Jenčík",
+        "1893-1944, Josef Jenčík"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakých letech působil Joe Jenčík v Osvobozeném divadle?",
+      "answers": [
+        "1929-1935",
+        "1928-1935",
+        "1929-1936",
+        "1930-1935"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kolik revuí vytvořil Joe Jenčík v Osvobozeném divadle?",
+      "answers": [
+        "12",
+        "10",
+        "14",
+        "15"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Joe Jenčík Krysaře a na hudbu kterého skladatele?",
+      "answers": [
+        "1942, Pavel Bořkovec",
+        "1941, Pavel Bořkovec",
+        "1942, Bohuslav Martinů",
+        "1943, Pavel Bořkovec"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy byl Joe Jenčík vyhozen z Národního divadla?",
+      "answers": [
+        "1943",
+        "1942",
+        "1944",
+        "1941"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo hostoval v Národním divadle v srpnu 1908 a září 1909?",
+      "answers": [
+        "Tamara Karsavina",
+        "Lucile Grahn",
+        "Giulietta Paltrinieri",
+        "Olga Preobraženská"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde působil Achille Viscusi během první světové války?",
+      "answers": [
+        "Jižní Amerika",
+        "Evropa",
+        "Severní Amerika",
+        "Asie"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byla manželka Remislava Remislavského?",
+      "answers": [
+        "Irma Stomeová",
+        "Jelizaveta Nikolská",
+        "Tamara Karsavina",
+        "Olga Preobraženská"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co založil Joe Jenčík v kabaretu Lucerna?",
+      "answers": [
+        "Soubor Šest děvčátek z Lucerny",
+        "Soubor Jenčíkovy Girls",
+        "Osvobozené divadlo",
+        "Baletní školu"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Achille Viscusi Slovanské tance a na hudbu kterého skladatele?",
+      "answers": [
+        "Září 1901, Antonín Dvořák",
+        "1901, Oskar Nedbal",
+        "1902, Antonín Dvořák",
+        "Září 1901, Oskar Nedbal"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaký balet vytvořil Remislav Remislavský na hudbu Igora Stravinského?",
+      "answers": [
+        "Petruška (1925)",
+        "Šeherezáda",
+        "Prométheus",
+        "Istar"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaký balet vytvořil Joe Jenčík na hudbu Bohuslava Martinů?",
+      "answers": [
+        "Špalíček (1933)",
+        "Uspavač",
+        "Král Lávra",
+        "Krysař"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořila Jelizaveta Nikolská Čarodějnou lásku a Třírohý klobouk?",
+      "answers": [
+        "1941",
+        "1940",
+        "1942",
+        "1939"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo nahradil Augusta Bergera jako baletní mistr Národního divadla v roce 1901?",
+      "answers": [
+        "Achille Viscusi",
+        "Remislav Remislavský",
+        "Jaroslav Hladík",
+        "Joe Jenčík"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké knihy napsal Joe Jenčík?",
+      "answers": [
+        "Tanec a jeho tváření, Taneční letopisy",
+        "Historie českého baletu",
+        "Baletní techniky",
+        "Choreografie 20. století"
       ],
       "correct": 0
     }

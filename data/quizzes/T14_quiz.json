@@ -1,112 +1,372 @@
 {
   "questions": [
     {
-      "question": "Co je srpen 1914 – začátek 1. sv. války?",
+      "question": "Kdy žil Michail Fokine?",
       "answers": [
-        "Fokin zůstal v Rusku (nepodařilo se mu vycestovat)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1880-1942",
+        "1875-1935",
+        "1885-1950",
+        "1890-1945"
       ],
       "correct": 0
     },
     {
-      "question": "Co je srpen 1914 – začátek 1. sv. války?",
+      "question": "Kde se narodil Michail Fokine?",
       "answers": [
-        "„domácí vězení“ i s rodinou v Rakousku",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "V Petrohradě",
+        "V Moskvě",
+        "V Kyjevě",
+        "V Minsku"
       ],
       "correct": 0
     },
     {
-      "question": "Co je nabídka na práci v (kině) Roxy?",
+      "question": "Kdy vytvořil Fokine Umírající labuť a pro koho?",
       "answers": [
-        "tvorba krátkých choreografií mezi filmy",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1907, tříminutové sólo pro Annu Pavlovou",
+        "1905, tříminutové sólo pro Tamaru Karsavinu",
+        "1909, tříminutové sólo pro Annu Pavlovou",
+        "1910, tříminutové sólo pro Bronislavu Nižinskou"
       ],
       "correct": 0
     },
     {
-      "question": "Co je spolupráce s filmem?",
+      "question": "Kdo složil hudbu k baletu Umírající labuť?",
       "answers": [
-        "1948 – Red shoes (hrál zde autobiografickou roli – baletní mistr)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Camille Saint-Saëns z cyklu Karneval zvířat",
+        "Igor Stravinskij",
+        "Claude Debussy",
+        "Petr Iljič Čajkovskij"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1905 ?",
+      "question": "Kdy se Fokine setkal se Sergejem Ďagilevem?",
       "answers": [
-        "– příjezd I",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1908",
+        "1907",
+        "1909",
+        "1910"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1909 ?",
+      "question": "Jaké balety vytvořil Fokine v roce 1909?",
       "answers": [
-        "– založení „sezónního“ souboru -> zájezd do Paříže, choreograf = M",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Polovecké tance, Pavilon Armidy, Kleopatra a Sylfidy",
+        "Karneval, Šeherezáda, Pták ohnivák",
+        "Duch růže, Petruška, Narcis",
+        "Modrý bůh, Dafnis a Chloe"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1936 ?",
+      "question": "Proč odešel Fokine z Ruských baletů v roce 1913?",
       "answers": [
-        "– Fokina oslovil R",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Kvůli nedorozumění mezi ním a Ďagilevem",
+        "Kvůli zdravotním problémům",
+        "Kvůli odchodu do Ameriky",
+        "Kvůli neshodám s Nižinským"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1917 ?",
+      "question": "Kdy publikoval Fokine v časopise The Times názory na reformu tanečního umění?",
       "answers": [
-        "– Švýcarsko - první projevy schizofrenie",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "6. července 1914",
+        "6. července 1913",
+        "6. července 1915",
+        "6. července 1912"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro 14.) významní choreografové souboru ruské balety?",
+      "question": "Kdy a kde zemřel Michail Fokine?",
       "answers": [
-        "• Michail Fokin(e) (1880-1942)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "22. srpna 1942 v USA na zápal plic",
+        "22. srpna 1941 v USA na zápal plic",
+        "22. srpna 1943 v USA na zápal plic",
+        "22. srpna 1940 v USA na zápal plic"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 14.) významní choreografové souboru ruské balety?",
+      "question": "Kdy žil Vaslav Nižinskij?",
       "answers": [
-        "- 1902 – pedagog + začal vytvářet choreografie",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1889-1950",
+        "1885-1945",
+        "1890-1955",
+        "1887-1948"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 14.) významní choreografové souboru ruské balety?",
+      "question": "Kde studoval Vaslav Nižinskij?",
       "answers": [
-        "- 1907 – choreografie pro žáky a dobročinné akce školy",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Carská baletní škola v letech 1898-1907",
+        "Carská baletní škola v letech 1895-1905",
+        "Baletní škola při Velkém divadle v letech 1898-1907",
+        "Carská baletní škola v letech 1900-1908"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Proč dostal Nižinskij vyhazov z Mariinského divadla v roce 1911?",
+      "answers": [
+        "Kvůli nevhodnému kostýmu",
+        "Kvůli neshodám s vedením",
+        "Kvůli odchodu do Monte Carla",
+        "Kvůli zdravotním problémům"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Nižinskij Faunovo odpoledne?",
+      "answers": [
+        "1912 s hudbou Clauda Debussyho",
+        "1911 s hudbou Clauda Debussyho",
+        "1913 s hudbou Igora Stravinského",
+        "1910 s hudbou Clauda Debussyho"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy mělo premiéru Svěcení jara a kdo složil hudbu?",
+      "answers": [
+        "29. května 1913, hudbu složil Igor Stravinskij",
+        "29. května 1912, hudbu složil Igor Stravinskij",
+        "29. května 1913, hudbu složil Claude Debussy",
+        "29. května 1914, hudbu složil Igor Stravinskij"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Proč odešel Nižinskij ze souboru Ruské balety v roce 1913?",
+      "answers": [
+        "Kvůli sňatku s maďarskou tanečnicí Romolou de Pulski",
+        "Kvůli neshodám s Ďagilevem",
+        "Kvůli zdravotním problémům",
+        "Kvůli odchodu do Ameriky"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Nižinskij svou poslední choreografii Till Eulenspiegel?",
+      "answers": [
+        "1916 s hudbou Richarda Strausse",
+        "1915 s hudbou Richarda Strausse",
+        "1917 s hudbou Richarda Strausse",
+        "1914 s hudbou Richarda Strausse"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy byla Nižinskému diagnostikována schizofrenie?",
+      "answers": [
+        "1919, nevyléčitelná forma schizofrenie",
+        "1917, nevyléčitelná forma schizofrenie",
+        "1920, nevyléčitelná forma schizofrenie",
+        "1918, nevyléčitelná forma schizofrenie"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy a kde zemřel Vaslav Nižinskij?",
+      "answers": [
+        "8. dubna 1950 v Londýně",
+        "8. dubna 1949 v Londýně",
+        "8. dubna 1951 v Paříži",
+        "8. dubna 1950 v Paříži"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žila Bronislava Nižinská?",
+      "answers": [
+        "1891-1972",
+        "1890-1970",
+        "1892-1975",
+        "1889-1971"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde studovala Bronislava Nižinská?",
+      "answers": [
+        "Carská baletní škola v Petrohradě v letech 1900-1908",
+        "Carská baletní škola v Petrohradě v letech 1898-1907",
+        "Baletní škola při Velkém divadle v letech 1900-1908",
+        "Carská baletní škola v Petrohradě v letech 1902-1910"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořila Bronislava Nižinská svou první choreografii?",
+      "answers": [
+        "1914 v Petrohradě",
+        "1913 v Petrohradě",
+        "1915 v Kyjevě",
+        "1912 v Petrohradě"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde založila Bronislava Nižinská školu v roce 1915 a kdo byl jejím slavným žákem?",
+      "answers": [
+        "V Kyjevě, slavným žákem byl Serge Lifar",
+        "V Petrohradě, slavným žákem byl Serge Lifar",
+        "V Kyjevě, slavným žákem byl Vaslav Nižinskij",
+        "V Moskvě, slavným žákem byl Serge Lifar"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké balety vytvořila Bronislava Nižinská v roce 1923?",
+      "answers": [
+        "Lišák a Svatby (Svadebka)",
+        "Spící princezna a Aurořina svatba",
+        "Laně a Modrý vlak",
+        "Polibek víly a Bolero"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "S kým se spojila Bronislava Nižinská v roce 1928?",
+      "answers": [
+        "S tanečnicí Idou Rubinsteinovou, která měla soubor v Paříži",
+        "S tanečnicí Annou Pavlovou",
+        "S tanečnicí Tamarou Karsavinou",
+        "S choreografem Leonidem Massinem"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké choreografie vytvořila Bronislava Nižinská pro soubor Idy Rubinsteinové?",
+      "answers": [
+        "Polibek víly s hudbou Igora Stravinského a Bolero s hudbou Maurice Ravela",
+        "Lišák a Svatby",
+        "Laně a Modrý vlak",
+        "Spící princezna a Aurořina svatba"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy a kde zemřela Bronislava Nižinská?",
+      "answers": [
+        "1972 v Los Angeles",
+        "1971 v Los Angeles",
+        "1973 v New Yorku",
+        "1970 v Los Angeles"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil Leonid Massine?",
+      "answers": [
+        "1895-1979",
+        "1890-1975",
+        "1900-1980",
+        "1893-1977"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde studoval Leonid Massine?",
+      "answers": [
+        "Baletní škola při Velkém divadle v Moskvě, absolvoval v roce 1912",
+        "Carská baletní škola v Petrohradě, absolvoval v roce 1912",
+        "Baletní škola při Velkém divadle v Moskvě, absolvoval v roce 1910",
+        "Carská baletní škola v Petrohradě, absolvoval v roce 1914"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém baletu poprvé vystoupil Massine v souboru Ruské balety?",
+      "answers": [
+        "Legenda o Josefovi s hudbou Richarda Strausse v roce 1914",
+        "Noční Slunce s hudbou Rimského-Korsakova v roce 1915",
+        "Parade v roce 1917",
+        "Třírohý klobouk s hudbou de Falla v roce 1919"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké balety vytvořil Massine v roce 1919?",
+      "answers": [
+        "Třírohý klobouk s hudbou Manuela de Falla",
+        "Noční Slunce s hudbou Rimského-Korsakova",
+        "Parade",
+        "Svěcení jara s hudbou Stravinského"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde pracoval Massine v roce 1927 v New Yorku?",
+      "answers": [
+        "V kině Roxy, kde vytvářel krátké choreografie mezi filmy",
+        "V Metropolitní opeře",
+        "V American Ballet Theatre",
+        "V souboru Ballets Russes de Monte Carlo"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké byly první symfonické balety, které vytvořil Massine?",
+      "answers": [
+        "Předtuchy (1933) s hudbou Čajkovského a Choreartium (1933) s hudbou Brahmse",
+        "Fantastická symfonie (1936) s hudbou Berlioze",
+        "Na krásném modrém Dunaji a Škola baletu",
+        "Aleko (1942) s hudbou Čajkovského"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Massine Fantastickou symfonii?",
+      "answers": [
+        "1936 s hudbou Hectora Berlioze",
+        "1935 s hudbou Hectora Berlioze",
+        "1937 s hudbou Hectora Berlioze",
+        "1933 s hudbou Hectora Berlioze"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém filmu hrál Massine v roce 1948?",
+      "answers": [
+        "Red shoes, kde hrál autobiografickou roli baletního mistra",
+        "The Red Shoes, kde hrál tanečníka",
+        "Black Swan, kde hrál choreografa",
+        "The Turning Point, kde hrál baletního mistra"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy a kde zemřel Leonid Massine?",
+      "answers": [
+        "15. března 1979 v německém městě Borken",
+        "15. března 1978 v německém městě Borken",
+        "15. března 1980 v Londýně",
+        "15. března 1979 v Paříži"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byl jediná žena-choreografka působící u Ďagileva?",
+      "answers": [
+        "Bronislava Nižinská",
+        "Anna Pavlova",
+        "Tamara Karsavina",
+        "Ida Rubinsteinová"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo vytvořil první symfonické balety?",
+      "answers": [
+        "Leonid Massine",
+        "Michail Fokine",
+        "Vaslav Nižinskij",
+        "George Balanchine"
       ],
       "correct": 0
     }

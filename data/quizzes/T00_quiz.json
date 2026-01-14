@@ -1,0 +1,155 @@
+{
+  "questions": [
+    {
+      "question": "Co je tanec?",
+      "answers": [
+        "Druh umění, který odráží myšlenky a pocity lidí, představuje cílevědomé, harmonické a rytmické pohyby",
+        "Pohybová aktivita bez uměleckého záměru",
+        "Pouze klasický balet",
+        "Společenská zábava"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké jsou dva typy rytmu v tanci?",
+      "answers": [
+        "Vnitřní (tlukot srdce) a vnější (doprovod, hudba, recitace)",
+        "Pomalý a rychlý",
+        "Jednoduchý a složitý",
+        "Klasický a moderní"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Na kolik kategorií se dělí tanec?",
+      "answers": [
+        "Na čtyři: klasický, moderní, lidový, historický",
+        "Na tři: klasický, moderní, lidový",
+        "Na pět: klasický, moderní, lidový, historický, současný",
+        "Na dvě: klasický a moderní"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vznikl klasický tanec (balet)?",
+      "answers": [
+        "V 17. století",
+        "V 18. století",
+        "V 16. století",
+        "Na počátku 20. století"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vznikl moderní tanec?",
+      "answers": [
+        "Na počátku 20. století jako reakce na tradiční klasický balet",
+        "V 19. století",
+        "V 18. století",
+        "V 17. století"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Čím se inspiruje moderní tanec?",
+      "answers": [
+        "V přírodě, základními pohyby, asijskými kulturami, exotikou, přiznáním gravitace",
+        "Pouze klasickým baletem",
+        "Pouze lidovými tanci",
+        "Pouze historickými tanci"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co je lidový tanec?",
+      "answers": [
+        "Nejstarší tanec ve společnosti, zahrnuje tance spojené se slavnostmi a životními událostmi",
+        "Tanec vzniklý v 19. století",
+        "Pouze tance spojené se slavnostmi",
+        "Moderní tanec"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co jsou iniciační tance?",
+      "answers": [
+        "Tance představující přechod z dítěte do dospělého, náročný obřad se zkouškou dospělosti",
+        "Tance pro děti",
+        "Společenské tance",
+        "Klasické balety"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co zahrnuje historický tanec?",
+      "answers": [
+        "Společenské tance z renesance, baroka, klasicismu (menuet, bránly, pavana, gagliarda, sarabanda)",
+        "Pouze tance z renesance",
+        "Moderní tance",
+        "Lidové tance"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co je balet?",
+      "answers": [
+        "Druh hudebně dramatického umění, jehož obsah je vyjádřen v choreografických obrazech",
+        "Pouze taneční technika",
+        "Druh hudby",
+        "Divadelní hra"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Z kolika složek se skládá baletní představení?",
+      "answers": [
+        "Ze čtyř: dramaturgie, hudba, choreografie, scénografie",
+        "Ze tří: hudba, choreografie, scénografie",
+        "Z pěti: dramaturgie, hudba, choreografie, scénografie, kostýmy",
+        "Ze dvou: hudba a choreografie"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co zahrnuje dramaturgie (libreto)?",
+      "answers": [
+        "Výběr repertoáru, zohlednění financí, velikost jeviště, publikum",
+        "Pouze výběr repertoáru",
+        "Pouze scénografii",
+        "Pouze hudbu"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jakou funkci má hudba v baletu?",
+      "answers": [
+        "Doprovod pohybu, tance, tanečníků; dává rytmický a citový základ",
+        "Pouze rytmický základ",
+        "Pouze doprovod",
+        "Nemá žádnou funkci"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co je choreografie?",
+      "answers": [
+        "Seskupení určitých pohybů, které určují události, vztahy a charaktery postav",
+        "Pouze pohyby",
+        "Pouze hudba",
+        "Pouze scénografie"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co zahrnuje scénografie?",
+      "answers": [
+        "Dekorace, kulisy, rekvizity, kostýmy, líčení, osvětlení na scéně",
+        "Pouze kostýmy",
+        "Pouze dekorace",
+        "Pouze osvětlení"
+      ],
+      "correct": 0
+    }
+  ]
+}
+

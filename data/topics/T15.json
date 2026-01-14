@@ -1,0 +1,31 @@
+{
+  "id": "T15",
+  "order": 15,
+  "title": "VÝVOJ BALETU V USA",
+  "image": "assets/images/topics/T15.svg",
+  "objectives": [
+    "Pochopit vývoj baletu v USA a jeho opoždění oproti evropskému baletu",
+    "Naučit se o George Balanchinovi a jeho roli v rozvoji amerického baletu",
+    "Rozpoznat význam School of American Ballet a New York City Ballet",
+    "Pochopit přínos Jerome Robbinse pro americký balet a muzikál",
+    "Naučit se o vzniku a vývoji American Ballet Theatre"
+  ],
+  "materials": {
+    "summary": "Vývoj baletu v USA byl oproti evropskému baletu opožděn až do 30. let 20. století, kdy zde nebyla žádná kvalitní taneční škola. Zájem o tanec vzrostl díky hostování tanečníků z období romantismu a vlivu souboru Ruské balety Sergeje Ďagileva. Klíčovou postavou byl George Balanchine, který založil School of American Ballet v roce 1934 a později New York City Ballet. Vytvořil více než 425 choreografií a vyvinul vlastní taneční styl neoklasiky. Jerome Robbins byl další významný choreograf, který spolupracoval s Balanchinem a vytvořil významné balety i muzikály jako West Side Story. American Ballet Theatre vznikl v roce 1939 a stal se jedním z předních amerických baletních souborů s různorodým repertoárem."
+  },
+  "audio": {
+    "title": "Otázka 15 - VÝVOJ BALETU V USA",
+    "src": "assets/audio/Otazka-15-vyvoj-baletu-v-usa.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T15_resources.json",
+  "flashcardSource": "data/flashcards/T15_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T15_materials.json",
+  "summarySource": "data/summaries/T15_summary.txt",
+  "quizSource": "data/quizzes/T15_quiz.json"
+}

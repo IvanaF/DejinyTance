@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "heading": "VÝZNAMNÍ SVĚTOVÍ CHOREOGRAFOVÉ",
+      "resources": [
+        {
+          "title": "John Cranko - stuttgardský balet",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=john+cranko+stuttgart+ballet+romeo+juliet+onegin+documentary",
+          "explanation": "Dokumentární videa o Johnu Crankovi, jeho působení ve Stuttgartu, choreografiích (Romeo a Julie, Oněgin, Zkrocení zlé ženy) a vlivu na stuttgardský balet."
+        },
+        {
+          "title": "Maurice Béjart - Ballet du XXe siècle",
+          "platform": "YouTube - Modern Dance",
+          "url": "https://www.youtube.com/results?search_query=maurice+bejart+ballet+xx+siecle+bolero+sacre+printemps+documentary",
+          "explanation": "Dokumentární materiály o Maurice Béjartovi, Ballet du XXe siècle, významných choreografiích (Bolero, Svěcení jara, Nižinskij klaun boží) a jeho vlivu na moderní tanec."
+        },
+        {
+          "title": "John Neumeier - Hamburský balet",
+          "platform": "YouTube - Ballet History",
+          "url": "https://www.youtube.com/results?search_query=john+neumeier+hamburg+ballet+dame+camelias+documentary",
+          "explanation": "Dokumentární pořady o Johnu Neumeierovi, jeho působení v Hamburku, čtyřech okruzích tvorby (literární díla, Shakespeare, symfonická hudba, klasické balety) a významných choreografiích."
+        },
+        {
+          "title": "Mats Ek - moderní adaptace klasických baletů",
+          "platform": "YouTube - Contemporary Dance",
+          "url": "https://www.youtube.com/results?search_query=mats+ek+cullberg+ballet+giselle+carmen+documentary",
+          "explanation": "Dokumentární videa o Mats Ekovi, jeho moderních adaptacích klasických baletů (Giselle, Labutí jezero, Carmen, Spící krasavice), stylu tanečního moderního divadla a působení v Cullberg Ballet."
+        },
+        {
+          "title": "William Forsythe - technicky náročné choreografie",
+          "platform": "YouTube - Contemporary Ballet",
+          "url": "https://www.youtube.com/results?search_query=william+forsythe+in+the+middle+somewhat+elevated+documentary",
+          "explanation": "Dokumentární materiály o Williamu Forsythovi, jeho bezdějových a technicky náročných choreografiích (In the Middle, Somewhat Elevated), inspiraci Balanchinem a Labanem a působení ve Frankfurtu."
+        }
+      ]
+    }
+  ]
+}
+

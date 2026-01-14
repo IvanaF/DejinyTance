@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "heading": "VÝVOJ MODERNÍHO TANCE V USA",
+      "resources": [
+        {
+          "title": "Martha Graham - dokumentární pořad",
+          "platform": "YouTube - Dance Documentaries",
+          "url": "https://www.youtube.com/results?search_query=martha+graham+documentary+modern+dance+technique",
+          "explanation": "Dokumentární videa o Marthě Graham, její technice contraction a release, taneční škole, souboru Martha Graham Dance Company, významných choreografiích (Appalachian Spring, Clytemnestra) a vlivu na americký moderní tanec. Pokrývá také její tři tvůrčí období a významné žáky."
+        },
+        {
+          "title": "Ruth St. Denis a Denishawn School",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=ruth+st+denis+denishawn+school+modern+dance+documentary",
+          "explanation": "Dokumentární materiály o Ruth St. Denis, její orientální tanci, Denishawn School v Los Angeles, spolupráci s Tedem Shawnem a vlivu na první generaci amerických moderních tanečníků. Pokrývá také orientální tance, představení Egypta a výchovu žáků."
+        },
+        {
+          "title": "Merce Cunningham - otec avantgardy",
+          "platform": "YouTube - Modern Dance",
+          "url": "https://www.youtube.com/results?search_query=merce+cunningham+documentary+avantgarde+chance+dance",
+          "explanation": "Dokumentární videa o Merce Cunninghamovi, jeho avantgardním přístupu, principu náhody, souboru Merce Cunningham Dance Company, spolupráci s Johnem Cagem a vlivu na současný tanec. Pokrývá také abstraktní choreografie, Events a nezávislost hudby a tance."
+        },
+        {
+          "title": "Doris Humphrey a José Limón",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=doris+humphrey+jose+limon+modern+dance+documentary",
+          "explanation": "Dokumentární materiály o Doris Humphrey a José Limónovi, Humphrey-Weidman studiu, Limón Dance Company, významných choreografiích (Air for G String, Maurova pavana) a jejich přínosu pro americký moderní tanec."
+        },
+        {
+          "title": "Ted Shawn a Jacob's Pillow",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=ted+shawn+jacobs+pillow+dance+festival+documentary",
+          "explanation": "Dokumentární videa o Tedu Shawnovi, souboru Ted Shawn and his Man Dancers, farmě Jacob's Pillow v Massachusetts, letních školách a tanečních festivalech. Pokrývá také jeho vliv na rozvoj mužského moderního tance."
+        }
+      ]
+    }
+  ]
+}
+

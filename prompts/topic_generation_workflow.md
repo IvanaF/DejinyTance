@@ -2,9 +2,48 @@
 
 ## PŘEHLED
 
-Tento dokument popisuje kompletní postup pro vytvoření nové kapitoly v projektu Dějiny tance a baletu. Workflow kombinuje všechny specializované prompty z `prompts/` složky do jednoho systematického procesu.
+Tento dokument je **DEFINITIVNÍ A PRAKTICKÝ** postup pro vytvoření nové kapitoly v projektu Dějiny tance a baletu. Workflow kombinuje všechny specializované prompty z `prompts/` složky do jednoho systematického procesu.
 
-**⚠️ DŮLEŽITÉ:** Tento dokument je pouze PLÁN/PROMPT. Nevykonávej žádné kroky, dokud nebude workflow schválen a zkontrolován.
+**⚠️ DŮLEŽITÉ:** Toto je **JEDINÝ správný workflow** - použij ho pro všechny nové kapitoly. Tento dokument obsahuje všechny potřebné kroky, pravidla a kontroly kvality.
+
+---
+
+## STANDARDNÍ STRUKTURA KAPITOLY
+
+Všechny kapitoly v projektu následují stejnou standardní strukturu souborů. Každá kapitola má **10 povinných souborů**:
+
+1. **Topic JSON:** `data/topics/TXX.json` - základní metadata a cesty k ostatním souborům
+2. **Materiály:** `data/materials/TXX_materials.json` - studijní text s sekcemi
+3. **Audio-scénář:** `data/audio_scripts/TXX.txt` nebo `TXX_part*.txt` - text pro TTS generování
+4. **Flashcards:** `data/flashcards/TXX_flashcards.json` - studijní kartičky (15-35 kartiček)
+5. **Kvíz:** `data/quizzes/TXX_quiz.json` - kvízové otázky (20-75 otázek, doporučeno 30-50)
+6. **Resources:** `data/resources/TXX_resources.json` - odkazy na další zdroje
+7. **Shrnutí:** `data/summaries/TXX_summary.txt` - textové shrnutí kapitoly
+8. **Term links:** `data/term_links/TXX_terms.json` - odkazy na Wikipedia pro klikatelné termíny
+9. **Ikona:** `assets/images/topics/TXX.svg` - SVG ikona pro téma
+10. **Audio:** `assets/audio/Otazka-XX-*.mp3` - generované audio soubory
+
+### Kvalitní příklady pro referenci:
+
+- **T01** (`PRAVĚK, EGYPT, MEZOPOTÁMIE`) - příklad kapitoly s více sekcemi oddělenými čárkami, více audio částmi
+- **T03** (`ANTIKA (Řecko, Řím)`) - příklad kvalitních kvízových otázek
+- **T12** (`VÝVOJ BALETU V RUSKU`) - příklad kapitoly s více audio částmi, kvalitní struktura materiálů
+- **T13, T14** - nedávno vytvořené kapitoly následující standardní strukturu
+
+**Doporučení:** Před vytvářením nové kapitoly si projdi několik existujících kapitol (např. T01, T03, T12) pro pochopení standardní struktury a formátování.
+
+---
+
+## REFERENCE NA SPECIALIZOVANÉ PROMPTY
+
+Každý krok odkazuje na detailní pravidla v:
+- **Audio-scénář:** `prompts/audioscript.md`
+- **Flashcards:** `prompts/flashcards.md`
+- **Kvízové otázky:** `prompts/quiz_questions.md`
+- **Resources:** `prompts/resources.md`
+- **Topic ikony:** `prompts/topicsymbols.md`
+- **Hyperlinky:** `prompts/hyperlinks.md`
+- **Audio generování:** `prompts/audio_generation.md`
 
 ---
 
@@ -896,9 +935,10 @@ git commit -m "Add topic TXX: NÁZEV TÉMATU"
 ## DŮLEŽITÉ POZNÁMKY
 
 ### Před zahájením práce
-- ⚠️ **NEPOKRAČUJ** bez schválení tohoto workflow
+- ⚠️ **PŘEČTI SI** tento workflow - obsahuje všechny potřebné informace
+- ⚠️ **STUDUJ PŘÍKLADY** existujících kapitol (T01, T03, T12, T13) pro pochopení struktury
 - ⚠️ **ZKONTROLUJ** všechny existující soubory před vytvořením nových
-- ⚠️ **POUŽIJ** specializované prompty z `prompts/` pro každý krok
+- ⚠️ **POUŽIJ** specializované prompty z `prompts/` pro každý krok (odkazy v sekci "REFERENCE NA SPECIALIZOVANÉ PROMPTY")
 
 ### Během práce
 - ✅ **DODRŽUJ** všechny pravidla z jednotlivých promptů
@@ -908,7 +948,7 @@ git commit -m "Add topic TXX: NÁZEV TÉMATU"
 - ✅ **KONTROLUJ** kvalita obsahu (100% pokrytí, gramatika, formát)
 - ✅ **KONZISTENTNÍ FORMÁTOVÁNÍ** materiálů s existujícími tématy (odrážky, číslování, struktura)
 - ✅ **KVIZOVÉ OTÁZKY MUSÍ BÝT SPRÁVNÉ PŘI PRVNÍM VYTVOŘENÍ** - nepřijatelné vytvářet nekvalitní otázky s plánem opravy později
-- ✅ **STUDUJ PŘÍKLADY** kvalitních kvízů (T01, T03, T12) před vytvářením nových otázek
+- ✅ **STUDUJ PŘÍKLADY** kvalitních kvízů (T01, T03, T12, T13) před vytvářením nových otázek
 - ✅ **KONTROLA PŘED ULOŽENÍM** - každou otázku zkontroluj podle kritérií kvality před uložením souboru
 - ✅ **⚠️ KONTROLA DISTRAKTORŮ** - pro každou kvízovou otázku ověř, že všechny čtyři možnosti jsou kvalitní: správná odpověď je úplná a přesná, všechny tři distraktory jsou věrohodné skutečné fakta (NE "Nelze určit", "Informace nejsou k dispozici", "Závisí na kontextu")
 - ✅ **FINÁLNÍ REVIZE KVIZU** - po vytvoření všech otázek ještě jednou projdi celý soubor a ověř kvalitu všech odpovědí (správných i nesprávných)
@@ -934,8 +974,8 @@ git commit -m "Add topic TXX: NÁZEV TÉMATU"
 
 **Vytvořeno:** 2025-01-27  
 **Aktualizováno:** 2025-01-27 (lekce z T03 a T05-T07)  
-**Verze:** 1.4  
-**Status:** K REVIZI - NEPROVÁDĚT BEZ SCHVÁLENÍ
+**Verze:** 2.0 (unified)  
+**Status:** AKTIVNÍ - použij tento workflow pro všechny nové kapitoly
 
 ---
 

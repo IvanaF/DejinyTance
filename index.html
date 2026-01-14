@@ -72,7 +72,7 @@
       <div class="content-container">
 
         <!-- Hero Section -->
-        <section class="hero-section">
+        <section class="hero-section" id="hero-section">
           <h1 class="hero-title">Dějiny tance a baletu</h1>
           <p class="hero-subtitle">Maturitní otázky 2026</p>
           <a href="#topics-section" class="hero-cta-button">Začít – otevřít seznam otázek</a>
@@ -188,9 +188,25 @@
             </li>
           </ul>
         </section>
+
+        <section class="topic-section dedication-section">
+          <div class="section-card">
+            <h2 class="section-title">Poděkování</h2>
+            <div class="prose">
+              <p>Poděkování za materiály použité ke zpracování těchto stránek je určeno profesorce maturitního ročníku 2022/23 a studentce Aničce Fialové. Podklady pro přípravu k maturitě 2026 poskytla Anna Musilová.</p>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   </main>
+
+  <!-- Floating Back to Top Button -->
+  <a href="#hero-section" class="floating-back-to-top" id="floatingBackToTop" aria-label="Zpět nahoru" title="Zpět nahoru">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </a>
 
   <!-- Footer with Contact Information -->
   <footer class="site-footer">
@@ -272,6 +288,13 @@
           <label for="feedbackDescription" class="feedback-label">Popis</label>
           <textarea id="feedbackDescription" name="description" class="feedback-textarea" 
                     rows="6" placeholder="Podrobně popište vaši zpětnou vazbu..." required></textarea>
+        </div>
+
+        <div class="feedback-form-group">
+          <label for="feedbackAttachment" class="feedback-label">Příloha (volitelné)</label>
+          <input type="file" id="feedbackAttachment" name="attachment" class="feedback-file-input" 
+                 accept="image/*,.pdf,.doc,.docx" multiple>
+          <div class="feedback-file-preview" id="feedbackFilePreview"></div>
         </div>
 
         <input type="hidden" id="feedbackPageUrl" name="pageUrl" value="">

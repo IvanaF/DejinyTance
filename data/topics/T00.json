@@ -1,0 +1,30 @@
+{
+  "id": "T00",
+  "order": 0,
+  "title": "Úvod",
+  "image": "assets/images/topics/T00.svg",
+  "objectives": [
+    "Pochopit základní definici tance jako druhu umění",
+    "Rozpoznat a porozumět rozdělení tance (klasický, moderní, lidový, historický)",
+    "Pochopit definici baletu a jeho základní složky",
+    "Naučit se o komponentách baletního představení (dramaturgie, hudba, choreografie, scénografie)"
+  ],
+  "materials": {
+    "summary": "Úvod k předmětu Dějiny tance a baletu představuje základní pojmy a rozdělení. Tanec je druh umění, který odráží myšlenky a pocity lidí a představuje cílevědomé, harmonické a rytmické pohyby. Tanec se dělí na klasický tanec (balet), který vznikl v 17. století a důležitá je taneční technika, moderní tanec, který vznikl na počátku 20. století jako reakce na tradiční klasický balet, lidový tanec, který je nejstarším tancem ve společnosti a zahrnuje tance spojené se slavnostmi a životními událostmi, a historický tanec, který zahrnuje společenské tance z renesance, baroka a klasicismu. Balet je druh hudebně dramatického umění, jehož obsah je vyjádřen v choreografických obrazech. Baletní představení se skládá z dramaturgie (libreta), hudby, choreografie a scénografie."
+  },
+  "audio": {
+    "title": "Úvod",
+    "src": "assets/audio/Otazka-0-uvod.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T00_resources.json",
+  "flashcardSource": "data/flashcards/T00_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T00_materials.json",
+  "summarySource": "data/summaries/T00_summary.txt",
+  "quizSource": "data/quizzes/T00_quiz.json"
+}

@@ -90,6 +90,12 @@ function initFeedback() {
   // Handle form submission
   feedbackForm.addEventListener('submit', handleFeedbackSubmit);
 
+  // Handle file input changes
+  const fileInput = document.getElementById('feedbackAttachment');
+  if (fileInput) {
+    fileInput.addEventListener('change', handleFileSelection);
+  }
+
   // Close on Escape key
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && feedbackModal.classList.contains('open')) {
@@ -142,7 +148,198 @@ function closeFeedbackModal() {
   // Reset form
   if (feedbackForm) {
     feedbackForm.reset();
+    // Clear file preview
+    clearFilePreview();
   }
+}
+
+// Store selected files for preview
+let selectedFiles = [];
+
+/**
+ * Handle file input selection
+ * @param {Event} e - File input change event
+ */
+function handleFileSelection(e) {
+  const files = Array.from(e.target.files || []);
+  
+  // Validate file sizes (max 5MB per file)
+  const maxSize = 5 * 1024 * 1024; // 5MB
+  const validFiles = [];
+  const invalidFiles = [];
+  
+  files.forEach(file => {
+    if (file.size > maxSize) {
+      invalidFiles.push({ name: file.name, reason: 'Příliš velký soubor (max 5MB)' });
+    } else {
+      validFiles.push(file);
+    }
+  });
+  
+  // Show error for invalid files
+  if (invalidFiles.length > 0) {
+    const errorMsg = invalidFiles.map(f => `${f.name}: ${f.reason}`).join('\n');
+    alert(`Některé soubory nelze přidat:\n${errorMsg}`);
+  }
+  
+  selectedFiles = validFiles;
+  updateFilePreview();
+}
+
+/**
+ * Update file preview display
+ */
+function updateFilePreview() {
+  const previewContainer = document.getElementById('feedbackFilePreview');
+  if (!previewContainer) return;
+  
+  // Clear existing preview
+  previewContainer.innerHTML = '';
+  
+  if (selectedFiles.length === 0) {
+    previewContainer.classList.add('feedback-file-preview-empty');
+    return;
+  }
+  
+  previewContainer.classList.remove('feedback-file-preview-empty');
+  
+  selectedFiles.forEach((file, index) => {
+    const previewItem = document.createElement('div');
+    previewItem.className = 'feedback-file-preview-item';
+    
+    // Create preview content
+    let previewContent = '';
+    if (file.type.startsWith('image/')) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const img = previewItem.querySelector('img');
+        if (img) img.src = e.target.result;
+      };
+      reader.readAsDataURL(file);
+      previewContent = '<img src="" alt="Preview" style="display: none;">';
+    }
+    
+    previewItem.innerHTML = `
+      ${previewContent}
+      <div class="feedback-file-preview-item-info">
+        <div class="feedback-file-preview-item-name">${escapeHtml(file.name)}</div>
+        <div class="feedback-file-preview-item-size">${formatFileSize(file.size)}</div>
+      </div>
+      <button type="button" class="feedback-file-preview-item-remove" data-index="${index}" aria-label="Odstranit">×</button>
+    `;
+    
+    // Show image preview if it's an image
+    if (file.type.startsWith('image/')) {
+      const img = previewItem.querySelector('img');
+      if (img) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          img.src = e.target.result;
+          img.style.display = 'block';
+        };
+        reader.readAsDataURL(file);
+      }
+    }
+    
+    // Add remove button handler
+    const removeButton = previewItem.querySelector('.feedback-file-preview-item-remove');
+    removeButton.addEventListener('click', () => removeFile(index));
+    
+    previewContainer.appendChild(previewItem);
+  });
+}
+
+/**
+ * Remove file from selection
+ * @param {number} index - Index of file to remove
+ */
+function removeFile(index) {
+  selectedFiles.splice(index, 1);
+  updateFilePreview();
+  
+  // Update file input
+  const fileInput = document.getElementById('feedbackAttachment');
+  if (fileInput) {
+    // Create new FileList (we can't modify existing one, so we'll reset and re-add)
+    const dt = new DataTransfer();
+    selectedFiles.forEach(file => dt.items.add(file));
+    fileInput.files = dt.files;
+  }
+}
+
+/**
+ * Clear file preview
+ */
+function clearFilePreview() {
+  selectedFiles = [];
+  const previewContainer = document.getElementById('feedbackFilePreview');
+  if (previewContainer) {
+    previewContainer.innerHTML = '';
+    previewContainer.classList.add('feedback-file-preview-empty');
+  }
+}
+
+/**
+ * Format file size for display
+ * @param {number} bytes - File size in bytes
+ * @returns {string} Formatted file size
+ */
+function formatFileSize(bytes) {
+  if (bytes === 0) return '0 B';
+  const k = 1024;
+  const sizes = ['B', 'KB', 'MB', 'GB'];
+  const i = Math.floor(Math.log(bytes) / Math.log(k));
+  return Math.round(bytes / Math.pow(k, i) * 100) / 100 + ' ' + sizes[i];
+}
+
+/**
+ * Escape HTML to prevent XSS
+ * @param {string} text - Text to escape
+ * @returns {string} Escaped text
+ */
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+/**
+ * Convert file to base64 data URL
+ * @param {File} file - File to convert
+ * @returns {Promise<string>} Base64 data URL
+ */
+function fileToBase64(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+/**
+ * Convert files to base64 (only images)
+ * @param {File[]} files - Files to convert
+ * @returns {Promise<Array>} Array of {name, base64, type} objects
+ */
+async function convertFilesToBase64(files) {
+  const imageFiles = files.filter(file => file.type.startsWith('image/'));
+  const results = [];
+  
+  for (const file of imageFiles) {
+    try {
+      const base64 = await fileToBase64(file);
+      results.push({
+        name: file.name,
+        base64: base64,
+        type: file.type
+      });
+    } catch (error) {
+      console.error('Error converting file to base64:', error);
+    }
+  }
+  
+  return results;
 }
 
 /**
@@ -161,6 +358,9 @@ async function handleFeedbackSubmit(e) {
   const pageUrl = formData.get('pageUrl') || window.location.href;
   const userAgent = formData.get('userAgent') || navigator.userAgent;
   
+  // Get attached files
+  const attachedFiles = selectedFiles.length > 0 ? await convertFilesToBase64(selectedFiles) : [];
+  
   // Save current scroll position to restore after closing modal
   const scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
   
@@ -175,7 +375,8 @@ async function handleFeedbackSubmit(e) {
     pageUrl: pageUrl,
     pageContext: pageContext,
     userAgent: userAgent,
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
+    attachments: attachedFiles
   });
   
   // Store feedback data (no personal information)
@@ -187,7 +388,8 @@ async function handleFeedbackSubmit(e) {
     pageContext: pageContext,
     userAgent: userAgent,
     timestamp: new Date().toISOString(),
-    issueBody: issueBody
+    issueBody: issueBody,
+    attachmentCount: attachedFiles.length
   };
   
   // Send feedback based on configured method
@@ -337,9 +539,19 @@ ${escapeMarkdown(data.description)}
   
   body += `\n\n### Technical Details
 - **Submitted**: ${new Date(data.timestamp).toLocaleString('cs-CZ')}
-- **User Agent**: ${data.userAgent}
-
----
+- **User Agent**: ${data.userAgent}`;
+  
+  // Add attachments section if images are present
+  if (data.attachments && data.attachments.length > 0) {
+    body += `\n\n### Attachments (${data.attachments.length} ${data.attachments.length === 1 ? 'file' : 'files'})`;
+    data.attachments.forEach((attachment, index) => {
+      // GitHub supports base64 data URLs in markdown
+      body += `\n\n#### ${escapeMarkdown(attachment.name)}`;
+      body += `\n![${escapeMarkdown(attachment.name)}](${attachment.base64})`;
+    });
+  }
+  
+  body += `\n\n---
 *This feedback was submitted through the web application feedback form.*`;
   
   return body;
@@ -465,6 +677,8 @@ async function sendFeedbackEmail(feedbackData, issueBody) {
   }
   
   // Prepare email content
+  // Note: issueBody already includes attachments as embedded base64 images for GitHub
+  // For email, these images are included in the body (may make emails large)
   const emailSubject = `Zpětná vazba: ${feedbackData.title}`;
   const emailBody = `
 Typ zpětné vazby: ${feedbackData.type}

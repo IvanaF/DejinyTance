@@ -1,192 +1,182 @@
 {
   "questions": [
     {
-      "question": "Co je 1989 – druhá návštěva Prahy?",
+      "question": "Kdy začal Jiří Kylián vystupovat v Praze a v rámci jaké akce?",
       "answers": [
-        "festival Tanec 89´",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Od roku 1982 v rámci Pražského jara",
+        "Od roku 1989 v rámci festivalu Tanec 89",
+        "Od roku 1992 v rámci projektu Choreografie z Nizozemí",
+        "Od roku 1991 při založení Kyliánovy nadace"
       ],
       "correct": 0
     },
     {
-      "question": "Co je gymnázium?",
+      "question": "Kdy byly poprvé uvedeny Kyliánovy tituly v Praze a jaké to byly?",
       "answers": [
-        "přešel na průmyslovou školu, kde odmaturoval",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1992, Návrat do neznámé země, Polní mše",
+        "1982, Návrat do neznámé země, Polní mše",
+        "1989, Návrat do neznámé země, Polní mše",
+        "2000, Dítě a kouzla, Sinfonietta"
       ],
       "correct": 0
     },
     {
-      "question": "Co je kratší balety?",
+      "question": "Kdy byla založena Kyliánova nadace a kde je nyní?",
       "answers": [
-        "Valčíky, Svatební košile, Karneval 1959 – Sluha dvou pánů (hudba – Jarmil Burghauser) 1960 – Nová Odyssea (hudba – Viktor Bruns, nejúspěšnější dílo)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1991, nyní patří pod AMU jako videotéka",
+        "1998, nyní patří pod AMU jako videotéka",
+        "1991, stále při Divadelním ústavu",
+        "2017, nyní je to Kyliánův nadační fond"
       ],
       "correct": 0
     },
     {
-      "question": "Co je Šmok?",
+      "question": "Kdy žil Pavel Šmok?",
       "answers": [
-        "choreograf: Viktorka, Lašské tance, Milostná píseň, Američan v Paříži",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "22. 11. 1927-2016",
+        "1927-2016",
+        "22. 11. 1927-2015",
+        "1924-2016"
       ],
       "correct": 0
     },
     {
-      "question": "Co je > ztratil veškeré pracovní nabídky?",
+      "question": "Kde se narodil Pavel Šmok?",
       "answers": [
-        "choreografie do oper, činoher",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Na Slovensku českým rodičům",
+        "V Praze",
+        "V Brně",
+        "V Ostravě"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1998-01 – šéf?",
+      "question": "Kdy a s kým založil Pavel Šmok Studio Balet Praha?",
       "answers": [
-        "Libor Vaculík + Antonín Schneider - změna názvu zpět na Balet Praha",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "17. 8. 1964, s Lubošem Ogounem a Milošem Hercíkem",
+        "1964, s Lubošem Ogounem",
+        "17. 8. 1964, s Milošem Hercíkem",
+        "1980, sám"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 2002-03 – P. Šmok?",
+      "question": "Kdy založil Pavel Šmok Pražský komorní balet?",
       "answers": [
-        "šéf baletu Státní opery Praha",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1980",
+        "1975",
+        "1964",
+        "1990"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 2007-11 – šéfka?",
+      "question": "Kolik choreografií vytvořil Pavel Šmok?",
       "answers": [
-        "Lucie Holánková (žačka P",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Kolem 100",
+        "Kolem 50",
+        "Kolem 150",
+        "Kolem 80"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1953-57 – návrat do ND?",
+      "question": "Od kdy byl Pavel Šmok pedagogem na AMU?",
       "answers": [
-        "choreograf, pedagog",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Od roku 1990",
+        "Od roku 1980",
+        "Od roku 2000",
+        "Od roku 1975"
       ],
       "correct": 0
     },
     {
-      "question": "Co je nejznámější balet?",
+      "question": "Kdy žil Luboš Ogoun?",
       "answers": [
-        "Škrtič (hudba – B",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1924-2009",
+        "1924-2016",
+        "1927-2009",
+        "1924-2008"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1971 ?",
+      "question": "V jakých letech byl Luboš Ogoun tanečníkem ND Praha?",
       "answers": [
-        "– Sinfonietta (hudba – L",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1945-52",
+        "1945-51",
+        "1948-52",
+        "1945-53"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1973 ?",
+      "question": "V jakých letech působil Luboš Ogoun jako šéf baletu v Plzni?",
       "answers": [
-        "– návrat do Prahy",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1957-61",
+        "1955-61",
+        "1957-64",
+        "1961-64"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 2011 ?",
+      "question": "V jakých letech působil Luboš Ogoun jako šéf baletu v Brně poprvé?",
       "answers": [
-        "– Cena Ministerstva kultury ČR 2018 – Rytíř Akademie krásných umění, Florencie (3",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1961-64",
+        "1964-68",
+        "1968-70",
+        "1989-92"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1975 ?",
+      "question": "Jaký je nejznámější balet Luboše Ogouna?",
       "answers": [
-        "– nabídka na spolupráci od Miloše Hercíka (ředitel divadla Rokoko)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Škrtič na hudbu Bohuslava Martinů",
+        "Hirošima",
+        "Podivuhodný mandarín",
+        "Leningradská symfonie"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1964?",
+      "question": "Čím jsou typické choreografie Luboše Ogouna?",
       "answers": [
-        "-> Studio Balet Praha - 18 tanečníků (12 dívek, 6 chlapců)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Spojením s akrobacií a gymnastikou",
+        "Spoluprací s českými skladateli",
+        "Klasickým baletním stylem",
+        "Moderním tanečním stylem"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro praha?",
+      "question": "Kdo byli spoluzakladatelé souboru Balet Praha?",
       "answers": [
-        "Návrat do neznámé země, Polní mše",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Luboš Ogoun, Pavel Šmok, Miloš Hercík",
+        "Pavel Šmok a Luboš Ogoun",
+        "Pavel Šmok a Miloš Hercík",
+        "Luboš Ogoun a Jiří Němeček"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje praha?",
+      "question": "Kdy zemřel Pavel Šmok?",
       "answers": [
-        "2011 – Cena Ministerstva kultury ČR 2018 – Rytíř Akademie krásných umění, Florencie (3. vyznamenaný Čech) 2019 – Prix Benois de la danse",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "4. 4. 2016",
+        "4. 4. 2015",
+        "2016",
+        "2015"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje praha?",
+      "question": "Kdo byla šéfka Pražského komorního baletu v letech 2007-11?",
       "answers": [
-        "- Bratislava – studium na ZŠ i gymnáziu",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co zahrnuje praha?",
-      "answers": [
-        "- po absolvování soubor Armádní Opera (Luboš Ogoun)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Lucie Holánková",
+        "Nataša Novotná",
+        "Kateřina Franková Dedková",
+        "Klára Slavická"
       ],
       "correct": 0
     }

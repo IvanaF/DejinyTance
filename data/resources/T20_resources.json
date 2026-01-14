@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "heading": "POČÁTKY TANCE V ČECHÁCH",
+      "resources": [
+        {
+          "title": "Historie českého baletu - počátky",
+          "platform": "YouTube - Czech Dance History",
+          "url": "https://www.youtube.com/results?search_query=historie+ceskeho+baletu+pocatky+stavovske+divadlo+documentary",
+          "explanation": "Dokumentární videa o počátcích tance v Čechách, prvních pražských divadlech (Divadlo v Kotcích, Stavovské divadlo, Bouda), a vývoji českého baletu od 18. do 19. století."
+        },
+        {
+          "title": "Václav Reisinger - první český baletní mistr",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=vaclav+reisinger+cesky+balet+narodni+divadlo+hasis+documentary",
+          "explanation": "Dokumentární materiály o Václavu Reisingerovi, prvním českém baletním mistru, jeho působení v Národním divadle a prvním původním českém baletu Hašiš."
+        },
+        {
+          "title": "Augustin Berger - baletní mistr Národního divadla",
+          "platform": "YouTube - Ballet History",
+          "url": "https://www.youtube.com/results?search_query=augustin+berger+narodni+divadlo+excelsior+labuti+jezero+documentary",
+          "explanation": "Dokumentární pořady o Augustinu Bergerovi, jeho působení v Národním divadle, nastudování Excelsior a prvním uvedení Labutího jezera mimo Rusko."
+        },
+        {
+          "title": "Stavovské divadlo - historie a balet",
+          "platform": "YouTube - Theater History",
+          "url": "https://www.youtube.com/results?search_query=stavovske+divadlo+historie+balet+praha+documentary",
+          "explanation": "Dokumentární videa o Stavovském divadle v Praze, jeho historii, významu pro český balet a působení významných baletních mistrů."
+        },
+        {
+          "title": "Národní divadlo - historie baletu",
+          "platform": "YouTube - Czech Culture",
+          "url": "https://www.youtube.com/results?search_query=narodni+divadlo+historie+balet+pocatky+documentary",
+          "explanation": "Dokumentární materiály o Národním divadle, počátcích baletu v Národním divadle, Václavu Reisingerovi, Augustinu Bergerovi a jejich významných choreografiích."
+        }
+      ]
+    }
+  ]
+}
+

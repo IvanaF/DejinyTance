@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "heading": "VÝVOJ MODERNÍHO TANCE V EVROPĚ",
+      "resources": [
+        {
+          "title": "Isadora Duncan - dokumentární pořad",
+          "platform": "YouTube - Dance Documentaries",
+          "url": "https://www.youtube.com/results?search_query=isadora+duncan+documentary+dance+modern",
+          "explanation": "Dokumentární videa o Isadoře Duncan, její roli v založení moderního tance, duncanismu, tanečních školách a tragickém osudu. Pokrývá její život od Kalifornie přes Evropu až po Rusko. Availability: OK"
+        },
+        {
+          "title": "Rudolf Laban - pohybová metoda a notace",
+          "platform": "YouTube - Dance Theory",
+          "url": "https://www.youtube.com/results?search_query=rudolf+laban+movement+analysis+notation+documentary",
+          "explanation": "Dokumentární materiály o Rudolfu Labanovi, jeho pohybové metodě, Labanově notaci, dimenzionálním kříži a vlivu na moderní tanec. Pokrývá jeho působení v Německu, Švýcarsku a Anglii. Availability: OK"
+        },
+        {
+          "title": "Emile Jaques-Dalcroze a rytmická gymnastika",
+          "platform": "YouTube - Music Education",
+          "url": "https://www.youtube.com/results?search_query=dalcroze+eurhythmics+rhythm+gymnastics+documentary",
+          "explanation": "Dokumentární pořady o Emile Jaques-Dalcrozeovi, jeho metodě rytmické gymnastiky, Institutu v Hellerau a vlivu na taneční vzdělávání. Availability: OK"
+        },
+        {
+          "title": "Mary Wigman - německý moderní tanec",
+          "platform": "YouTube - Modern Dance",
+          "url": "https://www.youtube.com/results?search_query=mary+wigman+documentary+german+modern+dance",
+          "explanation": "Dokumentární videa o Mary Wigman, její škole v Drážďanech, choreografiích (Tanec smrti, Carmina Burana) a vlivu na vývoj moderního tance v Německu. Availability: OK"
+        },
+        {
+          "title": "Kurt Jooss a Zelený stůl",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=kurt+jooss+green+table+ballet+documentary",
+          "explanation": "Dokumentární materiály o Kurtu Joossovi, jeho baletu Zelený stůl, Folkwang Schule Essen a působení v Anglii. Pokrývá jeho vztah k Labanovi a vliv na Pinu Bausch. Availability: OK"
+        },
+        {
+          "title": "Loïe Fuller - Serpentine Dance",
+          "platform": "YouTube - Early Dance",
+          "url": "https://www.youtube.com/results?search_query=loie+fuller+serpentine+dance+documentary",
+          "explanation": "Dokumentární pořady o Loïe Fuller, jejích experimentech s látkou a nasvícením, Serpentine Dance a vlivu na raný moderní tanec. Availability: OK"
+        }
+      ]
+    }
+  ]
+}
+

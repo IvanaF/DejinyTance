@@ -1,0 +1,31 @@
+{
+  "id": "T13",
+  "order": 13,
+  "title": "SOUBOR RUSKÉ BALETY SERGEJE ĎAGILEVA",
+  "image": "assets/images/topics/T13.svg",
+  "objectives": [
+    "Pochopit vznik a vývoj souboru Ruské balety Sergeje Ďagileva na počátku 20. století",
+    "Naučit se o klíčových osobnostech souboru (Ďagilev, Fokine, Nižinskij, Massine, Nižinská, Balanchine)",
+    "Rozpoznat nejvýznamnější balety souboru a jejich choreografy",
+    "Pochopit význam souboru pro reformu klasického tance",
+    "Naučit se o vývoji souboru po smrti Sergeje Ďagileva"
+  ],
+  "materials": {
+    "summary": "Soubor Ruské balety Sergeje Ďagileva vznikl na počátku 20. století jako reakce na krizi klasického tance. Sergej Ďagilev, ruský impresário a organizátor, vytvořil nezávislý taneční soubor, který oslovoval soudobé umělce a během 20 let uvedl 64 premiér. Soubor prošel několika vývojovými fázemi s různými choreografy - Michail Fokine, Vaslav Nižinskij, Leonid Massine, Bronislava Nižinská a George Balanchine. Mezi nejvýznamnější balety patří Svěcení jara, Petruška, Apollón, vůdce múz a další. Po Ďagilevově smrti v roce 1929 se soubor rozpadl, ale jeho odkaz pokračoval v souborech Ballets Russes de Monte Carlo a Original Ballet Russe."
+  },
+  "audio": {
+    "title": "Otázka 13 - SOUBOR RUSKÉ BALETY SERGEJE ĎAGILEVA",
+    "src": "assets/audio/Otazka-13-soubor-ruske-balety-sergeje-dagileva.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T13_resources.json",
+  "flashcardSource": "data/flashcards/T13_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T13_materials.json",
+  "summarySource": "data/summaries/T13_summary.txt",
+  "quizSource": "data/quizzes/T13_quiz.json"
+}

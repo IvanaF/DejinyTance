@@ -1,0 +1,31 @@
+{
+  "id": "T23",
+  "order": 23,
+  "title": "VÝNAMNÍ ČEŠTÍ CHOREOGRAFOVÉ – JIŘÍ KYLIÁN, PAVEL ŠMOK, LUBOŠ OGOUN",
+  "image": "assets/images/topics/T23.svg",
+  "objectives": [
+    "Pochopit význam Jiřího Kyliána jako světově uznávaného českého choreografa",
+    "Naučit se o životě a díle Pavla Šmoka",
+    "Naučit se o životě a díle Luboše Ogouna",
+    "Rozpoznat významné choreografie a soubory těchto choreografů",
+    "Pochopit jejich vliv na český balet a moderní tanec"
+  ],
+  "materials": {
+    "summary": "Toto téma představuje tři významné české choreografy: Jiřího Kyliána, Pavla Šmoka a Luboše Ogouna. Jiří Kylián je světově uznávaný český choreograf, který působí převážně v Nizozemsku. Od roku 1982 vystupuje v Praze v rámci Pražského jara. V roce 1992 byly v Praze poprvé uvedeny jeho tituly Návrat do neznámé země a Polní mše. V roce 1991 byla v Praze založena Kyliánova nadace, později přejmenovaná na videotéku a nyní patří pod AMU. Pavel Šmok (1927-2016) byl český choreograf a šéf baletu, který vytvořil kolem 100 choreografií, převážně na českou hudbu. V roce 1964 spoluzaložil Studio Balet Praha (později Balet Praha) a v roce 1980 založil Pražský komorní balet (PKB). Byl pedagogem na AMU od roku 1990. Luboš Ogoun (1924-2009) byl český choreograf a pedagog, který působil jako tanečník v ND Praha, šéf baletu v Plzni, Brně a podílel se na založení souboru Balet Praha. Jeho nejznámější balet je Škrtič na hudbu Bohuslava Martinů. Jeho choreografie byly typické spojením s akrobacií a gymnastikou."
+  },
+  "audio": {
+    "title": "Otázka 23 - VÝNAMNÍ ČEŠTÍ CHOREOGRAFOVÉ – JIŘÍ KYLIÁN, PAVEL ŠMOK, LUBOŠ OGOUN",
+    "src": "assets/audio/Otazka-23-vynamni-cesti-choreografove-jiri-kylian-pavel-smok-lubos-ogoun.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T23_resources.json",
+  "flashcardSource": "data/flashcards/T23_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T23_materials.json",
+  "summarySource": "data/summaries/T23_summary.txt",
+  "quizSource": "data/quizzes/T23_quiz.json"
+}

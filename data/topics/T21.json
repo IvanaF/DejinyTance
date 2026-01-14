@@ -1,0 +1,31 @@
+{
+  "id": "T21",
+  "order": 21,
+  "title": "BALETNÍ MISTŘI ND DO ROKU 1945",
+  "image": "assets/images/topics/T21.svg",
+  "objectives": [
+    "Pochopit vývoj baletu v Národním divadle do roku 1945",
+    "Naučit se o významných baletních mistrech (Achille Viscusi, Remislav Remislavský, Jaroslav Hladík, Jelizaveta Nikolská, Joe Jenčík)",
+    "Rozpoznat významné tituly a choreografie vytvořené jednotlivými baletními mistry",
+    "Pochopit vliv různých baletních škol (italská, ruská) na český balet",
+    "Naučit se o historickém kontextu a událostech ovlivňujících balet v ND"
+  ],
+  "materials": {
+    "summary": "Baletní mistři Národního divadla do roku 1945 zahrnují několik významných osobností. Achille Viscusi (1869-1945) byl italský baletní mistr, který v letech 1901-1912 nahradil Augusta Bergera a vytvořil tituly jako Terpsichora, Slovanské tance, Labutí jezero (první celé představení v Čechách) a Z pohádky do pohádky. Remislav Remislavský (1897-1973) působil v letech 1922-1927 a zavedl ruskou školu do ND, uvedl Spící krasavici (první uvedení v Čechách) a Petrušku. Jaroslav Hladík (1885-1941) byl baletní mistr v letech 1928-1933, uvedl Raymondu a další tituly. Jelizaveta Nikolská (1904-1955) byla ruská tanečnice a choreografka, která byla šéfkou Baletu ND v letech 1941-1945 a uvedla tituly jako Giselle, Louskáček, Šeherezáda a Čarodějná láska. Joe Jenčík (1893-1945) působil v Osvobozeném divadle a spolupracoval s ND, vytvořil tituly jako Uspavač, Špalíček, Král Lávra a Krysař."
+  },
+  "audio": {
+    "title": "Otázka 21 - BALETNÍ MISTŘI ND DO ROKU 1945",
+    "src": "assets/audio/Otazka-21-baletni-mistri-nd-do-roku-1945.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T21_resources.json",
+  "flashcardSource": "data/flashcards/T21_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T21_materials.json",
+  "summarySource": "data/summaries/T21_summary.txt",
+  "quizSource": "data/quizzes/T21_quiz.json"
+}

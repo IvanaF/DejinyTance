@@ -1,0 +1,31 @@
+{
+  "id": "T18",
+  "order": 18,
+  "title": "VÝVOJ BALETU V ANGLII",
+  "image": "assets/images/topics/T18.svg",
+  "objectives": [
+    "Pochopit počátky anglického baletu (mumraje, masques) a jejich strukturu",
+    "Naučit se o prvních anglických tanečnících (John Weaver, John Rich)",
+    "Rozpoznat význam Ninette de Valois a její roli v založení Royal Ballet",
+    "Pochopit přínos Fredericka Ashtona pro anglický balet",
+    "Naučit se o Kennethu MacMillanovi a Marii Rambert a jejich významu pro anglický balet"
+  ],
+  "materials": {
+    "summary": "Vývoj baletu v Anglii začal počátky v mumrajích, maškarádách a karnevalových průvodech. V roce 1513 vznikly masky (masques), jejichž obliba vzrostla za vlády Jindřicha VIII. a Alžběty I. Autory masek byli Ben Jonson a Inigo Jones. Po roce 1660 přijížděli zahraniční umělci, především z Francie, a kolem roku 1700 se tanci začali věnovat místní tanečníci včetně Johna Weavera, otce anglické pantomimy. V 19. století zde působili Jules Perrot a rodina Espinózů, kteří otevřeli první baletní školu v Londýně. Jejich nejslavnější žákyní byla Ninette de Valois, která v roce 1931 založila Vic-Wells Ballet, později přejmenovaný na Sadler's Wells Ballet a v roce 1956 na The Royal Ballet. Mezi významné choreografy patřil Frederick Ashton, který působil u Marie Rambert a později u Ninette de Valois, vytvořil první celovečerní balet Popelku a byl šéfem Royal Ballet v letech 1963-70. Kenneth MacMillan vytvořil 95 choreografií včetně deseti celovečerních baletů a také působil jako šéf Royal Ballet. Marie Rambert založila vlastní taneční školu a soubor, který funguje dodnes."
+  },
+  "audio": {
+    "title": "Otázka 18 - VÝVOJ BALETU V ANGLII",
+    "src": "assets/audio/Otazka-18-vyvoj-baletu-v-anglii.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T18_resources.json",
+  "flashcardSource": "data/flashcards/T18_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T18_materials.json",
+  "summarySource": "data/summaries/T18_summary.txt",
+  "quizSource": "data/quizzes/T18_quiz.json"
+}

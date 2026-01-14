@@ -1,322 +1,412 @@
 {
   "questions": [
     {
-      "question": "Co je konec 19. a počátek 20. stol.?",
+      "question": "Proč se balet dostal do krize na konci 19. a počátku 20. století?",
       "answers": [
-        "balet se dostává do krize (kromě Ruska)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Kvůli neschopnosti reagovat na aktuální témata, myšlenkové prázdnotě a anatomické nepřirozenosti",
+        "Kvůli nedostatku tanečníků",
+        "Kvůli nedostatku financí",
+        "Kvůli nedostatku divadel"
       ],
       "correct": 0
     },
     {
-      "question": "Co je v Evropě se začalo prosazovat hnutí moderního tance?",
+      "question": "Jaké byly hlavní znaky moderního tance?",
       "answers": [
-        "balet nebyl v oblibě",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Základní lidské pohyby, práce celého těla, důraz na improvizaci, využití rytmické a vážné koncertní hudby",
+        "Pouze klasické baletní techniky",
+        "Pouze improvizace bez hudby",
+        "Pouze tanec v divadle"
       ],
       "correct": 0
     },
     {
-      "question": "Co je experimenty s hud. doprovodem?",
+      "question": "Kdy žil Francois Delsarte?",
       "answers": [
-        "využití rytmické hudby a vážné koncertní hudby",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1811-1871",
+        "1805-1865",
+        "1820-1880",
+        "1815-1875"
       ],
       "correct": 0
     },
     {
-      "question": "Co je možnost pohybovat se i bez hud. doprovodu?",
+      "question": "Čím se proslavil Francois Delsarte?",
       "answers": [
-        "pouze vlastní dech, nebo mluvené slovo",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Vytvořil systém analýzy výrazových pohybů, kde každému výrazu odpovídalo pohybové gesto",
+        "Vytvořil metodu rytmické gymnastiky",
+        "Vytvořil Labanovu notaci",
+        "Vytvořil duncanismus"
       ],
       "correct": 0
     },
     {
-      "question": "Co je divadelní prostor?",
+      "question": "Jak rozdělil Delsarte tělo na části?",
       "answers": [
-        "přesun spíše do exteriéru, ne v divadle (příroda, továrny, muzea)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Intelektuální (hlava), emocionální (střed těla) a fyzická (končetiny)",
+        "Horní, střední a dolní část",
+        "Pravá, levá a střední část",
+        "Přední, zadní a boční část"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce  20. stol.?",
+      "question": "Kdy žila Loïe Fuller?",
       "answers": [
-        "= balet se dostává do krize (kromě Ruska)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1862-1926",
+        "1860-1925",
+        "1865-1930",
+        "1863-1927"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro 16.) vývoj moderního tance v evropě?",
+      "question": "Čím se proslavila Loïe Fuller?",
       "answers": [
-        "(neschopnost reagovat na aktuální témata, myšlenková prázdnota, anatomická nepřirozenost",
-        "(inspirace – příroda, antika, aktuální situace, exotika)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Experimentovala s látkou, barvami a nasvícením v tanečních vystoupeních",
+        "Vytvořila systém analýzy výrazových pohybů",
+        "Vytvořila metodu rytmické gymnastiky",
+        "Vytvořila duncanismus"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 16.) vývoj moderního tance v evropě?",
+      "question": "Kde působila Loïe Fuller v roce 1892?",
       "answers": [
-        "- v Evropě se začalo prosazovat hnutí moderního tance = balet nebyl v oblibě",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "V Paříži v divadle Folies Bergère",
+        "V Londýně v divadle",
+        "V New Yorku v divadle",
+        "V Berlíně v divadle"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 16.) vývoj moderního tance v evropě?",
+      "question": "Kdy žila Isadora Duncan?",
       "answers": [
-        "- první pokusy o moderní tanec byly amatérské, diletantské",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1877/8-1927",
+        "1875-1925",
+        "1880-1930",
+        "1876-1926"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 16.) vývoj moderního tance v evropě?",
+      "question": "Kde otevřela Isadora Duncan svou první taneční školu?",
       "answers": [
-        "- v tanci převažovaly základní lidské pohyby -> práce celého těla",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "V roce 1904 v Německu v Grünwaldu spolu se sestrou Elizabeth",
+        "V roce 1903 v Maďarsku",
+        "V roce 1905 v Rusku",
+        "V roce 1914 v Paříži"
       ],
       "correct": 0
     },
     {
-      "question": "Co je celé jméno?",
+      "question": "S kým spolupracovala Isadora Duncan v Rusku v roce 1905?",
       "answers": [
-        "Marie Louise Fuller",
-        "balet se dostává do krize (kromě Ruska)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "S Michaelem Fokinem na představení Acis a Galathea",
+        "S Vaslavem Nižinským",
+        "S Sergejem Ďagilevem",
+        "S Mariem Petipou"
       ],
       "correct": 0
     },
     {
-      "question": "Co je nový hud. doprovod?",
+      "question": "Kdy a jak tragicky zahynula Isadora Duncan?",
       "answers": [
-        "vážná koncertní hudba",
-        "balet se dostává do krize (kromě Ruska)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "14. září 1927 v Nice, když ji uškrtila šála zachycená do kola auta",
+        "14. září 1926 v Paříži při autonehodě",
+        "14. září 1928 v Nice při autonehodě",
+        "14. září 1927 v Paříži, když ji uškrtila šála"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1906 ?",
+      "question": "Jaké jsou hlavní znaky duncanismu?",
       "answers": [
-        "– seznámení s malířem Gordonem Craigem -> dcera Deidra",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Pohyb je vlnovka, důležité je centrum těla (solar plexus), inspirace v přírodě, důraz na improvizaci",
+        "Přesný rytmus, klasické techniky, tanec v divadle",
+        "Pouze improvizace, žádná hudba",
+        "Pouze tanec na špičkách"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1905 ?",
+      "question": "Kdo přinesl duncanismus do Čech?",
       "answers": [
-        "– Rusko - spolupráce s Fokinem na přestavení Acis a Galathea",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Elizabeth Duncan a česká tanečnice Jarmila Jeřábková",
+        "Isadora Duncan",
+        "Eva Blažíčková",
+        "Milča Mayerová"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1899 ?",
+      "question": "Kdy žil Emile Jaques-Dalcroze?",
       "answers": [
-        "– odjezd do Evropy (díky svým vystoupením v USA vydělala peníze na cestování)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1865-1950",
+        "1860-1945",
+        "1870-1960",
+        "1863-1948"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1921 ?",
+      "question": "Čím se proslavil Emile Jaques-Dalcroze?",
       "answers": [
-        "– Rusko, Moskva - otevření třetí taneční školy",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Vytvořil metodu rytmické gymnastiky pro zvýšení smyslu pro rytmus",
+        "Vytvořil systém analýzy výrazových pohybů",
+        "Vytvořil Labanovu notaci",
+        "Vytvořil duncanismus"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro první zakladatelé moderního tance?",
+      "question": "Kde založil Dalcroze Institut hudebního a rytmického vzdělávání?",
       "answers": [
-        "• Francois Delsarte (1811-1871)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "V roce 1911 v Hellerau u Drážďan",
+        "V roce 1910 v Ženevě",
+        "V roce 1912 v Paříži",
+        "V roce 1913 v Berlíně"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje první zakladatelé moderního tance?",
+      "question": "Jaké představení vytvořil Dalcroze v roce 1913?",
       "answers": [
-        "- rozdělil tělo na 3 části:",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Orfeus a Eurydika s hudbou Glucka, navštívili ho Nižinskij a Ďagilev",
+        "Svěcení jara s hudbou Stravinského",
+        "Tanec smrti",
+        "Zelený stůl"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje první zakladatelé moderního tance?",
+      "question": "Kdo založil Spolek J. Dalcrozovy rytmické gymnastiky v Čechách?",
       "answers": [
-        "o emocionální (střed těla) o fyzická (končetiny – ruce, nohy)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Sokolové Augustin Očenášek a Karel Pospíšil",
+        "Anna Dubská a Jarmila Kröschlová",
+        "Milča Mayerová a Eva Blažíčková",
+        "Jarmila Jeřábková a Elizabeth Duncan"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje první zakladatelé moderního tance?",
+      "question": "Kde se narodil Rudolf Laban?",
       "answers": [
-        "- celé jméno = Marie Louise Fuller",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "V Bratislavě (tehdy Prešburk), otec byl maďarský voják, matka Němka",
+        "V Drážďanech, otec byl Němec, matka Maďarka",
+        "V Paříži, otec byl Francouz, matka Němka",
+        "V Ženevě, otec byl Švýcar, matka Němka"
       ],
       "correct": 0
     },
     {
-      "question": "Co je používal termín absolutní (volný) tanec?",
+      "question": "Co ovlivnilo Labanovy názory na tanec?",
       "answers": [
-        "tanec není závislý na hudbě",
-        "balet se dostává do krize (kromě Ruska)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Sufijské tance dervišů z Bosny a Hercegoviny, které viděl jako dítě",
+        "Klasický balet z Paříže",
+        "Moderní tanec z USA",
+        "Rytmická gymnastika z Ženevy"
       ],
       "correct": 0
     },
     {
-      "question": "Co je (notace?",
+      "question": "Kdy se stal Laban šéfem Státní Berlínské opery?",
       "answers": [
-        "zápis tance, využití v taneční, pohybové terapii dodnes)",
-        "balet se dostává do krize (kromě Ruska)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1930",
+        "1929",
+        "1931",
+        "1932"
       ],
       "correct": 0
     },
     {
-      "question": "Co je (slavná žákyně?",
+      "question": "Proč skončil Laban v domácím vězení v roce 1936?",
       "answers": [
-        "Brigit Cullberg – matka Mats Eka, založila soubor Cullberg Ballet)",
-        "balet se dostává do krize (kromě Ruska)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Jeho choreografie na zahájení olympijských her v Berlíně nebyla v souladu s nacistickým režimem",
+        "Kvůli neshodám s vedením opery",
+        "Kvůli zdravotním problémům",
+        "Kvůli odchodu do důchodu"
       ],
       "correct": 0
     },
     {
-      "question": "Co je opět ředitel (slavná žákyně?",
+      "question": "Kdy emigroval Laban do Anglie?",
       "answers": [
-        "Pina Bausch) a až do smrti se věnoval pedagogice",
-        "balet se dostává do krize (kromě Ruska)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1938 za svým žákem Kurtem Joossem do Darington Hall",
+        "1937 za svým žákem Kurtem Joossem",
+        "1939 za svým žákem Kurtem Joossem",
+        "1936 za svým žákem Kurtem Joossem"
       ],
       "correct": 0
     },
     {
-      "question": "Co je (slavní žáci?",
+      "question": "Co je dimenzionální kříž podle Labana?",
       "answers": [
-        "Hanya Holm, Harald Kreutzberg, Gret Palucca, Yvonne Georgi)",
-        "balet se dostává do krize (kromě Ruska)",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Tři přímky protínající se ve středu se směry nahoru-dolů, vpravo-vlevo a vpřed-vzad",
+        "Dvě přímky protínající se ve středu",
+        "Čtyři přímky protínající se ve středu",
+        "Kruh se středem"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1946 ?",
+      "question": "Co je Labanova notace?",
       "answers": [
-        "– Manchester - založil Art of Movement Studio",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Zápis tance, nauka o prostoru, využívá se v taneční a pohybové terapii dodnes",
+        "Zápis hudby pro tanec",
+        "Zápis choreografie pouze pro balet",
+        "Zápis pohybů pouze pro gymnastiku"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1957 ?",
+      "question": "Kdo přinesl Labanovu metodu do Prahy?",
       "answers": [
-        "– Svěcení jara",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Jeho studentka, tanečnice Milča Mayerová",
+        "Kurt Jooss",
+        "Mary Wigman",
+        "Anna Dubská"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1936 ?",
+      "question": "Kdy žil Kurt Jooss a kdo byl jeho učitelem?",
       "answers": [
-        "– choreografie na zahájení OH v Berlíně (hudba – Hans-Klaus Langer) (pro tisíc tanečníků, 4 části – ",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1901-1979, byl žákem Rudolfa Labana",
+        "1900-1978, byl žákem Rudolfa Labana",
+        "1902-1980, byl žákem Emila Dalcrozeho",
+        "1901-1979, byl žákem Mary Wigman"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro hlavní představitelé moderního tance?",
+      "question": "Kdy založil Jooss Folkwang Schule Essen?",
       "answers": [
-        "• Emile Jaques-Dalcroze (1865-1950)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1927, stal se ředitelem tanečního oddělení moderního tance",
+        "1926, stal se ředitelem tanečního oddělení",
+        "1928, stal se ředitelem tanečního oddělení",
+        "1925, stal se ředitelem tanečního oddělení"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje hlavní představitelé moderního tance?",
+      "question": "Jaký balet vytvořil Jooss v roce 1932?",
       "answers": [
-        "- vymyslel metodu, jak u svých žáků zvýšit smysl pro rytmus -> rytmická gymnastika",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Zelený stůl s hudbou Fritze Cohena, získal první cenu v mezinárodní choreografické soutěži",
+        "Tanec smrti s hudbou Beethovena",
+        "Svěcení jara s hudbou Stravinského",
+        "Orfeus a Eurydika s hudbou Glucka"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje hlavní představitelé moderního tance?",
+      "question": "O čem vypráví balet Zelený stůl?",
       "answers": [
-        "1913 – Orfeus a Eurydika (hudba – Ch. W. Glück)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Moderní tanec smrti se středověkým příběhem, kde diplomaté sedící u zeleného stolu rozpoutají válku",
+        "O tanci v přírodě",
+        "O tanci v divadle",
+        "O tanci bez hudby"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje hlavní představitelé moderního tance?",
+      "question": "Kdo byla slavná žákyně Joosse v Anglii?",
       "answers": [
-        "- 1914 – začátek 1. sv. války, odjezd z Německa -> Švýcarsko",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Brigit Cullberg, matka Matsa Eka, založila soubor Cullberg Ballet",
+        "Pina Bausch",
+        "Mary Wigman",
+        "Hanya Holm"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byla slavná žákyně Joosse v Essenu?",
+      "answers": [
+        "Pina Bausch",
+        "Brigit Cullberg",
+        "Mary Wigman",
+        "Hanya Holm"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žila Mary Wigman?",
+      "answers": [
+        "1886-1973",
+        "1885-1972",
+        "1887-1974",
+        "1884-1971"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde otevřela Mary Wigman svou školu?",
+      "answers": [
+        "V roce 1920 v Drážďanech, škola se nazývala M. Wigman Schule",
+        "V roce 1919 v Drážďanech",
+        "V roce 1921 v Berlíně",
+        "V roce 1920 v Lipsku"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byli slavní žáci Mary Wigman?",
+      "answers": [
+        "Hanya Holm, Harald Kreutzberg, Gret Palucca a Yvonne Georgi",
+        "Kurt Jooss a Pina Bausch",
+        "Rudolf Laban a Emile Dalcroze",
+        "Isadora Duncan a Elizabeth Duncan"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jakou choreografii vytvořila Wigman na olympijské hry v Berlíně v roce 1936?",
+      "answers": [
+        "Nářek nad smrtí s hudbou Beethovena pro 80 tanečnic",
+        "Zelený stůl s hudbou Cohena",
+        "Svěcení jara s hudbou Stravinského",
+        "Tanec smrti"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké tituly vytvořila Wigman s hudbou Carla Orffa?",
+      "answers": [
+        "Carmina Burana a Catulli Carmina",
+        "Tanec smrti a Tanec čarodějnice",
+        "Svěcení jara a Nářek nad smrtí",
+        "Zelený stůl a Hostina mrtvých"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vydala Mary Wigman knihu Řeč tance?",
+      "answers": [
+        "1963",
+        "1962",
+        "1964",
+        "1965"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byla nejlepší žačka Jarmily Jeřábkové?",
+      "answers": [
+        "Eva Blažíčková, která založila konzervatoř Duncan centrum v Praze",
+        "Milča Mayerová",
+        "Anna Dubská",
+        "Jarmila Kröschlová"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byla významná česká tanečnice, která studovala rytmickou gymnastiku u Dalcrozeho v Hellerau?",
+      "answers": [
+        "Anna Dubská, která byla pedagožkou rytmické gymnastiky na Pražské konzervatoři v letech 1945-1960",
+        "Jarmila Kröschlová",
+        "Milča Mayerová",
+        "Eva Blažíčková"
       ],
       "correct": 0
     }

@@ -1,172 +1,392 @@
 {
   "questions": [
     {
-      "question": "Co je (F. Elssler – charakterní tance?",
+      "question": "Proč byl vývoj baletu v USA opožděn oproti evropskému baletu?",
       "answers": [
-        "cachucha, tarantela",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Až do 30. let 20. století zde nebyla žádná kvalitní taneční škola",
+        "Až do 20. let 20. století zde nebyla žádná kvalitní taneční škola",
+        "Až do 40. let 20. století zde nebyla žádná kvalitní taneční škola",
+        "Až do 50. let 20. století zde nebyla žádná kvalitní taneční škola"
       ],
       "correct": 0
     },
     {
-      "question": "Co je vl. jméno?",
+      "question": "Kdo přispěl k růstu zájmu o tanec v USA?",
+      "answers": [
+        "Tanečníci z období romantismu, soubor Ruské balety Sergeje Ďagileva a soubor Anny Pavlovy",
+        "Pouze tanečníci z období romantismu",
+        "Pouze soubor Ruské balety Sergeje Ďagileva",
+        "Pouze soubor Anny Pavlovy"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil George Balanchine?",
+      "answers": [
+        "1904-1983",
+        "1900-1980",
+        "1905-1985",
+        "1910-1990"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké bylo vlastní jméno George Balanchina?",
       "answers": [
         "Yuri Melitonovich Balanchivadze",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Georgij Melitonovič Balančivadze",
+        "Jurij Melitonovič Balančivadze",
+        "George Meliton Balanchivadze"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1935 – vznik souboru American Ballet (členové?",
+      "question": "Kde se narodil George Balanchine?",
       "answers": [
-        "nejlepší studenti školy)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "V Petrohradě do umělecké rodiny, jeho otec byl hudební skladatel",
+        "V Moskvě do umělecké rodiny",
+        "V Kyjevě do umělecké rodiny",
+        "V New Yorku do umělecké rodiny"
       ],
       "correct": 0
     },
     {
-      "question": "Co je neexistují hranice pohybu?",
+      "question": "Kdy založil Balanchine skupinu Mladý balet?",
       "answers": [
-        "vše je protaženo do maxima",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1923",
+        "1922",
+        "1924",
+        "1925"
       ],
       "correct": 0
     },
     {
-      "question": "Co je vl. jméno?",
+      "question": "Kdo byli členové skupiny Mladý balet?",
+      "answers": [
+        "Tamara Geva, Alexandra Danilova, Nikolaj Jefimov a George Balanchine",
+        "Tamara Karsavina, Anna Pavlova, Vaslav Nižinskij a George Balanchine",
+        "Alexandra Danilova, Serge Lifar, Leonid Massine a George Balanchine",
+        "Tamara Geva, Bronislava Nižinská, Serge Lifar a George Balanchine"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy získal Balanchine angažmá v souboru Ruské balety Sergeje Ďagileva?",
+      "answers": [
+        "1925",
+        "1924",
+        "1926",
+        "1927"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Balanchine Apollóna, vůdce múz a proč je tento balet významný?",
+      "answers": [
+        "1928 s hudbou Igora Stravinského, byl to první neoklasický balet",
+        "1927 s hudbou Igora Stravinského, byl to první neoklasický balet",
+        "1928 s hudbou Sergeje Prokofjeva, byl to první neoklasický balet",
+        "1929 s hudbou Igora Stravinského, byl to první neoklasický balet"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy byla otevřena School of American Ballet v New Yorku?",
+      "answers": [
+        "2. ledna 1934 pro 32 studentů",
+        "2. ledna 1933 pro 32 studentů",
+        "2. ledna 1935 pro 32 studentů",
+        "2. ledna 1934 pro 30 studentů"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaký balet vytvořil Balanchine v roce 1934 jako první choreografii školy?",
+      "answers": [
+        "Serenáda s hudbou Petra Iljiče Čajkovského, neoklasický balet bez děje",
+        "Apollón, vůdce múz s hudbou Igora Stravinského",
+        "Louskáček s hudbou Čajkovského",
+        "Drahokamy s hudbou různých skladatelů"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vznikl soubor American Ballet?",
+      "answers": [
+        "1935, členy byli nejlepší studenti školy",
+        "1934, členy byli nejlepší studenti školy",
+        "1936, členy byli nejlepší studenti školy",
+        "1933, členy byli nejlepší studenti školy"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se soubor Ballet Society přejmenoval na New York City Ballet?",
+      "answers": [
+        "1948 díky finanční podpoře města New York",
+        "1947 díky finanční podpoře města New York",
+        "1949 díky finanční podpoře města New York",
+        "1950 díky finanční podpoře města New York"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byl manažerem New York City Ballet?",
+      "answers": [
+        "Lincoln Kirstein",
+        "George Balanchine",
+        "Jerome Robbins",
+        "Oliver Smith"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Balanchine Louskáčka a jakou tradici zavedl?",
+      "answers": [
+        "1954, zavedl tradici, že se tento balet uvádí v období Vánoc",
+        "1953, zavedl tradici, že se tento balet uvádí v období Vánoc",
+        "1955, zavedl tradici, že se tento balet uvádí v období Vánoc",
+        "1954, zavedl tradici, že se tento balet uvádí v období Velikonoc"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Z kolika částí se skládá balet Drahokamy?",
+      "answers": [
+        "Ze tří částí: smaragdy, rubíny a diamanty",
+        "Ze dvou částí: smaragdy a rubíny",
+        "Ze čtyř částí: smaragdy, rubíny, diamanty a perly",
+        "Z pěti částí: smaragdy, rubíny, diamanty, perly a safíry"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaká hudba doprovází část smaragdy v baletu Drahokamy?",
+      "answers": [
+        "Gabriel Fauré",
+        "Igor Stravinskij",
+        "Petr Iljič Čajkovskij",
+        "Maurice Ravel"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kolik choreografií celkově vytvořil George Balanchine?",
+      "answers": [
+        "Více než 425 choreografií",
+        "Více než 300 choreografií",
+        "Více než 500 choreografií",
+        "Více než 200 choreografií"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co je neoklasika podle Balanchina?",
+      "answers": [
+        "Abstraktní bezdějové choreografie založené na samotném pohybu, vyzdvihující krásu pohybu a krásu těla",
+        "Dějové choreografie s klasickými prvky",
+        "Moderní choreografie s jazzovými prvky",
+        "Tradiční klasické balety s novými prvky"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy a kde zemřel George Balanchine?",
+      "answers": [
+        "30. dubna 1983 v New Yorku",
+        "30. dubna 1982 v New Yorku",
+        "30. dubna 1984 v New Yorku",
+        "30. dubna 1983 v Los Angeles"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil Jerome Robbins?",
+      "answers": [
+        "1918-1998",
+        "1915-1995",
+        "1920-2000",
+        "1916-1996"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jaké bylo vlastní jméno Jerome Robbinse?",
       "answers": [
         "Jerome Rabinowitz",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Jerome Rabinovich",
+        "Jerome Rabinovitz",
+        "Jerome Rabinov"
       ],
       "correct": 0
     },
     {
-      "question": "Co je první choreografie?",
+      "question": "Kdy vytvořil Robbins svou první choreografii Strange Fruit?",
       "answers": [
-        "1937 – Strange Fruit",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1937",
+        "1936",
+        "1938",
+        "1939"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1939 – USA?",
+      "question": "Kdy vytvořil Robbins balet Fancy Free a kdo složil hudbu?",
       "answers": [
-        "nástup do BT jako tanečník i choreograf",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1944, hudbu složil Leonard Bernstein",
+        "1943, hudbu složil Leonard Bernstein",
+        "1945, hudbu složil Leonard Bernstein",
+        "1944, hudbu složil George Gershwin"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1992 – umělecký ředitel?",
+      "question": "O čem vypráví balet Fancy Free?",
       "answers": [
-        "Kevin McKenzie (bývalý tanečník, sólista ABT)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "O třech námořnících, kteří jdou do baru na Manhattanu a seznamují se s dívkami",
+        "O třech vojácích, kteří jdou do baru a seznamují se s dívkami",
+        "O třech námořnících, kteří tančí na Broadwayi",
+        "O třech námořnících, kteří cestují po světě"
       ],
       "correct": 0
     },
     {
-      "question": "Co je od r. 2009 – rezidenční choreograf?",
+      "question": "Jaký muzikál vznikl na základě baletu Fancy Free?",
+      "answers": [
+        "On the Town s hudbou Leonarda Bernsteina, premiéra na Broadwayi",
+        "West Side Story s hudbou Leonarda Bernsteina",
+        "Fiddler on the Roof s hudbou Leonarda Bernsteina",
+        "The King and I s hudbou Leonarda Bernsteina"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Robbins choreografii pro muzikál West Side Story?",
+      "answers": [
+        "1957 s hudbou Leonarda Bernsteina, příběh Romea a Julie ve 20. století",
+        "1956 s hudbou Leonarda Bernsteina, příběh Romea a Julie ve 20. století",
+        "1958 s hudbou Leonarda Bernsteina, příběh Romea a Julie ve 20. století",
+        "1957 s hudbou George Gershwina, příběh Romea a Julie ve 20. století"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy založil Robbins soubor Ballets USA?",
+      "answers": [
+        "1957 na základě úspěchu muzikálu West Side Story",
+        "1956 na základě úspěchu muzikálu West Side Story",
+        "1958 na základě úspěchu muzikálu West Side Story",
+        "1957 na základě úspěchu baletu Fancy Free"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy byl Robbins baletním mistrem v New York City Ballet?",
+      "answers": [
+        "1969-1989",
+        "1968-1988",
+        "1970-1990",
+        "1969-1998"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vznikl American Ballet Theatre a kdy bylo první představení?",
+      "answers": [
+        "Vznik 1939, první představení 11. ledna 1940",
+        "Vznik 1938, první představení 11. ledna 1939",
+        "Vznik 1940, první představení 11. ledna 1941",
+        "Vznik 1939, první představení 11. ledna 1939"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo stál u zrodu American Ballet Theatre?",
+      "answers": [
+        "Lucia Chase (tanečnice, choreografka, umělecká vedoucí) a Richard Pleasant (architekt, divadelní agent, manažer)",
+        "Lucia Chase a Lincoln Kirstein",
+        "Richard Pleasant a George Balanchine",
+        "Lucia Chase a Oliver Smith"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakém souboru se poprvé setkali Chase a Pleasant?",
+      "answers": [
+        "V souboru Mordkin Ballet pod vedením Michaila Mordkina",
+        "V souboru Ballet Theatre",
+        "V souboru American Ballet",
+        "V souboru New York City Ballet"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo vytvořil balet Pillar of Fire pro American Ballet Theatre?",
+      "answers": [
+        "Anthony Tudor v roce 1942 s hudbou Arnolda Schönberga",
+        "Jerome Robbins v roce 1942 s hudbou Arnolda Schönberga",
+        "Anthony Tudor v roce 1941 s hudbou Arnolda Schönberga",
+        "Michail Fokine v roce 1942 s hudbou Arnolda Schönberga"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy bylo rozšířeno jméno souboru na American Ballet Theatre?",
+      "answers": [
+        "1957, název platí až dodnes",
+        "1956, název platí až dodnes",
+        "1958, název platí až dodnes",
+        "1959, název platí až dodnes"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byl ředitelem American Ballet Theatre v letech 1980-1989?",
+      "answers": [
+        "Michail Baryšnikov",
+        "Oliver Smith",
+        "Kevin McKenzie",
+        "Lucia Chase"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo je současným uměleckým ředitelem American Ballet Theatre?",
+      "answers": [
+        "Kevin McKenzie, bývalý tanečník a sólista ABT, působí od roku 1992",
+        "Michail Baryšnikov, působí od roku 1992",
+        "Oliver Smith, působí od roku 1992",
+        "Alexej Ratmanskij, působí od roku 1992"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo je rezidenčním choreografem American Ballet Theatre od roku 2009?",
       "answers": [
         "Alexej Ratmanskij",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Kevin McKenzie",
+        "Jerome Robbins",
+        "George Balanchine"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1946 ?",
+      "question": "Který balet vytvořil Balanchine jako poslední choreografii pro svou múzu Suzanne Farrell?",
       "answers": [
-        "– Raymonda (hudba – A",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Variations for Orchestra v roce 1982",
+        "Who Cares? v roce 1970",
+        "Drahokamy v roce 1967",
+        "Sen noci svatojánské v roce 1962"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1983 ?",
+      "question": "Který balet vytvořil Robbins v roce 1949 po nástupu do New York City Ballet?",
       "answers": [
-        "– zemřel v NY",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co se stalo v roce 1957 ?",
-      "answers": [
-        "– West Side Story (hudba – L",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co se stalo v roce  20. stol.?",
-      "answers": [
-        "zde nebyla žádná kvalitní taneční škola)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co je charakteristické pro 15.) vývoj baletu v usa?",
-      "answers": [
-        "(až do 30",
-        "(F",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co zahrnuje 15.) vývoj baletu v usa?",
-      "answers": [
-        "- zájem o tanec vzrostl díky hostování tanečníků z období romantismu",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co zahrnuje 15.) vývoj baletu v usa?",
-      "answers": [
-        "- a také vlivem souboru RBSĎ (V. Nižinskij) a souboru A. Pavlovy",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Co zahrnuje 15.) vývoj baletu v usa?",
-      "answers": [
-        "- 1913-21 – carská baletní škola + souběžně studoval hudební konzervatoř",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Faunovo odpoledne s hudbou Clauda Debussyho",
+        "Fancy Free s hudbou Leonarda Bernsteina",
+        "Moves v roce 1959",
+        "Events v roce 1961"
       ],
       "correct": 0
     }

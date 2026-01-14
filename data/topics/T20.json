@@ -1,0 +1,31 @@
+{
+  "id": "T20",
+  "order": 20,
+  "title": "POČÁTKY TANCE V ČECHÁCH",
+  "image": "assets/images/topics/T20.svg",
+  "objectives": [
+    "Pochopit počátky tance v Čechách spojené s obřady a rituály",
+    "Naučit se o prvních stálých pražských divadlech (Divadlo v Kotcích, Stavovské divadlo, Bouda)",
+    "Rozpoznat významné osobnosti českého baletu (Václav Reisinger, Augustin Berger)",
+    "Pochopit vývoj baletu v Čechách od 18. do konce 19. století",
+    "Naučit se o významných baletních titulech a jejich tvůrcích"
+  ],
+  "materials": {
+    "summary": "Počátky tance v Čechách byly spojeny s obřady a rituály. Vývoj divadelní kultury od 12. století zahrnoval středověké náboženské hry s tancem. První písemná zmínka o tanci v maskách byla v roce 1555 v Plzni. V roce 1570 Giuseppe Arcimboldo uspořádal slavnostní průvod maskovaných postav na Staroměstském náměstí. Koncem 17. století se dvorský balet objevil na zámcích v Roudnici nad Labem a Jaroměřicích nad Rokytnou. První stálá pražská divadla byly Divadlo v Kotcích (1739), Velké hraběcí Nosticovo národní divadlo (1783, později Stavovské divadlo) a divadlo Bouda (1786). První český baletní mistr Stavovského divadla byl Václav Reisinger, který v roce 1884 vytvořil první původní český balet Hašiš. Augustin Berger byl významný baletní mistr Národního divadla, který v roce 1885 nastudoval Excelsior a v roce 1888 uvedl první Labutí jezero mimo Rusko."
+  },
+  "audio": {
+    "title": "Otázka 20 - POČÁTKY TANCE V ČECHÁCH",
+    "src": "assets/audio/Otazka-20-pocatky-tance-v-cechach.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T20_resources.json",
+  "flashcardSource": "data/flashcards/T20_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T20_materials.json",
+  "summarySource": "data/summaries/T20_summary.txt",
+  "quizSource": "data/quizzes/T20_quiz.json"
+}

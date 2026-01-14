@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "heading": "VÝVOJ BALETU V ANGLII",
+      "resources": [
+        {
+          "title": "Royal Ballet - historie a vývoj",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=royal+ballet+history+ninette+de+valois+documentary",
+          "explanation": "Dokumentární videa o historii Royal Ballet, Ninette de Valois, vývoji od Vic-Wells Ballet přes Sadler's Wells Ballet až po Royal Ballet. Pokrývá také významné choreografy Fredericka Ashtona a Kennetha MacMillana."
+        },
+        {
+          "title": "Frederick Ashton - anglický choreograf",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=frederick+ashton+royal+ballet+choreographer+documentary",
+          "explanation": "Dokumentární materiály o Fredericku Ashtonovi, jeho choreografiích (Popelka, Romeo a Julie, The Dream), působení u Marie Rambert a později u Ninette de Valois, a jeho roli jako šéfa Royal Ballet."
+        },
+        {
+          "title": "Kenneth MacMillan - britský choreograf",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=kenneth+macmillan+royal+ballet+choreographer+documentary",
+          "explanation": "Dokumentární videa o Kennethu MacMillanovi, jeho choreografiích (Romeo a Julie, Manon, Mayerling), působení v Royal Ballet a Stuttgart Ballet, a jeho významu pro britský balet."
+        },
+        {
+          "title": "Marie Rambert a Rambert Ballet",
+          "platform": "YouTube - Dance History",
+          "url": "https://www.youtube.com/results?search_query=marie+rambert+rambert+ballet+history+documentary",
+          "explanation": "Dokumentární pořady o Marii Rambert, její taneční škole, souboru Rambert Ballet (původně Ballet Club), a jejím vlivu na vývoj anglického baletu včetně podpory Fredericka Ashtona a dalších choreografů."
+        },
+        {
+          "title": "Anglické masques a počátky baletu",
+          "platform": "YouTube - Theater History",
+          "url": "https://www.youtube.com/results?search_query=english+masques+masks+ben+jonson+inigo+jones+history+documentary",
+          "explanation": "Dokumentární materiály o anglických masques (maskách) z 16. a 17. století, Benu Jonsonovi, Inigo Jonesovi a jejich struktuře. Pokrývá také počátky anglického baletu."
+        }
+      ]
+    }
+  ]
+}
+

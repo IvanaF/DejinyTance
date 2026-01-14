@@ -1,0 +1,31 @@
+{
+  "id": "T16",
+  "order": 16,
+  "title": "VÝVOJ MODERNÍHO TANCE V EVROPĚ",
+  "image": "assets/images/topics/T16.svg",
+  "objectives": [
+    "Pochopit krizi baletu na konci 19. a počátku 20. století a vznik hnutí moderního tance",
+    "Naučit se o prvních zakladatelích moderního tance (Delsarte, Fuller, Duncan)",
+    "Rozpoznat hlavní představitele moderního tance v Evropě (Dalcroze, Laban, Jooss, Wigman)",
+    "Pochopit významné metody a techniky moderního tance",
+    "Naučit se o významných školách a souborech moderního tance"
+  ],
+  "materials": {
+    "summary": "Vývoj moderního tance v Evropě začal na konci 19. a počátku 20. století, kdy se balet dostal do krize kromě Ruska. V Evropě se začalo prosazovat hnutí moderního tance, které kritizovalo balet za neschopnost reagovat na aktuální témata a anatomickou nepřirozenost. První zakladatelé moderního tance byli Francois Delsarte, který vytvořil systém analýzy výrazových pohybů, Loïe Fuller, která experimentovala s látkou a nasvícením, a Isadora Duncan, která založila nový taneční styl duncanismus. Mezi hlavní představitele patřili Emile Jaques-Dalcroze s metodou rytmické gymnastiky, Rudolf Laban, který vytvořil Labanovu notaci a pohybovou metodu, Kurt Jooss, žák Labana, a Mary Wigman, která otevřela vlastní školu v Drážďanech. Všichni tito umělci významně přispěli k rozvoji moderního tance v Evropě."
+  },
+  "audio": {
+    "title": "Otázka 16 - VÝVOJ MODERNÍHO TANCE V EVROPĚ",
+    "src": "assets/audio/Otazka-16-vyvoj-moderniho-tance-v-evrope.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T16_resources.json",
+  "flashcardSource": "data/flashcards/T16_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T16_materials.json",
+  "summarySource": "data/summaries/T16_summary.txt",
+  "quizSource": "data/quizzes/T16_quiz.json"
+}

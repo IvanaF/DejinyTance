@@ -1,0 +1,31 @@
+{
+  "id": "T14",
+  "order": 14,
+  "title": "VÝZNAMNÍ CHOREOGRAFOVÉ SOUBORU RUSKÉ BALETY",
+  "image": "assets/images/topics/T14.svg",
+  "objectives": [
+    "Pochopit život a dílo Michaila Fokina a jeho roli v reformě baletního umění",
+    "Naučit se o Vaslavu Nižinském, jeho revolučních choreografiích a tragickém osudu",
+    "Rozpoznat přínos Bronislavy Nižinské jako jediné ženy-choreografky u Ďagileva",
+    "Pochopit význam Leonida Massina pro vývoj symfonického baletu",
+    "Naučit se o nejvýznamnějších baletech a choreografiích těchto umělců"
+  ],
+  "materials": {
+    "summary": "Téma se zaměřuje na čtyři významné choreografy souboru Ruské balety: Michaila Fokina, Vaslava Nižinského, Bronislavu Nižinskou a Leonida Massina. Michail Fokine byl klíčovou postavou reformy baletního umění, vytvořil řadu významných baletů a působil v různých souborech po celém světě. Vaslav Nižinskij byl geniální tanečník a choreograf, který vytvořil revoluční balety jako Faunovo odpoledne a Svěcení jara, ale jeho kariéru ukončila schizofrenie. Bronislava Nižinská byla jediná žena-choreografka působící u Ďagileva a vytvořila významné balety jako Svatby a Modrý vlak. Leonid Massine byl všestranný umělec, který vytvořil první symfonické balety a spolupracoval s filmem."
+  },
+  "audio": {
+    "title": "Otázka 14 - VÝZNAMNÍ CHOREOGRAFOVÉ SOUBORU RUSKÉ BALETY",
+    "src": "assets/audio/Otazka-14-vyznamni-choreografove-souboru-ruske-balety.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T14_resources.json",
+  "flashcardSource": "data/flashcards/T14_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T14_materials.json",
+  "summarySource": "data/summaries/T14_summary.txt",
+  "quizSource": "data/quizzes/T14_quiz.json"
+}

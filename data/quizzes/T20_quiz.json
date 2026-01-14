@@ -1,152 +1,312 @@
 {
   "questions": [
     {
-      "question": "Co je německý baletní mistr?",
+      "question": "S čím byly spojeny první tance v Čechách?",
       "answers": [
-        "Karel Stockinger (tance k operám)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "S obřady a rituály",
+        "S divadelními představeními",
+        "S dvorskými slavnostmi",
+        "S lidovými slavnostmi"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1770-78 – Vojtěch Morávek?",
+      "question": "Kdy byla první písemná zmínka o tanci v maskách v Čechách a kde?",
       "answers": [
-        "tituly: Maškaráda (baletní pantomima), Maličkosti",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1555 v Plzni",
+        "1570 v Praze",
+        "1555 v Praze",
+        "1570 v Plzni"
       ],
       "correct": 0
     },
     {
-      "question": "Co je při divadle založil taneční školu?",
+      "question": "Kdo uspořádal slavnostní průvod maskovaných postav na Staroměstském náměstí v roce 1570?",
       "answers": [
-        "pedagog + vedl každodenní tréninky",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Giuseppe Arcimboldo",
+        "Adam z Gustenberku",
+        "František Václav Míča",
+        "Karel Stockinger"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1860 – první český baletní mistr Stavovského divadla?",
+      "question": "Kdy bylo otevřeno Divadlo v Kotcích?",
       "answers": [
-        "Václav Reisinger",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1739",
+        "1747",
+        "1783",
+        "1786"
       ],
       "correct": 0
     },
     {
-      "question": "Co je (férický balet?",
+      "question": "Kdo byl německým baletním mistrem v Divadle v Kotcích?",
       "answers": [
-        "oslava technického pokroku 19",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Karel Stockinger",
+        "Vojtěch Morávek",
+        "Antonín Roessler",
+        "Phillip Nicoloni"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 48 repríz?",
+      "question": "V jakých letech působil Vojtěch Morávek v Divadle v Kotcích?",
       "answers": [
-        "15 let pravidelně na repertoáru",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1770-78",
+        "1777-78",
+        "1770-82",
+        "1782-83"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1889 – zemřela G. Paltrinieri (23 let) -> nová sólistka?",
+      "question": "Kdy bylo otevřeno Stavovské divadlo a jak se původně jmenovalo?",
       "answers": [
-        "Enrichetta Grimaldi",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "21. dubna 1783, Velké hraběcí Nosticovo národní divadlo",
+        "8. července 1786, divadlo Bouda",
+        "21. dubna 1783, Stavovské divadlo",
+        "1789, Stavovské divadlo"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1900 – odjezd do zahraničí?",
+      "question": "Kdy bylo otevřeno divadlo Bouda?",
       "answers": [
-        "konec prvního období",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "8. července 1786",
+        "21. dubna 1783",
+        "1739",
+        "1789"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1912?",
+      "question": "Kdo byl baletním mistrem Stavovského divadla a současně choreografem divadla Bouda?",
       "answers": [
-        "– návrat do vedení ND",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Xaver Sewe",
+        "Vojtěch Morávek",
+        "Antonín Roessler",
+        "Johann Rabb"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1789 ?",
+      "question": "Kdy přijela Kateřina Horscheltová do Prahy?",
       "answers": [
-        "– vedení přešlo pod správu pražských stavů-> změna názvu na Stavovské divadlo",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1814",
+        "1834",
+        "1791",
+        "1850"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1862 ?",
+      "question": "V jakých letech působil Johann Rabb v Praze?",
       "answers": [
-        "– baletní mistr Prozatímního divadla (divadlo před vybudováním Národního divadla)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1834-40",
+        "1814-34",
+        "1840-50",
+        "1850-60"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1814 ?",
+      "question": "Kdy se do Čech dostal romantický balet a díky komu?",
       "answers": [
-        "– příjezd Kateřiny Horscheltové se svou skupinou do Prahy",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1850, díky hostování Lucile Grahn",
+        "1834, díky Johannu Rabbovi",
+        "1814, díky Kateřině Horscheltové",
+        "1860, díky Václavu Reisingerovi"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 20.) počátky tance v čechách?",
+      "question": "Kdy se stal Václav Reisinger prvním českým baletním mistrem Stavovského divadla?",
       "answers": [
-        "- 1555 – první písemná zmínka o tanci v maskách, Plzeň",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1860",
+        "1850",
+        "1862",
+        "1883"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 20.) počátky tance v čechách?",
+      "question": "Kdy žil Václav Reisinger?",
       "answers": [
-        "- konec 17. stol. – dvorský balet -> zámky: Roudnice nad Labem, Jaroměřice nad Rokytnou",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1828-1892",
+        "1861-1945",
+        "1828-1884",
+        "1828-1890"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 20.) počátky tance v čechách?",
+      "question": "Kdy se stal Václav Reisinger prvním baletním mistrem Národního divadla?",
       "answers": [
-        "1730 – O původu Jaroměřic (původní česká opera, hudba – František Václav Míča)",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1883",
+        "1882",
+        "1884",
+        "1862"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Václav Reisinger Hašiš a proč je tento balet významný?",
+      "answers": [
+        "1884, první původní český balet",
+        "1883, první český balet",
+        "1885, první původní český balet",
+        "1884, první balet v Národním divadle"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil Augustin Berger?",
+      "answers": [
+        "1861-1945",
+        "1828-1892",
+        "1861-1900",
+        "1861-1922"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se stal Augustin Berger správcem Baletu Národního divadla?",
+      "answers": [
+        "1884",
+        "1883",
+        "1885",
+        "1882"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy byl uveden Excelsior v Praze a kdo ho nastudoval?",
+      "answers": [
+        "1885, Enrico Bori",
+        "1884, Augustin Berger",
+        "1885, Augustin Berger",
+        "1886, Enrico Bori"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kolik repríz měl Excelsior a jak dlouho byl na repertoáru?",
+      "answers": [
+        "48 repríz, 15 let",
+        "50 repríz, 15 let",
+        "48 repríz, 10 let",
+        "45 repríz, 15 let"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy se stal Augustin Berger baletním mistrem Národního divadla?",
+      "answers": [
+        "1885",
+        "1884",
+        "1886",
+        "1883"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy bylo uvedeno Giselle v Národním divadle a kdo tančil hlavní roli Giselle?",
+      "answers": [
+        "Únor 1886, Giulietta Paltrinieri",
+        "Prosinec 1886, Giulietta Paltrinieri",
+        "Únor 1886, Enrichetta Grimaldi",
+        "1888, Giulietta Paltrinieri"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy bylo uvedeno Labutí jezero v Národním divadle a proč je to významné?",
+      "answers": [
+        "1888, první uvedení mimo Rusko",
+        "1887, první uvedení mimo Rusko",
+        "1888, první uvedení v Čechách",
+        "1889, první uvedení mimo Rusko"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo tančil hlavní role v Labutím jezeře v Národním divadle v roce 1888?",
+      "answers": [
+        "Odetta/Odílie = Giulietta Paltrinieri, princ = Augustin Berger",
+        "Odetta/Odílie = Enrichetta Grimaldi, princ = Augustin Berger",
+        "Odetta/Odílie = Giulietta Paltrinieri, princ = Václav Reisinger",
+        "Odetta/Odílie = Lucile Grahn, princ = Augustin Berger"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy zemřela Giulietta Paltrinieri a ve věku kolika let?",
+      "answers": [
+        "1889, 23 let",
+        "1888, 23 let",
+        "1890, 23 let",
+        "1889, 24 let"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil Leoš Janáček Rákoš Rakoczy?",
+      "answers": [
+        "1891",
+        "1889",
+        "1893",
+        "1890"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakých letech bylo první období působení Augusta Bergera v Národním divadle?",
+      "answers": [
+        "1885-1900",
+        "1884-1900",
+        "1885-1912",
+        "1883-1900"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "V jakých letech bylo druhé období působení Augusta Bergera v Národním divadle?",
+      "answers": [
+        "1912-1922",
+        "1912-1920",
+        "1913-1922",
+        "1910-1922"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kde a v jakém období působil Augustin Berger v USA?",
+      "answers": [
+        "1922-32, New York, Metropolitní opera",
+        "1920-30, New York, Metropolitní opera",
+        "1922-32, New York, New York City Ballet",
+        "1922-35, New York, Metropolitní opera"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy bylo uvedeno Sylvie v Národním divadle a na hudbu jakého skladatele?",
+      "answers": [
+        "1888, Léo Delibes",
+        "1886, Léo Delibes",
+        "1888, Petr Iljič Čajkovskij",
+        "1889, Léo Delibes"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy byla uvedena Coppélie v Národním divadle za vedení Augusta Bergera?",
+      "answers": [
+        "1893",
+        "1891",
+        "1889",
+        "1895"
       ],
       "correct": 0
     }

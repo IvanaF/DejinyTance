@@ -1,202 +1,442 @@
 {
   "questions": [
     {
-      "question": "Co je angažmá?",
+      "question": "Kdy začal vývoj moderního tance v USA ve srovnání s Evropou?",
       "answers": [
-        "soubor Davida Belascy (skupina herců a tanečníků",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Později než v Evropě",
+        "Současně s Evropou",
+        "Dříve než v Evropě",
+        "Většinou pouze v muzikálech"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1915 – L.A.?",
+      "question": "Kdo byla zakladatelka moderního tance v USA?",
       "answers": [
-        "spolu založili školu moderního tance Denishawn School",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Ruth St. Denis",
+        "Martha Graham",
+        "Doris Humphrey",
+        "Isadora Duncan"
       ],
       "correct": 0
     },
     {
-      "question": "Co je 1916 – založení souboru (členové?",
+      "question": "Kdy žila Ruth St. Denis?",
       "answers": [
-        "nejlepší žáci školy)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1879-1968",
+        "1894-1991",
+        "1895-1958",
+        "1891-1972"
       ],
       "correct": 0
     },
     {
-      "question": "Co je doporučená léčba?",
+      "question": "Kde se narodila Ruth St. Denis?",
       "answers": [
-        "pohyb -> seznámení s metodou F",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "New Jersey",
+        "New York",
+        "Kalifornie",
+        "Los Angeles"
       ],
       "correct": 0
     },
     {
-      "question": "Co je sídlo souboru?",
+      "question": "Co inspirovalo Ruth St. Denis k orientálnímu tanci?",
       "answers": [
-        "farma Jacob‘s Pillow, Massachusetts",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Plakát s reklamou na cigarety s bohyní Isis",
+        "Vystoupení indických tanečníků",
+        "Představení v Paříži",
+        "Turné po Asii"
       ],
       "correct": 0
     },
     {
-      "question": "Co je pořádání letních škol, tanečních festivalů?",
+      "question": "Kdy vytvořila Ruth St. Denis představení Egypta?",
       "answers": [
-        "centrum tanečního umění",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1909",
+        "1906",
+        "1911",
+        "1915"
       ],
       "correct": 0
     },
     {
-      "question": "Co je prvně se objevil pro Graham typický kostým?",
+      "question": "Kdy a kde založili Ruth St. Denis a Ted Shawn Denishawn School?",
       "answers": [
-        "elastické modré šaty s látkou",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1915, Los Angeles",
+        "1914, New York",
+        "1916, Los Angeles",
+        "1917, New York"
       ],
       "correct": 0
     },
     {
-      "question": "Co je poprvé zde vystoupili dva muži?",
+      "question": "Jaké předměty vyučovala Denishawn School?",
       "answers": [
-        "Erick Hawkins, Merce Cunningham",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Klasický tanec, rytmická gymnastika, lidové tance, dějiny tance, filozofie",
+        "Klasický tanec, balet, dějiny umění",
+        "Moderní tanec, choreografie, hudba",
+        "Oriental dance, balet, filozofie"
       ],
       "correct": 0
     },
     {
-      "question": "Co je (studovali zde dva Češi?",
+      "question": "Kdy došlo k zániku Denishawn School?",
       "answers": [
-        "Ivanka Kubicová, Jan Hartmann – rozšířili u nás tuto metodu)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1931",
+        "1928",
+        "1933",
+        "1940"
       ],
       "correct": 0
     },
     {
-      "question": "Co je (poslední významná role?",
+      "question": "Kdo spolupracoval s Denishawn School jako hudební ředitel?",
       "answers": [
-        "kněz, titul Apalačské jaro)",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Louis Horst",
+        "Aaron Copland",
+        "John Cage",
+        "Zoltán Kodály"
       ],
       "correct": 0
     },
     {
-      "question": "Co je celkem 143 inscenací; - abstraktní choreografie?",
+      "question": "Kdy žil Ted Shawn?",
       "answers": [
-        "neměly pevnou dějovou linku",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1891-1972",
+        "1879-1968",
+        "1895-1958",
+        "1901-1975"
       ],
       "correct": 0
     },
     {
-      "question": "Co je spolupráce s avantgardními umělci?",
+      "question": "Jak se Ted Shawn seznámil s metodou Françoise Delsarta?",
       "answers": [
-        "Robert Rauschenberg, Andy Warhol",
-        "Nelze jednoznačně určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Díky doporučené léčbě pohybem při onemocnění",
+        "Na univerzitě",
+        "Od Ruth St. Denis",
+        "V Evropě"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1930?",
+      "question": "Kdy debutoval soubor Ted Shawn and his Man Dancers?",
       "answers": [
-        "-40 – žák Humphrey-Weidman studia, NY",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1933",
+        "1931",
+        "1940",
+        "1928"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1946 ?",
+      "question": "Kde bylo sídlo souboru Teda Shawna?",
       "answers": [
-        "– Cave of the Heart (příběh Medea a Iáson) 1947 – Errand into the Maze (Ariadna a Minotaurus, boj se",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "Farma Jacob's Pillow, Massachusetts",
+        "Los Angeles",
+        "New York",
+        "Chicago"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1906 ?",
+      "question": "Kdy žila Doris Humphrey?",
       "answers": [
-        "– sólová vystoupení ve vlastních choreografiích",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1895-1958",
+        "1879-1968",
+        "1894-1991",
+        "1901-1975"
       ],
       "correct": 0
     },
     {
-      "question": "Co se stalo v roce 1990 ?",
+      "question": "Kdy vytvořila Doris Humphrey choreografii Air for G String a na hudbu jakého skladatele?",
       "answers": [
-        "– Maple Leaf Rag (hudba – Scott Joplin, kostýmy – Calvin Klein)",
-        "Nelze určit z textu",
-        "Žádná významná událost",
-        "Informace nejsou k dispozici"
+        "1928, Johann Sebastian Bach",
+        "1930, Aaron Copland",
+        "1927, Louis Horst",
+        "1929, Zoltán Kodály"
       ],
       "correct": 0
     },
     {
-      "question": "Co je charakteristické pro 17.) vývoj moderního tance v usa?",
+      "question": "Kdy založili Doris Humphrey a Charles Weidman Humphrey-Weidman studio?",
       "answers": [
-        "• Ruth St",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1928",
+        "1927",
+        "1930",
+        "1925"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 17.) vývoj moderního tance v usa?",
+      "question": "Na jakém principu byla založena myšlenka Doris Humphrey o pohybu?",
       "answers": [
-        "- působila jako akrobatická tanečnice",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "Všechny pohyby souvisí s pádem a zdvihem",
+        "Princip contraction a release",
+        "Princip náhody",
+        "Práce celého těla"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 17.) vývoj moderního tance v usa?",
+      "question": "Kdy byla Doris Humphrey spoluzakladatelkou školy moderního tance Julliard School?",
       "answers": [
-        "- evropské turné s orientálními tanci",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1954",
+        "1945",
+        "1958",
+        "1928"
       ],
       "correct": 0
     },
     {
-      "question": "Co zahrnuje 17.) vývoj moderního tance v usa?",
+      "question": "Kdy žil Charles Weidman?",
       "answers": [
-        "-> turné po celé Americe",
-        "Nelze určit",
-        "Informace nejsou dostupné",
-        "Závisí na kontextu"
+        "1901-1975",
+        "1895-1958",
+        "1908-1972",
+        "1891-1972"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo byli žáci Charlese Weidmana?",
+      "answers": [
+        "Gene Kelly, Bob Fosse, Alvin Ailey",
+        "Paul Taylor, Twyla Tharp",
+        "José Limón, Merce Cunningham",
+        "Erick Hawkins, Merce Cunningham"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil José Limón a kde se narodil?",
+      "answers": [
+        "1908-1972, Mexiko",
+        "1895-1958, USA",
+        "1901-1975, USA",
+        "1909-1994, USA"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy založil José Limón svůj soubor?",
+      "answers": [
+        "1945",
+        "1940",
+        "1942",
+        "1950"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kolik choreografií vytvořil José Limón celkem?",
+      "answers": [
+        "Více než 70",
+        "Kolem 200",
+        "Přes 140",
+        "Okolo 50"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořil José Limón Maurovu pavanu a na jaký námět?",
+      "answers": [
+        "1949, Othello, mouřenín benátský",
+        "1945, Medea a Iáson",
+        "1958, Ariadna a Minotaurus",
+        "1950, Judith"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žila Martha Graham?",
+      "answers": [
+        "1894-1991",
+        "1879-1968",
+        "1895-1958",
+        "1908-1972"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy založila Martha Graham vlastní taneční školu?",
+      "answers": [
+        "1927",
+        "1926",
+        "1929",
+        "1925"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy založila Martha Graham svůj soubor?",
+      "answers": [
+        "1929",
+        "1927",
+        "1930",
+        "1928"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kolik choreografií vytvořila Martha Graham celkem?",
+      "answers": [
+        "Kolem 200",
+        "Více než 70",
+        "Přes 140",
+        "Okolo 50"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Na jakém principu je založena technika Marthy Graham?",
+      "answers": [
+        "Princip contraction a release svalů související s dechem",
+        "Princip pádu a zdvihu",
+        "Princip náhody",
+        "Práce celého těla"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořila Martha Graham choreografii Appalachian Spring a na hudbu jakého skladatele?",
+      "answers": [
+        "1944, Aaron Copland",
+        "1930, Zoltán Kodály",
+        "1938, Louis Horst",
+        "1946, Aaron Copland"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořila Martha Graham první celovečerní balet a jak se jmenoval?",
+      "answers": [
+        "1958, Clytemnestra",
+        "1944, Appalachian Spring",
+        "1950, Judith",
+        "1946, Cave of the Heart"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Na kolik období se rozděluje tvorba Marthy Graham podle tématu?",
+      "answers": [
+        "Tři",
+        "Dvě",
+        "Čtyři",
+        "Pět"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy měla Martha Graham poslední taneční vystoupení?",
+      "answers": [
+        "1969",
+        "1974",
+        "1991",
+        "1958"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdo rozšířil Graham techniku do Evropy?",
+      "answers": [
+        "Robert Cohen",
+        "Ivanka Kubicová",
+        "Jan Hartmann",
+        "Paul Taylor"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil Erick Hawkins?",
+      "answers": [
+        "1909-1994",
+        "1894-1991",
+        "1919-2009",
+        "1908-1972"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy založil Erick Hawkins svůj soubor?",
+      "answers": [
+        "1950",
+        "1938",
+        "1945",
+        "1952"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy žil Merce Cunningham a jakým přízviskem je znám?",
+      "answers": [
+        "1919-2009, otec avantgardy",
+        "1909-1994, manžel Marthy Graham",
+        "1894-1991, zakladatelka moderního tance",
+        "1908-1972, žák Doris Humphrey"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy založil Merce Cunningham svůj soubor?",
+      "answers": [
+        "1952",
+        "1945",
+        "1950",
+        "1940"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co je princip náhody, který použil Merce Cunningham?",
+      "answers": [
+        "Diváci házeli kostkami",
+        "Abstraktní choreografie",
+        "Nezávislost hudby a tance",
+        "Každý může být sólista"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kolik inscenací vytvořil Merce Cunningham celkem?",
+      "answers": [
+        "143",
+        "Kolem 200",
+        "Více než 70",
+        "Okolo 100"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "S kým spolupracoval Merce Cunningham jako hudební skladatel?",
+      "answers": [
+        "John Cage",
+        "Aaron Copland",
+        "Louis Horst",
+        "Zoltán Kodály"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořila Martha Graham choreografii Lamentation?",
+      "answers": [
+        "1930",
+        "1929",
+        "1931",
+        "1935"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Kdy vytvořila Martha Graham choreografii Frontier?",
+      "answers": [
+        "1935",
+        "1930",
+        "1938",
+        "1944"
       ],
       "correct": 0
     }

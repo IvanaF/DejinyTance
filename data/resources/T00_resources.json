@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "heading": "Úvod",
+      "resources": [
+        {
+          "title": "Základy tance a baletu - úvod",
+          "platform": "YouTube - Dance Education",
+          "url": "https://www.youtube.com/results?search_query=tanec+balet+zaklady+definice+uvod+cesky",
+          "explanation": "Vzdělávací videa o základních pojmech tance a baletu, definice a rozdělení tance."
+        },
+        {
+          "title": "Dějiny tance - úvod",
+          "platform": "YouTube - History of Dance",
+          "url": "https://www.youtube.com/results?search_query=dejiny+tance+historie+tanec+uvod+documentary",
+          "explanation": "Dokumentární videa o dějinách tance, základní přehled a úvod do tématu."
+        },
+        {
+          "title": "Klasický balet - základy",
+          "platform": "YouTube - Ballet Basics",
+          "url": "https://www.youtube.com/results?search_query=klasicky+balet+zaklady+technika+cesky",
+          "explanation": "Vzdělávací materiály o klasickém baletu, taneční technice a základních pojmech."
+        },
+        {
+          "title": "Moderní tanec - úvod",
+          "platform": "YouTube - Modern Dance",
+          "url": "https://www.youtube.com/results?search_query=moderni+tanec+uvod+historie+cesky",
+          "explanation": "Videa o moderním tanci, jeho vzniku a charakteristikách."
+        },
+        {
+          "title": "Lidový a historický tanec",
+          "platform": "YouTube - Folk and Historical Dance",
+          "url": "https://www.youtube.com/results?search_query=lidovy+tanec+historicky+tanec+cesky+folk+dance",
+          "explanation": "Dokumentární videa o lidovém a historickém tanci, jejich charakteristikách a příkladech."
+        }
+      ]
+    }
+  ]
+}
+

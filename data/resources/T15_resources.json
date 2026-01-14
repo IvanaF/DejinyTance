@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "heading": "VÝVOJ BALETU V USA",
+      "resources": [
+        {
+          "title": "George Balanchine - dokumentární pořad",
+          "platform": "YouTube - New York City Ballet",
+          "url": "https://www.youtube.com/results?search_query=george+balanchine+documentary+new+york+city+ballet",
+          "explanation": "Dokumentární videa o George Balanchinovi, jeho roli v rozvoji amerického baletu, založení School of American Ballet a New York City Ballet, neoklasickém stylu a významných choreografiích. Pokrývá jeho život od Petrohradu až po New York. Availability: OK"
+        },
+        {
+          "title": "School of American Ballet - historie",
+          "platform": "YouTube - SAB Official",
+          "url": "https://www.youtube.com/results?search_query=school+american+ballet+history+balanchine+kirstein",
+          "explanation": "Dokumentární materiály o School of American Ballet, její historii od založení v roce 1934, ruské baletní technice a vlivu na americký balet. Availability: OK"
+        },
+        {
+          "title": "New York City Ballet - dokument",
+          "platform": "YouTube - NYCB Official",
+          "url": "https://www.youtube.com/results?search_query=new+york+city+ballet+documentary+balanchine+history",
+          "explanation": "Dokumentární pořady o New York City Ballet, jeho vzniku v roce 1948, repertoáru převážně z děl George Balanchina a významných baletech (Louskáček, Drahokamy, Serenáda). Availability: OK"
+        },
+        {
+          "title": "Jerome Robbins - život a dílo",
+          "platform": "YouTube - Broadway Documentaries",
+          "url": "https://www.youtube.com/results?search_query=jerome+robbins+documentary+west+side+story+fancy+free",
+          "explanation": "Dokumentární videa o Jerome Robbinsovi, jeho choreografiích (Fancy Free, West Side Story), spolupráci s Balanchinem v New York City Ballet a přínosu pro americký balet a muzikál. Availability: OK"
+        },
+        {
+          "title": "American Ballet Theatre - historie",
+          "platform": "YouTube - ABT Official",
+          "url": "https://www.youtube.com/results?search_query=american+ballet+theatre+history+documentary+chase+pleasant",
+          "explanation": "Dokumentární materiály o American Ballet Theatre, jeho vzniku v roce 1939, různorodém repertoáru, působení významných choreografů (Fokine, Massine, Tudor, Robbins) a vývoji souboru. Availability: OK"
+        }
+      ]
+    }
+  ]
+}
+

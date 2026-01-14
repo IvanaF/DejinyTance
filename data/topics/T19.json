@@ -1,0 +1,31 @@
+{
+  "id": "T19",
+  "order": 19,
+  "title": "VÝZNAMNÍ SVĚTOVÍ CHOREOGRAFOVÉ",
+  "image": "assets/images/topics/T19.svg",
+  "objectives": [
+    "Pochopit přínos Johna Cranka pro stuttgardský balet a jeho dějové balety",
+    "Naučit se o Maurice Béjartovi a jeho Ballet du XXe siècle",
+    "Rozpoznat význam Johna Neumeiera a jeho čtyři okruhy tvorby",
+    "Pochopit styl Mats Eka a jeho moderní adaptace klasických baletů",
+    "Naučit se o Williamu Forsythovi a jeho bezdějových, technicky náročných choreografiích"
+  ],
+  "materials": {
+    "summary": "Téma představuje významné světové choreografy druhé poloviny 20. století. John Cranko, anglický choreograf, působil ve Stuttgartu, kde vytvořil dějové balety jako Romeo a Julie, Oněgin a Zkrocení zlé ženy. Maurice Béjart, francouzský choreograf, založil Ballet du XXe siècle v Bruselu a vytvořil významná díla jako Bolero a Svěcení jara. John Neumeier, americký choreograf působící v Hamburku, se zaměřoval na choreografie inspirované literárními díly, Shakespearovy hry, symfonickou hudbu a klasické baletní příběhy. Mats Ek, švédský choreograf z umělecké rodiny, vytvořil moderní adaptace klasických baletů jako Giselle, Labutí jezero a Spící krasavice. William Forsythe, americký choreograf působící v Německu, vytvořil bezdějové, technicky náročné choreografie inspirované Georgem Balanchinem a Rudolfem Labanem, přičemž jeho nejznámější dílo je In the Middle, Somewhat Elevated."
+  },
+  "audio": {
+    "title": "Otázka 19 - VÝZNAMNÍ SVĚTOVÍ CHOREOGRAFOVÉ",
+    "src": "assets/audio/Otazka-19-vyznamni-svetovi-choreografove.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T19_resources.json",
+  "flashcardSource": "data/flashcards/T19_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T19_materials.json",
+  "summarySource": "data/summaries/T19_summary.txt",
+  "quizSource": "data/quizzes/T19_quiz.json"
+}

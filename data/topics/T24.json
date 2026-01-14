@@ -1,0 +1,31 @@
+{
+  "id": "T24",
+  "order": 24,
+  "title": "BALETNÍ MISTŘI A REPEROTÁR ND OD R. 1959",
+  "image": "assets/images/topics/T24.svg",
+  "objectives": [
+    "Pochopit situaci souboru ND po smrti Saši Machova v roce 1951",
+    "Naučit se o baletních mistrech ND od roku 1959 (Vlastimil Jílek, Antonín Landa, Jiří Němeček, Emerich Gabzdyl, Miroslav Kůra, Vlastimil Harapes, Petr Zuska)",
+    "Rozpoznat významné tituly a choreografie jednotlivých baletních mistrů",
+    "Pochopit vývoj repertoáru ND v období po roce 1959",
+    "Naučit se o významných tanečnících působících v souboru"
+  ],
+  "materials": {
+    "summary": "Po smrti Saši Machova v roce 1951 se soubor Národního divadla ocitl v krizi. Vedení se ujali bývalí sólisté souboru. Vlastimil Jílek (1925-1996) byl šéfem baletu ND v letech 1951-55 a vytvořil tituly jako Jánošík, Švanda dudák a Z pohádky do pohádky. Antonín Landa (1916-1995) převzal funkci šéfa baletu v roce 1955 a vytvořil pohádkové balety jako Ferda mravenec a Sůl nad zlato. Jiří Němeček (1924-1991) byl šéfem Baletu ND Praha ve dvou obdobích (1957-70 a 1977-90), vytvořil na 80 baletních inscenací a zvýšil počet tanečníků na 160. Emerich Gabzdyl (1908-1993) působil jako šéf Baletu ND Praha v letech 1970-74 a uvedl tituly jako Svěcení jara a Ondráš. Miroslav Kůra (*1924) byl jedním z nejlepších poválečných tanečníků a působil jako šéf baletu v Brně. Vlastimil Harapes (*1946) byl šéfem Baletu ND Praha v letech 1990-2002, netvořil choreografie, ale podílel se na režijní práci a přizval Libora Vaculíka. Petr Zuska (*1968) byl šéfem Baletu ND v letech 2002-17 a vytvořil tituly jako Zpověď, Šibeničky a V mlhách."
+  },
+  "audio": {
+    "title": "Otázka 24 - BALETNÍ MISTŘI A REPEROTÁR ND OD R. 1959",
+    "src": "assets/audio/Otazka-24-baletni-mistri-a-reperotar-nd-od-r-1959.mp3",
+    "transcript": "",
+    "files": []
+  },
+  "resourcesSource": "data/resources/T24_resources.json",
+  "flashcardSource": "data/flashcards/T24_flashcards.json",
+  "mindmap": {
+    "description": "",
+    "image": ""
+  },
+  "materialsSource": "data/materials/T24_materials.json",
+  "summarySource": "data/summaries/T24_summary.txt",
+  "quizSource": "data/quizzes/T24_quiz.json"
+}
