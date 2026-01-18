@@ -121,9 +121,9 @@ Po přidání termínů:
 
 ### Automatická kontrola
 
-Pro kontrolu a opravu term links souborů lze použít skript `check_all_term_links.py`:
+Pro kontrolu a opravu term links souborů lze použít skript `scripts/check_all_term_links.py`:
 ```bash
-python check_all_term_links.py
+python scripts/check_all_term_links.py
 ```
 
 Skript automaticky:
