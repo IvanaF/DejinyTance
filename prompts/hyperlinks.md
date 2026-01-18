@@ -117,6 +117,39 @@ Po přidání termínů:
 3. **Konzistence**: Používej stejné termíny pro stejné pojmy napříč kapitolami (např. "buddhismus" by měl být vždy stejný)
 4. **Priorita**: Začni s nejdůležitějšími termíny (osobnosti, místa, klíčové pojmy), méně důležité termíny můžeš přidat později
 
+## Kontrola a oprava term links
+
+### Automatická kontrola
+
+Pro kontrolu a opravu term links souborů lze použít skript `check_all_term_links.py`:
+```bash
+python check_all_term_links.py
+```
+
+Skript automaticky:
+- Opravuje chyby v pravopisu (např. `Fokin` → `Fokine`, `Vaclav` → `Vaslav`)
+- Opravuje nejednoznačná jména osob (např. `Taglioni` může odkazovat na více osob - upravuje podle kontextu)
+- Upřednostňuje taneční osobnosti při více možnostech se stejným jménem
+- Kontroluje všechny soubory v `data/term_links/`
+
+### Běžné problémy a řešení
+
+**1. Ambiguální jména osob:**
+- Pokud více osob má stejné jméno, použij kontext pro rozhodnutí
+- Např. `Taglioni` může odkazovat na:
+  - `Filippo_Taglioni` (choreograf, otec) - pro obecný kontext choreografie
+  - `Paolo_Taglioni` (tanečník, syn) - pro kontext amerického baletu
+  - `Marie_Taglioni` (tanečnice, dcera) - když je explicitně uvedena
+  - `Paulina_Taglioni` (vnučka) - když je explicitně uvedena
+
+**2. Chyby v pravopisu:**
+- `Michail_Fokin` → `Michail_Fokine`
+- `Vaclav_Nižinskij` → `Vaslav_Nižinskij`
+
+**3. Zkratky vyžadující kontext:**
+- `M. Ek` může být `Mats_Ek` (choreograf) nebo `Malin_Ek` (kostymérka) - preferuj choreografa
+- Pokud je explicitně uvedeno "Malin Ek", použij `Malin_Ek`
+
 ## Technické poznámky
 
 - Systém automaticky načte termíny při načtení kapitoly

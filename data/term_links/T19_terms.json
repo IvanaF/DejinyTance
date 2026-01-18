@@ -1,5 +1,6 @@
 {
   "terms": {
+    "M. Ek": "https://cs.wikipedia.org/wiki/Mats_Ek",
     "John Cranko": "https://cs.wikipedia.org/wiki/John_Cranko",
     "J. Cranko": "https://cs.wikipedia.org/wiki/John_Cranko",
     "Cranko": "https://cs.wikipedia.org/wiki/John_Cranko",
@@ -10,7 +11,6 @@
     "J. Neumeier": "https://cs.wikipedia.org/wiki/John_Neumeier",
     "Neumeier": "https://cs.wikipedia.org/wiki/John_Neumeier",
     "Mats Ek": "https://cs.wikipedia.org/wiki/Mats_Ek",
-    "M. Ek": "https://cs.wikipedia.org/wiki/Mats_Ek",
     "Ek": "https://cs.wikipedia.org/wiki/Mats_Ek",
     "William Forsythe": "https://cs.wikipedia.org/wiki/William_Forsythe",
     "W. Forsythe": "https://cs.wikipedia.org/wiki/William_Forsythe",
@@ -76,7 +76,6 @@
     "Niklas Ek": "https://cs.wikipedia.org/wiki/Niklas_Ek",
     "N. Ek": "https://cs.wikipedia.org/wiki/Niklas_Ek",
     "Malin Ek": "https://cs.wikipedia.org/wiki/Malin_Ek",
-    "M. Ek": "https://cs.wikipedia.org/wiki/Malin_Ek",
     "Thom Willems": "https://cs.wikipedia.org/wiki/Thom_Willems",
     "T. Willems": "https://cs.wikipedia.org/wiki/Thom_Willems",
     "Willems": "https://cs.wikipedia.org/wiki/Thom_Willems",
@@ -242,4 +241,3 @@
     "Stockholmská baletní akademie": "https://cs.wikipedia.org/wiki/Stockholm_University_of_the_Arts"
   }
 }
-
