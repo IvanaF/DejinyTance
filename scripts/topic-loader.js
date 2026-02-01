@@ -40,7 +40,9 @@ function resolvePath(relativePath) {
     relativePath = relativePath.substring(2);
   }
   // Combine base path with relative path
-  return basePath + relativePath;
+  const resolved = basePath + relativePath;
+  console.log(`Resolved path: "${relativePath}" -> "${resolved}" (base: "${basePath}")`);
+  return resolved;
 }
 
 class TopicLoader {
