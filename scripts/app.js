@@ -3,25 +3,6 @@
  */
 
 /**
- * Get base path for GitHub Pages compatibility
- * @returns {string} Base path (e.g., '/' or '/DejinyTance/')
- */
-function getBasePath() {
-  const path = window.location.pathname;
-  const pathParts = path.split('/').filter(p => p);
-  // Remove filename if present
-  if (pathParts.length > 0 && pathParts[pathParts.length - 1].includes('.')) {
-    pathParts.pop();
-  }
-  // If no path parts, we're at root - return '/'
-  if (pathParts.length === 0) {
-    return '/';
-  }
-  // Return base path with leading and trailing slashes
-  return '/' + pathParts.join('/') + '/';
-}
-
-/**
  * Get correct Czech plural form
  * @param {number} count - Number to get plural for
  * @param {string} one - Form for 1 (e.g., "otázka")
@@ -1127,12 +1108,11 @@ async function loadTermLinks(topicId = null) {
     return termLinksCache[cacheKey];
   }
 
-  const basePath = getBasePath();
   let allTerms = {};
 
   try {
     // First, load common terms
-    const commonResponse = await fetch(`${basePath}data/term_links/common_terms.json`);
+    const commonResponse = await fetch('data/term_links/common_terms.json');
     if (commonResponse.ok) {
       const commonData = await commonResponse.json();
       allTerms = { ...commonData.terms || {} };
