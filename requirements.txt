@@ -1,2 +1,8 @@
 edge-tts>=6.1.0
+requests>=2.31.0
+Pillow>=10.0.0
+# Pro lokální generování obrázků (volitelné):
+# diffusers>=0.21.0
+# transformers>=4.30.0
+# torch>=2.0.0
 

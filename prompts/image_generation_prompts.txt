@@ -1,0 +1,136 @@
+======================================================================
+PROMPTY PRO GENEROVÁNÍ OBRÁZKŮ PRO TÉMATA
+======================================================================
+
+Tyto prompty můžete použít v jakékoli AI image generátoru:
+- Hugging Face Spaces (huggingface.co/spaces)
+- Stable Diffusion Online
+- DALL-E, Midjourney, nebo jiné služby
+
+======================================================================
+
+T00: Úvod
+Prompt: elegant abstract illustration of dance and ballet, graceful flowing lines, artistic composition, soft pastel colors, educational style, minimalist design
+Output file: T00.png
+----------------------------------------------------------------------
+
+T01: PRAVĚK, EGYPT, MEZOPOTÁMIE
+Prompt: ancient Egyptian dance scene, hieroglyphic style, pyramids in background, dancers in traditional Egyptian poses, warm desert colors, golden hour lighting, historical illustration style
+Output file: T01.png
+----------------------------------------------------------------------
+
+T02: INDIE, ČÍNA, JAPONSKO
+Prompt: traditional Asian dance, Chinese and Japanese dancers, pagoda architecture, cherry blossoms, elegant flowing movements, ink painting style, soft colors, cultural heritage
+Output file: T02.png
+----------------------------------------------------------------------
+
+T03: ŘECKO, ŘÍM
+Prompt: classical Greek and Roman dance, ancient amphitheater, columns and classical architecture, graceful dancers in togas, marble sculptures, classical art style, warm Mediterranean colors
+Output file: T03.png
+----------------------------------------------------------------------
+
+T04: STŘEDOVĚK
+Prompt: medieval dance scene, Gothic architecture, castle in background, court dancers in medieval costumes, illuminated manuscript style, rich colors, historical period illustration
+Output file: T04.png
+----------------------------------------------------------------------
+
+T05: RENESANCE
+Prompt: Renaissance court dance, elegant ballroom, Italian Renaissance architecture, dancers in elaborate Renaissance costumes, Leonardo da Vinci style, warm golden light, artistic masterpiece
+Output file: T05.png
+----------------------------------------------------------------------
+
+T06: POČÁTKY BALETU JAKO JEVIŠTNÍ FORMY – DVORSKÝ BALET
+Prompt: royal court ballet, French palace interior, baroque architecture, elegant court dancers, Louis XIV style, opulent golden decorations, sophisticated atmosphere, historical illustration
+Output file: T06.png
+----------------------------------------------------------------------
+
+T07: BAROKO, ROKOKO
+Prompt: baroque and rococo dance, ornate baroque interior, elaborate decorations, dancers in baroque costumes with wigs, candlelit ballroom, rich colors, opulent style, 18th century atmosphere
+Output file: T07.png
+----------------------------------------------------------------------
+
+T08: KLASICISMUS
+Prompt: classical ballet, neoclassical architecture, elegant dancers in classical poses, clean lines, balanced composition, soft lighting, refined classical style, artistic illustration
+Output file: T08.png
+----------------------------------------------------------------------
+
+T09: PREROMANTISMUS
+Prompt: pre-romantic ballet scene, moonlit night, ethereal atmosphere, dancers in flowing white costumes, romantic landscape, soft dreamy lighting, mystical mood, artistic illustration
+Output file: T09.png
+----------------------------------------------------------------------
+
+T10: ROMANTISMUS
+Prompt: romantic ballet, ballerina en pointe, white tutu, moonlit forest scene, ethereal sylph dancers, romantic era style, soft pastel colors, dreamy atmosphere, Giselle or La Sylphide style
+Output file: T10.png
+----------------------------------------------------------------------
+
+T11: ROMANTIČTÍ CHOREOGRAFOVÉ A TANEČNICE
+Prompt: famous romantic ballet dancers and choreographers, Marie Taglioni style, elegant ballerina portrait, romantic era costume, soft lighting, artistic portrait, historical illustration
+Output file: T11.png
+----------------------------------------------------------------------
+
+T12: VÝVOJ BALETU V RUSKU
+Prompt: Russian ballet, St. Petersburg theater, Russian architecture with onion domes, elegant ballet dancers, imperial style, rich colors, cultural heritage, historical illustration
+Output file: T12.png
+----------------------------------------------------------------------
+
+T13: SOUBOR RUSKÉ BALETY SERGEJE ĎAGILEVA
+Prompt: Ballets Russes company, Sergei Diaghilev, colorful costumes, avant-garde style, early 20th century, artistic innovation, vibrant colors, theatrical performance, historical illustration
+Output file: T13.png
+----------------------------------------------------------------------
+
+T14: VÝZNAMNÍ CHOREOGRAFOVÉ SOUBORU RUSKÉ BALETY
+Prompt: famous Ballets Russes choreographers, Nijinsky style, innovative dance poses, colorful theatrical costumes, artistic avant-garde, early 20th century, vibrant illustration
+Output file: T14.png
+----------------------------------------------------------------------
+
+T15: VÝVOJ BALETU V USA
+Prompt: American ballet development, modern American dancers, contemporary ballet style, dynamic movement, innovative choreography, bright colors, energetic atmosphere, 20th century illustration
+Output file: T15.png
+----------------------------------------------------------------------
+
+T16: VÝVOJ MODERNÍHO TANCE V EVROPĚ
+Prompt: modern dance in Europe, expressive contemporary dancers, abstract movement, European avant-garde style, artistic innovation, dynamic composition, modern art illustration
+Output file: T16.png
+----------------------------------------------------------------------
+
+T17: VÝVOJ MODERNÍHO TANCE V USA
+Prompt: modern dance in USA, Isadora Duncan style, free flowing movement, expressive dancers, American modern dance pioneers, dynamic poses, artistic illustration, 20th century
+Output file: T17.png
+----------------------------------------------------------------------
+
+T18: VÝVOJ BALETU V ANGLII
+Prompt: English ballet, Royal Ballet style, elegant British dancers, classical English architecture, refined style, sophisticated atmosphere, cultural heritage, historical illustration
+Output file: T18.png
+----------------------------------------------------------------------
+
+T19: VÝZNAMNÍ SVĚTOVÍ CHOREOGRAFOVÉ
+Prompt: world famous choreographers, diverse international dancers, global ballet scene, artistic diversity, world map elements, cultural fusion, vibrant colors, contemporary illustration
+Output file: T19.png
+----------------------------------------------------------------------
+
+T20: POČÁTKY TANCE V ČECHÁCH
+Prompt: Czech folk dance beginnings, traditional Czech dancers, Bohemian countryside, folk costumes, cultural heritage, warm colors, historical illustration, Central European style
+Output file: T20.png
+----------------------------------------------------------------------
+
+T21: BALETNÍ MISTŘI ND DO ROKU 1945
+Prompt: National Theatre Prague ballet masters, historic theater building, classical ballet performance, Czech cultural heritage, elegant dancers, golden age of Czech ballet, historical illustration
+Output file: T21.png
+----------------------------------------------------------------------
+
+T22: ZAKLADATELÉ ČESKÉ CHOREOGRAFICKÉ TVORBY
+Prompt: founders of Czech choreography, creative dance pioneers, artistic innovation, Czech cultural scene, dynamic movement, creative expression, vibrant colors, mid-20th century illustration
+Output file: T22.png
+----------------------------------------------------------------------
+
+T23: VÝNAMNÍ ČEŠTÍ CHOREOGRAFOVÉ – JIŘÍ KYLIÁN, PAVEL ŠMOK, LUBOŠ OGOUN
+Prompt: famous Czech choreographers, Jiří Kylián style, contemporary Czech ballet, innovative choreography, artistic excellence, modern dance theater, dynamic composition, contemporary illustration
+Output file: T23.png
+----------------------------------------------------------------------
+
+T24: BALETNÍ MISTŘI A REPEROTÁR ND OD R. 1959
+Prompt: National Theatre ballet masters and repertoire since 1959, modern Czech ballet, contemporary performance, innovative choreography, cultural evolution, vibrant colors, modern illustration
+Output file: T24.png
+----------------------------------------------------------------------
+

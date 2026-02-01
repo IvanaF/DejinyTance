@@ -223,7 +223,6 @@ Cíleno na moderní prohlížeče (poslední 2 verze Chrome, Firefox, Safari, Ed
 
 ## 📖 Dokumentace
 
-- **[Průvodce škálováním](docs/SCALING_GUIDE.md)** - jak přidávat nová témata
 - **[Time Tracker](PROJECT_TIME_TRACKER.md)** - sledování času a vývoje
 - **[Case Study](CASE_STUDY.md)** - detailní popis projektu
 

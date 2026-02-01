@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review generovaných obrázků</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .header {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .topic {
+            background: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 20px;
+        }
+        .topic-info {
+            flex: 1;
+        }
+        .topic-id {
+            font-weight: bold;
+            color: #7c3aed;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .prompt {
+            background: #f9f9f9;
+            padding: 10px;
+            border-left: 4px solid #7c3aed;
+            margin: 10px 0;
+            font-size: 0.9em;
+            word-break: break-word;
+        }
+        .image-container {
+            flex: 0 0 300px;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+        }
+        .status {
+            margin-top: 10px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        .status.new {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+        .status.exists {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        .actions {
+            margin-top: 15px;
+        }
+        .btn {
+            padding: 8px 15px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-primary {
+            background: #7c3aed;
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #6d28d9;
+        }
+        .summary {
+            background: #e0f2fe;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎨 Review generovaných obrázků</h1>
+        <p>Zkontrolujte všechny obrázky před nahrazením originálů.</p>
+        <div class="summary">
+            <p><strong>Instrukce:</strong></p>
+            <ol>
+                <li>Zkontrolujte každý obrázek</li>
+                <li>Pokud jsou obrázky v pořádku, spusťte: <code>python scripts/replace_images.py</code></li>
+                <li>Pokud chcete některé přegenerovat, smažte je a spusťte generátor znovu</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T00: Úvod</div>
+            <div class="prompt">elegant abstract illustration of dance and ballet, graceful flowing lines, artistic composition, soft pastel colors, educational style, minimalist design</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T00.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T01: PRAVĚK, EGYPT, MEZOPOTÁMIE</div>
+            <div class="prompt">ancient Egyptian dance scene, hieroglyphic style, pyramids in background, dancers in traditional Egyptian poses, warm desert colors, golden hour lighting, historical illustration style</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T01.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T02: INDIE, ČÍNA, JAPONSKO</div>
+            <div class="prompt">traditional Asian dance, Chinese and Japanese dancers, pagoda architecture, cherry blossoms, elegant flowing movements, ink painting style, soft colors, cultural heritage</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T02.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T03: ŘECKO, ŘÍM</div>
+            <div class="prompt">classical Greek and Roman dance, ancient amphitheater, columns and classical architecture, graceful dancers in togas, marble sculptures, classical art style, warm Mediterranean colors</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T03.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T04: STŘEDOVĚK</div>
+            <div class="prompt">medieval dance scene, Gothic architecture, castle in background, court dancers in medieval costumes, illuminated manuscript style, rich colors, historical period illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T04.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T05: RENESANCE</div>
+            <div class="prompt">Renaissance court dance, elegant ballroom, Italian Renaissance architecture, dancers in elaborate Renaissance costumes, Leonardo da Vinci style, warm golden light, artistic masterpiece</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T05.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T06: POČÁTKY BALETU JAKO JEVIŠTNÍ FORMY – DVORSKÝ BALET</div>
+            <div class="prompt">royal court ballet, French palace interior, baroque architecture, elegant court dancers, Louis XIV style, opulent golden decorations, sophisticated atmosphere, historical illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T06.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T07: BAROKO, ROKOKO</div>
+            <div class="prompt">baroque and rococo dance, ornate baroque interior, elaborate decorations, dancers in baroque costumes with wigs, candlelit ballroom, rich colors, opulent style, 18th century atmosphere</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T07.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T08: KLASICISMUS</div>
+            <div class="prompt">classical ballet, neoclassical architecture, elegant dancers in classical poses, clean lines, balanced composition, soft lighting, refined classical style, artistic illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T08.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T09: PREROMANTISMUS</div>
+            <div class="prompt">pre-romantic ballet scene, moonlit night, ethereal atmosphere, dancers in flowing white costumes, romantic landscape, soft dreamy lighting, mystical mood, artistic illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T09.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T10: ROMANTISMUS</div>
+            <div class="prompt">romantic ballet, ballerina en pointe, white tutu, moonlit forest scene, ethereal sylph dancers, romantic era style, soft pastel colors, dreamy atmosphere, Giselle or La Sylphide style</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T10.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T11: ROMANTIČTÍ CHOREOGRAFOVÉ A TANEČNICE</div>
+            <div class="prompt">famous romantic ballet dancers and choreographers, Marie Taglioni style, elegant ballerina portrait, romantic era costume, soft lighting, artistic portrait, historical illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T11.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T12: VÝVOJ BALETU V RUSKU</div>
+            <div class="prompt">Russian ballet, St. Petersburg theater, Russian architecture with onion domes, elegant ballet dancers, imperial style, rich colors, cultural heritage, historical illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T12.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T13: SOUBOR RUSKÉ BALETY SERGEJE ĎAGILEVA</div>
+            <div class="prompt">Ballets Russes company, Sergei Diaghilev, colorful costumes, avant-garde style, early 20th century, artistic innovation, vibrant colors, theatrical performance, historical illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T13.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T14: VÝZNAMNÍ CHOREOGRAFOVÉ SOUBORU RUSKÉ BALETY</div>
+            <div class="prompt">famous Ballets Russes choreographers, Nijinsky style, innovative dance poses, colorful theatrical costumes, artistic avant-garde, early 20th century, vibrant illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T14.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T15: VÝVOJ BALETU V USA</div>
+            <div class="prompt">American ballet development, modern American dancers, contemporary ballet style, dynamic movement, innovative choreography, bright colors, energetic atmosphere, 20th century illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T15.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T16: VÝVOJ MODERNÍHO TANCE V EVROPĚ</div>
+            <div class="prompt">modern dance in Europe, expressive contemporary dancers, abstract movement, European avant-garde style, artistic innovation, dynamic composition, modern art illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T16.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T17: VÝVOJ MODERNÍHO TANCE V USA</div>
+            <div class="prompt">modern dance in USA, Isadora Duncan style, free flowing movement, expressive dancers, American modern dance pioneers, dynamic poses, artistic illustration, 20th century</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T17.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T18: VÝVOJ BALETU V ANGLII</div>
+            <div class="prompt">English ballet, Royal Ballet style, elegant British dancers, classical English architecture, refined style, sophisticated atmosphere, cultural heritage, historical illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T18.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T19: VÝZNAMNÍ SVĚTOVÍ CHOREOGRAFOVÉ</div>
+            <div class="prompt">world famous choreographers, diverse international dancers, global ballet scene, artistic diversity, world map elements, cultural fusion, vibrant colors, contemporary illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T19.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T20: POČÁTKY TANCE V ČECHÁCH</div>
+            <div class="prompt">Czech folk dance beginnings, traditional Czech dancers, Bohemian countryside, folk costumes, cultural heritage, warm colors, historical illustration, Central European style</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T20.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T21: BALETNÍ MISTŘI ND DO ROKU 1945</div>
+            <div class="prompt">National Theatre Prague ballet masters, historic theater building, classical ballet performance, Czech cultural heritage, elegant dancers, golden age of Czech ballet, historical illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T21.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T22: ZAKLADATELÉ ČESKÉ CHOREOGRAFICKÉ TVORBY</div>
+            <div class="prompt">founders of Czech choreography, creative dance pioneers, artistic innovation, Czech cultural scene, dynamic movement, creative expression, vibrant colors, mid-20th century illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T22.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T23: VÝNAMNÍ ČEŠTÍ CHOREOGRAFOVÉ – JIŘÍ KYLIÁN, PAVEL ŠMOK, LUBOŠ OGOUN</div>
+            <div class="prompt">famous Czech choreographers, Jiří Kylián style, contemporary Czech ballet, innovative choreography, artistic excellence, modern dance theater, dynamic composition, contemporary illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T23.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <div class="topic-info">
+            <div class="topic-id">T24: BALETNÍ MISTŘI A REPEROTÁR ND OD R. 1959</div>
+            <div class="prompt">National Theatre ballet masters and repertoire since 1959, modern Czech ballet, contemporary performance, innovative choreography, cultural evolution, vibrant colors, modern illustration</div>
+            <div class="status ">Chybí</div>
+            <div class="actions">
+                <a href="T24.png" target="_blank" class="btn btn-primary">Zobrazit v plné velikosti</a>
+            </div>
+        </div>
+        <div class="image-container">
+            <div style="padding: 50px; text-align: center; color: #999;">Obrázek ještě nebyl vygenerován</div>
+        </div>
+    </div>
+
+    <div class="header">
+        <h2>Shrnutí</h2>
+        <p>Vygenerováno: 0 / 25</p>
+        <p>Originálů existuje: 0</p>
+        <p><strong>Pro nahrazení originálů spusťte:</strong></p>
+        <code style="background: #f0f0f0; padding: 10px; display: block; margin-top: 10px;">
+            python scripts/replace_images.py
+        </code>
+    </div>
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 ## Cíl
 Vygenerovat malé, esteticky příjemné SVG ikony pro každé téma (T00-T24), které se dynamicky zobrazují:
-- Vedle nadpisu tématu na stránce detailu (`topic.html`)
+- Vedle nadpisu tématu na stránce detailu (`pages/topic_template.html`)
 - V seznamu témat v postranním panelu (sidebar)
 - V seznamu témat na indexové stránce (`index.html`)
 

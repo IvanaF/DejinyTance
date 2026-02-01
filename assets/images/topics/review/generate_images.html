@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generátor obrázků pro témata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .topic {
+            background: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .topic-id {
+            font-weight: bold;
+            color: #7c3aed;
+            font-size: 1.2em;
+        }
+        .prompt {
+            background: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #7c3aed;
+            margin: 10px 0;
+            font-family: monospace;
+            word-break: break-word;
+        }
+        .links {
+            margin-top: 10px;
+        }
+        .links a {
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+            padding: 8px 15px;
+            background: #7c3aed;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .links a:hover {
+            background: #6d28d9;
+        }
+        h1 {
+            color: #333;
+        }
+        .instructions {
+            background: #e0f2fe;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎨 Generátor obrázků pro témata dějin tance a baletu</h1>
+    
+    <div class="instructions">
+        <h2>Návod:</h2>
+        <ol>
+            <li>Klikněte na odkaz pro generování obrázku</li>
+            <li>Zkopírujte prompt do generátoru</li>
+            <li>Vygenerujte obrázek (512x512 nebo 1024x1024 pixelů)</li>
+            <li>Uložte obrázek jako <code>TXX.png</code> do složky <code>assets/images/topics/</code></li>
+            <li>Skript automaticky aktualizuje JSON soubory</li>
+        </ol>
+        <p><strong>Doporučené služby:</strong></p>
+        <ul>
+            <li><a href="https://huggingface.co/spaces" target="_blank">Hugging Face Spaces</a> - zdarma, mnoho modelů</li>
+            <li><a href="https://www.craiyon.com" target="_blank">Craiyon</a> - zdarma, jednoduché použití</li>
+            <li><a href="https://replicate.com" target="_blank">Replicate</a> - zdarma s limity</li>
+        </ul>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T00: Úvod</div>
+        <div class="prompt">elegant abstract illustration of dance and ballet, graceful flowing lines, artistic composition, soft pastel colors, educational style, minimalist design</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=elegant%20abstract%20illustration%20of%20dance%20and%20ballet%2C%20graceful%20flowing%20lines%2C%20artistic%20composition%2C%20soft%20pastel%20colors%2C%20educational%20style%2C%20minimalist%20design" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T00.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T01: PRAVĚK, EGYPT, MEZOPOTÁMIE</div>
+        <div class="prompt">ancient Egyptian dance scene, hieroglyphic style, pyramids in background, dancers in traditional Egyptian poses, warm desert colors, golden hour lighting, historical illustration style</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=ancient%20Egyptian%20dance%20scene%2C%20hieroglyphic%20style%2C%20pyramids%20in%20background%2C%20dancers%20in%20traditional%20Egyptian%20poses%2C%20warm%20desert%20colors%2C%20golden%20hour%20lighting%2C%20historical%20illustration%20style" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T01.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T02: INDIE, ČÍNA, JAPONSKO</div>
+        <div class="prompt">traditional Asian dance, Chinese and Japanese dancers, pagoda architecture, cherry blossoms, elegant flowing movements, ink painting style, soft colors, cultural heritage</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=traditional%20Asian%20dance%2C%20Chinese%20and%20Japanese%20dancers%2C%20pagoda%20architecture%2C%20cherry%20blossoms%2C%20elegant%20flowing%20movements%2C%20ink%20painting%20style%2C%20soft%20colors%2C%20cultural%20heritage" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T02.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T03: ŘECKO, ŘÍM</div>
+        <div class="prompt">classical Greek and Roman dance, ancient amphitheater, columns and classical architecture, graceful dancers in togas, marble sculptures, classical art style, warm Mediterranean colors</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=classical%20Greek%20and%20Roman%20dance%2C%20ancient%20amphitheater%2C%20columns%20and%20classical%20architecture%2C%20graceful%20dancers%20in%20togas%2C%20marble%20sculptures%2C%20classical%20art%20style%2C%20warm%20Mediterranean%20colors" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T03.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T04: STŘEDOVĚK</div>
+        <div class="prompt">medieval dance scene, Gothic architecture, castle in background, court dancers in medieval costumes, illuminated manuscript style, rich colors, historical period illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=medieval%20dance%20scene%2C%20Gothic%20architecture%2C%20castle%20in%20background%2C%20court%20dancers%20in%20medieval%20costumes%2C%20illuminated%20manuscript%20style%2C%20rich%20colors%2C%20historical%20period%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T04.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T05: RENESANCE</div>
+        <div class="prompt">Renaissance court dance, elegant ballroom, Italian Renaissance architecture, dancers in elaborate Renaissance costumes, Leonardo da Vinci style, warm golden light, artistic masterpiece</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=Renaissance%20court%20dance%2C%20elegant%20ballroom%2C%20Italian%20Renaissance%20architecture%2C%20dancers%20in%20elaborate%20Renaissance%20costumes%2C%20Leonardo%20da%20Vinci%20style%2C%20warm%20golden%20light%2C%20artistic%20masterpiece" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T05.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T06: POČÁTKY BALETU JAKO JEVIŠTNÍ FORMY – DVORSKÝ BALET</div>
+        <div class="prompt">royal court ballet, French palace interior, baroque architecture, elegant court dancers, Louis XIV style, opulent golden decorations, sophisticated atmosphere, historical illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=royal%20court%20ballet%2C%20French%20palace%20interior%2C%20baroque%20architecture%2C%20elegant%20court%20dancers%2C%20Louis%20XIV%20style%2C%20opulent%20golden%20decorations%2C%20sophisticated%20atmosphere%2C%20historical%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T06.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T07: BAROKO, ROKOKO</div>
+        <div class="prompt">baroque and rococo dance, ornate baroque interior, elaborate decorations, dancers in baroque costumes with wigs, candlelit ballroom, rich colors, opulent style, 18th century atmosphere</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=baroque%20and%20rococo%20dance%2C%20ornate%20baroque%20interior%2C%20elaborate%20decorations%2C%20dancers%20in%20baroque%20costumes%20with%20wigs%2C%20candlelit%20ballroom%2C%20rich%20colors%2C%20opulent%20style%2C%2018th%20century%20atmosphere" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T07.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T08: KLASICISMUS</div>
+        <div class="prompt">classical ballet, neoclassical architecture, elegant dancers in classical poses, clean lines, balanced composition, soft lighting, refined classical style, artistic illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=classical%20ballet%2C%20neoclassical%20architecture%2C%20elegant%20dancers%20in%20classical%20poses%2C%20clean%20lines%2C%20balanced%20composition%2C%20soft%20lighting%2C%20refined%20classical%20style%2C%20artistic%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T08.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T09: PREROMANTISMUS</div>
+        <div class="prompt">pre-romantic ballet scene, moonlit night, ethereal atmosphere, dancers in flowing white costumes, romantic landscape, soft dreamy lighting, mystical mood, artistic illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=pre-romantic%20ballet%20scene%2C%20moonlit%20night%2C%20ethereal%20atmosphere%2C%20dancers%20in%20flowing%20white%20costumes%2C%20romantic%20landscape%2C%20soft%20dreamy%20lighting%2C%20mystical%20mood%2C%20artistic%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T09.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T10: ROMANTISMUS</div>
+        <div class="prompt">romantic ballet, ballerina en pointe, white tutu, moonlit forest scene, ethereal sylph dancers, romantic era style, soft pastel colors, dreamy atmosphere, Giselle or La Sylphide style</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=romantic%20ballet%2C%20ballerina%20en%20pointe%2C%20white%20tutu%2C%20moonlit%20forest%20scene%2C%20ethereal%20sylph%20dancers%2C%20romantic%20era%20style%2C%20soft%20pastel%20colors%2C%20dreamy%20atmosphere%2C%20Giselle%20or%20La%20Sylphide%20style" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T10.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T11: ROMANTIČTÍ CHOREOGRAFOVÉ A TANEČNICE</div>
+        <div class="prompt">famous romantic ballet dancers and choreographers, Marie Taglioni style, elegant ballerina portrait, romantic era costume, soft lighting, artistic portrait, historical illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=famous%20romantic%20ballet%20dancers%20and%20choreographers%2C%20Marie%20Taglioni%20style%2C%20elegant%20ballerina%20portrait%2C%20romantic%20era%20costume%2C%20soft%20lighting%2C%20artistic%20portrait%2C%20historical%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T11.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T12: VÝVOJ BALETU V RUSKU</div>
+        <div class="prompt">Russian ballet, St. Petersburg theater, Russian architecture with onion domes, elegant ballet dancers, imperial style, rich colors, cultural heritage, historical illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=Russian%20ballet%2C%20St.%20Petersburg%20theater%2C%20Russian%20architecture%20with%20onion%20domes%2C%20elegant%20ballet%20dancers%2C%20imperial%20style%2C%20rich%20colors%2C%20cultural%20heritage%2C%20historical%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T12.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T13: SOUBOR RUSKÉ BALETY SERGEJE ĎAGILEVA</div>
+        <div class="prompt">Ballets Russes company, Sergei Diaghilev, colorful costumes, avant-garde style, early 20th century, artistic innovation, vibrant colors, theatrical performance, historical illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=Ballets%20Russes%20company%2C%20Sergei%20Diaghilev%2C%20colorful%20costumes%2C%20avant-garde%20style%2C%20early%2020th%20century%2C%20artistic%20innovation%2C%20vibrant%20colors%2C%20theatrical%20performance%2C%20historical%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T13.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T14: VÝZNAMNÍ CHOREOGRAFOVÉ SOUBORU RUSKÉ BALETY</div>
+        <div class="prompt">famous Ballets Russes choreographers, Nijinsky style, innovative dance poses, colorful theatrical costumes, artistic avant-garde, early 20th century, vibrant illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=famous%20Ballets%20Russes%20choreographers%2C%20Nijinsky%20style%2C%20innovative%20dance%20poses%2C%20colorful%20theatrical%20costumes%2C%20artistic%20avant-garde%2C%20early%2020th%20century%2C%20vibrant%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T14.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T15: VÝVOJ BALETU V USA</div>
+        <div class="prompt">American ballet development, modern American dancers, contemporary ballet style, dynamic movement, innovative choreography, bright colors, energetic atmosphere, 20th century illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=American%20ballet%20development%2C%20modern%20American%20dancers%2C%20contemporary%20ballet%20style%2C%20dynamic%20movement%2C%20innovative%20choreography%2C%20bright%20colors%2C%20energetic%20atmosphere%2C%2020th%20century%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T15.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T16: VÝVOJ MODERNÍHO TANCE V EVROPĚ</div>
+        <div class="prompt">modern dance in Europe, expressive contemporary dancers, abstract movement, European avant-garde style, artistic innovation, dynamic composition, modern art illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=modern%20dance%20in%20Europe%2C%20expressive%20contemporary%20dancers%2C%20abstract%20movement%2C%20European%20avant-garde%20style%2C%20artistic%20innovation%2C%20dynamic%20composition%2C%20modern%20art%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T16.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T17: VÝVOJ MODERNÍHO TANCE V USA</div>
+        <div class="prompt">modern dance in USA, Isadora Duncan style, free flowing movement, expressive dancers, American modern dance pioneers, dynamic poses, artistic illustration, 20th century</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=modern%20dance%20in%20USA%2C%20Isadora%20Duncan%20style%2C%20free%20flowing%20movement%2C%20expressive%20dancers%2C%20American%20modern%20dance%20pioneers%2C%20dynamic%20poses%2C%20artistic%20illustration%2C%2020th%20century" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T17.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T18: VÝVOJ BALETU V ANGLII</div>
+        <div class="prompt">English ballet, Royal Ballet style, elegant British dancers, classical English architecture, refined style, sophisticated atmosphere, cultural heritage, historical illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=English%20ballet%2C%20Royal%20Ballet%20style%2C%20elegant%20British%20dancers%2C%20classical%20English%20architecture%2C%20refined%20style%2C%20sophisticated%20atmosphere%2C%20cultural%20heritage%2C%20historical%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T18.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T19: VÝZNAMNÍ SVĚTOVÍ CHOREOGRAFOVÉ</div>
+        <div class="prompt">world famous choreographers, diverse international dancers, global ballet scene, artistic diversity, world map elements, cultural fusion, vibrant colors, contemporary illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=world%20famous%20choreographers%2C%20diverse%20international%20dancers%2C%20global%20ballet%20scene%2C%20artistic%20diversity%2C%20world%20map%20elements%2C%20cultural%20fusion%2C%20vibrant%20colors%2C%20contemporary%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T19.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T20: POČÁTKY TANCE V ČECHÁCH</div>
+        <div class="prompt">Czech folk dance beginnings, traditional Czech dancers, Bohemian countryside, folk costumes, cultural heritage, warm colors, historical illustration, Central European style</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=Czech%20folk%20dance%20beginnings%2C%20traditional%20Czech%20dancers%2C%20Bohemian%20countryside%2C%20folk%20costumes%2C%20cultural%20heritage%2C%20warm%20colors%2C%20historical%20illustration%2C%20Central%20European%20style" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T20.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T21: BALETNÍ MISTŘI ND DO ROKU 1945</div>
+        <div class="prompt">National Theatre Prague ballet masters, historic theater building, classical ballet performance, Czech cultural heritage, elegant dancers, golden age of Czech ballet, historical illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=National%20Theatre%20Prague%20ballet%20masters%2C%20historic%20theater%20building%2C%20classical%20ballet%20performance%2C%20Czech%20cultural%20heritage%2C%20elegant%20dancers%2C%20golden%20age%20of%20Czech%20ballet%2C%20historical%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T21.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T22: ZAKLADATELÉ ČESKÉ CHOREOGRAFICKÉ TVORBY</div>
+        <div class="prompt">founders of Czech choreography, creative dance pioneers, artistic innovation, Czech cultural scene, dynamic movement, creative expression, vibrant colors, mid-20th century illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=founders%20of%20Czech%20choreography%2C%20creative%20dance%20pioneers%2C%20artistic%20innovation%2C%20Czech%20cultural%20scene%2C%20dynamic%20movement%2C%20creative%20expression%2C%20vibrant%20colors%2C%20mid-20th%20century%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T22.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T23: VÝNAMNÍ ČEŠTÍ CHOREOGRAFOVÉ – JIŘÍ KYLIÁN, PAVEL ŠMOK, LUBOŠ OGOUN</div>
+        <div class="prompt">famous Czech choreographers, Jiří Kylián style, contemporary Czech ballet, innovative choreography, artistic excellence, modern dance theater, dynamic composition, contemporary illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=famous%20Czech%20choreographers%2C%20Ji%C5%99%C3%AD%20Kyli%C3%A1n%20style%2C%20contemporary%20Czech%20ballet%2C%20innovative%20choreography%2C%20artistic%20excellence%2C%20modern%20dance%20theater%2C%20dynamic%20composition%2C%20contemporary%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T23.png</code></small></p>
+    </div>
+
+    <div class="topic">
+        <div class="topic-id">T24: BALETNÍ MISTŘI A REPEROTÁR ND OD R. 1959</div>
+        <div class="prompt">National Theatre ballet masters and repertoire since 1959, modern Czech ballet, contemporary performance, innovative choreography, cultural evolution, vibrant colors, modern illustration</div>
+        <div class="links">
+            <a href="https://huggingface.co/spaces/stabilityai/stable-diffusion" target="_blank">Hugging Face SD</a>
+            <a href="https://www.craiyon.com/?prompt=National%20Theatre%20ballet%20masters%20and%20repertoire%20since%201959%2C%20modern%20Czech%20ballet%2C%20contemporary%20performance%2C%20innovative%20choreography%2C%20cultural%20evolution%2C%20vibrant%20colors%2C%20modern%20illustration" target="_blank">Craiyon</a>
+            <a href="https://replicate.com/stability-ai/stable-diffusion" target="_blank">Replicate</a>
+        </div>
+        <p><small>Uložit jako: <code>T24.png</code></small></p>
+    </div>
+
+</body>
+</html>

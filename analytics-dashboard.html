@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics Dashboard - Dějiny tance a baletu</title>
+  <base href="/">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+    
+    h1 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+    
+    .subtitle {
+      color: #7f8c8d;
+      margin-bottom: 30px;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    
+    .stat-card {
+      background: #f8f9fa;
+      border-radius: 6px;
+      padding: 20px;
+      border-left: 4px solid #3498db;
+    }
+    
+    .stat-card h3 {
+      font-size: 14px;
+      color: #7f8c8d;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    
+    .stat-card .value {
+      font-size: 32px;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    
+    .stat-card .unit {
+      font-size: 14px;
+      color: #7f8c8d;
+      margin-left: 5px;
+    }
+    
+    .section {
+      margin-bottom: 40px;
+    }
+    
+    .section h2 {
+      margin-bottom: 20px;
+      color: #2c3e50;
+      border-bottom: 2px solid #ecf0f1;
+      padding-bottom: 10px;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ecf0f1;
+    }
+    
+    th {
+      background: #f8f9fa;
+      font-weight: 600;
+      color: #2c3e50;
+    }
+    
+    tr:hover {
+      background: #f8f9fa;
+    }
+    
+    .badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    
+    .badge-good {
+      background: #d4edda;
+      color: #155724;
+    }
+    
+    .badge-warning {
+      background: #fff3cd;
+      color: #856404;
+    }
+    
+    .badge-bad {
+      background: #f8d7da;
+      color: #721c24;
+    }
+    
+    .actions {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 2px solid #ecf0f1;
+    }
+    
+    button {
+      background: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    
+    button:hover {
+      background: #2980b9;
+    }
+    
+    button.danger {
+      background: #e74c3c;
+    }
+    
+    button.danger:hover {
+      background: #c0392b;
+    }
+    
+    .no-data {
+      color: #7f8c8d;
+      font-style: italic;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: #7f8c8d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Analytics Dashboard</h1>
+    <p class="subtitle">Statistiky používání platformy</p>
+    
+    <div id="loading" class="loading">Načítání dat...</div>
+    <div id="dashboard" style="display: none;">
+      <!-- Stats Cards -->
+      <div class="stats-grid" id="statsGrid"></div>
+      
+      <!-- Page Views -->
+      <div class="section">
+        <h2>📄 Zobrazení stránek</h2>
+        <div id="pageViewsContent"></div>
+      </div>
+      
+      <!-- Performance Metrics -->
+      <div class="section">
+        <h2>⚡ Výkon</h2>
+        <div id="performanceContent"></div>
+      </div>
+      
+      <!-- User Engagement -->
+      <div class="section">
+        <h2>👆 Zapojení uživatelů</h2>
+        <div id="engagementContent"></div>
+      </div>
+      
+      <!-- Actions -->
+      <div class="actions">
+        <button onclick="exportData()">📥 Exportovat data (JSON)</button>
+        <button onclick="refreshData()">🔄 Obnovit data</button>
+        <button class="danger" onclick="clearData()">🗑️ Vymazat všechna data</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/analytics.js"></script>
+  <script>
+    function formatNumber(num) {
+      return num.toLocaleString('cs-CZ');
+    }
+    
+    function formatTime(ms) {
+      if (ms < 1000) return Math.round(ms) + ' ms';
+      return (ms / 1000).toFixed(2) + ' s';
+    }
+    
+    function formatDuration(ms) {
+      const seconds = Math.floor(ms / 1000);
+      const minutes = Math.floor(seconds / 60);
+      const hours = Math.floor(minutes / 60);
+      
+      if (hours > 0) {
+        return `${hours}h ${minutes % 60}m`;
+      } else if (minutes > 0) {
+        return `${minutes}m ${seconds % 60}s`;
+      } else {
+        return `${seconds}s`;
+      }
+    }
+    
+    function getPerformanceBadge(value, good, warning) {
+      if (value <= good) return '<span class="badge badge-good">Dobré</span>';
+      if (value <= warning) return '<span class="badge badge-warning">Průměrné</span>';
+      return '<span class="badge badge-bad">Pomalé</span>';
+    }
+    
+    function displayStats() {
+      if (!window.Analytics) {
+        document.getElementById('loading').innerHTML = 'Analytics není k dispozici. Ujistěte se, že jste navštívili alespoň jednu stránku s analytics skriptem.';
+        return;
+      }
+      
+      const stats = Analytics.getStats();
+      const pageViews = stats.pageViews || {};
+      const events = stats.events || [];
+      
+      // Calculate metrics
+      const totalPageViews = pageViews.total || 0;
+      const loadTimeEvents = events.filter(e => e.type === 'load_time');
+      const webVitalEvents = events.filter(e => e.type === 'web_vital');
+      const scrollEvents = events.filter(e => e.type === 'scroll' && e.data.final);
+      const timeOnPageEvents = events.filter(e => e.type === 'time_on_page' && e.data.final);
+      
+      // Average load time
+      let avgLoadTime = 0;
+      if (loadTimeEvents.length > 0) {
+        avgLoadTime = loadTimeEvents.reduce((sum, e) => sum + (e.data.loadTime || 0), 0) / loadTimeEvents.length;
+      }
+      
+      // Average scroll depth
+      let avgScrollDepth = 0;
+      if (scrollEvents.length > 0) {
+        avgScrollDepth = scrollEvents.reduce((sum, e) => sum + (e.data.scrollPercent || 0), 0) / scrollEvents.length;
+      }
+      
+      // Average time on page
+      let avgTimeOnPage = 0;
+      if (timeOnPageEvents.length > 0) {
+        avgTimeOnPage = timeOnPageEvents.reduce((sum, e) => sum + (e.data.timeOnPage || 0), 0) / timeOnPageEvents.length;
+      }
+      
+      // LCP (Largest Contentful Paint)
+      const lcpEvents = webVitalEvents.filter(e => e.data.name === 'LCP');
+      let avgLCP = 0;
+      if (lcpEvents.length > 0) {
+        avgLCP = lcpEvents.reduce((sum, e) => sum + (e.data.value || 0), 0) / lcpEvents.length;
+      }
+      
+      // Display stats cards
+      const statsGrid = document.getElementById('statsGrid');
+      statsGrid.innerHTML = `
+        <div class="stat-card">
+          <h3>Celková zobrazení</h3>
+          <div class="value">${formatNumber(totalPageViews)}<span class="unit">zobrazení</span></div>
+        </div>
+        <div class="stat-card">
+          <h3>Průměrná doba načtení</h3>
+          <div class="value">${formatTime(avgLoadTime)}</div>
+        </div>
+        <div class="stat-card">
+          <h3>Průměrná hloubka scrollování</h3>
+          <div class="value">${Math.round(avgScrollDepth)}<span class="unit">%</span></div>
+        </div>
+        <div class="stat-card">
+          <h3>Průměrný čas na stránce</h3>
+          <div class="value">${formatDuration(avgTimeOnPage)}</div>
+        </div>
+        ${avgLCP > 0 ? `
+        <div class="stat-card">
+          <h3>LCP (Largest Contentful Paint)</h3>
+          <div class="value">${formatTime(avgLCP)}</div>
+        </div>
+        ` : ''}
+      `;
+      
+      // Display page views table
+      const pageViewsContent = document.getElementById('pageViewsContent');
+      const pageViewEntries = Object.entries(pageViews)
+        .filter(([key]) => key !== 'total')
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 20); // Top 20
+      
+      if (pageViewEntries.length > 0) {
+        pageViewsContent.innerHTML = `
+          <table>
+            <thead>
+              <tr>
+                <th>Stránka</th>
+                <th>Zobrazení</th>
+                <th>% z celku</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${pageViewEntries.map(([path, count]) => `
+                <tr>
+                  <td>${path}</td>
+                  <td>${formatNumber(count)}</td>
+                  <td>${((count / totalPageViews) * 100).toFixed(1)}%</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        `;
+      } else {
+        pageViewsContent.innerHTML = '<div class="no-data">Žádná data o zobrazeních stránek</div>';
+      }
+      
+      // Display performance metrics
+      const performanceContent = document.getElementById('performanceContent');
+      if (loadTimeEvents.length > 0) {
+        const recentLoadTimes = loadTimeEvents.slice(-10).reverse();
+        performanceContent.innerHTML = `
+          <h3>Poslední měření doby načtení</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Čas</th>
+                <th>Stránka</th>
+                <th>Celková doba načtení</th>
+                <th>TTFB</th>
+                <th>DOM Content Loaded</th>
+                <th>Hodnocení</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${recentLoadTimes.map(e => {
+                const data = e.data;
+                const loadTime = data.loadTime || 0;
+                return `
+                  <tr>
+                    <td>${new Date(e.timestamp).toLocaleString('cs-CZ')}</td>
+                    <td>${data.path || data.url || 'N/A'}</td>
+                    <td>${formatTime(loadTime)}</td>
+                    <td>${formatTime(data.ttfb || 0)}</td>
+                    <td>${formatTime(data.domContentLoaded || 0)}</td>
+                    <td>${getPerformanceBadge(loadTime, 2000, 4000)}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        `;
+      } else {
+        performanceContent.innerHTML = '<div class="no-data">Žádná data o výkonu</div>';
+      }
+      
+      // Display engagement metrics
+      const engagementContent = document.getElementById('engagementContent');
+      let engagementHtml = '';
+      
+      if (scrollEvents.length > 0) {
+        engagementHtml += `
+          <h3>Hloubka scrollování</h3>
+          <p>Průměrná hloubka: <strong>${Math.round(avgScrollDepth)}%</strong></p>
+          <p>Celkem měření: ${scrollEvents.length}</p>
+        `;
+      }
+      
+      if (timeOnPageEvents.length > 0) {
+        engagementHtml += `
+          <h3 style="margin-top: 20px;">Čas na stránce</h3>
+          <p>Průměrný čas: <strong>${formatDuration(avgTimeOnPage)}</strong></p>
+          <p>Celkem měření: ${timeOnPageEvents.length}</p>
+        `;
+      }
+      
+      if (!engagementHtml) {
+        engagementHtml = '<div class="no-data">Žádná data o zapojení uživatelů</div>';
+      }
+      
+      engagementContent.innerHTML = engagementHtml;
+      
+      // Hide loading, show dashboard
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('dashboard').style.display = 'block';
+    }
+    
+    function exportData() {
+      if (!window.Analytics) {
+        alert('Analytics není k dispozici');
+        return;
+      }
+      
+      const data = Analytics.exportData();
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `analytics-${new Date().toISOString().split('T')[0]}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+    
+    function refreshData() {
+      displayStats();
+    }
+    
+    function clearData() {
+      if (confirm('Opravdu chcete vymazat všechna analytics data? Tato akce je nevratná.')) {
+        if (window.Analytics) {
+          Analytics.clearData();
+          alert('Data byla vymazána. Stránka se obnoví.');
+          location.reload();
+        }
+      }
+    }
+    
+    // Initialize dashboard
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', displayStats);
+    } else {
+      displayStats();
+    }
+  </script>
+</body>
+</html>
+
