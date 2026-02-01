@@ -7,26 +7,19 @@
  * @returns {string} Base path (e.g., '/' or '/DejinyTance/')
  */
 function getBasePath() {
-  // Try to get from base tag first
-  const baseTag = document.querySelector('base');
-  if (baseTag && baseTag.href) {
-    try {
-      const baseUrl = new URL(baseTag.href, window.location.origin);
-      return baseUrl.pathname;
-    } catch (e) {
-      // Fallback if URL parsing fails
-    }
-  }
-  
-  // Fallback: calculate from pathname
+  // Calculate from pathname - use first path segment as repository root
   const path = window.location.pathname;
   const pathParts = path.split('/').filter(p => p);
   
   // Use first path segment as repository root (for GitHub Pages)
+  // This works for both /DejinyTance/ and /DejinyTance/pages/topic_template.html
   if (pathParts.length > 0) {
-    return '/' + pathParts[0] + '/';
+    const basePath = '/' + pathParts[0] + '/';
+    console.log('Base path detected:', basePath, 'from pathname:', path);
+    return basePath;
   }
   
+  console.log('Base path: / (root)');
   return '/';
 }
 
