@@ -5,13 +5,19 @@
     // Auto-detect base path for GitHub Pages - MUST be first!
     (function() {
       const path = window.location.pathname;
-      // Remove filename and get directory path
       const pathParts = path.split('/').filter(p => p);
-      if (pathParts.length > 0 && pathParts[pathParts.length - 1].includes('.')) {
-        pathParts.pop(); // Remove filename
+      
+      // Find repository root: look for known repository name or use first path segment
+      // For GitHub Pages, the repo name is typically the first path segment after root
+      // If we're at /DejinyTance/ or /DejinyTance/index.html, base is /DejinyTance/
+      // If we're at /DejinyTance/pages/topic_template.html, base is still /DejinyTance/
+      
+      let basePath = '/';
+      if (pathParts.length > 0) {
+        // Use the first path segment as the repository root
+        basePath = '/' + pathParts[0] + '/';
       }
-      // If no path parts, we're at root - use '/'
-      const basePath = pathParts.length === 0 ? '/' : '/' + pathParts.join('/') + '/';
+      
       const base = document.createElement('base');
       base.href = basePath;
       document.head.appendChild(base);
