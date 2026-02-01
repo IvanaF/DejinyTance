@@ -606,7 +606,13 @@ function buildGitHubIssueUrl(params) {
  */
 async function createGitHubIssue(title, body, feedbackType) {
   if (!FEEDBACK_CONFIG.githubToken || FEEDBACK_CONFIG.githubToken === 'YOUR_GITHUB_TOKEN_HERE') {
-    throw new Error('GitHub Token není nastaven. Nastavte githubToken v scripts/feedback.js');
+    // Check if external config file exists
+    const hasExternalConfig = typeof window.FEEDBACK_CONFIG_EXTERNAL !== 'undefined';
+    if (hasExternalConfig) {
+      throw new Error('GitHub Token není nastaven. Upravte scripts/feedback.config.js a přidejte svůj GitHub token. Tento soubor není v gitu, takže ho musíte přidat na GitHub Pages ručně nebo použít inline konfiguraci v scripts/feedback.js.');
+    } else {
+      throw new Error('GitHub Token není nastaven. Vytvořte scripts/feedback.config.js z feedback.config.example.js a přidejte svůj token, nebo nastavte token přímo v scripts/feedback.js (řádek 35).');
+    }
   }
   
   // Map feedback type to GitHub labels

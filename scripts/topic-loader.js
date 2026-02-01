@@ -15,12 +15,9 @@ function getBasePath() {
   // Use first path segment as repository root (for GitHub Pages)
   // This works for both /DejinyTance/ and /DejinyTance/pages/topic_template.html
   if (pathParts.length > 0) {
-    const basePath = '/' + pathParts[0] + '/';
-    console.log('Base path detected:', basePath, 'from pathname:', path);
-    return basePath;
+    return '/' + pathParts[0] + '/';
   }
   
-  console.log('Base path: / (root)');
   return '/';
 }
 
@@ -40,9 +37,7 @@ function resolvePath(relativePath) {
     relativePath = relativePath.substring(2);
   }
   // Combine base path with relative path
-  const resolved = basePath + relativePath;
-  console.log(`Resolved path: "${relativePath}" -> "${resolved}" (base: "${basePath}")`);
-  return resolved;
+  return basePath + relativePath;
 }
 
 class TopicLoader {
@@ -97,20 +92,12 @@ class TopicLoader {
    */
   async loadTopic(topicId) {
     const url = resolvePath(`data/topics/${topicId}.json`);
-    const fullUrl = window.location.origin + url;
-    console.log(`Načítání otázky ${topicId} z ${url}...`);
-    console.log(`Full URL: ${fullUrl}`);
     try {
       const response = await fetch(url);
-      console.log(`Odpověď pro ${topicId}:`, response.status, response.statusText);
       if (!response.ok) {
-        console.error(`❌ Failed to load ${topicId}`);
-        console.error(`   Attempted URL: ${fullUrl}`);
-        console.error(`   Response: ${response.status} ${response.statusText}`);
-        throw new Error(`Nepodařilo se načíst otázku ${topicId}: ${response.status} ${response.statusText}. URL: ${fullUrl}`);
+        throw new Error(`Nepodařilo se načíst otázku ${topicId}: ${response.status} ${response.statusText}`);
       }
       const topic = await response.json();
-      console.log(`Otázka ${topicId} úspěšně načtena:`, topic.title);
       
       // Validate topic structure
       if (!topic.id || !topic.title) {
@@ -121,7 +108,6 @@ class TopicLoader {
       if (topic.materialsSource) {
         try {
           const materialsUrl = resolvePath(topic.materialsSource);
-          console.log(`Načítání materiálů z ${materialsUrl}...`);
           const materialsResponse = await fetch(materialsUrl);
           if (materialsResponse.ok) {
             const materialsData = await materialsResponse.json();
@@ -135,7 +121,6 @@ class TopicLoader {
               if (!topic.materials.summary) {
                 topic.materials.summary = '';
               }
-              console.log(`Materiály načteny: ${materialsData.sections.length} sekcí`);
             }
           } else {
             console.warn(`Nepodařilo se načíst materiály z ${materialsUrl}: ${materialsResponse.status}`);
@@ -150,12 +135,10 @@ class TopicLoader {
       if (topic.summarySource) {
         try {
           const summaryUrl = resolvePath(topic.summarySource);
-          console.log(`Načítání osnovy z ${summaryUrl}...`);
           const summaryResponse = await fetch(summaryUrl);
           if (summaryResponse.ok) {
             const summaryText = await summaryResponse.text();
             topic.summary = summaryText.trim();
-            console.log(`Shrnutí načteno (${summaryText.length} znaků)`);
           } else {
             console.warn(`Nepodařilo se načíst osnovu z ${summaryUrl}: ${summaryResponse.status}`);
           }
@@ -169,7 +152,6 @@ class TopicLoader {
       if (topic.quizSource) {
         try {
           const quizUrl = resolvePath(topic.quizSource);
-          console.log(`Načítání kvízu z ${quizUrl}...`);
           const quizResponse = await fetch(quizUrl);
           if (quizResponse.ok) {
             const quizData = await quizResponse.json();
@@ -178,7 +160,6 @@ class TopicLoader {
               topic.quiz = {
                 questions: quizData.questions
               };
-              console.log(`Kvíz načten: ${quizData.questions.length} otázek`);
             }
           } else {
             console.warn(`Nepodařilo se načíst kvíz z ${quizUrl}: ${quizResponse.status}`);
@@ -193,14 +174,12 @@ class TopicLoader {
       if (topic.flashcardSource) {
         try {
           const flashcardUrl = resolvePath(topic.flashcardSource);
-          console.log(`Načítání flashcards z ${flashcardUrl}...`);
           const flashcardResponse = await fetch(flashcardUrl);
           if (flashcardResponse.ok) {
             const flashcardData = await flashcardResponse.json();
             // Merge flashcards into topic.flashcards
             if (flashcardData.flashcards) {
               topic.flashcards = flashcardData.flashcards;
-              console.log(`Flashcards načteny: ${flashcardData.flashcards.length} kartiček`);
             }
           } else {
             console.warn(`Nepodařilo se načíst flashcards z ${flashcardUrl}: ${flashcardResponse.status}`);
@@ -215,14 +194,12 @@ class TopicLoader {
       if (topic.resourcesSource) {
         try {
           const resourcesUrl = resolvePath(topic.resourcesSource);
-          console.log(`Načítání zdrojů z ${resourcesUrl}...`);
           const resourcesResponse = await fetch(resourcesUrl);
           if (resourcesResponse.ok) {
             const resourcesData = await resourcesResponse.json();
             // Merge resources sections into topic.resources
             if (resourcesData.sections) {
               topic.resources = resourcesData.sections;
-              console.log(`Zdroje načteny: ${resourcesData.sections.length} sekcí`);
             }
           } else {
             console.warn(`Nepodařilo se načíst zdroje z ${resourcesUrl}: ${resourcesResponse.status}`);

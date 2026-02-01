@@ -14,12 +14,9 @@ function getBasePath() {
   // Use first path segment as repository root (for GitHub Pages)
   // This works for both /DejinyTance/ and /DejinyTance/pages/topic_template.html
   if (pathParts.length > 0) {
-    const basePath = '/' + pathParts[0] + '/';
-    console.log('Base path detected:', basePath, 'from pathname:', path);
-    return basePath;
+    return '/' + pathParts[0] + '/';
   }
   
-  console.log('Base path: / (root)');
   return '/';
 }
 
