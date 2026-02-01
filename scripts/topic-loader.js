@@ -3,6 +3,53 @@
  * Handles loading topic data from JSON files
  */
 
+/**
+ * Get base path for GitHub Pages compatibility
+ * @returns {string} Base path (e.g., '/' or '/DejinyTance/')
+ */
+function getBasePath() {
+  // Try to get from base tag first
+  const baseTag = document.querySelector('base');
+  if (baseTag && baseTag.href) {
+    try {
+      const baseUrl = new URL(baseTag.href, window.location.origin);
+      return baseUrl.pathname;
+    } catch (e) {
+      // Fallback if URL parsing fails
+    }
+  }
+  
+  // Fallback: calculate from pathname
+  const path = window.location.pathname;
+  const pathParts = path.split('/').filter(p => p);
+  
+  // Use first path segment as repository root (for GitHub Pages)
+  if (pathParts.length > 0) {
+    return '/' + pathParts[0] + '/';
+  }
+  
+  return '/';
+}
+
+/**
+ * Resolve a relative path to absolute using base path
+ * @param {string} relativePath - Relative path (e.g., 'data/topics/T01.json')
+ * @returns {string} Absolute path
+ */
+function resolvePath(relativePath) {
+  const basePath = getBasePath();
+  // If path already starts with /, it's already absolute
+  if (relativePath.startsWith('/')) {
+    return relativePath;
+  }
+  // Remove leading ./ if present
+  if (relativePath.startsWith('./')) {
+    relativePath = relativePath.substring(2);
+  }
+  // Combine base path with relative path
+  return basePath + relativePath;
+}
+
 class TopicLoader {
   constructor() {
     this.topics = [];
@@ -54,7 +101,7 @@ class TopicLoader {
    * @returns {Promise<Object>} Topic object
    */
   async loadTopic(topicId) {
-    const url = `data/topics/${topicId}.json`;
+    const url = resolvePath(`data/topics/${topicId}.json`);
     console.log(`Načítání otázky ${topicId} z ${url}...`);
     try {
       const response = await fetch(url);
@@ -73,7 +120,7 @@ class TopicLoader {
       // Load materials from external file if materialsSource is specified
       if (topic.materialsSource) {
         try {
-          const materialsUrl = topic.materialsSource;
+          const materialsUrl = resolvePath(topic.materialsSource);
           console.log(`Načítání materiálů z ${materialsUrl}...`);
           const materialsResponse = await fetch(materialsUrl);
           if (materialsResponse.ok) {
@@ -102,7 +149,7 @@ class TopicLoader {
       // Load summary from external file if summarySource is specified
       if (topic.summarySource) {
         try {
-          const summaryUrl = topic.summarySource;
+          const summaryUrl = resolvePath(topic.summarySource);
           console.log(`Načítání osnovy z ${summaryUrl}...`);
           const summaryResponse = await fetch(summaryUrl);
           if (summaryResponse.ok) {
@@ -121,7 +168,7 @@ class TopicLoader {
       // Load quiz from external file if quizSource is specified
       if (topic.quizSource) {
         try {
-          const quizUrl = topic.quizSource;
+          const quizUrl = resolvePath(topic.quizSource);
           console.log(`Načítání kvízu z ${quizUrl}...`);
           const quizResponse = await fetch(quizUrl);
           if (quizResponse.ok) {
@@ -145,7 +192,7 @@ class TopicLoader {
       // Load flashcards from external file if flashcardSource is specified
       if (topic.flashcardSource) {
         try {
-          const flashcardUrl = topic.flashcardSource;
+          const flashcardUrl = resolvePath(topic.flashcardSource);
           console.log(`Načítání flashcards z ${flashcardUrl}...`);
           const flashcardResponse = await fetch(flashcardUrl);
           if (flashcardResponse.ok) {
@@ -167,7 +214,7 @@ class TopicLoader {
       // Load resources from external file if resourcesSource is specified
       if (topic.resourcesSource) {
         try {
-          const resourcesUrl = resolvePath(topic.resourcesSource, this.basePath);
+          const resourcesUrl = resolvePath(topic.resourcesSource);
           console.log(`Načítání zdrojů z ${resourcesUrl}...`);
           const resourcesResponse = await fetch(resourcesUrl);
           if (resourcesResponse.ok) {

@@ -3,6 +3,53 @@
  */
 
 /**
+ * Get base path for GitHub Pages compatibility
+ * @returns {string} Base path (e.g., '/' or '/DejinyTance/')
+ */
+function getBasePath() {
+  // Try to get from base tag first
+  const baseTag = document.querySelector('base');
+  if (baseTag && baseTag.href) {
+    try {
+      const baseUrl = new URL(baseTag.href, window.location.origin);
+      return baseUrl.pathname;
+    } catch (e) {
+      // Fallback if URL parsing fails
+    }
+  }
+  
+  // Fallback: calculate from pathname
+  const path = window.location.pathname;
+  const pathParts = path.split('/').filter(p => p);
+  
+  // Use first path segment as repository root (for GitHub Pages)
+  if (pathParts.length > 0) {
+    return '/' + pathParts[0] + '/';
+  }
+  
+  return '/';
+}
+
+/**
+ * Resolve a relative path to absolute using base path
+ * @param {string} relativePath - Relative path (e.g., 'data/term_links/common_terms.json')
+ * @returns {string} Absolute path
+ */
+function resolvePath(relativePath) {
+  const basePath = getBasePath();
+  // If path already starts with /, it's already absolute
+  if (relativePath.startsWith('/')) {
+    return relativePath;
+  }
+  // Remove leading ./ if present
+  if (relativePath.startsWith('./')) {
+    relativePath = relativePath.substring(2);
+  }
+  // Combine base path with relative path
+  return basePath + relativePath;
+}
+
+/**
  * Get correct Czech plural form
  * @param {number} count - Number to get plural for
  * @param {string} one - Form for 1 (e.g., "otázka")
@@ -1112,7 +1159,7 @@ async function loadTermLinks(topicId = null) {
 
   try {
     // First, load common terms
-    const commonResponse = await fetch('data/term_links/common_terms.json');
+    const commonResponse = await fetch(resolvePath('data/term_links/common_terms.json'));
     if (commonResponse.ok) {
       const commonData = await commonResponse.json();
       allTerms = { ...commonData.terms || {} };
@@ -1127,7 +1174,7 @@ async function loadTermLinks(topicId = null) {
   // Then, load topic-specific terms if topicId is provided
   if (topicId) {
     try {
-      const topicResponse = await fetch(`${basePath}data/term_links/${topicId}_terms.json`);
+      const topicResponse = await fetch(resolvePath(`data/term_links/${topicId}_terms.json`));
       if (topicResponse.ok) {
         const topicData = await topicResponse.json();
         // Merge topic terms (they override common terms if there's a conflict)
