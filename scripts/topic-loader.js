@@ -14,8 +14,12 @@ function getBasePath() {
   if (pathParts.length > 0 && pathParts[pathParts.length - 1].includes('.')) {
     pathParts.pop();
   }
+  // If no path parts, we're at root - return '/'
+  if (pathParts.length === 0) {
+    return '/';
+  }
   // Return base path with leading and trailing slashes
-  return '/' + pathParts.join('/') + (pathParts.length > 0 ? '/' : '');
+  return '/' + pathParts.join('/') + '/';
 }
 
 /**
