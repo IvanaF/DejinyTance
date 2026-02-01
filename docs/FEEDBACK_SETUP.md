@@ -61,6 +61,25 @@ After setting up your token, you can test it by:
    - Token validity
    - Issues API access
 
+## GitHub Pages Deployment
+
+**Important:** The `feedback.config.js` file is gitignored and won't be deployed to GitHub Pages automatically.
+
+### Option A: Manual Upload (Recommended for GitHub Pages)
+
+1. After deploying to GitHub Pages, go to your repository on GitHub
+2. Navigate to the `scripts/` folder
+3. Click "Add file" → "Create new file"
+4. Name it `feedback.config.js`
+5. Copy the content from `feedback.config.example.js` and add your token
+6. Commit directly to the repository
+
+**Note:** This will make the token visible in the repository, but for static sites, the token is visible in client-side code anyway.
+
+### Option B: Use Inline Configuration
+
+Alternatively, you can set the token directly in `scripts/feedback.js` (line 35) for GitHub Pages deployment. However, GitHub's push protection may block commits containing tokens.
+
 ## Current Configuration
 
 - **Method:** GitHub Issues (automatic creation)
