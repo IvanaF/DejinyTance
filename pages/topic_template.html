@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
+  <script>
+    // Auto-detect base path for GitHub Pages - MUST be first!
+    (function() {
+      const path = window.location.pathname;
+      // Remove filename and get directory path
+      const pathParts = path.split('/').filter(p => p);
+      if (pathParts.length > 0 && pathParts[pathParts.length - 1].includes('.')) {
+        pathParts.pop(); // Remove filename
+      }
+      const basePath = '/' + pathParts.join('/') + '/';
+      const base = document.createElement('base');
+      base.href = basePath;
+      document.head.appendChild(base);
+    })();
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Detail maturitní otázky">
   <title id="pageTitle">Maturitní otázka - Dějiny tance a baletu</title>
-  <base href="/">
   
   <!-- Styles -->
   <link rel="stylesheet" href="assets/styles/design-tokens.css">
