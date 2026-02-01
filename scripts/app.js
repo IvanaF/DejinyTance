@@ -3,6 +3,21 @@
  */
 
 /**
+ * Get base path for GitHub Pages compatibility
+ * @returns {string} Base path (e.g., '/' or '/DejinyTance/')
+ */
+function getBasePath() {
+  const path = window.location.pathname;
+  const pathParts = path.split('/').filter(p => p);
+  // Remove filename if present
+  if (pathParts.length > 0 && pathParts[pathParts.length - 1].includes('.')) {
+    pathParts.pop();
+  }
+  // Return base path with leading and trailing slashes
+  return '/' + pathParts.join('/') + (pathParts.length > 0 ? '/' : '');
+}
+
+/**
  * Get correct Czech plural form
  * @param {number} count - Number to get plural for
  * @param {string} one - Form for 1 (e.g., "otázka")
@@ -82,7 +97,7 @@ function initNavigation() {
 async function initPage() {
   const path = window.location.pathname;
   
-  if (path.includes('topic.html')) {
+  if (path.includes('topic_template.html')) {
     await initTopicPage();
   } else {
     await initIndexPage();
@@ -1108,11 +1123,12 @@ async function loadTermLinks(topicId = null) {
     return termLinksCache[cacheKey];
   }
 
+  const basePath = getBasePath();
   let allTerms = {};
 
   try {
     // First, load common terms
-    const commonResponse = await fetch('data/term_links/common_terms.json');
+    const commonResponse = await fetch(`${basePath}data/term_links/common_terms.json`);
     if (commonResponse.ok) {
       const commonData = await commonResponse.json();
       allTerms = { ...commonData.terms || {} };
@@ -1127,7 +1143,7 @@ async function loadTermLinks(topicId = null) {
   // Then, load topic-specific terms if topicId is provided
   if (topicId) {
     try {
-      const topicResponse = await fetch(`data/term_links/${topicId}_terms.json`);
+      const topicResponse = await fetch(`${basePath}data/term_links/${topicId}_terms.json`);
       if (topicResponse.ok) {
         const topicData = await topicResponse.json();
         // Merge topic terms (they override common terms if there's a conflict)
