@@ -19,6 +19,9 @@ npm-debug.log*
 .env
 .env.local
 
+# Feedback configuration (contains sensitive tokens)
+scripts/feedback.config.js
+
 # Build outputs (if you add build process later)
 dist/
 build/

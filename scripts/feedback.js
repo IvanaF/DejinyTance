@@ -22,7 +22,8 @@ const GITHUB_CONFIG = {
 };
 
 // Feedback storage configuration
-const FEEDBACK_CONFIG = {
+// Default configuration (can be overridden by feedback.config.js)
+const FEEDBACK_CONFIG_DEFAULT = {
   // ============================================
   // VÝBĚR ZPŮSOBU ODESLÁNÍ
   // ============================================
@@ -51,6 +52,12 @@ const FEEDBACK_CONFIG = {
   useLocalStorage: true,  // Ukládat také lokálně jako zálohu
   copyToClipboard: false  // Zkopírovat do schránky (false = nepoužívá se)
 };
+
+// Merge external config (from feedback.config.js) with default config
+// External config overrides default values
+const FEEDBACK_CONFIG = window.FEEDBACK_CONFIG_EXTERNAL 
+  ? { ...FEEDBACK_CONFIG_DEFAULT, ...window.FEEDBACK_CONFIG_EXTERNAL }
+  : FEEDBACK_CONFIG_DEFAULT;
 
 /**
  * Initialize feedback system
@@ -482,7 +489,7 @@ async function handleFeedbackSubmit(e) {
  */
 function getPageContext() {
   const context = {
-    pageType: window.location.pathname.includes('topic.html') ? 'topic' : 'index',
+    pageType: window.location.pathname.includes('topic_template.html') ? 'topic' : 'index',
     topicId: null,
     topicTitle: null
   };
