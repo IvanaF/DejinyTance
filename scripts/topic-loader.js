@@ -97,12 +97,17 @@ class TopicLoader {
    */
   async loadTopic(topicId) {
     const url = resolvePath(`data/topics/${topicId}.json`);
+    const fullUrl = window.location.origin + url;
     console.log(`Načítání otázky ${topicId} z ${url}...`);
+    console.log(`Full URL: ${fullUrl}`);
     try {
       const response = await fetch(url);
       console.log(`Odpověď pro ${topicId}:`, response.status, response.statusText);
       if (!response.ok) {
-        throw new Error(`Nepodařilo se načíst otázku ${topicId}: ${response.status} ${response.statusText}`);
+        console.error(`❌ Failed to load ${topicId}`);
+        console.error(`   Attempted URL: ${fullUrl}`);
+        console.error(`   Response: ${response.status} ${response.statusText}`);
+        throw new Error(`Nepodařilo se načíst otázku ${topicId}: ${response.status} ${response.statusText}. URL: ${fullUrl}`);
       }
       const topic = await response.json();
       console.log(`Otázka ${topicId} úspěšně načtena:`, topic.title);
