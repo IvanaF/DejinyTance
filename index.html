@@ -10,7 +10,8 @@
       if (pathParts.length > 0 && pathParts[pathParts.length - 1].includes('.')) {
         pathParts.pop(); // Remove filename
       }
-      const basePath = '/' + pathParts.join('/') + '/';
+      // If no path parts, we're at root - use '/'
+      const basePath = pathParts.length === 0 ? '/' : '/' + pathParts.join('/') + '/';
       const base = document.createElement('base');
       base.href = basePath;
       document.head.appendChild(base);
